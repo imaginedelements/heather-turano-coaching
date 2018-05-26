@@ -3,6 +3,15 @@ module.exports = {
     title: 'Gatsby + Netlify CMS Starter',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-react-css-modules`,
+      options: {
+        filetypes: {
+          '.scss': { syntax: `postcss-scss` },
+        },
+        exclude: `\/global\/`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
