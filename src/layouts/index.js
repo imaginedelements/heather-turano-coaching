@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import logo from '../img/logo.png';
 import './all.sass'
-import './index.module.scss';
+import './index.module.css';
 
 const TemplateWrapper = ({ children }) => (
   <div styleName="container">

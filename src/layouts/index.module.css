@@ -5,8 +5,9 @@
   align-items: center;
   height: 100%;
   width: 100%;
-
-  img {
-    height: 150px;
-  }
+  padding: 30px;
 };
+
+.container > img{
+  max-width: 150px;
+}
