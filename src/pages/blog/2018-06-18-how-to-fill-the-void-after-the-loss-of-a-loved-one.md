@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: how to fill the void after the loss of a loved one
+title: How to fill the void after the loss of a loved one
 date: '2018-06-18T09:53:37-04:00'
 description: >-
   Part of life is loss. losing a parent, a friend, a spouse. Depending on when
