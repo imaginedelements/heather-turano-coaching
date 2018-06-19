@@ -1,12 +1,13 @@
 ---
 templateKey: blog-post
-title: 'Dating After Divorce: 4 things you should know'
+title: '4 Things To Know : Dating After Divorce'
 date: '2018-06-19T16:19:22-04:00'
 description: >-
-  So you are now single after years off the market. There could be new ways of
-  meeting people that never existed when you were last single. Maybe you even
-  forget how to flirt or what to wear on a date.  Here are 4 things you should
-  know now that you are divorced and ready to find love again.
+  So you are now single and ready to date after years off the market. There
+  could be new ways of meeting people that never existed when you were last
+  single. Maybe you even forget how to flirt or what to wear on a date.  Here
+  are 4 things you should know now that you are divorced and ready to find love
+  again.
 tags:
   - divorced
 ---
