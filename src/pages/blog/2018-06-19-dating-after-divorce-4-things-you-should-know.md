@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: '4 Things To Know : Dating After Divorce'
+title: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
 date: '2018-06-19T16:19:22-04:00'
 description: >-
   So you are now single and ready to date after years off the market. There
