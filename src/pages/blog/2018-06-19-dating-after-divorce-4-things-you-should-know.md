@@ -18,10 +18,18 @@ Write a list (yes, on paper) of all the qualities, values and personality traits
 
 After you are done writing the list let it go into the universe. Know you will find exactly what is on that list. 
 
-2. Date people you normal would not date
+2. Date a lot of People
 
+Even if you are a mushy monogamist, do not go on one date and then get married. It is your job to date as many people as you can and get an idea of they type of person you really need in your life now. It is also your job to watch this person and see who they are before you fall head over heals.
 
+The recommendation is seriously dating at least 3 people before you settle down with the next person. This helps you get over unhealthy behaviors from your previous marriage and develop healthy patterns to build a stable foundation for your next serious  relationship.
 
-1. Date a lot of people. 
+3. Date people you normally would not date
 
-even if you are a mushy monogamist do not go on one date and then get married. It is your job to date as many people as you can and get an idea of they type of person you really need in your life now.
+You know that guy that you are friends with that you can talk about anything too? or that co-worker that you work so well with and can solve any problem that comes up? 
+
+News flash those are the qualities that are most important in a lasting relationship. Not the muscles and the perfect body. Remember your Ex is your Ex for a reason. They werent right for you, so dont date them again.
+
+Change up the type of person and you will change your pattern.
+
+4.
