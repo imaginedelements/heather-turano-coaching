@@ -5,7 +5,7 @@ import Link from "gatsby-link";
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
-    console.log(this.props.data.allMarkdownRemark, posts);
+    console.log(posts);
     const postLinks = posts.map(post => (
       <li key={post.node.fields.slug}>
         <Link to={post.node.fields.slug}>
@@ -32,7 +32,7 @@ class TagRoute extends React.Component {
               <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
               <ul className="taglist">{postLinks}</ul>
               <p>
-                <Link to="/tags/">Browse all tags</Link>
+                <Link to="/tags">Browse all tags</Link>
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ class TagRoute extends React.Component {
 
 export default TagRoute;
 
-export const tagPageQuery = graphql`
+export const tagRouteQuery = graphql`
   query TagPage($tag: String) {
     site {
       siteMetadata {
