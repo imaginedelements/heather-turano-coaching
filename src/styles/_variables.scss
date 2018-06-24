@@ -4,6 +4,9 @@ $color-secondary: #4e8588;
 $color-accent: #9ac371;
 $color-grayscale: #4a4a4a;
 $color-lightscale: #eaecec;
+$color-invalid: #d0021b;
+$color-warning: #f8e71c;
+$color-success: #29a784;
 
 @function make_color($c, $o) {
   @return mix($c, #ffffff, percentage($o/100));
@@ -34,6 +37,21 @@ $color-lightscale-1: make_color($color-lightscale, 75);
 $color-lightscale-2: make_color($color-lightscale, 50);
 $color-lightscale-3: make_color($color-lightscale, 25);
 
+$color-success-0: make_color($color-success, 100);
+$color-success-1: make_color($color-success, 75);
+$color-success-2: make_color($color-success, 50);
+$color-success-3: make_color($color-success, 25);
+
+$color-warning-0: make_color($color-warning, 100);
+$color-warning-1: make_color($color-warning, 75);
+$color-warning-2: make_color($color-warning, 50);
+$color-warning-3: make_color($color-warning, 25);
+
+$color-invalid-0: make_color($color-invalid, 100);
+$color-invalid-1: make_color($color-invalid, 75);
+$color-invalid-2: make_color($color-invalid, 50);
+$color-invalid-3: make_color($color-invalid, 25);
+
 // Breakpoints
 $breakpoints: (
   xs: 0,
@@ -54,13 +72,15 @@ $font-weight: (
 );
 $typography: (
   h1: 42px,
-  h2: 32px,
-  h3: 28px,
-  h4: 22px,
-  para: 16px,
+  h2: 36px,
+  h3: 24px,
+  h4: 18px,
+  h5: 16px,
+  para: 12px,
   tiny: 12px
 );
+$font-response-multiplier: 1.2;
 $font-family: "Raleway", sans-serif;
 $font-family-header: "Montserrat", sans-serif;
-$font-line-height: 1.5;
+$font-line-height: 1.6;
 $font-size: map-get($typography, para);

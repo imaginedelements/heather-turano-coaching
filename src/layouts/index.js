@@ -2,19 +2,48 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
-import Header from "../features/Header";
-import logo from "../img/logo.png";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faShare,
+  faHeart,
+  faVideo,
+  faLink
+} from "@fortawesome/pro-light-svg-icons";
+
+import Header from "../components/Header";
+
 import styles from "./index.module.scss";
 
+library.add(faShare, faHeart, faVideo, faLink);
+
 const TemplateWrapper = ({ children, ...restProps }) => (
-  <div styleName="placeholder">
+  <div styleName="main">
     <Helmet
       title="Home | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <img src={logo} alt="under construction - heather turano coaching logo" />
-    {/* <Header {...restProps} />
-    <div styleName="content">{children()}</div> */}
+    <Header
+      {...restProps}
+      navItems={[
+        {
+          title: "home"
+        },
+        {
+          title: "about"
+        },
+        {
+          title: "services"
+        },
+        {
+          title: "blogs"
+        }
+      ]}
+    />
+    <div styleName="content">
+      {children({
+        ...restProps
+      })}
+    </div>
   </div>
 );
 

@@ -1,0 +1,5 @@
+@import "src/styles/mixins/index";
+
+.default {
+  @include font_machine("medium", $size: 14px, $color: $color-accent-0);
+}
