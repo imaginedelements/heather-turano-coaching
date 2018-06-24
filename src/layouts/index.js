@@ -7,9 +7,9 @@ import Header from "../features/Header";
 import "./all.sass";
 import "./index.module.css";
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, ...restProps }) => (
   <Fragment>
-    <Header />
+    <Header {...restProps} />
     {/* <Helmet title="Home | Heather Turano Coaching" bodyAttributes={{ class: ''}}/> */}
     {/* <img
       src={logo}
