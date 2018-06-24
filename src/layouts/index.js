@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
-import Header from "../features/Header";
+import Header from "../components/Header";
 
 import styles from "./index.module.scss";
 

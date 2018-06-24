@@ -1,0 +1,22 @@
+@import "src/styles/mixins/index";
+
+.nav {
+  @include make_flex(row, space-evenly, center);
+  padding: 30px 10px;
+
+  @include respond_tablet {
+    min-width: 400px;
+    width: 400px;
+  }
+}
+
+.link {
+  @include font_machine($weight: 400, $size: 14px, $color: $color-grayscale-3);
+  display: block;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out;
+
+  &.active {
+    color: $color-primary-0;
+  }
+}
