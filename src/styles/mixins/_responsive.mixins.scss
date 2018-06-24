@@ -13,3 +13,9 @@
   $min: map-get($breakpoints, $name);
   @return if($min != 0, $min, null);
 }
+
+@mixin respond_tablet {
+  @include breakpoint(md) {
+    @content;
+  }
+}
