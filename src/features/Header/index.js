@@ -3,7 +3,21 @@ import Link from "gatsby-link";
 
 import styles from "./index.module.scss";
 
-const items = ["home", "about", "services", "blog"];
+const items = [
+  {
+    title: "home"
+  },
+  {
+    title: "about"
+  },
+  {
+    title: "services"
+  },
+  {
+    title: "blog",
+    route: "bloglist"
+  }
+];
 
 const Header = () => (
   <div styleName="container">
@@ -13,13 +27,13 @@ const Header = () => (
       <nav>
         <ul styleName="nav">
           {items.map(item => (
-            <li key={item}>
+            <li key={item.title}>
               <Link
-                to={`/${item}`}
+                to={`/${item.route || item.title}`}
                 styleName="link"
                 activeClassName={styles.active}
               >
-                {item}
+                {item.title}
               </Link>
             </li>
           ))}
