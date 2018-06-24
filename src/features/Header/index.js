@@ -1,12 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
 
-// import github from '../../img/github-icon.svg'
-// import logo from '../../img/logo.png'
-
 import styles from "./index.module.scss";
 
-const items = ["home", "about", "services", "blog", "products"];
+const items = ["home", "about", "services", "blog"];
 
 const Header = () => (
   <div styleName="container">
