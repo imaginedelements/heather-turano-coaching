@@ -1,26 +1,24 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React, { Fragment } from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
 
-import Navbar from '../components/Navbar'
-import logo from '../img/logo.png';
-import './all.sass'
-import './index.module.css';
+import Header from "../features/Header";
 
-const TemplateWrapper = ({ children }) => (
-  <div styleName="container">
-    <Helmet title="Home | Heather Turano Coaching" bodyAttributes={{ class: ''}}/>
-    <img
-      src={logo}
-      alt="under construction - heather turano coaching logo"
+import styles from "./index.module.scss";
+
+const TemplateWrapper = ({ children, ...restProps }) => (
+  <div styleName="main">
+    <Helmet
+      title="Home | Heather Turano Coaching"
+      bodyAttributes={{ class: "" }}
     />
-    {/* <Navbar /> */}
-    {/* <div>{children()}</div> */}
+    <Header {...restProps} />
+    <div styleName="content">{children()}</div>
   </div>
-)
+);
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+  children: PropTypes.func
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
