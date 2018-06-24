@@ -1,13 +1,7 @@
 @import "src/styles/mixins/index";
 
 p {
-  @include font_machine("light", $size: map-get($typography, tiny));
-  line-height: 1.5 !important;
-
-  @include respond-tablet {
-    @include font_machine("light", $size: map-get($typography, para));
-    line-height: 1.5 !important;
-  }
+  @include font_machine("light", $size: map-get($typography, para));
 
   &.grayscale-0 {
     color: $color-grayscale-0;

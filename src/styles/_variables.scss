@@ -5,6 +5,7 @@ $color-accent: #9ac371;
 $color-grayscale: #4a4a4a;
 $color-lightscale: #eaecec;
 $color-invalid: #d0021b;
+$color-warning: #f8e71c;
 $color-success: #29a784;
 
 @function make_color($c, $o) {
@@ -41,6 +42,11 @@ $color-success-1: make_color($color-success, 75);
 $color-success-2: make_color($color-success, 50);
 $color-success-3: make_color($color-success, 25);
 
+$color-warning-0: make_color($color-warning, 100);
+$color-warning-1: make_color($color-warning, 75);
+$color-warning-2: make_color($color-warning, 50);
+$color-warning-3: make_color($color-warning, 25);
+
 $color-invalid-0: make_color($color-invalid, 100);
 $color-invalid-1: make_color($color-invalid, 75);
 $color-invalid-2: make_color($color-invalid, 50);
@@ -76,5 +82,5 @@ $typography: (
 $font-response-multiplier: 1.2;
 $font-family: "Raleway", sans-serif;
 $font-family-header: "Montserrat", sans-serif;
-$font-line-height: 1.5;
+$font-line-height: 1.6;
 $font-size: map-get($typography, para);

@@ -5,6 +5,7 @@ import { Heading, Paragraph } from "../Typography";
 import img from "../../img/backlit-beach-color-258109.jpg";
 import styles from "./index.module.scss";
 import { Link } from "../../components/Link";
+import { Icon } from "../../components/Icon";
 
 export const BlogListItem = ({
   // id,
@@ -21,12 +22,21 @@ export const BlogListItem = ({
     <article styleName="summary">
       <header>
         <Heading copy={title} size="h5" />
+        <div styleName="date">{dateCreated}</div>
       </header>
       <div>
         <Paragraph copy={excerpt} />
       </div>
       <Link to={viewLinkRoute}>Keep Reading →</Link>
     </article>
+    <ul styleName="quick-links">
+      <li styleName="link secondary">
+        <Icon icon={["fal", "share"]} iconSize="xs" iconColor="lightscale-3" />
+      </li>
+      <li styleName="link primary" />
+      <li styleName="link accent" />
+      <li styleName="link grayscale" />
+    </ul>
   </li>
 );
 
