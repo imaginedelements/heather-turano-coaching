@@ -70,9 +70,10 @@ $typography: (
   h3: 24px,
   h4: 18px,
   h5: 16px,
-  para: 16px,
+  para: 12px,
   tiny: 12px
 );
+$font-response-multiplier: 1.2;
 $font-family: "Raleway", sans-serif;
 $font-family-header: "Montserrat", sans-serif;
 $font-line-height: 1.5;
