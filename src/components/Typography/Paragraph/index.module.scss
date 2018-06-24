@@ -1,0 +1,40 @@
+@import 'src/styles/mixins/index';
+
+p{
+  @include font_machine(
+    'light',
+    $size: map-get($typography, para)
+  );
+  line-height: 1.5 !important;
+
+  &.grayscale-0{
+    color: $color-grayscale-0;
+  }
+  &.grayscale-1{
+    color: $color-grayscale-1;
+  }
+  &.grayscale-2{
+    color: $color-grayscale-2;
+  }
+  &.grayscale-3{
+    color: $color-grayscale-3;
+  }
+  &.lightscale-0{
+    color: $color-lightscale-0;
+  }
+  &.lightscale-1{
+    color: $color-lightscale-1;
+  }
+  &.lightscale-2{
+    color: $color-lightscale-2;
+  }
+  &.lightscale-3{
+    color: $color-lightscale-3;
+  }
+  &.invalid{
+    color: $color-invalid;
+  }
+  &.success{
+    color: $color-success;
+  }
+}

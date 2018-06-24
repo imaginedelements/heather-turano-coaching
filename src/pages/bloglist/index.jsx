@@ -1,13 +1,22 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby-link";
 
-export default class BlogList extends React.Component {
-  render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+import { PageHeader } from "../../components/PageHeader";
 
-    return (
+const BlogList = ({
+  data: {
+    allMarkdownRemark: { edges: posts }
+  },
+  ...restProps
+}) => {
+  console.log(restProps);
+  return (
+    <Fragment>
+      <PageHeader
+        title="Blog"
+        description="Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+      />
       <section className="section">
         <div className="container">
           <div className="content">
@@ -38,9 +47,9 @@ export default class BlogList extends React.Component {
           ))}
         </div>
       </section>
-    );
-  }
-}
+    </Fragment>
+  );
+};
 
 BlogList.propTypes = {
   data: PropTypes.shape({
@@ -50,7 +59,9 @@ BlogList.propTypes = {
   })
 };
 
-export const pageQuery = graphql`
+export default BlogList;
+
+export const query = graphql`
   query BlogList {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }

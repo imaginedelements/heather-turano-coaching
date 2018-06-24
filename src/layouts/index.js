@@ -13,7 +13,11 @@ const TemplateWrapper = ({ children, ...restProps }) => (
       bodyAttributes={{ class: "" }}
     />
     <Header {...restProps} />
-    <div styleName="content">{children()}</div>
+    <div styleName="content">
+      {children({
+        ...restProps
+      })}
+    </div>
   </div>
 );
 

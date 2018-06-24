@@ -1,0 +1,65 @@
+@import "src/styles/mixins/index";
+
+.h1 {
+  @include font_machine(
+    "extra-light",
+    $size: map-get($typography, h1),
+    $color: $color-grayscale-0,
+    $family: $font-family-header
+  );
+}
+.h2 {
+  @include font_machine(
+    "light",
+    $size: map-get($typography, h2),
+    $color: $color-grayscale-0,
+    $family: $font-family-header
+  );
+}
+.h3 {
+  @include font_machine(
+    "regular",
+    $size: map-get($typography, h3),
+    $color: $color-grayscale-0,
+    $family: $font-family-header
+  );
+}
+.h4 {
+  @include font_machine(
+    "light",
+    $size: map-get($typography, h4),
+    $color: $color-grayscale-0,
+    $family: $font-family-header
+  );
+}
+
+.section {
+  @include font_machine(
+    $weight: "semi-bold",
+    $size: 14px,
+    $color: $color-grayscale-0
+  );
+  text-transform: uppercase;
+}
+
+.grouping {
+  @include font_machine($weight: "heavy", $color: $color-grayscale-3);
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.default,
+.grayscale-0 {
+  color: $color-grayscale-0;
+}
+.grayscale-1 {
+  color: $color-grayscale-1;
+}
+.grayscale-2 {
+  color: $color-grayscale-2;
+}
+.grayscale-3 {
+  color: $color-grayscale-3;
+}
