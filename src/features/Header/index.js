@@ -17,7 +17,7 @@ const Header = () => (
               <Link
                 to={`/${item}`}
                 styleName="link"
-                activeClassName={styles["active"]}
+                activeClassName={styles.active}
               >
                 {item}
               </Link>

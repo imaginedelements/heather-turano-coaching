@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
 import Header from "../features/Header";
-import "./all.sass";
-import "./index.module.scss";
+
+import styles from "./index.module.scss";
 
 const TemplateWrapper = ({ children, ...restProps }) => (
   <div styleName="main">
