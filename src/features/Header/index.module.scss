@@ -54,6 +54,7 @@
   @include font_machine($weight: 400, $size: 14px, $color: $color-grayscale-3);
   display: block;
   text-transform: uppercase;
+  transition: color 0.15s ease-in-out;
 
   &.active {
     color: $color-primary-0;
