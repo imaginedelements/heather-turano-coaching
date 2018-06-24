@@ -31,11 +31,17 @@ export const BlogListItem = ({
     </article>
     <ul styleName="quick-links">
       <li styleName="link secondary">
-        <Icon icon={["fal", "share"]} iconSize="xs" iconColor="lightscale-3" />
+        <Icon icon={["fal", "share"]} iconSize="xxs" iconColor="lightscale-3" />
       </li>
-      <li styleName="link primary" />
-      <li styleName="link accent" />
-      <li styleName="link grayscale" />
+      <li styleName="link primary">
+        <Icon icon={["fal", "heart"]} iconSize="xxs" iconColor="lightscale-3" />
+      </li>
+      <li styleName="link accent">
+        <Icon icon={["fal", "video"]} iconSize="xxs" iconColor="lightscale-3" />
+      </li>
+      <li styleName="link grayscale">
+        <Icon icon={["fal", "link"]} iconSize="xxs" iconColor="lightscale-3" />
+      </li>
     </ul>
   </li>
 );
