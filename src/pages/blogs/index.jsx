@@ -3,8 +3,9 @@ import PropTypes from "prop-types";
 import Link from "gatsby-link";
 
 import { PageHeader } from "../../components/PageHeader";
+import { BlogList } from "../../components/BlogList";
 
-const BlogList = ({
+const Blogs = ({
   data: {
     allMarkdownRemark: { edges: posts }
   },
@@ -17,41 +18,21 @@ const BlogList = ({
         title="Blog"
         description="Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
       />
-      <section className="section">
-        <div className="container">
-          <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-          </div>
-          {posts.map(({ node: post }) => (
-            <div
-              className="content"
-              style={{ border: "1px solid #eaecee", padding: "2em 4em" }}
-              key={post.id}
-            >
-              <p>
-                <Link className="has-text-primary" to={post.fields.slug}>
-                  {post.frontmatter.title}
-                </Link>
-                <span> &bull; </span>
-                <small>{post.frontmatter.date}</small>
-              </p>
-              <p>
-                {post.excerpt}
-                <br />
-                <br />
-                <Link className="button is-small" to={post.fields.slug}>
-                  Keep Reading →
-                </Link>
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <BlogList
+        posts={posts.map(({ node }) => ({
+          id: node.id,
+          title: node.frontmatter.title,
+          dateCreated: node.frontmatter.date,
+          templateKey: node.frontmatter.templateKey,
+          excerpt: node.excerpt,
+          viewLinkRoute: node.fields.slug
+        }))}
+      />
     </Fragment>
   );
 };
 
-BlogList.propTypes = {
+Blogs.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array
@@ -59,7 +40,7 @@ BlogList.propTypes = {
   })
 };
 
-export default BlogList;
+export default Blogs;
 
 export const query = graphql`
   query BlogList {

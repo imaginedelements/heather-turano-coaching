@@ -12,7 +12,23 @@ const TemplateWrapper = ({ children, ...restProps }) => (
       title="Home | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <Header {...restProps} />
+    <Header
+      {...restProps}
+      navItems={[
+        {
+          title: "home"
+        },
+        {
+          title: "about"
+        },
+        {
+          title: "services"
+        },
+        {
+          title: "blogs"
+        }
+      ]}
+    />
     <div styleName="content">
       {children({
         ...restProps

@@ -33,6 +33,15 @@
   );
 }
 
+.h5 {
+  @include font_machine(
+    "light",
+    $size: map-get($typography, h5),
+    $color: $color-grayscale-0,
+    $family: $font-family-header
+  );
+}
+
 .section {
   @include font_machine(
     $weight: "semi-bold",

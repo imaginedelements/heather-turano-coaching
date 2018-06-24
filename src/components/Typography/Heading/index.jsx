@@ -13,6 +13,8 @@ export const Heading = ({ size, color, copy }) => {
       return <h3 styleName={size}>{copy}</h3>;
     case "h4":
       return <h4 styleName={size}>{copy}</h4>;
+    case "h5":
+      return <h5 styleName={size}>{copy}</h5>;
     case "section":
       return <h6 styleName={`section ${color}`}>{copy}</h6>;
     case "grouping":
@@ -38,7 +40,8 @@ Heading.propTypes = {
     "h5",
     "h6",
     "section",
-    "grouping"
+    "grouping",
+    "para"
   ]),
   /**
    * @type {string}

@@ -4,10 +4,10 @@ import Link from "gatsby-link";
 
 import styles from "./index.module.scss";
 
-const MainNav = ({ items }) => (
+const MainNav = ({ navItems }) => (
   <nav>
     <ul styleName="nav">
-      {items.map(({ title, route }) => (
+      {navItems.map(({ title, route }) => (
         <li key={title}>
           <Link
             to={`/${route || title}`}
@@ -23,7 +23,7 @@ const MainNav = ({ items }) => (
 );
 
 MainNav.propTypes = {
-  items: PropTypes.arrayOf(
+  navItems: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string.isRequired,
       route: PropTypes.string
