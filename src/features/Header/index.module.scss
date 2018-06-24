@@ -1,0 +1,33 @@
+@import "src/styles/mixins/index";
+
+.container {
+  width: 100%;
+}
+
+.search {
+  display: none;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.logo {
+  padding: 40px 0 10px 0;
+}
+
+.nav {
+  @include make_flex(row, space-evenly, center);
+  padding: 30px 10px;
+}
+
+.link {
+  @include font_machine($weight: 400, $size: 14px, $color: $color-grayscale-3);
+  display: block;
+  text-transform: uppercase;
+
+  &.active {
+    color: $color-primary-0;
+  }
+}

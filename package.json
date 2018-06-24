@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Drew DeCarme (Imagined Elements LLC)",
   "dependencies": {
+    "animatewithsass": "^3.2.1",
     "bulma": "^0.6.0",
     "gatsby": "^1.9.213",
     "gatsby-link": "^1.6.37",
@@ -43,7 +44,7 @@
     "gatsby-1-config-css-modules": "^1.0.11",
     "gatsby-1-config-extract-plugin": "^1.0.3",
     "postcss-scss": "^1.0.5",
-    "prettier": "^1.7.4"
+    "prettier": "1.13.5"
   },
   "repository": "https://github.com/imaginedelements/heather-turano-coaching",
   "private": true,
