@@ -15,7 +15,7 @@ export const BlogHeader = ({
   author
 }) => (
   <header styleName="page-header">
-    <div styleName="link space">
+    <div styleName="link">
       <Icon
         icon={["far", "long-arrow-left"]}
         iconSize="xs"
@@ -23,7 +23,7 @@ export const BlogHeader = ({
       />
       <Link to={backLinkRoute}>{backLinkText}</Link>
     </div>
-    <div styleName="date space">
+    <div styleName="date">
       <span>{dateCreated}</span>
       <span>|</span>
       <span>Written by {author}</span>
