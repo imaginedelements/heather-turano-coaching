@@ -15,6 +15,8 @@ export const Heading = ({ size, color, copy }) => {
       return <h4 styleName={size}>{copy}</h4>;
     case "h5":
       return <h5 styleName={size}>{copy}</h5>;
+    case "h6":
+      return <h6 styleName={size}>{copy}</h6>;
     case "section":
       return <h6 styleName={`section ${color}`}>{copy}</h6>;
     case "grouping":

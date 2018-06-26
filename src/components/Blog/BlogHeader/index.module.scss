@@ -1,0 +1,39 @@
+@import "src/styles/mixins/index";
+
+.page-header {
+  & > * {
+    margin-bottom: 30px;
+  }
+}
+
+.link {
+  @include make_flex(row, flex-start, center);
+
+  :global {
+    .icon {
+      margin-right: 10px;
+    }
+  }
+}
+
+.date {
+  @include make_flex(row, flex-start, center);
+  @include font_machine("light", $size: 14px, $family: $font-family-header);
+
+  & > span {
+    &:first-child {
+      color: $color-grayscale-2;
+      text-transform: uppercase;
+    }
+
+    &:nth-child(2) {
+      color: $color-grayscale-2;
+      width: 20px;
+      text-align: center;
+    }
+
+    &:last-child {
+      @include font_machine("regular", $size: 14px, $color: $color-secondary-0);
+    }
+  }
+}

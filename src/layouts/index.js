@@ -9,12 +9,12 @@ import {
   faVideo,
   faLink
 } from "@fortawesome/pro-light-svg-icons";
-
+import { faLongArrowLeft } from "@fortawesome/pro-regular-svg-icons";
 import Header from "../components/Header";
 
 import styles from "./index.module.scss";
 
-library.add(faShare, faHeart, faVideo, faLink);
+library.add(faShare, faHeart, faVideo, faLink, faLongArrowLeft);
 
 const TemplateWrapper = ({ children, ...restProps }) => (
   <div styleName="main">
