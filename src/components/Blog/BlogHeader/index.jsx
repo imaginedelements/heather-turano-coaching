@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Heading, Paragraph } from "../Typography";
+import { Heading, Paragraph } from "../../Typography";
 
 import styles from "./index.module.scss";
 

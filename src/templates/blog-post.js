@@ -5,8 +5,7 @@ import Helmet from "react-helmet";
 
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "../components/Link";
-import { BlogHeader } from "../components/BlogHeader";
-import { BlogContainer } from "../components/BlogContainer";
+import { BlogContainer, BlogHeader, BlogContent } from "../components/Blog";
 
 export const BlogPostTemplate = ({
   content,
@@ -21,9 +20,9 @@ export const BlogPostTemplate = ({
     <BlogContainer>
       {helmet || ""}
       <BlogHeader title={title} description={description} />
-      {/* <BlogContent> */}
-      <PostContent content={content} />
-      {/* </BlogContent> */}
+      <BlogContent>
+        <PostContent content={content} />
+      </BlogContent>
       {tags && tags.length ? (
         <div style={{ marginTop: `4rem` }}>
           <h4>Tags</h4>
