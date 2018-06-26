@@ -14,6 +14,12 @@
   @return if($min != 0, $min, null);
 }
 
+@mixin respond_phone {
+  @include breakpoint(sm) {
+    @content;
+  }
+}
+
 @mixin respond_tablet {
   @include breakpoint(md) {
     @content;
