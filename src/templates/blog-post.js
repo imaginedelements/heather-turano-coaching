@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "../components/Link";
+import { Icon } from "../components/Icon";
 import { BlogContainer, BlogHeader, BlogContent } from "../components/Blog";
 
 export const BlogPostTemplate = ({
@@ -13,13 +14,21 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  helmet
+  helmet,
+  dateCreated
 }) => {
   const PostContent = contentComponent || Content;
   return (
     <BlogContainer>
       {helmet || ""}
-      <BlogHeader title={title} description={description} />
+      <BlogHeader
+        title={title}
+        description={description}
+        backLinkRoute="/blogs"
+        backLinkText="Back to the list"
+        dateCreated={dateCreated}
+        author="Heather Turano"
+      />
       <BlogContent>
         <PostContent content={content} />
       </BlogContent>
@@ -55,6 +64,7 @@ const BlogPost = ({ data: { markdownRemark: post } }) => (
     helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
     tags={post.frontmatter.tags}
     title={post.frontmatter.title}
+    dateCreated={post.frontmatter.date}
   />
 );
 
