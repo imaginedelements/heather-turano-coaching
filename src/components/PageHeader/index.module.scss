@@ -1,5 +1,9 @@
 @import "src/styles/mixins/index";
 
 .page-header {
-  padding: 60px 30px;
+  padding: 40px 30px;
+
+  @include respond-tablet {
+    padding: 60px 40px;
+  }
 }

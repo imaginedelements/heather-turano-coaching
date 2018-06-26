@@ -2,8 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
-import Link from "gatsby-link";
+
 import Content, { HTMLContent } from "../components/Content";
+import { Link } from "../components/Link";
+import { BlogHeader } from "../components/BlogHeader";
+import { BlogContainer } from "../components/BlogContainer";
 
 export const BlogPostTemplate = ({
   content,
@@ -14,34 +17,26 @@ export const BlogPostTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-
   return (
-    <section className="section">
+    <BlogContainer>
       {helmet || ""}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
+      <BlogHeader title={title} description={description} />
+      {/* <BlogContent> */}
+      <PostContent content={content} />
+      {/* </BlogContent> */}
+      {tags && tags.length ? (
+        <div style={{ marginTop: `4rem` }}>
+          <h4>Tags</h4>
+          <ul className="taglist">
+            {tags.map(tag => (
+              <li key={tag + `tag`}>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
-      </div>
-    </section>
+      ) : null}
+    </BlogContainer>
   );
 };
 
@@ -53,20 +48,16 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object
 };
 
-const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data;
-
-  return (
-    <BlogPostTemplate
-      content={post.html}
-      contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-    />
-  );
-};
+const BlogPost = ({ data: { markdownRemark: post } }) => (
+  <BlogPostTemplate
+    content={post.html}
+    contentComponent={HTMLContent}
+    description={post.frontmatter.description}
+    helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
+    tags={post.frontmatter.tags}
+    title={post.frontmatter.title}
+  />
+);
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
