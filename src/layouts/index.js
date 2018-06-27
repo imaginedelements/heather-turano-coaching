@@ -9,7 +9,10 @@ import {
   faVideo,
   faLink
 } from "@fortawesome/pro-light-svg-icons";
-import { faLongArrowLeft } from "@fortawesome/pro-regular-svg-icons";
+import {
+  faLongArrowLeft,
+  faLongArrowRight
+} from "@fortawesome/pro-regular-svg-icons";
 import {
   faInstagram,
   faFacebookSquare,
@@ -26,6 +29,7 @@ library.add(
   faVideo,
   faLink,
   faLongArrowLeft,
+  faLongArrowRight,
   faInstagram,
   faFacebookSquare,
   faPinterest,
