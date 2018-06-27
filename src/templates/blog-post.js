@@ -1,12 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
 
 import Content, { HTMLContent } from "../components/Content";
 import { Link } from "../components/Link";
 import { Icon } from "../components/Icon";
-import { BlogContainer, BlogHeader, BlogContent } from "../components/Blog";
+import {
+  BlogContainer,
+  BlogHeader,
+  BlogContent,
+  BlogTagGroup,
+  BlogTag
+} from "../components/Blog";
 
 export const BlogPostTemplate = ({
   content,
@@ -32,18 +37,7 @@ export const BlogPostTemplate = ({
       <BlogContent>
         <PostContent content={content} />
       </BlogContent>
-      {tags && tags.length ? (
-        <div style={{ marginTop: `4rem` }}>
-          <h4>Tags</h4>
-          <ul className="taglist">
-            {tags.map(tag => (
-              <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
+      <BlogTagGroup tags={tags} />
     </BlogContainer>
   );
 };
