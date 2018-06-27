@@ -1,0 +1,13 @@
+@import "src/styles/mixins/index";
+
+.tag-group {
+  @include make_flex(row, flex-start, flex-start);
+
+  li {
+    margin: 0 10px 10px 0;
+
+    @include respond_tablet {
+      margin: 0 15px 15px 0;
+    }
+  }
+}
