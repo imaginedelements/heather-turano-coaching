@@ -20,7 +20,8 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
-import Header from "../components/Header";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 import styles from "./index.module.scss";
 
 library.add(
@@ -64,6 +65,7 @@ const TemplateWrapper = ({ children, ...restProps }) => (
         ...restProps
       })}
     </div>
+    <Footer />
   </div>
 );
 
