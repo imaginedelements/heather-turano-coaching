@@ -10,7 +10,8 @@ import {
   BlogHeader,
   BlogContent,
   BlogTagGroup,
-  BlogTag
+  BlogTag,
+  BlogNavigation
 } from "../components/Blog";
 import { SocialBar } from "../components/SocialBar";
 
@@ -37,9 +38,10 @@ export const BlogPostTemplate = ({
       />
       <BlogContent>
         <PostContent content={content} />
+        <BlogTagGroup tags={tags} />
         <SocialBar />
       </BlogContent>
-      <BlogTagGroup tags={tags} />
+      <BlogNavigation tags={tags} />
     </BlogContainer>
   );
 };
