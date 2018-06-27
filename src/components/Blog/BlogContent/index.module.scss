@@ -2,6 +2,9 @@
 
 .blog-content {
   display: block;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $color-lightscale-0;
+  margin-bottom: 30px;
 
   h1 {
     @include font_machine("regular", $size: 22px, $color: $color-grayscale-1);

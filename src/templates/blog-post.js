@@ -12,6 +12,7 @@ import {
   BlogTagGroup,
   BlogTag
 } from "../components/Blog";
+import { SocialBar } from "../components/SocialBar";
 
 export const BlogPostTemplate = ({
   content,
@@ -36,6 +37,7 @@ export const BlogPostTemplate = ({
       />
       <BlogContent>
         <PostContent content={content} />
+        <SocialBar />
       </BlogContent>
       <BlogTagGroup tags={tags} />
     </BlogContainer>
