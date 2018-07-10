@@ -18,14 +18,18 @@ I even slept in the guest room because i was tausing and turning and thought it 
 
 I finally decided it was time to open my eyes and start the day, but as i laid there I wondered "how would I get through the day if i had started it already feeling like crap."
 
-So this is what I did:
+# So this is what I did:
 
-1. **Acknowledged my feeling as real**
+## 1. Acknowledged my feeling as real
 
-2. Listed the facts, why, how, what to do different.
+The thing is feels don't just come out of no where, feelings are in direct correlation with something you did. And they will tell you loud and clear if what you did either agreed with them or disagreed with them. 
 
-3. I remembered that this is just one morning
+"Hey feelings. I see you. You are real. How can I be of service to you today?"
 
-4. Write about it (yep this blog post is like my journal entry, just a little more public)
+That last line bringing me to point number two.
 
-5. I did some yoga
+## 2. Listed the facts, why, how, what to do different.
+
+1. ## I remembered that this is just one morning
+2. Write about it (yep this blog post is like my journal entry, just a little more public)
+3. I did some yoga
