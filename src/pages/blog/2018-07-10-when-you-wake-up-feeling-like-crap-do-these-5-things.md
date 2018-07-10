@@ -28,8 +28,27 @@ The thing is feels don't just come out of no where, feelings are in direct corre
 
 That last line bringing me to point number two.
 
-## 2. Listed the facts, why, how, what to do different.
+## 2. Listed the facts  (why and what to do different)
 
-1. ## I remembered that this is just one morning
-2. Write about it (yep this blog post is like my journal entry, just a little more public)
-3. I did some yoga
+After telling your feel that "you see it". You have to break down the **WAY.** 
+
+> Why do i think i feel like crap? Well, because i didnt sleep well.
+>
+> Why didn't I sleep well? Because you ate right before bed, I drank too much champagne, I didn't do my wind down routine, etc etc. 
+
+You get the point. 
+
+And then ask yourself "what can i do different next time".
+
+> Tonight I will not eat after 9pm. I will not drink champagne and instead drink water to hydrate. I will keep my wind down schedule which means i will shut off all devices at 9. Watch a happy tv show or read some of my book. write a todo list for tomorrow and meditate for 10 minutes before I go to bed.
+
+Done and DONE!
+
+
+
+
+
+## I remembered that this is just one morning
+
+1. Write about it (yep this blog post is like my journal entry, just a little more public)
+2. I did some yoga
