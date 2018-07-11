@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import MainNav from "../MainNav";
 import styles from "./index.module.scss";
 
-const Header = props => (
+export const Header = props => (
   <div styleName="container">
     <div styleName="search" />
     <div styleName="main">
@@ -13,5 +13,3 @@ const Header = props => (
     </div>
   </div>
 );
-
-export default Header;
