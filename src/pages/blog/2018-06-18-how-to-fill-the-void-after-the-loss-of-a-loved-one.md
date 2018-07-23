@@ -6,7 +6,7 @@ title: How to fill the void after the loss of a loved one
 subTitle: 1 mind shift to help you move through loss
 date: '2018-06-18T09:53:37-04:00'
 description: >-
-  Part of life is loss. losing a parent, a friend, a spouse. Depending on when
+  Part of life is loss. Losing a parent, a friend, a spouse. Depending on when
   this happens in our life, it can have a lasting impact on your patterns and
   thoughts about your future. Learning how to deal with loss is essential to
   living a full and happy life.
