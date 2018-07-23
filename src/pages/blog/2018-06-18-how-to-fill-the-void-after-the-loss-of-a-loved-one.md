@@ -1,6 +1,9 @@
 ---
 templateKey: blog-post
+heroImage: /img/fullsizeoutput_1323.jpeg
+heroImageAlt: loss
 title: How to fill the void after the loss of a loved one
+subTitle: 1 mind shift to help you move through loss
 date: '2018-06-18T09:53:37-04:00'
 description: >-
   Part of life is loss. losing a parent, a friend, a spouse. Depending on when
@@ -20,23 +23,11 @@ Staying stuck in one of the phases can have a life long impact on how fulfilling
 
 So learning to deal with moving through loss is essential to finding full happiness.
 
-
-
-
-
 **The one mind shift you need to change when dealing with loss:**
-
-If you find that you are stuck, here is the one shift you need to make in your thinking. 
-
-Once you shift your mind you can start to move through loss easier. 
-
-
 
 **Fact:**
 
 Part of life is knowing one day a person you cherish will leave you. After that, you will have a hole in your Being. 
-
-
 
 **Problem:**
 
@@ -45,8 +36,6 @@ The mistake I see people make is trying to fill that hole with anything they can
 The truth is. No matter what you try to fill that space with, it will never equal what you lost. 
 
 It may numb the pain or distract the days. But you will face that hole over and over through life. 
-
-
 
 **Solution:**
 
@@ -58,8 +47,8 @@ Sit with it. Accept this as truth. And know it is ok to feel it.
 
 This is how you know it was real and beautiful and worth that space being empty forever. 
 
-
-
 **Mantra:**
 
 A helpful mantra to recite to yourself may sound something like this, “I love that hole where you were”.
+
+Once you shift your mind, you can start to move through loss easier. and begin to heal.
