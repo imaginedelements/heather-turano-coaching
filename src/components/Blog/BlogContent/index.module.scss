@@ -56,9 +56,9 @@
     }
 
     blockquote {
-      padding: 0 20px;
+      padding: 20px;
       margin: 40px;
-      // background: $color-lightscale-2;
+      background: $color-lightscale-3;
 
       &::after {
         content: "";
@@ -68,7 +68,7 @@
         bottom: 0;
         left: 0;
         width: 5px;
-        background: $color-primary-1;
+        background: $color-primary-2;
       }
 
       & > p {
