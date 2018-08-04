@@ -19,19 +19,14 @@
     h2 {
       @include font_machine("bold", $size: 16px, $color: $color-secondary-1);
       margin-bottom: 15px;
-      // &::after {
-      //   content: "";
-      //   height: 1px;
-      //   width: 100%;
-      //   background: $color-secondary-3;
-      //   display: block;
-      //   margin-top: 5px;
-      //   margin-bottom: 10px;
-      // }
     }
 
     p {
       @include font_machine("light", $color: $color-grayscale-0);
+
+      &:first-child + p {
+        margin-top: 15px;
+      }
 
       & + h2 {
         margin-top: 40px;
@@ -78,6 +73,20 @@
           margin-top: 15px;
         }
       }
+    }
+
+    code {
+      @include font_machine(
+        100,
+        $style: italic,
+        $size: 14px,
+        $color: $color-primary-1
+      );
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 0 20px;
+      top: -10px;
     }
   }
 
