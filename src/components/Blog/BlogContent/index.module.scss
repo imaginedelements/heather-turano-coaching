@@ -117,6 +117,31 @@
       }
     }
 
+    blockquote {
+      padding: 20px;
+      margin: 40px;
+      background: $color-lightscale-3;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 5px;
+        background: $color-primary-2;
+      }
+
+      & > p {
+        @include font_machine(300, $style: italic, $color: $color-grayscale-2);
+
+        & + p {
+          margin-top: 15px;
+        }
+      }
+    }
+
     code {
       @include font_machine(
         100,
