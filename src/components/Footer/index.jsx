@@ -17,7 +17,7 @@ export const Footer = () => (
           <div>All Rights Reserved</div>
         </div>
         <div styleName="created-by">
-          <span>Designed and developed by</span>
+          <span>Designed and developed by </span>
           <a href="http://www.imaginedelements.com" target="_blank">
             Imagined Elements, LLC
           </a>
