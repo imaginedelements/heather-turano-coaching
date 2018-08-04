@@ -7,6 +7,7 @@
 
   a {
     @include font_machine("light", $size: 14px, $color: #fff);
+    text-decoration: underline;
   }
 
   @include respond_tablet {
@@ -55,6 +56,9 @@
   .created-by {
     display: none;
 
+    & > a {
+      color: $color-secondary-0;
+    }
     @include respond_tablet {
       display: block;
     }
@@ -63,6 +67,10 @@
   .privacy {
     @include respond_tablet {
       text-align: right;
+
+      & > a {
+        color: $color-secondary-0;
+      }
     }
   }
 }
@@ -74,5 +82,27 @@
 
   @include respond_tablet {
     @include make_flex(row, flex-start, flex-start);
+  }
+
+  & > .block {
+    min-width: 125px;
+
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+    header {
+      margin-bottom: 10px;
+    }
+    ul {
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+
+        & > a {
+          text-decoration: none;
+        }
+      }
+    }
   }
 }

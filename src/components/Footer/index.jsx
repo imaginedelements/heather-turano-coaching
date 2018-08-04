@@ -7,7 +7,26 @@ import styles from "./index.module.scss";
 export const Footer = () => (
   <footer styleName="footer">
     <div styleName="links">
-      <div />
+      <div styleName="block">
+        <header>Explore</header>
+        <ul>
+          <li>
+            <GatsbyLink to="/home">Home</GatsbyLink>
+          </li>
+          <li>
+            <GatsbyLink to="/about">About</GatsbyLink>
+          </li>
+          <li>
+            <GatsbyLink to="/services">Services</GatsbyLink>
+          </li>
+          <li>
+            <GatsbyLink to="/blog">Blog</GatsbyLink>
+          </li>
+        </ul>
+      </div>
+      <div styleName="block">
+        <header>Join the movement</header>
+      </div>
     </div>
     <div styleName="credits">
       <div>
@@ -17,7 +36,7 @@ export const Footer = () => (
           <div>All Rights Reserved</div>
         </div>
         <div styleName="created-by">
-          <span>Designed and developed by</span>
+          <span>Designed and developed by </span>
           <a href="http://www.imaginedelements.com" target="_blank">
             Imagined Elements, LLC
           </a>
