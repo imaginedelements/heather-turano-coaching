@@ -83,4 +83,26 @@
   @include respond_tablet {
     @include make_flex(row, flex-start, flex-start);
   }
+
+  & > .block {
+    min-width: 125px;
+
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+    header {
+      margin-bottom: 10px;
+    }
+    ul {
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+
+        & > a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
