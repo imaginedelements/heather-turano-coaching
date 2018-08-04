@@ -28,11 +28,11 @@ The thing is, feels don't just come out of no where, feelings are in direct corr
 
 An acknowledgement mantra could sound something like this:
 
-"Hey feelings. I see you. You are real. How can I be of service to you today?"
+"Hey feelings. I see you. You are real. How can I be** of service** to you today?"
 
 ## 2. List the facts  (why and what to do different)
 
-After telling your feel that "you see it". You have to break down the **WAY.** 
+After telling your feel that "you see it". You have to break down the **WHY.** 
 
 > Why do I think I feel like crap? Well, because I didn't sleep well.
 >
