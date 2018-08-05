@@ -12,14 +12,9 @@ export const BlogHeader = ({
   backLinkRoute,
   backLinkText,
   dateCreated,
-  author,
-  heroImage,
-  heroImageAlt
+  author
 }) => (
   <header>
-    <div styleName="hero">
-      <img src={heroImage} alt={heroImageAlt} />
-    </div>
     <div styleName="page-header">
       <div styleName="link">
         <Icon
@@ -50,9 +45,7 @@ BlogHeader.propTypes = {
   backLinkRoute: PropTypes.string.isRequired,
   backLinkText: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-  heroImage: PropTypes.string.isRequired,
-  heroImageAlt: PropTypes.string.isRequired
+  author: PropTypes.string.isRequired
 };
 
 BlogHeader.defaultProps = {
