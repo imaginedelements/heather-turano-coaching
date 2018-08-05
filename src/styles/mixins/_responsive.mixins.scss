@@ -1,3 +1,13 @@
+@function breakpoint-min($name, $breakpoints: $breakpoints) {
+  $min: map-get($breakpoints, $name);
+  @return if($min != 0, $min, null);
+}
+
+@function breakpoint-min($name, $breakpoints: $breakpoints) {
+  $max: map-get($breakpoints, $name);
+  @return if($max != 0, $max, null);
+}
+
 @mixin breakpoint($name, $breakpoints: $breakpoints) {
   $min: breakpoint-min($name, $breakpoints);
   @if $min {
@@ -9,9 +19,16 @@
   }
 }
 
-@function breakpoint-min($name, $breakpoints: $breakpoints) {
-  $min: map-get($breakpoints, $name);
-  @return if($min != 0, $min, null);
+@mixin breakpoint-between($min, $max, $breakpoints, $breakpoints) {
+  $min: breakpoint-min($name, $breakpoints);
+  $max: breakpoint-max($name, $breakpoints);
+  @if $min and $max {
+    @media (min-width: $min) and (max-width: $max - 1px) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
 }
 
 @mixin respond_phone {
@@ -23,6 +40,11 @@
 @mixin respond_tablet {
   @include breakpoint(md) {
     @content;
+  }
+}
+
+@mixin respond_tablet_landscape {
+  @include breakpoint_between(md, lg) {
   }
 }
 
