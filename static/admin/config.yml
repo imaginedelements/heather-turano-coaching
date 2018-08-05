@@ -58,8 +58,8 @@ collections:
                   - {label: "Display Button?", name: "shouldDisplay", widget: "boolean", default: true}
                   - {label: "Button Link", name: "buttonLinkRoute", widget: "select", options: ["about", "blog", "services", "contact"]}
                   - {label: "Button Text", name: "buttonLabel", widget: "string"}
-          - label: "Home"
-            name: "home"
+          - label: "Introduction"
+            name: "introduction"
             widget: "object"
             fields:
               - {label: "Title", name: 'title', widget: "string"}

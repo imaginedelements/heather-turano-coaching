@@ -5,7 +5,7 @@
   max-height: 360px;
 
   @include respond_desktop {
-    height: 500px;
+    height: 534px;
   }
 
   @include respond_tablet_landscape {
@@ -19,6 +19,8 @@
   img {
     width: 100%;
     height: auto;
+    max-width: map-get($map: $breakpoints, $key: xl);
+    margin: 0 auto;
 
     @include respond_tablet_landscape {
       width: auto;
