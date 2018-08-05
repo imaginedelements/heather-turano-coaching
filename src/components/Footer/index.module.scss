@@ -16,6 +16,10 @@
       font-size: 14px;
     }
   }
+
+  @include respond_tablet_landscape {
+    padding-top: 0;
+  }
 }
 
 .credits {
@@ -82,6 +86,10 @@
 
   @include respond_tablet {
     @include make_flex(row, flex-start, flex-start);
+  }
+
+  @include respond_tablet_landscape {
+    display: none;
   }
 
   & > .block {

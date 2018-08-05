@@ -12,6 +12,15 @@
     margin: 0 auto;
     width: 100%;
 
+    @include respond_tablet_landscape {
+      @include make_flex(column, flex-start, flex-start);
+      overflow-y: hidden;
+
+      & > section {
+        flex: 1;
+      }
+    }
+
     @include respond_desktop {
       & > * {
         max-width: 100%;

@@ -12,7 +12,8 @@ import {
   BlogTagGroup,
   BlogTag,
   BlogNavigation,
-  BlogHero
+  BlogHero,
+  BlogLayout
 } from "../components/Blog";
 import { SocialBar } from "../components/SocialBar";
 
@@ -30,7 +31,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content;
   console.log(heroImage, heroImageAlt);
   return (
-    <Fragment>
+    <BlogLayout>
       <BlogHero heroImage={heroImage} heroImageAlt={heroImageAlt} />
       <BlogContainer>
         {helmet || ""}
@@ -49,7 +50,7 @@ export const BlogPostTemplate = ({
         </BlogContent>
         <BlogNavigation tags={tags} />
       </BlogContainer>
-    </Fragment>
+    </BlogLayout>
   );
 };
 

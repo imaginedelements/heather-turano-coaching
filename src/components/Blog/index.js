@@ -1,3 +1,4 @@
+export { BlogLayout } from "./BlogLayout";
 export { BlogContainer } from "./BlogContainer";
 export { BlogHero } from "./BlogHero";
 export { BlogHeader } from "./BlogHeader";

@@ -4,4 +4,9 @@
   padding: 30px;
   max-width: 500px;
   margin: 0 auto;
+
+  @include respond_tablet {
+    padding: 60px;
+    overflow-y: auto;
+  }
 }
