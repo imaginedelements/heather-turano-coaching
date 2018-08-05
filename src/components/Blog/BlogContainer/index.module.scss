@@ -8,5 +8,6 @@
   @include respond_tablet {
     padding: 60px;
     overflow-y: auto;
+    max-width: initial;
   }
 }
