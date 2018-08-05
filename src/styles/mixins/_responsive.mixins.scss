@@ -25,3 +25,9 @@
     @content;
   }
 }
+
+@mixin respond_desktop {
+  @include breakpoint(lg) {
+    @content;
+  }
+}

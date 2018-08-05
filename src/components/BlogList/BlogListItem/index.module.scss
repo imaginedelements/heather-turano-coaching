@@ -17,7 +17,13 @@
   overflow: hidden;
 
   img {
+    vertical-align: top;
     height: 100%;
+
+    @include respond-tablet {
+      height: initial;
+      width: 100%;
+    }
   }
 
   @include respond-tablet {

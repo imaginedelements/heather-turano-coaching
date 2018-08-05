@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
@@ -22,27 +22,34 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
-  dateCreated
+  dateCreated,
+  heroImage,
+  heroImageAlt
 }) => {
   const PostContent = contentComponent || Content;
+  console.log(heroImage, heroImageAlt);
   return (
-    <BlogContainer>
-      {helmet || ""}
+    <Fragment>
       <BlogHeader
         title={title}
         description={description}
-        backLinkRoute="/blogs"
+        backLinkRoute="/blog"
         backLinkText="Back to the list"
         dateCreated={dateCreated}
         author="Heather Turano"
+        heroImage={heroImage}
+        heroImageAlt={heroImageAlt}
       />
-      <BlogContent>
-        <PostContent content={content} />
-        <BlogTagGroup tags={tags} />
-        <SocialBar />
-      </BlogContent>
-      <BlogNavigation tags={tags} />
-    </BlogContainer>
+      <BlogContainer>
+        {helmet || ""}
+        <BlogContent>
+          <PostContent content={content} />
+          <BlogTagGroup tags={tags} />
+          <SocialBar />
+        </BlogContent>
+        <BlogNavigation tags={tags} />
+      </BlogContainer>
+    </Fragment>
   );
 };
 
@@ -63,6 +70,8 @@ const BlogPost = ({ data: { markdownRemark: post } }) => (
     tags={post.frontmatter.tags}
     title={post.frontmatter.title}
     dateCreated={post.frontmatter.date}
+    heroImage={post.frontmatter.heroImage}
+    heroImageAlt={post.frontmatter.heroImageAlt}
   />
 );
 
@@ -84,6 +93,8 @@ export const pageQuery = graphql`
         title
         description
         tags
+        heroImage
+        heroImageAlt
       }
     }
   }

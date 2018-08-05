@@ -2,6 +2,7 @@
 
 .tag-group {
   @include make_flex(row, flex-start, flex-start);
+  margin: 40px 0;
 
   li {
     margin: 0 10px 10px 0;
