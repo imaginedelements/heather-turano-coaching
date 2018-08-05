@@ -31,9 +31,85 @@ collections:
         label: "About"
         name: "about"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "about-page"
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string", default: "Love yourself first"}
+              - {label: "Sub-title", name: "subTitle", widget: "string", default: null}
+              - label: "Call to Action (Input)"
+                name: "cta_input"
+                widget: "object"
+                fields:
+                  - {label: "Display Input?", name: "shouldDisplay", widget: "boolean", default: true}
+                  - {label: "Placeholder Text", name: "placeholder", widget: "string"}
+                  - {label: "Button Text", name: "buttonLabel", widget: "string"}
+              - label: "Call to Action (Button)"
+                name: "cta_button"
+                widget: "object"
+                fields:
+                  - {label: "Display Button?", name: "shouldDisplay", widget: "boolean", default: true}
+                  - {label: "Button Link", name: "buttonLinkRoute", widget: "select", options: ["about", "blog", "services", "contact"]}
+                  - {label: "Button Text", name: "buttonLabel", widget: "string"}
+          - label: "Home"
+            name: "home"
+            widget: "object"
+            fields:
+              - {label: "Title", name: 'title', widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Display Button?", name: "shouldDisplay", widget: "boolean"}
+                  - {label: "Link to", name: route, widget: "select", options: ["about", "blog", "services", "contact"]}
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Entries"
+                name: "entires"
+                widget: "list"
+                fields:
+                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Quote", name: "quote", widget: "string"}
+                  - {label: "Client Type", name: "clientType", widget: "string"}
+                  - {label: "Location", name: "location", widget: "string"}
+          - label: "Method"
+            name: "method"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "steps"
+                name": "steps"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "Icon", name: "icon", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+      - file: "src/pages/services/index.md"
+        label: "Services Page"
+        name: "services"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - label: "Services"
+            name: "entries"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Duration", name: "duration", widget: "string"}
+              - {label: "Price", name: "price", widget: "string"}
+              - {label: "Description", name: "descrption", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Button Label", name: "buttonLabel", widget: "string"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
