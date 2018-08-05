@@ -60,11 +60,11 @@ const TemplateWrapper = ({ children, ...restProps }) => (
         }
       ]}
     />
-    <div styleName="content">
+    <section styleName="content">
       {children({
         ...restProps
       })}
-    </div>
+    </section>
     <Footer />
   </div>
 );

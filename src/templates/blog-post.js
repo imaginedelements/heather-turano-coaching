@@ -11,7 +11,9 @@ import {
   BlogContent,
   BlogTagGroup,
   BlogTag,
-  BlogNavigation
+  BlogNavigation,
+  BlogHero,
+  BlogLayout
 } from "../components/Blog";
 import { SocialBar } from "../components/SocialBar";
 
@@ -29,19 +31,18 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content;
   console.log(heroImage, heroImageAlt);
   return (
-    <Fragment>
-      <BlogHeader
-        title={title}
-        description={description}
-        backLinkRoute="/blog"
-        backLinkText="Back to the list"
-        dateCreated={dateCreated}
-        author="Heather Turano"
-        heroImage={heroImage}
-        heroImageAlt={heroImageAlt}
-      />
+    <BlogLayout>
+      <BlogHero heroImage={heroImage} heroImageAlt={heroImageAlt} />
       <BlogContainer>
         {helmet || ""}
+        <BlogHeader
+          title={title}
+          description={description}
+          backLinkRoute="/blog"
+          backLinkText="Back to the list"
+          dateCreated={dateCreated}
+          author="Heather Turano"
+        />
         <BlogContent>
           <PostContent content={content} />
           <BlogTagGroup tags={tags} />
@@ -49,7 +50,7 @@ export const BlogPostTemplate = ({
         </BlogContent>
         <BlogNavigation tags={tags} />
       </BlogContainer>
-    </Fragment>
+    </BlogLayout>
   );
 };
 
