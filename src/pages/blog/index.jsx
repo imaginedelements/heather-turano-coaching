@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import Link from "gatsby-link";
+import Helmet from "react-helmet";
 
 import { PageHeader } from "../../components/PageHeader";
 import { BlogList } from "../../components/BlogList";
@@ -14,6 +15,10 @@ const Blog = ({
   console.log(restProps);
   return (
     <Fragment>
+      <Helmet
+        title="Blog | Heather Turano Coaching"
+        bodyAttributes={{ class: "" }}
+      />
       <PageHeader
         title="Blog"
         description="Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
