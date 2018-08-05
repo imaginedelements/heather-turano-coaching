@@ -5,7 +5,7 @@ import Link from "gatsby-link";
 import { PageHeader } from "../../components/PageHeader";
 import { BlogList } from "../../components/BlogList";
 
-const Blogs = ({
+const Blog = ({
   data: {
     allMarkdownRemark: { edges: posts }
   },
@@ -32,7 +32,7 @@ const Blogs = ({
   );
 };
 
-Blogs.propTypes = {
+Blog.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array
@@ -40,7 +40,7 @@ Blogs.propTypes = {
   })
 };
 
-export default Blogs;
+export default Blog;
 
 export const query = graphql`
   query BlogList {

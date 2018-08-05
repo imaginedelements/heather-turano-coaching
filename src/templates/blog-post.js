@@ -31,7 +31,7 @@ export const BlogPostTemplate = ({
       <BlogHeader
         title={title}
         description={description}
-        backLinkRoute="/blogs"
+        backLinkRoute="/blog"
         backLinkText="Back to the list"
         dateCreated={dateCreated}
         author="Heather Turano"

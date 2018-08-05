@@ -56,7 +56,7 @@ const TemplateWrapper = ({ children, ...restProps }) => (
           title: "services"
         },
         {
-          title: "blogs"
+          title: "blog"
         }
       ]}
     />
