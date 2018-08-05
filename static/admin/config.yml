@@ -95,6 +95,21 @@ collections:
                   - {label: "Label", name: "label", widget: "string"}
                   - {label: "Icon", name: "icon", widget: "string"}
                   - {label: "Description", name: "description", widget: "text"}
+      - file: "src/pages/services/index.md"
+        label: "Services Page"
+        name: "services"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
+          - label: "Services"
+            name: "entries"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Duration", name: "duration", widget: "string"}
+              - {label: "Price", name: "price", widget: "string"}
+              - {label: "Description", name: "descrption", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Button Label", name: "buttonLabel", widget: "string"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
