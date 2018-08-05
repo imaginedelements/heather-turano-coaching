@@ -41,31 +41,6 @@ testimonials:
   title: Hear from the mob
 method:
   title: My Methodology
-  undefined:
-    - description: >-
-        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
-        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
-        porta ac consectetur ac, vestibulum at eros.
-      icon: faCoffee
-      label: discover
-    - description: >-
-        Donec id elit non mi porta gravida at eget metus. Cras mattis
-        consectetur purus sit amet fermentum. Integer posuere erat a ante
-        venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla
-        sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
-      icon: faList
-      label: plan
-    - description: >-
-        Maecenas sed diam eget risus varius blandit sit amet non magna. Integer
-        posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas
-        faucibus mollis interdum. Vestibulum id ligula porta felis euismod
-        semper. Donec sed odio dui. Maecenas sed diam eget risus varius blandit
-        sit amet non magna.
-      icon: faSeedling
-      label: grow
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
