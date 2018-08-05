@@ -52,7 +52,14 @@ export const BlogPostTemplate = ({
           </BlogContent>
           <BlogNavigation tags={tags} />
         </BlogContainer>
-        <BlogFeatures>test</BlogFeatures>
+        <BlogFeatures
+          features={[
+            {
+              title: "Peep the instagram",
+              feature: () => <div>Bomb ass instagram content</div>
+            }
+          ]}
+        />
       </div>
     </BlogLayout>
   );

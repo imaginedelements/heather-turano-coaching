@@ -2,6 +2,9 @@
 
 .blog-features.blog-features {
   display: none;
+  padding: 60px 40px;
+  width: 400px;
+  background: $color-lightscale-3;
 
   @include respond_tablet_landscape {
     display: none !important;
@@ -9,7 +12,5 @@
 
   @include respond_desktop {
     display: block;
-    width: 400px;
-    background: $color-lightscale-3;
   }
 }
