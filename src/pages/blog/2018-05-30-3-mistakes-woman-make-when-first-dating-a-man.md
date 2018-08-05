@@ -1,6 +1,9 @@
 ---
 templateKey: blog-post
+heroImage: /img/dsc_0572.jpg
+heroImageAlt: writing-on-couch
 title: 3 mistakes woman make when first dating a man
+subTitle: We all make them
 date: '2018-05-30T00:00:00-04:00'
 description: >
   Why aren't we asking our selves if he is worthy of our time? why are we
