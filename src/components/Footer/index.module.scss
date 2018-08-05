@@ -1,7 +1,6 @@
 @import "src/styles/mixins/index";
 
 .footer {
-  padding-top: 100px;
   width: 100%;
   @include font_machine("light", $size: 14px, $color: $color-grayscale-0);
 
@@ -15,10 +14,6 @@
     a {
       font-size: 14px;
     }
-  }
-
-  @include respond_tablet_landscape {
-    padding-top: 0;
   }
 }
 

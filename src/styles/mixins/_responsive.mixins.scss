@@ -23,7 +23,7 @@
   $min: breakpoint_get_min($min, $breakpoints);
   $max: breakpoint_get_max($max, $breakpoints);
   @if $min and $max {
-    @media (min-width: $min) and (max-width: $max - 1px) {
+    @media (min-width: $min) and (max-width: $max) {
       @content;
     }
   } @else {
@@ -44,7 +44,7 @@
 }
 
 @mixin respond_tablet_landscape {
-  @include breakpoint_between(lg, xl) {
+  @include breakpoint_between(lg, tb) {
     @content;
   }
 }

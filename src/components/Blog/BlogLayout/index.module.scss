@@ -4,4 +4,12 @@
   @include respond_tablet_landscape {
     @include make_flex(row, flex-start, stretch);
   }
+
+  :global {
+    .content {
+      @include respond_tablet {
+        @include make_flex(row, flex-start, stretch);
+      }
+    }
+  }
 }

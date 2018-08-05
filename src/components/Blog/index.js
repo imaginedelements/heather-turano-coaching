@@ -6,3 +6,4 @@ export { BlogContent } from "./BlogContent";
 export { BlogTagGroup } from "./BlogTagGroup";
 export { BlogTag } from "./BlogTag";
 export { BlogNavigation } from "./BlogNavigation";
+export { BlogFeatures } from "./BlogFeatures";
