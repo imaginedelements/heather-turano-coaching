@@ -12,7 +12,7 @@ const Blog = ({
   },
   ...restProps
 }) => {
-  console.log(restProps);
+  console.log(posts, restProps);
   return (
     <Fragment>
       <Helmet
@@ -30,7 +30,9 @@ const Blog = ({
           dateCreated: node.frontmatter.date,
           templateKey: node.frontmatter.templateKey,
           excerpt: node.excerpt,
-          viewLinkRoute: node.fields.slug
+          viewLinkRoute: node.fields.slug,
+          heroImage: node.frontmatter.heroImage,
+          heroImageAlt: node.frontmatter.heroImageAlt
         }))}
       />
     </Fragment>
@@ -64,6 +66,8 @@ export const query = graphql`
             title
             templateKey
             date(formatString: "MMMM DD, YYYY")
+            heroImage
+            heroImageAlt
           }
         }
       }

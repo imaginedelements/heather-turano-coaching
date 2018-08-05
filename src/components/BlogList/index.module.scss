@@ -1,6 +1,8 @@
 @import "src/styles/mixins/index";
 
-.blog-list {
+.blog-list.blog-list {
   display: block;
   width: 100%;
+  margin: 0 auto;
+  max-width: map-get($map: $breakpoints, $key: md);
 }

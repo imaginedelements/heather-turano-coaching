@@ -1,7 +1,9 @@
 @import "src/styles/mixins/index";
 
-.page-header {
+.page-header.page-header {
   padding: 40px 30px;
+  margin: 0 auto;
+  max-width: map-get($map: $breakpoints, $key: md);
 
   @include respond-tablet {
     padding: 60px 40px;

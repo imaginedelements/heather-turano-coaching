@@ -1,11 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Heading, Paragraph } from "../Typography";
-import img from "../../img/backlit-beach-color-258109.jpg";
+import { Heading, Paragraph } from "../../Typography";
 import styles from "./index.module.scss";
-import { Link } from "../../components/Link";
-import { Icon } from "../../components/Icon";
+import { Link } from "../../../components/Link";
+import { Icon } from "../../../components/Icon";
 
 export const BlogListItem = ({
   // id,
@@ -13,11 +12,13 @@ export const BlogListItem = ({
   dateCreated,
   templateKey,
   excerpt,
-  viewLinkRoute
+  viewLinkRoute,
+  heroImage,
+  heroImageAlt
 }) => (
   <li styleName="post">
     <article styleName="img">
-      <img src={img} alt="stuff" />
+      <img src={heroImage} alt={heroImageAlt} />
     </article>
     <article styleName="summary">
       <header>
@@ -52,5 +53,7 @@ BlogListItem.propTypes = {
   dateCreated: PropTypes.string.isRequired,
   templateKey: PropTypes.string.isRequired,
   excerpt: PropTypes.string.isRequired,
-  viewLinkRoute: PropTypes.string.isRequired
+  viewLinkRoute: PropTypes.string.isRequired,
+  heroImage: PropTypes.string.isRequired,
+  heroImageAlt: PropTypes.string.isRequired
 };

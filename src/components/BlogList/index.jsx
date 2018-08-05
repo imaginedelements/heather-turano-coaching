@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { BlogListItem } from "../BlogListItem";
+import { BlogListItem } from "./BlogListItem";
 import styles from "./index.module.scss";
 
 export const BlogList = ({ posts }) => (

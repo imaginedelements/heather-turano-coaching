@@ -12,28 +12,35 @@ export const BlogHeader = ({
   backLinkRoute,
   backLinkText,
   dateCreated,
-  author
+  author,
+  heroImage,
+  heroImageAlt
 }) => (
-  <header styleName="page-header">
-    <div styleName="link">
-      <Icon
-        icon={["far", "long-arrow-left"]}
-        iconSize="xs"
-        iconColor="accent-0"
-      />
-      <Link to={backLinkRoute}>{backLinkText}</Link>
+  <header>
+    <div styleName="hero">
+      <img src={heroImage} alt={heroImageAlt} />
     </div>
-    <div styleName="date">
-      <span>{dateCreated}</span>
-      <span>|</span>
-      <span>Written by {author}</span>
-    </div>
-    <Heading copy={title} size="h3" />
-    {description ? (
-      <div styleName="description">
-        <Heading copy={description} size="h6" />
+    <div styleName="page-header">
+      <div styleName="link">
+        <Icon
+          icon={["far", "long-arrow-left"]}
+          iconSize="xs"
+          iconColor="accent-0"
+        />
+        <Link to={backLinkRoute}>{backLinkText}</Link>
       </div>
-    ) : null}
+      <div styleName="date">
+        <span>{dateCreated}</span>
+        <span>|</span>
+        <span>Written by {author}</span>
+      </div>
+      <Heading copy={title} size="h3" />
+      {description ? (
+        <div styleName="description">
+          <Heading copy={description} size="h6" />
+        </div>
+      ) : null}
+    </div>
   </header>
 );
 
@@ -43,7 +50,9 @@ BlogHeader.propTypes = {
   backLinkRoute: PropTypes.string.isRequired,
   backLinkText: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired
+  author: PropTypes.string.isRequired,
+  heroImage: PropTypes.string.isRequired,
+  heroImageAlt: PropTypes.string.isRequired
 };
 
 BlogHeader.defaultProps = {
