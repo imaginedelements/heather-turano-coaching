@@ -6,7 +6,7 @@
   margin: 0 auto;
 
   @include respond_tablet {
-    padding: 60px;
+    padding: 60px 100px;
     overflow-y: auto;
     max-width: initial;
   }
