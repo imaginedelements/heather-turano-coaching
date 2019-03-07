@@ -4,20 +4,10 @@ import PropTypes from "prop-types";
 import { Content } from "../../components/Content";
 
 export const AboutPageTemplate = ({ title, content, contentType }) => (
-  <section className="section section--gradient">
-    <div className="container">
-      <div className="columns">
-        <div className="column is-10 is-offset-1">
-          <div className="section">
-            <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-              {title}
-            </h2>
-            <Content contentType={contentType} content={content} />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <>
+    <div>{title}</div>
+    <Content contentType={contentType} content={content} />
+  </>
 );
 
 AboutPageTemplate.propTypes = {

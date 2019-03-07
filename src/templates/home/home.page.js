@@ -1,14 +1,14 @@
 import React from "react";
 import Helmet from "react-helmet";
 
+import Layout from "../../components/Layout";
+
 export const Home = () => (
-  <div>
+  <Layout>
     <Helmet
       title="Home | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
     <div>Home Page Here (Turn into template)</div>
-  </div>
+  </Layout>
 );
-
-export default Home;

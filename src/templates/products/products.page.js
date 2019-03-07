@@ -4,22 +4,6 @@ import { graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import { ProductPageTemplate } from "./products.template";
 
-const ProductPage = ({ markdownRemark: { frontmatter } }) => (
-  <Layout>
-    <ProductPageTemplate
-      image={frontmatter.image}
-      title={frontmatter.title}
-      heading={frontmatter.heading}
-      description={frontmatter.description}
-      intro={frontmatter.intro}
-      main={frontmatter.main}
-      testimonials={frontmatter.testimonials}
-      fullImage={frontmatter.full_image}
-      pricing={frontmatter.pricing}
-    />
-  </Layout>
-);
-
 export const pageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -67,5 +51,25 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+const ProductPage = ({
+  data: {
+    markdownRemark: { frontmatter }
+  }
+}) => (
+  <Layout>
+    <ProductPageTemplate
+      image={frontmatter.image}
+      title={frontmatter.title}
+      heading={frontmatter.heading}
+      description={frontmatter.description}
+      intro={frontmatter.intro}
+      main={frontmatter.main}
+      testimonials={frontmatter.testimonials}
+      fullImage={frontmatter.full_image}
+      pricing={frontmatter.pricing}
+    />
+  </Layout>
+);
 
 export default ProductPage;

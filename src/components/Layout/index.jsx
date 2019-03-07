@@ -48,7 +48,8 @@ export const Layout = ({ children, ...restProps }) => (
       {...restProps}
       navItems={[
         {
-          title: "home"
+          title: "home",
+          route: "/"
         },
         {
           title: "about"

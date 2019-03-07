@@ -10,7 +10,7 @@ export const Footer = () => (
         <header>Explore</header>
         <ul>
           <li>
-            <GatsbyLink to="/home">Home</GatsbyLink>
+            <GatsbyLink to="/">Home</GatsbyLink>
           </li>
           <li>
             <GatsbyLink to="/about">About</GatsbyLink>

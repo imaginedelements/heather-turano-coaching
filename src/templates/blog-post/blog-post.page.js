@@ -23,15 +23,17 @@ export const query = graphql`
 `;
 
 const BlogPost = ({
-  markdownRemark: {
-    html,
-    frontmatter: {
-      date: dateCreated,
-      title,
-      description,
-      tags,
-      heroImage,
-      heroImageAlt
+  data: {
+    markdownRemark: {
+      html,
+      frontmatter: {
+        date: dateCreated,
+        title,
+        description,
+        tags,
+        heroImage,
+        heroImageAlt
+      }
     }
   }
 }) => (
