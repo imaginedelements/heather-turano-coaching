@@ -1,8 +1,7 @@
 import React from "react";
-// import PropTypes from "prop-types";
-import { default as GatsbyLink } from "gatsby-link";
+import { Link as GatsbyLink } from "gatsby";
 
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const Footer = () => (
   <footer styleName="footer">
@@ -37,7 +36,11 @@ export const Footer = () => (
         </div>
         <div styleName="created-by">
           <span>Designed and developed by </span>
-          <a href="http://www.imaginedelements.com" target="_blank">
+          <a
+            href="http://www.imaginedelements.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Imagined Elements, LLC
           </a>
         </div>

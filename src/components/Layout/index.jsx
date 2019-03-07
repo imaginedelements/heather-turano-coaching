@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
@@ -20,9 +20,10 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
-import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
-import styles from "./index.module.scss";
+import { Header } from "../Header";
+import { Footer } from "../Footer";
+
+import "./index.module.scss";
 
 library.add(
   faShare,
@@ -37,7 +38,7 @@ library.add(
   faLinkedin
 );
 
-const TemplateWrapper = ({ children, ...restProps }) => (
+export const Layout = ({ children, ...restProps }) => (
   <div styleName="main">
     <Helmet
       title="Home | Heather Turano Coaching"
@@ -60,17 +61,13 @@ const TemplateWrapper = ({ children, ...restProps }) => (
         }
       ]}
     />
-    <section styleName="content">
-      {children({
-        ...restProps
-      })}
-    </section>
+    <section styleName="content">{children}</section>
     <Footer />
   </div>
 );
 
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
+Layout.propTypes = {
+  children: PropTypes.node.isRequired
 };
 
-export default TemplateWrapper;
+export default Layout;

@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Heading, Paragraph } from "../../Typography";
-import styles from "./index.module.scss";
-import { Link } from "../../../components/Link";
-import { Icon } from "../../../components/Icon";
+import { Heading, Paragraph } from "../../../Typography";
+import { Link } from "../../../../components/Link";
+import { Icon } from "../../../../components/Icon";
+import "./index.module.scss";
 
 export const BlogListItem = ({
   // id,

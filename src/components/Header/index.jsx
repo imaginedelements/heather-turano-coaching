@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
 
 import MainNav from "../MainNav";
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const Header = props => (
   <header styleName="container">

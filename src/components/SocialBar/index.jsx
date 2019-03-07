@@ -1,14 +1,17 @@
 import React from "react";
-// import PropTypes from 'prop-types';
 
 import { Icon } from "../Icon";
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const SocialBar = () => (
   <div styleName="social">
     <ul>
       <li>
-        <a href="" target="_blank">
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon
             icon={["fab", "instagram"]}
             iconColor="grayscale-2"

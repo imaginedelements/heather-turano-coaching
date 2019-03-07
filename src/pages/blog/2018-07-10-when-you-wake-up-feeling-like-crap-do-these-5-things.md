@@ -1,20 +1,22 @@
 ---
 templateKey: blog-post
+pageKey: blog-post
 heroImage: /img/img_0105.jpg
 heroImageAlt: Bed Photo
-title: 'When you wake up feeling like crap, do these 5 things.'
+title: "When you wake up feeling like crap, do these 5 things."
 subTitle: 5 things to do when you wake up feeling like crap.
-date: '2018-07-10T09:16:14-04:00'
+date: "2018-07-10T09:16:14-04:00"
 description: >-
   Every one has been there. You sleep like crap and you feel horrible when you
   open your eyes. And then instead of having compassion for yourself, you bet
-  yourself up about feeling bad and not being your happiest or best self. 
+  yourself up about feeling bad and not being your happiest or best self.
 tags:
   - crap
 ---
+
 ![This is me. being Lazy AF and feeling sorry for myself as I wake up. ](/img/img_0105.jpg)
 
-This is me. being Lazy AF and feeling sorry for myself as I wake up. 
+This is me. being Lazy AF and feeling sorry for myself as I wake up.
 
 I even slept in the guest room because i was tausing and turning and thought it would help to switch beds. well it didnt. And I got a few hours of sleep and had weird dreams about old managers and people crashing into my car in a Whole Foods parking lot. (these were actually my dreams.)
 
@@ -24,21 +26,21 @@ I finally decided it was time to open my eyes and start the day, but as i laid t
 
 ## 1. Acknowledge your feeling is real
 
-The thing is feels don't just come out of no where, feelings are in direct correlation with something you did. And they will tell you loud and clear if what you did either agreed with them or disagreed with them. 
+The thing is feels don't just come out of no where, feelings are in direct correlation with something you did. And they will tell you loud and clear if what you did either agreed with them or disagreed with them.
 
 "Hey feelings. I see you. You are real. How can I be of service to you today?"
 
 That last line bringing me to point number two.
 
-## 2. List the facts  (why and what to do different)
+## 2. List the facts (why and what to do different)
 
-After telling your feel that "you see it". You have to break down the **WAY.** 
+After telling your feel that "you see it". You have to break down the **WAY.**
 
 > Why do i think i feel like crap? Well, because i didnt sleep well.
 >
-> Why didn't I sleep well? Because you ate right before bed, I drank too much champagne, I didn't do my wind down routine, etc etc. 
+> Why didn't I sleep well? Because you ate right before bed, I drank too much champagne, I didn't do my wind down routine, etc etc.
 
-You get the point. 
+You get the point.
 
 And then ask yourself "what can i do different next time".
 
@@ -52,23 +54,23 @@ Dont be a drama queen like me and say "why do i feel like crap all the time". Be
 
 This one is just a blip and the faster you readjust what isn't working the faster you get back to having more GREAT mornings and less crappy ones. #truth
 
-## 4. Write about it 
+## 4. Write about it
 
-Lucky for me I have a blog where I can write stuff like this. However, that wasn't always the case. So I would suggest getting a journal. Get it out on paper. Write down how you feel, give yourself permission to feel it. Then make a plan on how to get through it and help yourself. 
+Lucky for me I have a blog where I can write stuff like this. However, that wasn't always the case. So I would suggest getting a journal. Get it out on paper. Write down how you feel, give yourself permission to feel it. Then make a plan on how to get through it and help yourself.
 
-If writing isnt your thing maybe you call a close friend, a coach or a mentor and talk it out. 
+If writing isnt your thing maybe you call a close friend, a coach or a mentor and talk it out.
 
 Whatever it is it needs to be worked through. And when you work through things they hold less power over your moods and feelings
 
-## 5. Do some Yoga 
+## 5. Do some Yoga
 
-when i say yoga I mean anything that will rais your heart rate. Maybe you do 10 sun salutations or maybe you do 10 jumping jakes. maybe you go even farther and get outside and go for a jog. 
+when i say yoga I mean anything that will rais your heart rate. Maybe you do 10 sun salutations or maybe you do 10 jumping jakes. maybe you go even farther and get outside and go for a jog.
 
 When you exercise, your body releases chemicals called endorphins. Endorphins interact with the receptors in your brain that reduce your perception of pain. Hence, the "feeling better" part.
 
-# What else do you do to have better mornings? 
+# What else do you do to have better mornings?
 
-I would love to hear what helps you stay on track and have amazing mornings! please leave a comment and let me know your thoughts! 
+I would love to hear what helps you stay on track and have amazing mornings! please leave a comment and let me know your thoughts!
 
 Subscribe to my email list and get emails of new posts and inspiration.
 

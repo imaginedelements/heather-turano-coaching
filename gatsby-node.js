@@ -2,11 +2,11 @@ const _ = require("lodash");
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
-
-  return graphql(`
-    {
+// gets all of the pages needed from the markdown
+// creates the pages after it gathers the information
+exports.createPages = ({ graphql, actions: { createPage } }) =>
+  graphql(`
+    query NodeQuery {
       allMarkdownRemark(limit: 1000) {
         edges {
           node {
@@ -36,12 +36,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(edge.node.frontmatter.templateKey)}/${
+            edge.node.frontmatter.templateKey
+          }.page.js`
         ),
-        // additional data can be passed via context
         context: {
           id
         }
+        // The context is passed as props to the component as well
+        // as into the component's GraphQL query.
       });
     });
 
@@ -62,18 +65,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
       createPage({
         path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
+        component: path.resolve(`src/templates/tags/tags.page.js`),
         context: {
           tag
         }
       });
     });
   });
-};
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
-
+exports.onCreateNode = ({ node, actions: { createNodeField }, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
     createNodeField({

@@ -1,16 +1,18 @@
 ---
 templateKey: blog-post
+pageKey: blog-post
 heroImage: /img/products-grid2.jpg
 heroImageAlt: coffee
 title: Versailles
-subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-date: '2018-05-27T08:02:53-04:00'
+subTitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+date: "2018-05-27T08:02:53-04:00"
 description: Dont we love Drews photo skills?
 tags:
   - Versailles
   - Paris
   - France
 ---
+
 # Versailles
 
 ## hjesgfjhgfhfgj

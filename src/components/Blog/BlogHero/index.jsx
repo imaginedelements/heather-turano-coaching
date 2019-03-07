@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const BlogHero = ({ heroImage, heroImageAlt }) => (
   <div styleName="hero">

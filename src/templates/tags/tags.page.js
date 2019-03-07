@@ -1,9 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Link from "gatsby-link";
+import { graphql, Link } from "gatsby";
 
 export const TagRoute = ({
-  pathContext: { tag },
+  pageContext: { tag },
   data: {
     allMarkdownRemark: { totalCount, edges },
     site: {
