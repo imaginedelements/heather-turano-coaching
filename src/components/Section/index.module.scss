@@ -18,4 +18,12 @@
       }
     }
   }
+
+  &.default {
+    background: #ffffff;
+  }
+
+  &.secondary {
+    background: $color-lightscale-3;
+  }
 }

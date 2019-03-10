@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 import { Heading } from "../Typography";
 import "./index.module.scss";
 
-const Section = ({ title, children }) => (
-  <section styleName="section">
+const Section = ({ styleType, title, children }) => (
+  <section styleName={`section ${styleType}`}>
     <header>
       <Heading copy={title} size="title" />
     </header>
@@ -16,8 +16,13 @@ const Section = ({ title, children }) => (
 );
 
 Section.propTypes = {
+  styleType: PropTypes.oneOf(["default", "secondary"]),
   title: PropTypes.string.isRequired,
   children: PropTypes.any.isRequired
+};
+
+Section.defaultProps = {
+  styleType: "default"
 };
 
 export default Section;

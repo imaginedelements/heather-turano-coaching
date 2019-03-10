@@ -12,9 +12,12 @@ export const HomePageTemplate = ({
     introDescription
     // introAction: { actionLabel, actionRoute }
   },
-  testimonials
+  testimonials: {
+    testimonialTitle,
+    testimonialEntries: blahblahblahblahblahblah
+  }
 }) => {
-  console.log(callToAction, testimonials);
+  console.log(callToAction);
   return (
     <>
       <Hero
@@ -25,6 +28,9 @@ export const HomePageTemplate = ({
       />
       <Section title={introTitle}>
         <Paragraph copy={introDescription} />
+      </Section>
+      <Section styleType="secondary" title={testimonialTitle}>
+        testimonials
       </Section>
     </>
   );
