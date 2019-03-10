@@ -29,8 +29,14 @@ export const HomePageTemplate = ({
       <Section title={introTitle}>
         <Paragraph copy={introDescription} />
       </Section>
-      <Section styleType="secondary" title={testimonialTitle}>
+      <Section title={testimonialTitle} styleType="secondary">
         testimonials
+      </Section>
+      <Section title="My methodology">methodology</Section>
+      <Section title="Let's talk" styleType="secondary">
+        <Paragraph copy="Does this sound sweet? Cool. Let's get working." />
+        contact form
+        <Paragraph copy="Looking forward to hearing from you!" />
       </Section>
     </>
   );
