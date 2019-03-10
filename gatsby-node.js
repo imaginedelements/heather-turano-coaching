@@ -33,18 +33,21 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
     posts.forEach(edge => {
       const id = edge.node.id;
       createPage({
-        path: edge.node.fields.slug,
+        path:
+          edge.node.frontmatter.templateKey === "home"
+            ? "/"
+            : edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}/${
             edge.node.frontmatter.templateKey
           }.page.js`
         ),
+        // The context is passed as props to the component as well
+        // as into the component's GraphQL query.
         context: {
           id
         }
-        // The context is passed as props to the component as well
-        // as into the component's GraphQL query.
       });
     });
 

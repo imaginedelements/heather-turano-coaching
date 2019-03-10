@@ -1,6 +1,5 @@
 ---
 templateKey: "products"
-pageKey: "products"
 path: /products
 title: Our Coffee
 image: /img/jumbotron.jpg

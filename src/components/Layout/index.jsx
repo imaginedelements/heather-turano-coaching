@@ -38,7 +38,7 @@ library.add(
   faLinkedin
 );
 
-export const Layout = ({ children, ...restProps }) => (
+const Layout = ({ children, ...restProps }) => (
   <div styleName="main">
     <Helmet
       title="Home | Heather Turano Coaching"

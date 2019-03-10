@@ -1,5 +1,5 @@
 ---
-templateKey: about
+templateKey: home
 hero:
   cta_input:
     buttonLabel: I have candy...

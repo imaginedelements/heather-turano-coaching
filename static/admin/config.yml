@@ -28,20 +28,17 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
+      - file: "src/pages/home/index.md"
+        label: "Home"
+        name: "home"
         fields:
           - label: "Template Key"
             name: "templateKey"
             widget: "hidden"
-            default: "about"
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+            default: "home"
           - label: "Hero"
             name: "hero"
             widget: "object"
