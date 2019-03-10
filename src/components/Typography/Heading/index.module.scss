@@ -70,14 +70,17 @@
 
 .default,
 .grayscale-0 {
-  color: $color-grayscale-0;
+  color: $color-grayscale-0 !important;
 }
 .grayscale-1 {
-  color: $color-grayscale-1;
+  color: $color-grayscale-1 !important;
 }
 .grayscale-2 {
-  color: $color-grayscale-2;
+  color: $color-grayscale-2 !important;
 }
 .grayscale-3 {
-  color: $color-grayscale-3;
+  color: $color-grayscale-3 !important;
+}
+.light {
+  color: $color-lightscale !important;
 }

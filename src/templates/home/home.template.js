@@ -1,16 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Hero } from "../../components";
+
 export const HomePageTemplate = ({
-  hero,
+  hero: { heroImage, heroTitle, heroSubTitle },
   callToAction,
   introduction,
   testimonials
 }) => {
-  console.log(hero, callToAction, introduction, testimonials);
+  console.log(callToAction, introduction, testimonials);
   return (
     <>
-      <div>Template</div>
+      <Hero
+        img={heroImage}
+        alt="hero image"
+        title={heroTitle}
+        subTitle={heroSubTitle}
+      />
     </>
   );
 };
