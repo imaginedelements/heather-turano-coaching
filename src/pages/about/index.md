@@ -1,9 +1,6 @@
 ---
 templateKey: about
-<<<<<<< HEAD
 title: about
-=======
->>>>>>> develop
 hero:
   cta_input:
     buttonLabel: I have candy...

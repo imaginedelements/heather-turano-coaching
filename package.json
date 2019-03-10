@@ -13,11 +13,8 @@
     "animatewithsass": "^3.2.1",
     "bulma": "^0.7.4",
     "gatsby": "^2.1.21",
-<<<<<<< HEAD
     "gatsby-plugin-favicon": "^3.1.5",
-=======
     "gatsby-cli": "^2.4.14",
->>>>>>> develop
     "gatsby-plugin-netlify": "^2.0.11",
     "gatsby-plugin-netlify-cms": "^3.0.12",
     "gatsby-plugin-postcss": "^2.0.5",
