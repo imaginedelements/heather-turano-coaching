@@ -1,15 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Hero } from "../../components";
+import { Hero, Section } from "../../components";
+import { Paragraph } from "../../components/Typography";
 
 export const HomePageTemplate = ({
   hero: { heroImage, heroTitle, heroSubTitle },
   callToAction,
-  introduction,
+  introduction: {
+    introTitle,
+    introDescription
+    // introAction: { actionLabel, actionRoute }
+  },
   testimonials
 }) => {
-  console.log(callToAction, introduction, testimonials);
+  console.log(callToAction, testimonials);
   return (
     <>
       <Hero
@@ -18,6 +23,9 @@ export const HomePageTemplate = ({
         title={heroTitle}
         subTitle={heroSubTitle}
       />
+      <Section title={introTitle}>
+        <Paragraph copy={introDescription} />
+      </Section>
     </>
   );
 };

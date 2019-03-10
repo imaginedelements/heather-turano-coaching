@@ -21,6 +21,8 @@ export const Heading = ({ size, color, copy }) => {
       return <h6 styleName={`section ${color}`}>{copy}</h6>;
     case "grouping":
       return <h6 styleName={`grouping ${color}`}>{copy}</h6>;
+    case "title":
+      return <h3 styleName="title">{copy}</h3>;
     default:
       return <h1>{copy}</h1>;
   }
@@ -43,7 +45,8 @@ Heading.propTypes = {
     "h6",
     "section",
     "grouping",
-    "para"
+    "para",
+    "title"
   ]),
   /**
    * @type {string}
@@ -53,6 +56,7 @@ Heading.propTypes = {
     "grayscale-0",
     "grayscale-1",
     "grayscale-2",
+    "grayscale-3",
     "grayscale-3",
     "light"
   ])

@@ -1,0 +1,21 @@
+@import "src/styles/mixins/index";
+
+.section {
+  padding: 50px 30px;
+
+  & > article {
+    @include make_flex(row, center, center);
+    width: 100%;
+    margin-top: 30px;
+
+    & > div {
+      width: 100%;
+      height: 100%;
+      max-width: 450px;
+
+      @include respond_desktop {
+        max-width: 550px;
+      }
+    }
+  }
+}

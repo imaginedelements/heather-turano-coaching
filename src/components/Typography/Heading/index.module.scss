@@ -68,6 +68,29 @@
   letter-spacing: -0.5px;
 }
 
+.title {
+  @include font_machine(
+    $weight: "extra-light",
+    $color: $color-primary-0,
+    $size: map-get($map: $typography, $key: h3)
+  );
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20%;
+    margin-left: #{calc((20% / 2) * -1)};
+    left: 50%;
+    height: 1px;
+    background: $color-primary-0;
+    bottom: 0;
+  }
+}
+
 .default,
 .grayscale-0 {
   color: $color-grayscale-0 !important;
