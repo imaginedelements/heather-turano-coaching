@@ -29,7 +29,7 @@ export const HomePageTemplate = ({
       <Section title={introTitle}>
         <Paragraph copy={introDescription} />
       </Section>
-      <Section title={testimonialTitle} styleType="secondary">
+      <Section title={testimonialTitle} styleType="alt">
         testimonials
       </Section>
       <Section title="My methodology">methodology</Section>
