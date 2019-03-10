@@ -1,5 +1,6 @@
 import React from "react";
 
+<<<<<<< HEAD
 import { Layout } from "../../components";
 
 const PrivacyPolicy = () => (
@@ -50,5 +51,8 @@ const PrivacyPolicy = () => (
     <p>This policy is effective as of 6 March 2019.</p>
   </Layout>
 );
+=======
+const PrivacyPolicy = () => <div>PrivacyPolicy</div>;
+>>>>>>> develop
 
 export default PrivacyPolicy;
