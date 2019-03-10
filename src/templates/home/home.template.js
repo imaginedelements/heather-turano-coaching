@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Hero, Section } from "../../components";
+import { Hero, Section, Carosel } from "../../components";
 import { Paragraph } from "../../components/Typography";
 
 export const HomePageTemplate = ({
@@ -12,10 +12,7 @@ export const HomePageTemplate = ({
     introDescription
     // introAction: { actionLabel, actionRoute }
   },
-  testimonials: {
-    testimonialTitle,
-    testimonialEntries: blahblahblahblahblahblah
-  }
+  testimonials: { testimonialTitle, testimonialEntries }
 }) => {
   console.log(callToAction);
   return (
@@ -30,7 +27,15 @@ export const HomePageTemplate = ({
         <Paragraph copy={introDescription} />
       </Section>
       <Section title={testimonialTitle} styleType="alt">
-        testimonials
+        <Carosel entries={testimonialEntries}>
+          {({ clientType, clientLocation, clientQuote }) => (
+            <div>
+              {clientType}
+              {clientLocation}
+              <Paragraph copy={clientQuote} />
+            </div>
+          )}
+        </Carosel>
       </Section>
       <Section title="My methodology">methodology</Section>
       <Section title="Let's talk" styleType="secondary">
