@@ -28,9 +28,9 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
       return Promise.reject(result.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges;
+    const cmsPages = result.data.allMarkdownRemark.edges;
 
-    posts.forEach(edge => {
+    cmsPages.forEach(edge => {
       const id = edge.node.id;
       createPage({
         path:
@@ -54,7 +54,7 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
     // Tag pages:
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
+    cmsPages.forEach(edge => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags);
       }
