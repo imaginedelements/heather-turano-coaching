@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "../../Link";
 import { Icon } from "../../Icon";
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const BlogNavigation = () => (
   <footer styleName="blog-footer">

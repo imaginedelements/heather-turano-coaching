@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Heading } from "../Typography";
 
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const PageHeader = ({ title, description }) => (
   <header styleName="page-header">

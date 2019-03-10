@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { BlogTag } from "../BlogTag";
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const BlogTagGroup = ({ tags }) =>
   tags && tags.length ? (
