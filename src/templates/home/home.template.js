@@ -1,17 +1,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Content } from "../../components/Content";
-
-export const HomePageTemplate = ({ title, content, contentType }) => (
-  <>
-    <div>{title}</div>
-    <Content contentType={contentType} content={content} />
-  </>
-);
+export const HomePageTemplate = ({
+  hero,
+  callToAction,
+  introduction,
+  testimonials
+}) => {
+  console.log(hero, callToAction, introduction, testimonials);
+  return (
+    <>
+      <div>Template</div>
+    </>
+  );
+};
 
 HomePageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func
+  callToAction: PropTypes.object.isRequired,
+  hero: PropTypes.object.isRequired,
+  introduction: PropTypes.object.isRequired,
+  testimonials: PropTypes.object.isRequired
 };

@@ -1,5 +1,5 @@
 ---
-templateKey: about
+key: about
 title: about
 hero:
   cta_input:

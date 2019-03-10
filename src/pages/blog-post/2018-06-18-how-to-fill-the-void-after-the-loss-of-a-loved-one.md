@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 title: How to fill the void after the loss of a loved one
 date: "2018-06-18T09:53:37-04:00"

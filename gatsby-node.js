@@ -16,7 +16,7 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
             }
             frontmatter {
               tags
-              templateKey
+              key
             }
           }
         }
@@ -34,13 +34,11 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
       const id = edge.node.id;
       createPage({
         path:
-          edge.node.frontmatter.templateKey === "home"
-            ? "/"
-            : edge.node.fields.slug,
+          edge.node.frontmatter.key === "home" ? "/" : edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}/${
-            edge.node.frontmatter.templateKey
+          `src/templates/${String(edge.node.frontmatter.key)}/${
+            edge.node.frontmatter.key
           }.page.js`
         ),
         // The context is passed as props to the component as well

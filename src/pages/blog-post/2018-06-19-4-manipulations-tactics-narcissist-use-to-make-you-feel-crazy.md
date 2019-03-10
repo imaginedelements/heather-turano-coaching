@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 title: 4 Manipulations Tactics Narcissist Use To Make you feel Crazy
 date: "2018-06-19T17:23:59-04:00"

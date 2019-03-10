@@ -12,7 +12,7 @@ const Blog = () => (
       query Blog {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { key: { eq: "blog-post" } } }
         ) {
           edges {
             node {
@@ -23,7 +23,7 @@ const Blog = () => (
               }
               frontmatter {
                 title
-                templateKey
+                key
                 date(formatString: "MMMM DD, YYYY")
               }
             }
@@ -42,7 +42,7 @@ const Blog = () => (
             id: node.id,
             title: node.frontmatter.title,
             dateCreated: node.frontmatter.date,
-            templateKey: node.frontmatter.templateKey,
+            key: node.frontmatter.key,
             excerpt: node.excerpt,
             viewLinkRoute: node.fields.slug
           }))}

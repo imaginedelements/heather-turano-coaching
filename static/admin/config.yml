@@ -14,12 +14,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "blog-post",
-        }
+      - { label: "key", name: "key", widget: "hidden", default: "blog-post" }
       - { label: "Hero Image", name: "heroImage", widget: image }
       - { label: "Hero Image (alt text)", name: "heroImageAlt", widget: string }
       - { label: "Title", name: "title", widget: "string" }
@@ -35,86 +30,57 @@ collections:
         label: "Home"
         name: "home"
         fields:
-          - label: "Template Key"
-            name: "templateKey"
-            widget: "hidden"
-            default: "home"
+          - { label: "key", name: "key", widget: "hidden", default: "home" }
+          - label: "Call to action"
+            name: "callToAction"
+            widget: "object"
+            fields:
+              - {
+                  label: "Input placeholder text",
+                  name: "ctaPlaceholder",
+                  widget: "string",
+                  defaut: "youremailaddress@isawesome.com",
+                }
+              - {
+                  label: "Button label",
+                  name: "ctaButtonLabel",
+                  widget: "string",
+                }
           - label: "Hero"
             name: "hero"
             widget: "object"
             fields:
-              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image", name: "heroImage", widget: "image" }
               - {
                   label: "Title",
-                  name: "title",
+                  name: "heroTitle",
                   widget: "string",
                   default: "Love yourself first",
                 }
               - {
                   label: "Sub-title",
-                  name: "subTitle",
+                  name: "heroSubTitle",
                   widget: "string",
                   default: null,
                 }
-              - label: "Call to Action (Input)"
-                name: "cta_input"
-                widget: "object"
-                fields:
-                  - {
-                      label: "Display Input?",
-                      name: "shouldDisplay",
-                      widget: "boolean",
-                      default: true,
-                    }
-                  - {
-                      label: "Placeholder Text",
-                      name: "placeholder",
-                      widget: "string",
-                    }
-                  - {
-                      label: "Button Text",
-                      name: "buttonLabel",
-                      widget: "string",
-                    }
-              - label: "Call to Action (Button)"
-                name: "cta_button"
-                widget: "object"
-                fields:
-                  - {
-                      label: "Display Button?",
-                      name: "shouldDisplay",
-                      widget: "boolean",
-                      default: true,
-                    }
-                  - {
-                      label: "Button Link",
-                      name: "buttonLinkRoute",
-                      widget: "select",
-                      options: ["about", "blog", "services", "contact"],
-                    }
-                  - {
-                      label: "Button Text",
-                      name: "buttonLabel",
-                      widget: "string",
-                    }
           - label: "Introduction"
             name: "introduction"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Title", name: "introTitle", widget: "string" }
+              - {
+                  label: "Description",
+                  name: "introDescription",
+                  widget: "text",
+                }
               - label: "Button"
-                name: "button"
+                name: "introAction"
                 widget: "object"
                 fields:
+                  - { label: "Label", name: "actionLabel", widget: "text" }
                   - {
-                      label: "Display Button?",
-                      name: "shouldDisplay",
-                      widget: "boolean",
-                    }
-                  - {
-                      label: "Link to",
-                      name: route,
+                      label: "Go to page",
+                      name: actionRoute,
                       widget: "select",
                       options: ["about", "blog", "services", "contact"],
                     }
@@ -122,19 +88,32 @@ collections:
             name: "testimonials"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Title", name: "testimonialTitle", widget: "string" }
               - label: "Entries"
-                name: "entires"
+                name: "testimonialEntries"
                 widget: "list"
                 fields:
-                  - { label: "Image", name: "image", widget: "image" }
-                  - { label: "Quote", name: "quote", widget: "string" }
+                  - {
+                      label: "Client Image",
+                      name: "clientImage",
+                      widget: "image",
+                    }
                   - {
                       label: "Client Type",
                       name: "clientType",
                       widget: "string",
                     }
-                  - { label: "Location", name: "location", widget: "string" }
+                  - {
+                      label: "Client Location",
+                      name: "clientLocation",
+                      widget: "string",
+                    }
+                  - {
+                      label: "Client Quote",
+                      name: "clientQuote",
+                      widget: "string",
+                    }
+
           - label: "Method"
             name: "method"
             widget: "object"
@@ -151,134 +130,3 @@ collections:
                       name: "description",
                       widget: "text",
                     }
-      - file: "src/pages/services/index.md"
-        label: "Services Page"
-        name: "services"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "services",
-            }
-          - label: "Services"
-            name: "entries"
-            widget: "list"
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Duration", name: "duration", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
-              - { label: "Description", name: "descrption", widget: "string" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Button Label", name: "buttonLabel", widget: "string" }
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "product",
-            }
-          - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Description, name: description, widget: string }
-          - {
-              label: Intro,
-              name: intro,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Blurbs,
-                    name: blurbs,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Main,
-              name: main,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
-                  {
-                    label: Image1,
-                    name: image1,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image2,
-                    name: image2,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image3,
-                    name: image3,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                ],
-            }
-          - {
-              label: Testimonials,
-              name: testimonials,
-              widget: list,
-              fields:
-                [
-                  { label: Quote, name: quote, widget: string },
-                  { label: Author, name: author, widget: string },
-                ],
-            }
-          - { label: Full_image, name: full_image, widget: image }
-          - {
-              label: Pricing,
-              name: pricing,
-              widget: object,
-              fields:
-                [
-                  { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: string },
-                  {
-                    label: Plans,
-                    name: plans,
-                    widget: list,
-                    fields:
-                      [
-                        { label: Plan, name: plan, widget: string },
-                        { label: Price, name: price, widget: string },
-                        {
-                          label: Description,
-                          name: description,
-                          widget: string,
-                        },
-                        { label: Items, name: items, widget: list },
-                      ],
-                  },
-                ],
-            }

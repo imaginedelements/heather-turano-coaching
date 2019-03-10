@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 title: How a man treats you is how he feels about you.
 date: "2018-05-30T12:04:29-04:00"

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 heroImage: /img/img_0105.jpg
 heroImageAlt: Bed Photo
