@@ -12,7 +12,9 @@ const Hero = ({ img, alt, title }) => (
     <div styleName="top">
       <Heading size="h1" copy={`'${title}'`} color="light" />
     </div>
-    <div styleName="bottom">input placeholder</div>
+    <div styleName="bottom">
+      <div>InputPlaceholder</div>
+    </div>
   </section>
 );
 
