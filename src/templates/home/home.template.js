@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Hero, Section, Carosel } from "../../components";
+import { Hero, Section, Carosel, Testimonial } from "../../components";
 import { Paragraph } from "../../components/Typography";
 
 export const HomePageTemplate = ({
@@ -28,12 +28,13 @@ export const HomePageTemplate = ({
       </Section>
       <Section title={testimonialTitle} styleType="alt">
         <Carosel entries={testimonialEntries}>
-          {({ clientType, clientLocation, clientQuote }) => (
-            <div>
-              {clientType}
-              {clientLocation}
-              <Paragraph copy={clientQuote} />
-            </div>
+          {({ clientImage, clientType, clientLocation, clientQuote }) => (
+            <Testimonial
+              image={clientImage}
+              type={clientType}
+              location={clientLocation}
+              quote={clientQuote}
+            />
           )}
         </Carosel>
       </Section>

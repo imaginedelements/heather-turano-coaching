@@ -25,6 +25,7 @@ export const pageQuery = graphql`
         testimonials {
           testimonialTitle
           testimonialEntries {
+            clientImage
             clientType
             clientLocation
             clientQuote

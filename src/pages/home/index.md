@@ -20,9 +20,9 @@ introduction:
     actionLabel: "How can I help you?"
     actionRoute: contact
 testimonials:
-  testimonialTitle: "What people are saying"
+  testimonialTitle: "Hear from the mob"
   testimonialEntries:
-    - clientImage: null
+    - clientImage: /img/backlit-beach-color-258109.jpg
       clientType: "baller ass client"
       clientLocation: "The mother fucking mooon"
       clientQuote: >-
@@ -32,7 +32,7 @@ testimonials:
         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros.
-    - clientImage: null
+    - clientImage: /img/aquatic-bloom-blooming-158465.jpg
       clientType: "baller ass client 2"
       clientLocation: "Your butt"
       clientQuote: >-
@@ -42,7 +42,7 @@ testimonials:
         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros.
-    - clientImage: null
+    - clientImage: /img/zen-stones.jpg
       clientType: "baller ass client 3"
       clientLocation: "Camden, yo"
       clientQuote: >-

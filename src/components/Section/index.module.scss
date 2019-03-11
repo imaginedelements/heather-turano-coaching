@@ -2,6 +2,11 @@
 
 .section {
   padding: 50px 30px;
+  margin-bottom: 50px;
+
+  @include respond_desktop {
+    margin-bottom: 100px !important;
+  }
 
   & > article {
     @include make_flex(row, center, center);
@@ -17,10 +22,6 @@
         max-width: 550px;
       }
     }
-  }
-
-  & + .section {
-    margin-top: 50px;
   }
 
   &.default {

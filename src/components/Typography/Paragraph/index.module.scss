@@ -3,6 +3,10 @@
 p {
   @include font_machine("light", $size: map-get($typography, para));
 
+  & + p {
+    margin-top: 20px;
+  }
+
   &.grayscale-0 {
     color: $color-grayscale-0;
   }

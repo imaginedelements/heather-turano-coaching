@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 import "./index.module.scss";
 
-export const Paragraph = ({ color, copy }) => (
-  <p styleName={`${color}`}>{copy}</p>
+export const Paragraph = ({ color, copy, children }) => (
+  <p styleName={`${color}`}>{copy || children}</p>
 );
 
 Paragraph.propTypes = {
@@ -12,7 +12,7 @@ Paragraph.propTypes = {
    * The text of the paragraph element
    * @type {string}
    */
-  copy: PropTypes.string.isRequired,
+  copy: PropTypes.string,
   /**
    * The color of the text
    * @type {string}
@@ -28,11 +28,14 @@ Paragraph.propTypes = {
     "lightscale-3",
     "invalid",
     "success"
-  ])
+  ]),
+  children: PropTypes.any
 };
 
 Paragraph.defaultProps = {
-  color: "grayscale-1"
+  color: "grayscale-1",
+  copy: null,
+  children: null
 };
 
 export default Paragraph;
