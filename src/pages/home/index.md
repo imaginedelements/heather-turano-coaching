@@ -53,8 +53,8 @@ testimonials:
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros
 method:
-  title: My Methodology
-  undefined:
+  methodTitle: My Methodology
+  methodSteps:
     - description: >-
         Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
         ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
@@ -62,14 +62,14 @@ method:
         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros.
-      icon: faCoffee
+      icon: coffee
       label: discover
     - description: >-
         Donec id elit non mi porta gravida at eget metus. Cras mattis
         consectetur purus sit amet fermentum. Integer posuere erat a ante
         venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla
         sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
-      icon: faList
+      icon: list-ol
       label: plan
     - description: >-
         Maecenas sed diam eget risus varius blandit sit amet non magna. Integer
@@ -77,6 +77,6 @@ method:
         faucibus mollis interdum. Vestibulum id ligula porta felis euismod
         semper. Donec sed odio dui. Maecenas sed diam eget risus varius blandit
         sit amet non magna.
-      icon: faSeedling
+      icon: seedling
       label: grow
 ---

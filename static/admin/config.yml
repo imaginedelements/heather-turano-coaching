@@ -88,7 +88,12 @@ collections:
             name: "testimonials"
             widget: "object"
             fields:
-              - { label: "Title", name: "testimonialTitle", widget: "string" }
+              - {
+                  label: "Title",
+                  name: "testimonialTitle",
+                  widget: "string",
+                  default: "What people are saying",
+                }
               - label: "Entries"
                 name: "testimonialEntries"
                 widget: "list"
@@ -113,14 +118,18 @@ collections:
                       name: "clientQuote",
                       widget: "string",
                     }
-
           - label: "Method"
             name: "method"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
+              - {
+                  label: "Title",
+                  name: "methodTitle",
+                  widget: "string",
+                  default: "My Methodology",
+                }
               - label: "steps"
-                name": "steps"
+                name": "methodSteps"
                 widget: "list"
                 fields:
                   - { label: "Label", name: "label", widget: "string" }
@@ -130,3 +139,9 @@ collections:
                       name: "description",
                       widget: "text",
                     }
+      - file: "src/pages/services/index.mx"
+        label: "Services"
+        name: "services"
+        fields:
+          - { label: "key", name: "key", widget: "hidden", default: "services" }
+          - { label: "Title", name: "title", widget: "string", default: "services" }

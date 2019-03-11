@@ -18,3 +18,5 @@ Content.defaultProps = {
   contentType: "html",
   className: "content"
 };
+
+export default Content;

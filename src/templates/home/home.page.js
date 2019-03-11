@@ -31,6 +31,14 @@ export const pageQuery = graphql`
             clientQuote
           }
         }
+        method {
+          methodTitle
+          methodSteps {
+            description
+            icon
+            label
+          }
+        }
       }
     }
   }
@@ -39,7 +47,7 @@ export const pageQuery = graphql`
 const Home = ({
   data: {
     markdownRemark: {
-      frontmatter: { callToAction, hero, introduction, testimonials }
+      frontmatter: { callToAction, hero, introduction, testimonials, method }
     }
   }
 }) => (
@@ -53,6 +61,7 @@ const Home = ({
       callToAction={callToAction}
       introduction={introduction}
       testimonials={testimonials}
+      method={method}
     />
   </Layout>
 );

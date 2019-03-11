@@ -7,7 +7,10 @@ import {
   faShare,
   faHeart,
   faVideo,
-  faLink
+  faLink,
+  faCoffee,
+  faListOl,
+  faSeedling
 } from "@fortawesome/pro-light-svg-icons";
 import {
   faLongArrowLeft,
@@ -35,7 +38,10 @@ library.add(
   faInstagram,
   faFacebookSquare,
   faPinterest,
-  faLinkedin
+  faLinkedin,
+  faCoffee,
+  faListOl,
+  faSeedling
 );
 
 const Layout = ({ children, ...restProps }) => (
