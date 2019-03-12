@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 title: "Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce"
 date: "2018-06-19T16:19:22-04:00"

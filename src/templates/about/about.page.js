@@ -6,7 +6,7 @@ import { Layout } from "../../components";
 import { AboutPageTemplate } from "./about.template";
 
 export const query = graphql`
-  query($id: String!) {
+  query AboutPageQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

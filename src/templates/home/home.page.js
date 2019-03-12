@@ -9,14 +9,34 @@ export const pageQuery = graphql`
   query HomePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        callToAction {
+          ctaPlaceholder
+          ctaButtonLabel
+        }
         hero {
-          image
-          subTitle
-          title
-          cta_input {
-            buttonLabel
-            placeholder
-            shouldDisplay
+          heroImage
+          heroTitle
+          heroSubTitle
+        }
+        introduction {
+          introTitle
+          introDescription
+        }
+        testimonials {
+          testimonialTitle
+          testimonialEntries {
+            clientImage
+            clientType
+            clientLocation
+            clientQuote
+          }
+        }
+        method {
+          methodTitle
+          methodSteps {
+            description
+            icon
+            label
           }
         }
       }
@@ -27,31 +47,23 @@ export const pageQuery = graphql`
 const Home = ({
   data: {
     markdownRemark: {
-      frontmatter: {
-        hero: {
-          image: heroImage,
-          subTitle: heroSubTitle,
-          title: heroTitle,
-          cta_input: {
-            buttonLabel: heroButtonLabel,
-            placeholder: heroInputPlaceholder,
-            shouldDisplay: shouldHeroInputDisplay
-          }
-        }
-      }
+      frontmatter: { callToAction, hero, introduction, testimonials, method }
     }
   }
-}) => {
-  console.log(heroImage);
-  return (
-    <Layout>
-      <Helmet
-        title="Home | Heather Turano Coaching"
-        bodyAttributes={{ class: "" }}
-      />
-      <HomePageTemplate heroTitle={heroImage} />
-    </Layout>
-  );
-};
+}) => (
+  <Layout>
+    <Helmet
+      title="Home | Heather Turano Coaching"
+      bodyAttributes={{ class: "" }}
+    />
+    <HomePageTemplate
+      hero={hero}
+      callToAction={callToAction}
+      introduction={introduction}
+      testimonials={testimonials}
+      method={method}
+    />
+  </Layout>
+);
 
 export default Home;

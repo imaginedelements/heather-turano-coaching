@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 title: 3 mistakes woman make when first dating a man
 date: "2018-05-30T00:00:00-04:00"

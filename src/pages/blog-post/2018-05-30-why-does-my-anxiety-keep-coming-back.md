@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 title: Why does my anxiety keep coming back?
 date: "2018-05-30T13:44:08-04:00"

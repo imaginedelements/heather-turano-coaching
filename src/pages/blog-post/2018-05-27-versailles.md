@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+key: blog-post
 pageKey: blog-post
 heroImage: /img/products-grid2.jpg
 heroImageAlt: coffee

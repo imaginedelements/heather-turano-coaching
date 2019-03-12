@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Content } from "../../components/Content";
+import { Content, Section } from "../../components";
 
 export const AboutPageTemplate = ({ title, content, contentType }) => (
   <>
-    <div>{title}</div>
-    <Content contentType={contentType} content={content} />
+    <Section title={title}>
+      <Content contentType={contentType} content={content} />
+    </Section>
   </>
 );
 

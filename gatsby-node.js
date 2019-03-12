@@ -16,7 +16,7 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
             }
             frontmatter {
               tags
-              templateKey
+              key
             }
           }
         }
@@ -28,19 +28,17 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
       return Promise.reject(result.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges;
+    const cmsPages = result.data.allMarkdownRemark.edges;
 
-    posts.forEach(edge => {
+    cmsPages.forEach(edge => {
       const id = edge.node.id;
       createPage({
         path:
-          edge.node.frontmatter.templateKey === "home"
-            ? "/"
-            : edge.node.fields.slug,
+          edge.node.frontmatter.key === "home" ? "/" : edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}/${
-            edge.node.frontmatter.templateKey
+          `src/templates/${String(edge.node.frontmatter.key)}/${
+            edge.node.frontmatter.key
           }.page.js`
         ),
         // The context is passed as props to the component as well
@@ -54,7 +52,7 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
     // Tag pages:
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
+    cmsPages.forEach(edge => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags);
       }
