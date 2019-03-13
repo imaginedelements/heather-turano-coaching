@@ -16,7 +16,7 @@ overview:
     Donec sed odio dui. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
 detail:
   detailTitle: "the real heather"
-  detailAvatarImage: "/img/heather-versailles-2.png"
+  detailAvatarImage: "/img/heather-paris-cropped.jpeg"
   detailBlurb: >-
     Donec sed odio dui. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
 callToAction:

@@ -26,6 +26,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      ##### Home
       - file: "src/pages/home/index.md"
         label: "Home"
         name: "home"
@@ -139,6 +140,7 @@ collections:
                       name: "description",
                       widget: "text",
                     }
+      ##### About
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
@@ -194,7 +196,6 @@ collections:
             fields:
               - { label: "Title", name: "overviewTitle", widget: "string" }
               - { label: "Blurb", name: "overviewBlurb", widget: "markdown" }
-
           - label: "Detail"
             name: "detail"
             widget: "object"
@@ -206,7 +207,6 @@ collections:
                   widget: "image",
                 }
               - { label: "Blurb", name: "detailBlurb", widget: "markdown" }
-
           - label: "Call to Action"
             name: "callToAction"
             widget: "object"
@@ -225,15 +225,67 @@ collections:
                   widget: "string",
                   default: "Gimmie that wisdom",
                 }
-
+      ##### Services
       - file: "src/pages/services/index.mx"
         label: "Services"
         name: "services"
         fields:
           - { label: "key", name: "key", widget: "hidden", default: "services" }
-          - {
-              label: "Title",
-              name: "title",
-              widget: "string",
-              default: "services",
-            }
+          - label: "Main"
+            name: "main"
+            widget: "object"
+            fields:
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  default: "services",
+                }
+              - { label: "Blurb", name: "blurb", widget: "text" }
+              - label: "Contact form"
+                name: "contactForm"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Name input placeholder",
+                      name: "inputPlaceholder",
+                      widget: string,
+                    }
+                  - {
+                      label: "Email input placeholder",
+                      name: "emailPlaceholder",
+                      widget: string,
+                    }
+                  - {
+                      label: "Button label",
+                      name: "buttonLabel",
+                      widget: string,
+                    }
+              - label: "Pillars of life"
+                name: "pillars"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Description",
+                      name: "description",
+                      widget: "text",
+                    }
+                  - label: "List of pillars"
+                    name: "pillarList"
+                    widget: "list"
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Icon", name: "icon", widget: "string" }
+                      - { label: "Blurb", name: "blurb", widget: "text" }
+              - label: "Approach"
+                name: "approach"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Title",
+                      name: "title",
+                      widget: "string",
+                      default: "my approach",
+                    }
+                  - { label: "Blurb", name: "blurb", widget: "markdown" }
+                  - { label: "Footer image", name: "image", widget: "image" }
