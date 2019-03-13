@@ -9,4 +9,6 @@ export { default as Stepper } from "./Stepper";
 export { default as Icon } from "./Icon";
 export { default as BackgroundImage } from "./BackgroundImage";
 export { default as Avatar } from "./Avatar";
+export { default as InteractiveCircleList } from "./InteractiveCircleList";
+export { default as FooterImage } from "./FooterImage";
 export { Paragraph, Heading } from "./Typography";

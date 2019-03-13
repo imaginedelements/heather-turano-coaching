@@ -23,6 +23,8 @@ export const Heading = ({ size, color, copy }) => {
       return <h6 styleName={`grouping ${color}`}>{copy}</h6>;
     case "title":
       return <h3 styleName="title">{copy}</h3>;
+    case "subtitle":
+      return <h5 styleName="subtitle">{copy}</h5>;
     default:
       return <h1>{copy}</h1>;
   }
@@ -46,7 +48,8 @@ Heading.propTypes = {
     "section",
     "grouping",
     "para",
-    "title"
+    "title",
+    "subtitle"
   ]),
   /**
    * @type {string}

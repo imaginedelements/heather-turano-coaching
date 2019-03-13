@@ -91,6 +91,19 @@
   }
 }
 
+.subtitle {
+  @extend .title;
+  @include font_machine(regular, $color: $color-grayscale-0, $size: 14px);
+  padding: 20px 50px 10px 50px;
+  margin-bottom: 10px;
+
+  &::after {
+    background: $color-grayscale-0;
+    margin-left: #{calc((10% / 2) * -1)};
+    width: 10%;
+  }
+}
+
 .default,
 .grayscale-0 {
   color: $color-grayscale-0 !important;
