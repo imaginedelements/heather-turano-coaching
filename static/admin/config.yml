@@ -261,31 +261,28 @@ collections:
                       name: "buttonLabel",
                       widget: string,
                     }
-              - label: "Pillars of life"
-                name: "pillars"
-                widget: "object"
+          - label: "Pillars of life"
+            name: "pillars"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "List of pillars"
+                name: "pillarList"
+                widget: "list"
                 fields:
-                  - {
-                      label: "Description",
-                      name: "description",
-                      widget: "text",
-                    }
-                  - label: "List of pillars"
-                    name: "pillarList"
-                    widget: "list"
-                    fields:
-                      - { label: "Title", name: "title", widget: "string" }
-                      - { label: "Icon", name: "icon", widget: "string" }
-                      - { label: "Blurb", name: "blurb", widget: "text" }
-              - label: "Approach"
-                name: "approach"
-                widget: "object"
-                fields:
-                  - {
-                      label: "Title",
-                      name: "title",
-                      widget: "string",
-                      default: "my approach",
-                    }
-                  - { label: "Blurb", name: "blurb", widget: "markdown" }
-                  - { label: "Footer image", name: "image", widget: "image" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Blurb", name: "blurb", widget: "text" }
+          - label: "Approach"
+            name: "approach"
+            widget: "object"
+            fields:
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  default: "my approach",
+                }
+              - { label: "Content", name: "content", widget: "markdown" }
+              - { label: "Footer image", name: "image", widget: "image" }

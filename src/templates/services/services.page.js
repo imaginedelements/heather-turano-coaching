@@ -10,7 +10,29 @@ export const query = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
+        main {
+          title
+          blurb
+          contactForm {
+            inputPlaceholder
+            emailPlaceholder
+            buttonLabel
+          }
+        }
+        pillars {
+          title
+          description
+          pillarList {
+            title
+            icon
+            blurb
+          }
+        }
+        approach {
+          title
+          content
+          image
+        }
       }
     }
   }
@@ -19,9 +41,8 @@ export const query = graphql`
 const Services = ({
   data: {
     markdownRemark: {
-      frontmatter: { title }
-    },
-    html
+      frontmatter: { main, pillars, approach }
+    }
   }
 }) => (
   <Layout>
@@ -29,7 +50,7 @@ const Services = ({
       title="Services | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <ServicesPageTemplate title={title} content={html} contentType="html" />
+    <ServicesPageTemplate main={main} pillars={pillars} approach={approach} />
   </Layout>
 );
 

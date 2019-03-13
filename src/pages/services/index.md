@@ -9,6 +9,7 @@ main:
     emailPlaceholder: "youremail@awesome.com"
     buttonLabel: "Click for knowledge bombs"
 pillars:
+  title: "Key life pillars"
   description: >-
     If one of these areas is struggling we all know that life seems to get a lot more crappy. But When they are in balance you feel a sense of flow and rhythm like a perfectly written John Mayer song. You know that feeling. Let John and I help you tie up the loose ends, find the the missing pieces, so your life can flow in harmony once again.
   pillarList:
@@ -29,6 +30,6 @@ pillars:
       blurb: "Get the passion back in your career by creating an environment that you want to come to every day. If change is what you are searching for, learn my full proof career finder method to finding your true passion and calling in life. create resumes, build portfolios and execute creative writing skills that will get you noticed in no time."
 approach:
   title: "my approach"
-  blurb: "markdown"
+  content: "markdown"
   image: "/img/cactus.jpg"
 ---
