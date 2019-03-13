@@ -1,7 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Section, Paragraph, BackgroundImage } from "../../components";
+import {
+  Section,
+  Paragraph,
+  BackgroundImage,
+  Avatar,
+  SectionItem
+} from "../../components";
 
 export const AboutPageTemplate = ({
   main: {
@@ -30,7 +36,12 @@ export const AboutPageTemplate = ({
       <Paragraph>{overviewBlub}</Paragraph>
     </Section>
     <Section title={detailTitle} styleType="alt">
-      <Paragraph>{detailBlurb}</Paragraph>
+      <SectionItem>
+        <Avatar image={detailAvatarImage} alt="heather avatar" size="lg" />
+      </SectionItem>
+      <SectionItem>
+        <Paragraph>{detailBlurb}</Paragraph>
+      </SectionItem>
     </Section>
     <Section title={ctaTitle}>
       <Paragraph>{ctaBlurb}</Paragraph>
