@@ -3,13 +3,11 @@ import PropTypes from "prop-types";
 import { Paragraph } from "../Typography";
 
 import "./index.module.scss";
+import { Avatar } from "..";
 
 const Testimonial = ({ image, type, location, quote }) => (
   <div styleName="testimonial">
-    <div styleName="image">
-      <div />
-      <img src={image} alt={type} />
-    </div>
+    <Avatar image={image} alt={type} />
     <div styleName="content">
       <Paragraph copy={quote} />
       <div styleName="meta">

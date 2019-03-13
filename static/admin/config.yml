@@ -129,7 +129,7 @@ collections:
                   default: "My Methodology",
                 }
               - label: "steps"
-                name": "methodSteps"
+                name: "methodSteps"
                 widget: "list"
                 fields:
                   - { label: "Label", name: "label", widget: "string" }
@@ -139,9 +139,101 @@ collections:
                       name: "description",
                       widget: "text",
                     }
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - { label: "key", name: "key", widget: "hidden", default: "home" }
+          - label: "Main"
+            name: "main"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "mainTitle", widget: "string" }
+              - { label: "Blurb", name: "mainBlurb", widget: "text" }
+              - label: "Background Image"
+                name: "mainImage"
+                widget: "object"
+                fields:
+                  - { label: "Img", name: "imgLocation", widget: "image" }
+                  - {
+                      label: "Img alternate text",
+                      name: "imgAlt",
+                      widget: "string",
+                      hint: "This text will display if the image is not found",
+                    }
+                  - {
+                      label: "Background image (x position)",
+                      name: "imgXPosition",
+                      widget: "number",
+                      default: 0,
+                      valueType: "int",
+                      ? s
+                        min
+                      : 0,
+                      max: 100,
+                      step: 1,
+                    }
+                  - {
+                      label: "Background image (y position)",
+                      name: "imgYPosition",
+                      default: 0,
+                      valueType: "int",
+                      min: 0,
+                      max: 100,
+                      step: 1,
+                    }
+                  - {
+                      label: "Background image (height)",
+                      name: "imgHeight",
+                      widget: "number",
+                      default: 700,
+                    }
+          - label: "Overview"
+            name: "overview"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "overviewTitle", widget: "string" }
+              - { label: "Blurb", name: "overviewBlurb", widget: "markdown" }
+
+          - label: "Detail"
+            name: "detail"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "detailTitle", widget: "string" }
+              - {
+                  label: "Avatar Image",
+                  name: "detailAvatarImage",
+                  widget: "image",
+                }
+              - { label: "Blurb", name: "detailBlurb", widget: "markdown" }
+
+          - label: "Call to Action"
+            name: "callToAction"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "ctaTitle", widget: "string" }
+              - { label: "Blurb", name: "ctaBlurb", widget: "text" }
+              - {
+                  label: "Input Placeholder Text",
+                  name: "catInputPlaceholder",
+                  widget: "string",
+                  default: "youremail@awesome.com",
+                }
+              - {
+                  label: "Input Button Label",
+                  name: "ctaButtonLabel",
+                  widget: "string",
+                  default: "Gimmie that wisdom",
+                }
+
       - file: "src/pages/services/index.mx"
         label: "Services"
         name: "services"
         fields:
           - { label: "key", name: "key", widget: "hidden", default: "services" }
-          - { label: "Title", name: "title", widget: "string", default: "services" }
+          - {
+              label: "Title",
+              name: "title",
+              widget: "string",
+              default: "services",
+            }

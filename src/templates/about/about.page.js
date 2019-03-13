@@ -5,12 +5,36 @@ import { graphql } from "gatsby";
 import { Layout } from "../../components";
 import { AboutPageTemplate } from "./about.template";
 
-export const query = graphql`
+export const pageQuery = graphql`
   query AboutPageQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
-        title
+        main {
+          mainTitle
+          mainImage {
+            imgAlt
+            imgLocation
+            imgXPosition
+            imgYPosition
+            imgHeight
+          }
+          mainBlurb
+        }
+        overview {
+          overviewTitle
+          overviewBlub
+        }
+        detail {
+          detailTitle
+          detailAvatarImage
+          detailBlurb
+        }
+        callToAction {
+          ctaTitle
+          ctaBlurb
+          ctaInputPlaceholder
+          ctaButtonLabel
+        }
       }
     }
   }
@@ -19,9 +43,8 @@ export const query = graphql`
 const About = ({
   data: {
     markdownRemark: {
-      frontmatter: { title }
-    },
-    html
+      frontmatter: { main, overview, detail, callToAction }
+    }
   }
 }) => (
   <Layout>
@@ -29,7 +52,12 @@ const About = ({
       title="About | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <AboutPageTemplate title={title} content={html} contentType="html" />
+    <AboutPageTemplate
+      main={main}
+      overview={overview}
+      detail={detail}
+      callToAction={callToAction}
+    />
   </Layout>
 );
 
