@@ -6,3 +6,5 @@ export { default as Carosel } from "./Carosel";
 export { default as Testimonial } from "./Testimonial";
 export { default as Stepper } from "./Stepper";
 export { default as Icon } from "./Icon";
+export { default as BackgroundImage } from "./BackgroundImage";
+export { Paragraph, Heading } from "./Typography";
