@@ -30,10 +30,10 @@ export const pageQuery = graphql`
           detailBlurb
         }
         callToAction {
-          ctaButtonLabel
-          catTitle
+          ctaTitle
           ctaBlurb
           ctaInputPlaceholder
+          ctaButtonLabel
         }
       }
     }
@@ -44,8 +44,7 @@ const About = ({
   data: {
     markdownRemark: {
       frontmatter: { main, overview, detail, callToAction }
-    },
-    html
+    }
   }
 }) => (
   <Layout>

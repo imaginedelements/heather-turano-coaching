@@ -20,7 +20,7 @@ detail:
   detailBlurb: >-
     Donec sed odio dui. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
 callToAction:
-  catTitle: "the real heather"
+  ctaTitle: "Wisdom awaits you"
   ctaBlurb: Want more info? Sign up to stay up to date and become way more awesome in the process.
   ctaInputPlaceholder: "youremail@awesome.com"
   ctaButtonLabel: "Gimmie that wisdom"

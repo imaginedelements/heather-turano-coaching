@@ -11,7 +11,7 @@ export const AboutPageTemplate = ({
   },
   overview: { overviewTitle, overviewBlub },
   detail: { detailTitle, detailAvatarImage, detailBlurb },
-  callToAction
+  callToAction: { ctaTitle, ctaBlurb, ctaInputPlaceholder, ctaButtonLabel }
 }) => (
   <>
     <BackgroundImage
@@ -31,6 +31,9 @@ export const AboutPageTemplate = ({
     </Section>
     <Section title={detailTitle} styleType="alt">
       <Paragraph>{detailBlurb}</Paragraph>
+    </Section>
+    <Section title={ctaTitle}>
+      <Paragraph>{ctaBlurb}</Paragraph>
     </Section>
   </>
 );
