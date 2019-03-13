@@ -16,7 +16,7 @@ const Section = ({ styleType, title, children }) => (
 );
 
 Section.propTypes = {
-  styleType: PropTypes.oneOf(["default", "secondary", "alt", "clear"]),
+  styleType: PropTypes.oneOf(["default", "alt", "transparent", "secondary"]),
   title: PropTypes.string.isRequired,
   children: PropTypes.any.isRequired
 };
