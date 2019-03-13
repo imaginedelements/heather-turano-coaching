@@ -2,10 +2,13 @@
 
 .section {
   padding: 50px 30px;
-  margin-bottom: 50px;
 
-  @include respond_desktop {
-    margin-bottom: 100px !important;
+  &:not(:last-child) {
+    margin-bottom: 50px;
+
+    @include respond_desktop {
+      margin-bottom: 100px !important;
+    }
   }
 
   & > article {
