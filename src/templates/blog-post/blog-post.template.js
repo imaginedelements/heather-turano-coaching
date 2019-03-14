@@ -9,8 +9,7 @@ import {
   BlogTagGroup,
   BlogNavigation,
   BlogHero,
-  BlogLayout,
-  BlogFeatures
+  BlogLayout
 } from "../../components/Blog";
 
 export const BlogPostTemplate = ({
@@ -41,14 +40,6 @@ export const BlogPostTemplate = ({
         </BlogContent>
         <BlogNavigation tags={tags} />
       </BlogContainer>
-      <BlogFeatures
-        features={[
-          {
-            title: "Peep the instagram",
-            feature: () => <div>Bomb ass instagram content</div>
-          }
-        ]}
-      />
     </div>
   </BlogLayout>
 );

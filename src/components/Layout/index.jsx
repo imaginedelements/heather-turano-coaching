@@ -23,9 +23,9 @@ import {
 } from "@fortawesome/pro-regular-svg-icons";
 import {
   faInstagram,
-  faFacebookSquare,
+  faFacebook,
   faPinterest,
-  faLinkedin
+  faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 
 import { Header } from "../Header";
@@ -41,9 +41,9 @@ library.add(
   faLongArrowLeft,
   faLongArrowRight,
   faInstagram,
-  faFacebookSquare,
+  faFacebook,
   faPinterest,
-  faLinkedin,
+  faTwitter,
   faCoffee,
   faListOl,
   faSeedling,
