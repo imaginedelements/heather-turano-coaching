@@ -10,12 +10,16 @@ export const query = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
+        key
         description
-        tags
-        heroImage
-        heroImageAlt
+        pageKey
+        protected
+        category
+        thumbnail
+        thumbnailAlt
+        subTitle
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }

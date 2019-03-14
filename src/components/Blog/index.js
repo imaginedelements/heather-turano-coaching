@@ -8,3 +8,4 @@ export { BlogTag } from "./BlogTag";
 export { BlogNavigation } from "./BlogNavigation";
 export { BlogFeatures } from "./BlogFeatures";
 export { BlogList } from "./BlogList";
+export { BlogCard } from "./BlogCard";

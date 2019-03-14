@@ -15,14 +15,51 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "key", name: "key", widget: "hidden", default: "blog-post" }
-      - { label: "Hero Image", name: "heroImage", widget: image }
-      - { label: "Hero Image (alt text)", name: "heroImageAlt", widget: string }
+      - {
+          label: "Is this post protected",
+          name: "protected",
+          widget: "boolean",
+          default: false,
+          hint: "Set this value to true or turn the switch on if you want to make a user enter in their email to view the blog post",
+        }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options:
+            [
+              "Mind Body Wellness",
+              "Relationships",
+              "Communication",
+              "Dating & Love",
+              "Career & Business",
+              "Random life stuff",
+            ],
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          hint: "this is the image that will display on the blog list... not in the actual blog post",
+        }
+      - {
+          label: "Thumbnail (Alt text)",
+          name: "thumbnailAlt",
+          widget: string,
+          hint: "this is the text if the image link is broken (which it probably wont be because drew is a genius",
+        }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sub Title", name: "subTitle", widget: "string" }
+      - { label: "Sub-title", name: "subTitle", widget: "string" }
+
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Prompt",
+          name: "prompt",
+          widget: "text",
+          hint: "This is the text that the user will see in each of the blog cards under the title. It is intended to be a field where you can provide a hook to get your users interested and clicking on the `read more` link",
+        }
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     files:

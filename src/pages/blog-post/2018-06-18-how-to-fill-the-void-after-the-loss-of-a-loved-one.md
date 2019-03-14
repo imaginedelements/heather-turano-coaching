@@ -1,15 +1,20 @@
 ---
 key: blog-post
 pageKey: blog-post
+protected: false
+category: "Random life stuff"
+thumbnail: "/img/products-grid2.jpg"
+thumbnailAlt: "coffee up in this jawn"
 title: How to fill the void after the loss of a loved one
+subTitle: How to fill the void after the loss of a loved one
 date: "2018-06-18T09:53:37-04:00"
-description: >-
+prompt: >-
   Part of life is loss. losing a parent, a friend, a spouse. Depending on when
   this happens in our life, it can have a lasting impact on your patterns and
   thoughts about your future. Learning how to deal with loss is essential to
   living a full and happy life.
 tags:
-  - Lose
+  - Loss
   - loosing a parent
   - losing a loved one
 ---

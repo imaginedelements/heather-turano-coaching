@@ -27,6 +27,13 @@ export const pageQuery = graphql`
           frontmatter {
             title
             key
+            prompt
+            pageKey
+            protected
+            category
+            thumbnail
+            thumbnailAlt
+            subTitle
             date(formatString: "MMMM DD, YYYY")
           }
         }

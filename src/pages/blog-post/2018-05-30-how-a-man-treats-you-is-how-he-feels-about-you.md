@@ -1,9 +1,14 @@
 ---
 key: blog-post
 pageKey: blog-post
+protected: false
+category: "Random life stuff"
+thumbnail: "/img/products-grid2.jpg"
+thumbnailAlt: "coffee up in this jawn"
 title: How a man treats you is how he feels about you.
+subTitle: How a man treats you is how he feels about you.
 date: "2018-05-30T12:04:29-04:00"
-description: >-
+prompt: >-
   Have you ever wondered if a man likes you? Have you ever dated a guy and you
   get mixed signals? Well I am here to clear all the confusion up with this
   simple mantra you can repeat to yourself. "How a man treats me is how he feels

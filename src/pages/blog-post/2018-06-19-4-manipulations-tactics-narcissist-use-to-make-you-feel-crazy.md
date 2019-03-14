@@ -1,9 +1,14 @@
 ---
 key: blog-post
 pageKey: blog-post
+protected: false
+category: "Random life stuff"
+thumbnail: "/img/products-grid2.jpg"
+thumbnailAlt: "coffee up in this jawn"
 title: 4 Manipulations Tactics Narcissist Use To Make you feel Crazy
+subTitle: 4 Manipulations Tactics Narcissist Use To Make you feel Crazy
 date: "2018-06-19T17:23:59-04:00"
-description: >-
+prompt: >-
   Narcissists are not just people that take to many selfies and think highly of
   them selves. We all have narcissistic traits that keep us motivated and help
   us navigate the world in a healthy way. It is when these traits tip the scales

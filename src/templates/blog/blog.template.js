@@ -2,23 +2,46 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Section, Paragraph } from "../../components";
-import { BlogList } from "../../components/Blog";
+import { BlogList, BlogCard } from "../../components/Blog";
 
-const BlogPageTemplate = ({ title, description, posts }) => (
+const BlogPageTemplate = ({
+  title: pageTitle,
+  description: pageDescription,
+  posts
+}) => (
   <>
-    <Section title={title}>
-      <Paragraph>{description}</Paragraph>
+    <Section title={pageTitle}>
+      <Paragraph>{pageDescription}</Paragraph>
     </Section>
-    <BlogList
-      posts={posts.map(({ node }) => ({
-        id: node.id,
-        title: node.frontmatter.title,
-        dateCreated: node.frontmatter.date,
-        key: node.frontmatter.key,
-        excerpt: node.excerpt,
-        viewLinkRoute: node.fields.slug
-      }))}
-    />
+    <BlogList>
+      {posts.map(
+        ({
+          node: {
+            id,
+            fields: { slug: blogLinkRoute },
+            frontmatter: {
+              category,
+              title,
+              prompt,
+              date: dateCreated,
+              thumbnail,
+              thumbnailAlt
+            }
+          }
+        }) => (
+          <BlogCard
+            key={id}
+            category={category}
+            title={title}
+            prompt={prompt}
+            blogLinkRoute={blogLinkRoute}
+            dateCreated={dateCreated}
+            thumbnail={thumbnail}
+            thumbnailAlt={thumbnailAlt}
+          />
+        )
+      )}
+    </BlogList>
   </>
 );
 
