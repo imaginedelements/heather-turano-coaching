@@ -1,5 +1,4 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
 import { Layout } from "../../components";
@@ -38,7 +37,6 @@ const BlogPost = ({
   }
 }) => (
   <Layout>
-    <Helmet title={`${title} | Blog`} />
     <BlogPostTemplate
       content={html}
       contentType="html"

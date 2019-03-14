@@ -9,8 +9,8 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+    label: "Blog Posts"
+    folder: "src/pages/blog-post"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -26,6 +26,14 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      ##### Blog
+      - files: "src/pages/blog/index.md"
+        label: "Blog"
+        name: "blog"
+        fields:
+          - { label: "key", name: "key", widget: "hidden", default: "blog" }
+          - { label: "Title", name: "title", width: "string" }
+          - { label: "Description", name: "description", width: "text" }
       ##### Home
       - file: "src/pages/home/index.md"
         label: "Home"
