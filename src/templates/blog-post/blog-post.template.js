@@ -8,7 +8,6 @@ import {
   BlogContent,
   BlogTagGroup,
   BlogNavigation,
-  BlogHero,
   BlogLayout
 } from "../../components/Blog";
 
@@ -18,12 +17,9 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  dateCreated,
-  heroImage,
-  heroImageAlt
+  dateCreated
 }) => (
   <BlogLayout>
-    <BlogHero heroImage={heroImage} heroImageAlt={heroImageAlt} />
     <div className="content">
       <BlogContainer>
         <BlogHeader
@@ -47,7 +43,6 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.string.isRequired,
   contentType: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   tags: PropTypes.array,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
