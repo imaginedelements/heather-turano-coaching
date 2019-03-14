@@ -1,12 +1,14 @@
 ---
 key: blog-post
 pageKey: blog-post
-heroImage: /img/img_0105.jpg
-heroImageAlt: Bed Photo
+protected: false
+category: "Random life stuff"
+thumbnail: "/img/products-grid2.jpg"
+thumbnailAlt: "coffee up in this jawn"
 title: "When you wake up feeling like crap, do these 5 things."
 subTitle: 5 things to do when you wake up feeling like crap.
 date: "2018-07-10T09:16:14-04:00"
-description: >-
+prompt: >-
   Every one has been there. You sleep like crap and you feel horrible when you
   open your eyes. And then instead of having compassion for yourself, you bet
   yourself up about feeling bad and not being your happiest or best self.

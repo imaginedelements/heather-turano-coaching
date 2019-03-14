@@ -8,9 +8,7 @@ import {
   BlogContent,
   BlogTagGroup,
   BlogNavigation,
-  BlogHero,
-  BlogLayout,
-  BlogFeatures
+  BlogLayout
 } from "../../components/Blog";
 
 export const BlogPostTemplate = ({
@@ -20,11 +18,10 @@ export const BlogPostTemplate = ({
   tags,
   title,
   dateCreated,
-  heroImage,
-  heroImageAlt
+  pagePrev,
+  pageNext
 }) => (
   <BlogLayout>
-    <BlogHero heroImage={heroImage} heroImageAlt={heroImageAlt} />
     <div className="content">
       <BlogContainer>
         <BlogHeader
@@ -37,18 +34,10 @@ export const BlogPostTemplate = ({
         />
         <BlogContent>
           <Content contentType={contentType} content={content} />
-          <BlogTagGroup tags={tags} />
+          {tags && <BlogTagGroup tags={tags} />}
         </BlogContent>
-        <BlogNavigation tags={tags} />
+        <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
       </BlogContainer>
-      <BlogFeatures
-        features={[
-          {
-            title: "Peep the instagram",
-            feature: () => <div>Bomb ass instagram content</div>
-          }
-        ]}
-      />
     </div>
   </BlogLayout>
 );
@@ -56,10 +45,7 @@ export const BlogPostTemplate = ({
 BlogPostTemplate.propTypes = {
   content: PropTypes.string.isRequired,
   contentType: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   tags: PropTypes.array,
   title: PropTypes.string.isRequired,
-  dateCreated: PropTypes.string.isRequired,
-  heroImage: PropTypes.string.isRequired,
-  heroImageAlt: PropTypes.string.isRequired
+  dateCreated: PropTypes.string.isRequired
 };

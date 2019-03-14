@@ -1,9 +1,14 @@
 ---
 key: blog-post
 pageKey: blog-post
+protected: false
+category: "Random life stuff"
+thumbnail: "/img/products-grid2.jpg"
+thumbnailAlt: "coffee up in this jawn"
 title: "Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce"
+subTitle: "Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce"
 date: "2018-06-19T16:19:22-04:00"
-description: >-
+prompt: >-
   So you are now single and ready to date after years off the market. There
   could be new ways of meeting people that never existed when you were last
   single. Maybe you even forget how to flirt or what to wear on a date.  Here

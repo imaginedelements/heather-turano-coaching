@@ -1,17 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { BlogListItem } from "./BlogListItem";
 import "./index.module.scss";
 
-export const BlogList = ({ posts }) => (
-  <ul styleName="blog-list">
-    {posts.map((post, i) => (
-      <BlogListItem key={post.id} {...post} />
-    ))}
-  </ul>
+export const BlogList = ({ children }) => (
+  <ul styleName="blog-list">{children}</ul>
 );
 
 BlogList.propTypes = {
-  posts: PropTypes.array.isRequired
+  children: PropTypes.any.isRequired
 };

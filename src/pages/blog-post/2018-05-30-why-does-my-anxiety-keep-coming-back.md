@@ -1,9 +1,14 @@
 ---
 key: blog-post
 pageKey: blog-post
+protected: false
+category: "Random life stuff"
+thumbnail: "/img/products-grid2.jpg"
+thumbnailAlt: "coffee up in this jawn"
 title: Why does my anxiety keep coming back?
+subTitle: Why does my anxiety keep coming back?
 date: "2018-05-30T13:44:08-04:00"
-description: what is anxiety? why do i get it? and how can I get rid of it?
+prompt: what is anxiety? why do i get it? and how can I get rid of it?
 tags:
   - anexity
   - ""

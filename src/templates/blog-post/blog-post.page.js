@@ -1,5 +1,4 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
 import { Layout } from "../../components";
@@ -11,12 +10,16 @@ export const query = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
         title
+        key
         description
-        tags
-        heroImage
-        heroImageAlt
+        pageKey
+        protected
+        category
+        thumbnail
+        thumbnailAlt
+        subTitle
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }
@@ -26,19 +29,12 @@ const BlogPost = ({
   data: {
     markdownRemark: {
       html,
-      frontmatter: {
-        date: dateCreated,
-        title,
-        description,
-        tags,
-        heroImage,
-        heroImageAlt
-      }
+      frontmatter: { date: dateCreated, title, description, tags }
     }
-  }
+  },
+  pageContext: { pagePrev, pageNext }
 }) => (
   <Layout>
-    <Helmet title={`${title} | Blog`} />
     <BlogPostTemplate
       content={html}
       contentType="html"
@@ -46,8 +42,8 @@ const BlogPost = ({
       tags={tags}
       title={title}
       dateCreated={dateCreated}
-      heroImage={heroImage}
-      heroImageAlt={heroImageAlt}
+      pagePrev={pagePrev}
+      pageNext={pageNext}
     />
   </Layout>
 );
