@@ -30,8 +30,12 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
 
     const cmsPages = result.data.allMarkdownRemark.edges;
 
-    cmsPages.forEach(edge => {
+    cmsPages.forEach((edge, i, arr) => {
       const id = edge.node.id;
+      const prevPage = arr[i - 1];
+      const nextPage = arr[i + 1];
+      console.log(prevPage, nextPage);
+
       createPage({
         path:
           edge.node.frontmatter.key === "home" ? "/" : edge.node.fields.slug,
@@ -44,7 +48,15 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
         // The context is passed as props to the component as well
         // as into the component's GraphQL query.
         context: {
-          id
+          id,
+          pagePrev:
+            prevPage && prevPage.node.frontmatter.key === "blog-post"
+              ? prevPage.node.fields.slug
+              : null,
+          pageNext:
+            nextPage && nextPage.node.frontmatter.key === "blog-post"
+              ? nextPage.node.fields.slug
+              : null
         }
       });
     });

@@ -17,7 +17,9 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
-  dateCreated
+  dateCreated,
+  pagePrev,
+  pageNext
 }) => (
   <BlogLayout>
     <div className="content">
@@ -32,9 +34,9 @@ export const BlogPostTemplate = ({
         />
         <BlogContent>
           <Content contentType={contentType} content={content} />
-          <BlogTagGroup tags={tags} />
+          {tags && <BlogTagGroup tags={tags} />}
         </BlogContent>
-        <BlogNavigation tags={tags} />
+        <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
       </BlogContainer>
     </div>
   </BlogLayout>
@@ -45,7 +47,5 @@ BlogPostTemplate.propTypes = {
   contentType: PropTypes.string.isRequired,
   tags: PropTypes.array,
   title: PropTypes.string.isRequired,
-  dateCreated: PropTypes.string.isRequired,
-  heroImage: PropTypes.string.isRequired,
-  heroImageAlt: PropTypes.string.isRequired
+  dateCreated: PropTypes.string.isRequired
 };

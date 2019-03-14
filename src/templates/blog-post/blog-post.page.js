@@ -29,16 +29,10 @@ const BlogPost = ({
   data: {
     markdownRemark: {
       html,
-      frontmatter: {
-        date: dateCreated,
-        title,
-        description,
-        tags,
-        heroImage,
-        heroImageAlt
-      }
+      frontmatter: { date: dateCreated, title, description, tags }
     }
-  }
+  },
+  pageContext: { pagePrev, pageNext }
 }) => (
   <Layout>
     <BlogPostTemplate
@@ -48,8 +42,8 @@ const BlogPost = ({
       tags={tags}
       title={title}
       dateCreated={dateCreated}
-      heroImage={heroImage}
-      heroImageAlt={heroImageAlt}
+      pagePrev={pagePrev}
+      pageNext={pageNext}
     />
   </Layout>
 );
