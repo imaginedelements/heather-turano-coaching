@@ -29,14 +29,14 @@ const AboutPagePreview = ({ entry, getAsset }) => (
     }}
     overview={{
       overviewTitle: entry.getIn(["data", "overview", "overviewTitle"]),
-      overviewBlub: entry.getIn(["data", "overview", "overviewBlub"])
+      body: entry.getIn(["data", "overview", "body"])
     }}
     detail={{
       detailTitle: entry.getIn(["data", "detail", "detailTitle"]),
       detailAvatarImage: getAsset(
         entry.getIn(["data", "detail", "detailAvatarImage"])
       ),
-      detailBlurb: entry.getIn(["data", "overview", "detailBlurb"])
+      body: entry.getIn(["data", "overview", "body"])
     }}
     callToAction={{
       ctaTitle: entry.getIn(["data", "callToAction", "ctaTitle"]),

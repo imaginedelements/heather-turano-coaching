@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { HomePageTemplate } from "../../templates/home/home.template";
 
-const AboutPagePreview = ({ entry, getAsset }) => (
+const HomePagePreview = ({ entry, getAsset }) => (
   <HomePageTemplate
     callToAction={{
       ctaPlaceholder: entry.getIn(["data", "callToAction", "ctaPlaceholder"]),
@@ -50,11 +50,11 @@ const AboutPagePreview = ({ entry, getAsset }) => (
   />
 );
 
-AboutPagePreview.propTypes = {
+HomePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
   }),
-  widgetFor: PropTypes.func
+  getAsset: PropTypes.func
 };
 
-export default AboutPagePreview;
+export default HomePagePreview;
