@@ -269,7 +269,7 @@ collections:
                   default: "Gimmie that wisdom",
                 }
       ##### Services
-      - file: "src/pages/services/index.mx"
+      - file: "src/pages/services/index.md"
         label: "Services"
         name: "services"
         fields:
@@ -327,5 +327,5 @@ collections:
                   widget: "string",
                   default: "my approach",
                 }
-              - { label: "Content", name: "content", widget: "markdown" }
+              - { label: "Content", name: "body", widget: "markdown" }
               - { label: "Footer image", name: "image", widget: "image" }

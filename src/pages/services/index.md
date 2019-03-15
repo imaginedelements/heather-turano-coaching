@@ -30,6 +30,6 @@ pillars:
       blurb: "Get the passion back in your career by creating an environment that you want to come to every day. If change is what you are searching for, learn my full proof career finder method to finding your true passion and calling in life. create resumes, build portfolios and execute creative writing skills that will get you noticed in no time."
 approach:
   title: "my approach"
-  content: "markdown"
+  body: "markdown"
   image: "/img/cactus.jpg"
 ---

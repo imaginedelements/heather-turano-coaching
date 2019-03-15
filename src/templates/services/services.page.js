@@ -30,7 +30,7 @@ export const query = graphql`
         }
         approach {
           title
-          content
+          body
           image
         }
       }
