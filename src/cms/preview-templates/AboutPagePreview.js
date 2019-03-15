@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { AboutPageTemplate } from "../../templates/about/about.template";
 
-const AboutPagePreview = ({ entry, widgetFor, getAsset }) => (
+const AboutPagePreview = ({ entry, getAsset }) => (
   <AboutPageTemplate
     main={{
       mainTitle: entry.getIn(["data", "main", "mainTitle"]),
