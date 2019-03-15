@@ -4,8 +4,10 @@ import { AboutPageTemplate } from "../../templates/about/about.template";
 
 const AboutPagePreview = ({ entry, widgetFor }) => (
   <AboutPageTemplate
-    title={entry.getIn(["data", "title"])}
-    content={widgetFor("body")}
+    main={entry.getIn(["data", "main"])}
+    overview={entry.getIn(["data", "overview"])}
+    detail={entry.getIn(["data", "detail"])}
+    callToAction={entry.getIn(["data", "callToAction"])}
   />
 );
 
