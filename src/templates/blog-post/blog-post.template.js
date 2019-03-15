@@ -11,7 +11,7 @@ import {
   BlogLayout
 } from "../../components/Blog";
 
-export const BlogPostTemplate = ({
+export const BlogPostPageTemplate = ({
   title,
   description,
   dateCreated,
@@ -42,7 +42,7 @@ export const BlogPostTemplate = ({
   </BlogLayout>
 );
 
-BlogPostTemplate.propTypes = {
+BlogPostPageTemplate.propTypes = {
   content: PropTypes.string.isRequired,
   contentType: PropTypes.string.isRequired,
   tags: PropTypes.array,

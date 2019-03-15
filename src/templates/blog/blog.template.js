@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Section, Paragraph } from "../../components";
 import { BlogList, BlogCard } from "../../components/Blog";
 
-const BlogPageTemplate = ({
+export const BlogPageTemplate = ({
   title: pageTitle,
   description: pageDescription,
   posts

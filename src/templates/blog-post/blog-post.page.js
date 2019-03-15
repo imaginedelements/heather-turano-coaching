@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import { Layout } from "../../components";
-import { BlogPostTemplate } from "./blog-post.template";
+import { BlogPostPageTemplate } from "./blog-post.template";
 
 export const query = graphql`
   query BlogPostQuery($id: String!) {
@@ -35,7 +35,7 @@ const BlogPost = ({
   pageContext: { pagePrev, pageNext }
 }) => (
   <Layout>
-    <BlogPostTemplate
+    <BlogPostPageTemplate
       content={html}
       contentType="html"
       description={description}

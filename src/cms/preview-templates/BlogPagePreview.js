@@ -1,0 +1,18 @@
+import React from "react";
+import PropTypes from "prop-types";
+import { BlogPageTemplate } from "../../templates/blog/blog.template";
+
+const BlogPostPreview = ({ entry }) => (
+  <BlogPageTemplate
+    title={entry.getIn(["data", "title"])}
+    description={entry.getIn(["data", "description"])}
+  />
+);
+
+BlogPostPreview.propTypes = {
+  entry: PropTypes.shape({
+    getIn: PropTypes.func
+  })
+};
+
+export default BlogPostPreview;

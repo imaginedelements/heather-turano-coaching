@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BlogPostTemplate } from "../../templates/blog-post/blog-post.template";
+import { BlogPostPageTemplate } from "../../templates/blog-post/blog-post.template";
 
-const BlogPostPreview = ({ entry, widgetFor }) => (
-  <BlogPostTemplate
+const BlogPostPagePreview = ({ entry, widgetFor }) => (
+  <BlogPostPageTemplate
     title={entry.getIn(["data", "title"])}
     description={entry.getIn(["data", "description"])}
     dateCreated={entry.getIn(["data", "date"])}
@@ -12,11 +12,11 @@ const BlogPostPreview = ({ entry, widgetFor }) => (
   />
 );
 
-BlogPostPreview.propTypes = {
+BlogPostPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
   }),
   widgetFor: PropTypes.func
 };
 
-export default BlogPostPreview;
+export default BlogPostPagePreview;
