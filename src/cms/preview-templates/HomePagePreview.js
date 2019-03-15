@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { HomePageTemplate } from "../../templates/about/about.template";
+import { HomePageTemplate } from "../../templates/home/home.template";
 
 const AboutPagePreview = ({ entry, getAsset }) => (
   <HomePageTemplate
