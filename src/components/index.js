@@ -11,4 +11,5 @@ export { default as BackgroundImage } from "./BackgroundImage";
 export { default as Avatar } from "./Avatar";
 export { default as InteractiveCircleList } from "./InteractiveCircleList";
 export { default as FooterImage } from "./FooterImage";
+export { default as UnderConstruction } from "./UnderConstruction";
 export { Paragraph, Heading } from "./Typography";

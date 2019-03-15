@@ -30,6 +30,7 @@ import {
 
 import { Header } from "../Header";
 import { Footer } from "../Footer";
+import { UnderConstruction } from "../UnderConstruction";
 
 import "./index.module.scss";
 
@@ -55,32 +56,34 @@ library.add(
 );
 
 const Layout = ({ children, ...restProps }) => (
-  <div styleName="main">
-    <Helmet
-      title="Home | Heather Turano Coaching"
-      bodyAttributes={{ class: "" }}
-    />
-    <Header
-      {...restProps}
-      navItems={[
-        {
-          title: "home",
-          route: "/"
-        },
-        {
-          title: "about"
-        },
-        {
-          title: "services"
-        },
-        {
-          title: "blog"
-        }
-      ]}
-    />
-    <section styleName="content">{children}</section>
-    <Footer />
-  </div>
+  <UnderConstruction>
+    <div styleName="main">
+      <Helmet
+        title="Home | Heather Turano Coaching"
+        bodyAttributes={{ class: "" }}
+      />
+      <Header
+        {...restProps}
+        navItems={[
+          {
+            title: "home",
+            route: "/"
+          },
+          {
+            title: "about"
+          },
+          {
+            title: "services"
+          },
+          {
+            title: "blog"
+          }
+        ]}
+      />
+      <section styleName="content">{children}</section>
+      <Footer />
+    </div>
+  </UnderConstruction>
 );
 
 Layout.propTypes = {
