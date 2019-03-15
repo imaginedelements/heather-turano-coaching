@@ -5,41 +5,327 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+    label: "Blog Posts"
+    folder: "src/pages/blog-post"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - { label: "key", name: "key", widget: "hidden", default: "blog-post" }
+      - {
+          label: "Is this post protected",
+          name: "protected",
+          widget: "boolean",
+          default: false,
+          hint: "Set this value to true or turn the switch on if you want to make a user enter in their email to view the blog post",
+        }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options:
+            [
+              "Mind Body Wellness",
+              "Relationships",
+              "Communication",
+              "Dating & Love",
+              "Career & Business",
+              "Random life stuff",
+            ],
+        }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: image,
+          hint: "this is the image that will display on the blog list... not in the actual blog post",
+        }
+      - {
+          label: "Thumbnail (Alt text)",
+          name: "thumbnailAlt",
+          widget: string,
+          hint: "this is the text if the image link is broken (which it probably wont be because drew is a genius",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Sub-title", name: "subTitle", widget: "string" }
 
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Prompt",
+          name: "prompt",
+          widget: "text",
+          hint: "This is the text that the user will see in each of the blog cards under the title. It is intended to be a field where you can provide a hook to get your users interested and clicking on the `read more` link",
+        }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     files:
+      ##### Blog
+      - file: "src/pages/blog/index.md"
+        label: "Blog"
+        name: "blog"
+        fields:
+          - { label: "key", name: "key", widget: "hidden", default: "blog" }
+          - { label: "Title", name: "title", width: "string" }
+          - { label: "Description", name: "description", width: "text" }
+      ##### Home
+      - file: "src/pages/home/index.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - { label: "key", name: "key", widget: "hidden", default: "home" }
+          - label: "Call to action"
+            name: "callToAction"
+            widget: "object"
+            fields:
+              - {
+                  label: "Input placeholder text",
+                  name: "ctaPlaceholder",
+                  widget: "string",
+                  defaut: "youremailaddress@isawesome.com",
+                }
+              - {
+                  label: "Button label",
+                  name: "ctaButtonLabel",
+                  widget: "string",
+                }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "heroImage", widget: "image" }
+              - {
+                  label: "Title",
+                  name: "heroTitle",
+                  widget: "string",
+                  default: "Love yourself first",
+                }
+              - {
+                  label: "Sub-title",
+                  name: "heroSubTitle",
+                  widget: "string",
+                  default: null,
+                }
+          - label: "Introduction"
+            name: "introduction"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "introTitle", widget: "string" }
+              - {
+                  label: "Description",
+                  name: "introDescription",
+                  widget: "text",
+                }
+              - label: "Button"
+                name: "introAction"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "actionLabel", widget: "text" }
+                  - {
+                      label: "Go to page",
+                      name: actionRoute,
+                      widget: "select",
+                      options: ["about", "blog", "services", "contact"],
+                    }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - {
+                  label: "Title",
+                  name: "testimonialTitle",
+                  widget: "string",
+                  default: "What people are saying",
+                }
+              - label: "Entries"
+                name: "testimonialEntries"
+                widget: "list"
+                fields:
+                  - {
+                      label: "Client Image",
+                      name: "clientImage",
+                      widget: "image",
+                    }
+                  - {
+                      label: "Client Type",
+                      name: "clientType",
+                      widget: "string",
+                    }
+                  - {
+                      label: "Client Location",
+                      name: "clientLocation",
+                      widget: "string",
+                    }
+                  - {
+                      label: "Client Quote",
+                      name: "clientQuote",
+                      widget: "string",
+                    }
+          - label: "Method"
+            name: "method"
+            widget: "object"
+            fields:
+              - {
+                  label: "Title",
+                  name: "methodTitle",
+                  widget: "string",
+                  default: "My Methodology",
+                }
+              - label: "steps"
+                name: "methodSteps"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - {
+                      label: "Description",
+                      name: "description",
+                      widget: "text",
+                    }
+      ##### About
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
+          - { label: "key", name: "key", widget: "hidden", default: "home" }
+          - label: "Main"
+            name: "main"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "mainTitle", widget: "string" }
+              - { label: "Blurb", name: "mainBlurb", widget: "text" }
+              - label: "Background Image"
+                name: "mainImage"
+                widget: "object"
+                fields:
+                  - { label: "Img", name: "imgLocation", widget: "image" }
+                  - {
+                      label: "Img alternate text",
+                      name: "imgAlt",
+                      widget: "string",
+                      hint: "This text will display if the image is not found",
+                    }
+                  - {
+                      label: "Background image (x position)",
+                      name: "imgXPosition",
+                      widget: "number",
+                      default: 0,
+                      valueType: "int",
+                      min: 0,
+                      max: 100,
+                      step: 1,
+                    }
+                  - {
+                      label: "Background image (y position)",
+                      name: "imgYPosition",
+                      default: 0,
+                      valueType: "int",
+                      min: 0,
+                      max: 100,
+                      step: 1,
+                    }
+                  - {
+                      label: "Background image (height)",
+                      name: "imgHeight",
+                      widget: "number",
+                      default: 700,
+                    }
+          - label: "Overview"
+            name: "overview"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "overviewTitle", widget: "string" }
+              - { label: "Blurb", name: "body", widget: "markdown" }
+          - label: "Detail"
+            name: "detail"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "detailTitle", widget: "string" }
+              - {
+                  label: "Avatar Image",
+                  name: "detailAvatarImage",
+                  widget: "image",
+                }
+              - { label: "Blurb", name: "body", widget: "markdown" }
+          - label: "Call to Action"
+            name: "callToAction"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "ctaTitle", widget: "string" }
+              - { label: "Blurb", name: "ctaBlurb", widget: "text" }
+              - {
+                  label: "Input Placeholder Text",
+                  name: "catInputPlaceholder",
+                  widget: "string",
+                  default: "youremail@awesome.com",
+                }
+              - {
+                  label: "Input Button Label",
+                  name: "ctaButtonLabel",
+                  widget: "string",
+                  default: "Gimmie that wisdom",
+                }
+      ##### Services
+      - file: "src/pages/services/index.md"
+        label: "Services"
+        name: "services"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - { label: "key", name: "key", widget: "hidden", default: "services" }
+          - label: "Main"
+            name: "main"
+            widget: "object"
+            fields:
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  default: "services",
+                }
+              - { label: "Blurb", name: "blurb", widget: "text" }
+              - label: "Contact form"
+                name: "contactForm"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Name input placeholder",
+                      name: "inputPlaceholder",
+                      widget: string,
+                    }
+                  - {
+                      label: "Email input placeholder",
+                      name: "emailPlaceholder",
+                      widget: string,
+                    }
+                  - {
+                      label: "Button label",
+                      name: "buttonLabel",
+                      widget: string,
+                    }
+          - label: "Pillars of life"
+            name: "pillars"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "List of pillars"
+                name: "pillarList"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Blurb", name: "blurb", widget: "text" }
+          - label: "Approach"
+            name: "approach"
+            widget: "object"
+            fields:
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "string",
+                  default: "my approach",
+                }
+              - { label: "Content", name: "body", widget: "markdown" }
+              - { label: "Footer image", name: "image", widget: "image" }

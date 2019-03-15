@@ -4,6 +4,24 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./static/img/favicon.png",
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          opengraph: false,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-react-css-modules`,
       options: {
         filetypes: {
