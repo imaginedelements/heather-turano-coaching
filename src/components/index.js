@@ -12,4 +12,5 @@ export { default as Avatar } from "./Avatar";
 export { default as InteractiveCircleList } from "./InteractiveCircleList";
 export { default as FooterImage } from "./FooterImage";
 export { default as UnderConstruction } from "./UnderConstruction";
+export { default as MarkdownWrapper } from "./MarkdownWrapper";
 export { Paragraph, Heading } from "./Typography";

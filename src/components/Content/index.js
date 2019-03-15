@@ -1,9 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { MarkdownWrapper } from "..";
 
 export const Content = ({ contentType, className, content }) =>
   contentType === "html" ? (
-    <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
+    <MarkdownWrapper>
+      <div
+        className={className}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
+    </MarkdownWrapper>
   ) : (
     <div className={className}>{content}</div>
   );

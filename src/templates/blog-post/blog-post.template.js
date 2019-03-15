@@ -1,11 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Content } from "../../components/Content";
+import { Content } from "../../components";
 import {
   BlogContainer,
   BlogHeader,
-  BlogContent,
   BlogTagGroup,
   BlogNavigation,
   BlogLayout
@@ -32,10 +31,8 @@ export const BlogPostPageTemplate = ({
           dateCreated={dateCreated}
           author="Heather Turano"
         />
-        <BlogContent>
-          <Content contentType={contentType} content={content} />
-          {tags && <BlogTagGroup tags={tags} />}
-        </BlogContent>
+        <Content contentType={contentType} content={content} />
+        {tags && <BlogTagGroup tags={tags} />}
         <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
       </BlogContainer>
     </div>

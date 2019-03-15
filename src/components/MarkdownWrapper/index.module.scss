@@ -1,9 +1,7 @@
 @import "src/styles/mixins/index";
 
-.blog-content {
+.markdown {
   display: block;
-  padding-bottom: 30px;
-  border-bottom: 1px solid $color-lightscale-0;
 
   * ~ p {
     margin-bottom: 15px;
