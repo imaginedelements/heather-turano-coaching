@@ -22,12 +22,12 @@ export const pageQuery = graphql`
         }
         overview {
           overviewTitle
-          overviewBlub
+          body
         }
         detail {
           detailTitle
           detailAvatarImage
-          detailBlurb
+          body
         }
         callToAction {
           ctaTitle

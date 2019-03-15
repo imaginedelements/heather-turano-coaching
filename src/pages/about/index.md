@@ -12,12 +12,12 @@ main:
     Honestly, I’m just like you… but in Paris. because, well, life right! I was put on this earth to guide, mentor, and enlighten people to approach life in a balanced manner, and to see themselves as a temple when external influences halt them from doing so. Whatever you’re going through, all be it relationship trouble, work angst, or clouded judgement, I’m here to listen, understand, and guide.
 overview:
   overviewTitle: "Let's go deeper"
-  overviewBlub: >-
+  body: >-
     Donec sed odio dui. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
 detail:
   detailTitle: "the real heather"
   detailAvatarImage: "/img/heather-paris-cropped.jpeg"
-  detailBlurb: >-
+  body: >-
     Donec sed odio dui. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
 callToAction:
   ctaTitle: "Wisdom awaits you"

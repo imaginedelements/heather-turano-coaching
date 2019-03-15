@@ -6,7 +6,8 @@ import {
   Paragraph,
   BackgroundImage,
   Avatar,
-  SectionItem
+  SectionItem,
+  Content
 } from "../../components";
 
 export const AboutPageTemplate = ({
@@ -15,8 +16,8 @@ export const AboutPageTemplate = ({
     mainImage: { imgLocation, imgAlt, imgXPosition, imgYPosition, imgHeight },
     mainBlurb
   },
-  overview: { overviewTitle, overviewBlub },
-  detail: { detailTitle, detailAvatarImage, detailBlurb },
+  overview: { overviewTitle, body: overviewBody },
+  detail: { detailTitle, detailAvatarImage, body: detailBody },
   callToAction: { ctaTitle, ctaBlurb, ctaInputPlaceholder, ctaButtonLabel }
 }) => (
   <>
@@ -33,14 +34,14 @@ export const AboutPageTemplate = ({
       </Section>
     </BackgroundImage>
     <Section title={overviewTitle}>
-      <Paragraph>{overviewBlub}</Paragraph>
+      <Content content={overviewBody} contentType="html" />
     </Section>
     <Section title={detailTitle} styleType="alt">
       <SectionItem>
         <Avatar image={detailAvatarImage} alt="heather avatar" size="lg" />
       </SectionItem>
       <SectionItem>
-        <Paragraph>{detailBlurb}</Paragraph>
+        <Content content={detailBody} contentType="html" />
       </SectionItem>
     </Section>
     <Section title={ctaTitle}>
