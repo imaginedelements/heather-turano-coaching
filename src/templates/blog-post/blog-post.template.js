@@ -12,12 +12,12 @@ import {
 } from "../../components/Blog";
 
 export const BlogPostTemplate = ({
+  title,
+  description,
+  dateCreated,
   content,
   contentType,
-  description,
   tags,
-  title,
-  dateCreated,
   pagePrev,
   pageNext
 }) => (
