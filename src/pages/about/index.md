@@ -1,12 +1,18 @@
 ---
 main:
   mainBlurb: >-
-    Honestly, I’m just like you… but in Paris. because, well, life right! I was
-    put on this earth to guide, mentor, and enlighten people to approach life in
-    a balanced manner and to see themselves as a temple when external influences
-    halt them from doing so. Whatever you’re going through, all be it
-    relationship trouble, work angst, or clouded judgment, I’m here to listen,
-    understand, and guide.
+    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis,
+    est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+    nec elit. Aenean lacinia bibendum nulla sed consectetur. Sed posuere
+    consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque
+    nisl consectetur et.
+
+
+    Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus
+    porttitor. Vestibulum id ligula porta felis euismod semper. Integer posuere
+    erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor
+    fringilla.
   mainImage:
     imgAlt: heather in versailles
     imgHeight: 700
