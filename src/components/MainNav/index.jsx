@@ -10,7 +10,7 @@ const MainNav = ({ navItems }) => (
       {navItems.map(({ title, route }) => (
         <li key={title}>
           <Link
-            to={`/${route || title}`}
+            to={`${route || title}`}
             styleName="link"
             activeClassName={styles.active}
           >

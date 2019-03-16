@@ -128,7 +128,7 @@ collections:
                       label: "Go to page",
                       name: actionRoute,
                       widget: "select",
-                      options: ["about", "blog", "services", "contact"],
+                      options: ["about", "blog", "work-with-me", "contact"],
                     }
           - label: "Testimonials"
             name: "testimonials"
@@ -268,22 +268,22 @@ collections:
                   widget: "string",
                   default: "Gimmie that wisdom",
                 }
-      ##### Services
-      - file: "src/pages/services/index.md"
-        label: "Services"
-        name: "services"
+      ##### Work with me
+      - file: "src/pages/work-with-me/index.md"
+        label: "Work with me"
+        name: "work-with-me"
         fields:
-          - { label: "key", name: "key", widget: "hidden", default: "services" }
+          - {
+              label: "key",
+              name: "key",
+              widget: "hidden",
+              default: "work-with-me",
+            }
           - label: "Main"
             name: "main"
             widget: "object"
             fields:
-              - {
-                  label: "Title",
-                  name: "title",
-                  widget: "string",
-                  default: "services",
-                }
+              - { label: "Title", name: "title", widget: "string" }
               - { label: "Blurb", name: "blurb", widget: "text" }
               - label: "Contact form"
                 name: "contactForm"

@@ -10,7 +10,7 @@ import {
   InteractiveCircleList
 } from "../../components";
 
-export const ServicesPageTemplate = ({
+export const WorkWithMePageTemplate = ({
   main: {
     title: mainTitle,
     blurb: mainBlurb
@@ -46,7 +46,7 @@ export const ServicesPageTemplate = ({
   </>
 );
 
-ServicesPageTemplate.propTypes = {
+WorkWithMePageTemplate.propTypes = {
   main: PropTypes.object.isRequired,
   pillars: PropTypes.object.isRequired,
   approach: PropTypes.object.isRequired

@@ -10,6 +10,7 @@ export { default as Avatar } from "./Avatar";
 export { default as InteractiveCircleList } from "./InteractiveCircleList";
 export { default as FooterImage } from "./FooterImage";
 export { default as Header } from "./Header";
+export { default as MainNav } from "./MainNav";
 export { default as Footer } from "./Footer";
 export { default as UnderConstruction } from "./UnderConstruction";
 export { default as MarkdownWrapper } from "./MarkdownWrapper";

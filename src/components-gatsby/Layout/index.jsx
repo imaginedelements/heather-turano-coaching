@@ -53,32 +53,34 @@ library.add(
   faCoffeeTogo
 );
 
+const menuItems = [
+  {
+    title: "home",
+    route: "/"
+  },
+  {
+    title: "about",
+    route: "/about"
+  },
+  {
+    title: "work with me",
+    route: "/work-with-me"
+  },
+  {
+    title: "blog",
+    route: "/blog"
+  }
+];
+
 const Layout = ({ children, ...restProps }) => (
   <div styleName="main">
     <Helmet
       title="Home | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <Header
-      {...restProps}
-      navItems={[
-        {
-          title: "home",
-          route: "/"
-        },
-        {
-          title: "about"
-        },
-        {
-          title: "services"
-        },
-        {
-          title: "blog"
-        }
-      ]}
-    />
+    <Header {...restProps} navItems={menuItems} />
     <section styleName="content">{children}</section>
-    <Footer />
+    <Footer quickLinks={menuItems} />
   </div>
 );
 

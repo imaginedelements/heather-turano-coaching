@@ -3,24 +3,19 @@ import { Link as GatsbyLink } from "gatsby";
 
 import "./index.module.scss";
 
-const Footer = () => (
+const Footer = ({ quickLinks }) => (
   <footer styleName="footer">
     <div styleName="links">
       <div styleName="block">
         <header>Explore</header>
         <ul>
-          <li>
-            <GatsbyLink to="/">Home</GatsbyLink>
-          </li>
-          <li>
-            <GatsbyLink to="/about">About</GatsbyLink>
-          </li>
-          <li>
-            <GatsbyLink to="/services">Services</GatsbyLink>
-          </li>
-          <li>
-            <GatsbyLink to="/blog">Blog</GatsbyLink>
-          </li>
+          {quickLinks.map(({ title, route }) => (
+            <li key={title}>
+              <GatsbyLink to={route || title.split(" ").join("-")}>
+                {title}
+              </GatsbyLink>
+            </li>
+          ))}
         </ul>
       </div>
       <div styleName="block">

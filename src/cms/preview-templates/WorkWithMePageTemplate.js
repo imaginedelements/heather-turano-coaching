@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { ServicesPageTemplate } from "../../templates/services/services.template";
+import { WorkWithMePageTemplate } from "../../templates/work-with-me/work-with-me.template";
 
-const ServicesPagePreview = ({ entry, getAsset }) => (
-  <ServicesPageTemplate
+const WorkWithMePagePreview = ({ entry, getAsset }) => (
+  <WorkWithMePageTemplate
     main={{
       title: entry.getIn(["data", "main", "title"]),
       blurb: entry.getIn(["data", "main", "blurb"]),
@@ -36,11 +36,11 @@ const ServicesPagePreview = ({ entry, getAsset }) => (
   />
 );
 
-ServicesPagePreview.propTypes = {
+WorkWithMePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
   }),
   getAsset: PropTypes.func
 };
 
-export default ServicesPagePreview;
+export default WorkWithMePagePreview;
