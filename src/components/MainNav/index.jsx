@@ -8,12 +8,8 @@ const MainNav = ({ navItems }) => (
   <nav>
     <ul styleName="nav">
       {navItems.map(({ title, route }) => (
-        <li key={title}>
-          <Link
-            to={`${route || title}`}
-            styleName="link"
-            activeClassName={styles.active}
-          >
+        <li key={title} styleName="link">
+          <Link to={`${route || title}`} activeClassName={styles.active}>
             {title}
           </Link>
         </li>
