@@ -67,6 +67,10 @@ const menuItems = [
     route: "/work-with-me"
   },
   {
+    title: "contact",
+    route: "/contact"
+  },
+  {
     title: "blog",
     route: "/blog"
   }

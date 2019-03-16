@@ -37,6 +37,10 @@
     height: 50px;
     background: url("../../img/logo-inline.png") left no-repeat;
     background-size: auto 50px;
+    width: 30%;
+  }
+
+  & + * {
     flex: 1;
   }
 }
