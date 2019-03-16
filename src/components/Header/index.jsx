@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import MainNav from "../MainNav";
 import "./index.module.scss";
 
-const Header = props => (
+const Header = ({ route, ...restProps }) => (
   <header styleName="container">
     <div styleName="search" />
     <div styleName="main">
-      <div styleName="logo" />
-      <MainNav {...props} />
+      <Link to={route} styleName="logo" />
+      <MainNav {...restProps} />
     </div>
   </header>
 );

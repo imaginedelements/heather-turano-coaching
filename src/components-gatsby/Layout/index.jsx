@@ -82,7 +82,7 @@ const Layout = ({ children, ...restProps }) => (
       title="Home | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <Header {...restProps} navItems={menuItems} />
+    <Header {...restProps} navItems={menuItems} route={menuItems[0].route} />
     <section styleName="content">{children}</section>
     <Footer quickLinks={menuItems} />
   </div>
