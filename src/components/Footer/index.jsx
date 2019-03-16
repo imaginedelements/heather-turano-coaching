@@ -3,7 +3,7 @@ import { Link as GatsbyLink } from "gatsby";
 
 import "./index.module.scss";
 
-export const Footer = () => (
+const Footer = () => (
   <footer styleName="footer">
     <div styleName="links">
       <div styleName="block">
@@ -53,3 +53,5 @@ export const Footer = () => (
     </div>
   </footer>
 );
+
+export default Footer;

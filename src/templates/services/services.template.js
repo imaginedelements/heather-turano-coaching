@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Content } from "../../components-gatsby";
 import {
   Section,
   SectionItem,
   Paragraph,
   FooterImage,
-  InteractiveCircleList,
-  Content
+  InteractiveCircleList
 } from "../../components";
 
 export const ServicesPageTemplate = ({

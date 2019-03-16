@@ -28,8 +28,7 @@ import {
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 
-import { Header } from "../Header";
-import { Footer } from "../Footer";
+import { Header, Footer } from "../../components";
 
 import "./index.module.scss";
 

@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Layout, Section } from "../../components";
-import { Paragraph } from "../../components/Typography";
+import { Layout } from "../../components-gatsby";
+import { Section, Paragraph } from "../../components";
 
 const CoachingApplication = () => (
   <Layout>

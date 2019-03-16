@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import { Layout } from "../../components";
+import { Layout } from "../../components-gatsby";
 import { BlogPostPageTemplate } from "./blog-post.template";
 
 export const query = graphql`
