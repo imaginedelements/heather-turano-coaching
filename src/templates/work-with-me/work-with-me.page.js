@@ -2,11 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
-import { Layout } from "../../components";
-import { ServicesPageTemplate } from "./services.template";
+import { Layout } from "../../components-gatsby";
+import { WorkWithMePageTemplate } from "./work-with-me.template";
 
 export const query = graphql`
-  query ServicesPageQuery($id: String!) {
+  query WorkWithMePageQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
@@ -50,7 +50,7 @@ const Services = ({
       title="Services | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <ServicesPageTemplate main={main} pillars={pillars} approach={approach} />
+    <WorkWithMePageTemplate main={main} pillars={pillars} approach={approach} />
   </Layout>
 );
 

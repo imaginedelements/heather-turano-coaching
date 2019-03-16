@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Content } from "../../components-gatsby";
 import {
   Section,
   Paragraph,
   BackgroundImage,
   Avatar,
-  SectionItem,
-  Content
+  SectionItem
 } from "../../components";
 
 export const AboutPageTemplate = ({

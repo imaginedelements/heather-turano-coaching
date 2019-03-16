@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Content } from "../../components";
+import { Content } from "../../components-gatsby";
 import {
   BlogContainer,
   BlogHeader,
   BlogTagGroup,
   BlogNavigation,
   BlogLayout
-} from "../../components/Blog";
+} from "../../components";
 
 export const BlogPostPageTemplate = ({
   title,

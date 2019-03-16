@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { MarkdownWrapper } from "..";
+import { MarkdownWrapper } from "../../components";
 
 export const Content = ({ contentType, className, content }) =>
   contentType === "html" ? (

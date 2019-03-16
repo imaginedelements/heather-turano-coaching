@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
-import { Layout } from "../../components";
+import { Layout } from "../../components-gatsby";
 import BlogPageTemplate from "./blog.template";
 
 export const pageQuery = graphql`

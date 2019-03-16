@@ -1,8 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Section, Paragraph } from "../../components";
-import { BlogList, BlogCard } from "../../components/Blog";
+import { Section, Paragraph, BlogList, BlogCard } from "../../components";
 
 export const BlogPageTemplate = ({
   title: pageTitle,

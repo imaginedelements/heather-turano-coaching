@@ -3,7 +3,7 @@ import React from "react";
 import MainNav from "../MainNav";
 import "./index.module.scss";
 
-export const Header = props => (
+const Header = props => (
   <header styleName="container">
     <div styleName="search" />
     <div styleName="main">
@@ -12,3 +12,5 @@ export const Header = props => (
     </div>
   </header>
 );
+
+export default Header;

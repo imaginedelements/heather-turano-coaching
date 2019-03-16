@@ -34,7 +34,6 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
       const id = edge.node.id;
       const prevPage = arr[i - 1];
       const nextPage = arr[i + 1];
-      console.log(prevPage, nextPage);
 
       createPage({
         path:

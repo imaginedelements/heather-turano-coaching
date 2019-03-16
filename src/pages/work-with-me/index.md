@@ -1,5 +1,5 @@
 ---
-key: services
+key: work-with-me
 main:
   title: "behold, services"
   blurb: >-
