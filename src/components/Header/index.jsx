@@ -8,9 +8,7 @@ const Header = ({ route, ...restProps }) => (
   <header styleName="container">
     <div styleName="search" />
     <div styleName="main">
-      <Link to={route}>
-        <div styleName="logo" />
-      </Link>
+      <Link to={route} styleName="logo" />
       <MainNav {...restProps} />
     </div>
   </header>
