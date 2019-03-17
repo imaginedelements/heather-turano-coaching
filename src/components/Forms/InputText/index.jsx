@@ -9,6 +9,7 @@ const InputText = ({
   onBlur,
   isValid,
   isDisabled,
+  isReadOnly,
   ...restFieldProps
 }) => {
   console.log("restFieldProps", restFieldProps);
@@ -22,6 +23,7 @@ const InputText = ({
       onChange={onChange}
       onBlur={onBlur}
       disabled={isDisabled}
+      readOnly={!onChange || isReadOnly}
     />
   );
 };
@@ -40,7 +42,8 @@ InputText.defaultProps = {
   onChange: null,
   onBlur: null,
   isValid: true,
-  isDisabled: false
+  isDisabled: false,
+  isReadOnly: false
 };
 
 export default InputText;
