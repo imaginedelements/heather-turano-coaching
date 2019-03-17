@@ -13,7 +13,7 @@
 .link {
   @include respond_tablet {
     &:not(:last-child) {
-      padding-right: 20px;
+      padding-right: 30px;
     }
   }
 

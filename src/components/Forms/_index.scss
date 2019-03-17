@@ -1,0 +1,29 @@
+// Layouts
+@mixin create-input__control {
+  display: block;
+}
+
+@mixin create-input__container {
+  display: block;
+}
+
+// Creation Mixins
+@mixin create-input__base {
+}
+
+@mixin create-input__states {
+}
+
+// Component Mixins
+@mixin input-control {
+}
+@mixin input-container {
+}
+@mixin input-label {
+}
+
+@mixin input-error {
+}
+
+@mixin input-text {
+}
