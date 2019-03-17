@@ -1,10 +1,6 @@
 const path = require("path");
 
 module.exports = {
-  node: {
-    fs: "empty",
-    module: "empty"
-  },
   // gatsby
   resolve: {
     mainFields: ["browser", "module", "main"]
