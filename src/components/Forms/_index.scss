@@ -1,3 +1,10 @@
+// resets
+@mixin reset-input__base {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 // Layouts
 @mixin create-input__control {
   display: block;
@@ -9,6 +16,7 @@
 
 // Creation Mixins
 @mixin create-input__base {
+  @include reset-input__base;
 }
 
 @mixin create-input__states {
@@ -26,4 +34,5 @@
 }
 
 @mixin input-text {
+  @include create-input__base;
 }

@@ -1,9 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "./index.module.scss";
+
 const InputText = ({
   name,
   value,
+  type,
   placeholder,
   onChange,
   onBlur,
@@ -15,9 +18,10 @@ const InputText = ({
   console.log("restFieldProps", restFieldProps);
   return (
     <input
-      type={`text ${!isValid ? "invalid" : ""}`}
       id={name}
       name={name}
+      type={type}
+      styleName={`input-${type} ${!isValid ? "invalid" : ""}`}
       placeholder={placeholder}
       value={value}
       onChange={onChange}
@@ -30,6 +34,7 @@ const InputText = ({
 
 InputText.propTypes = {
   name: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(["text", "textarea"]),
   value: PropTypes.string,
   onChange: PropTypes.string,
   onBlur: PropTypes.string,
@@ -38,6 +43,7 @@ InputText.propTypes = {
 };
 
 InputText.defaultProps = {
+  type: "text",
   value: "",
   onChange: null,
   onBlur: null,

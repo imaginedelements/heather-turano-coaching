@@ -1,5 +1,7 @@
 @import "../index";
 
-.input-text {
-  @include input-text;
+.input {
+  &-text {
+    @include input-text;
+  }
 }
