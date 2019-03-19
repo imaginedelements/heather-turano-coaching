@@ -35,9 +35,14 @@ storiesOf(createStory(base, filename), module)
       initialValues={{ firstName: "Tom", lastName: "Sawyer", address: "" }}
     >
       <Form>
-        <FormField type="text" name="firstName" />
-        <FormField type="text" name="lastName" />
-        <FormField type="text" name="address" placeholder="The bayou?" />
+        <FormField type="text" name="firstName" label="First name" />
+        <FormField type="text" name="lastName" label="Last name" />
+        <FormField
+          type="text"
+          name="address"
+          placeholder="The bayou?"
+          label="Address"
+        />
       </Form>
     </FormControl>
   ));

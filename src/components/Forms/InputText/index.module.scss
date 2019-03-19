@@ -1,9 +1,21 @@
 @import "../index";
 
 .input-text {
-  @include input-text;
+  &.primary {
+    @include input-text--primary;
+    @include input-text--primary--focus;
 
-  .invalid {
-    @include input-text--invalid;
+    &.invalid {
+      @include input-text--primary--invalid;
+    }
+  }
+
+  &.secondary {
+    @include input-text--secondary;
+    @include input-text--secondary--focus;
+
+    &.invalid {
+      @include input-text--secondary--invalid;
+    }
   }
 }

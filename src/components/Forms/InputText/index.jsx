@@ -18,6 +18,7 @@ const InputText = ({
   isValid,
   isDisabled,
   isReadOnly,
+  styleType,
   // isTouched,
   errorMessage
 }) => (
@@ -28,7 +29,7 @@ const InputText = ({
         id={name}
         name={name}
         type={type}
-        styleName={`input-${type} ${!isValid ? "invalid" : ""}`}
+        styleName={`input-${type} ${styleType} ${!isValid ? "invalid" : ""}`}
         placeholder={placeholder}
         value={value}
         onChange={onChange}
@@ -37,11 +38,9 @@ const InputText = ({
         readOnly={!onChange || isReadOnly}
       />
     </div>
-    {/* <> */}
     {!isValid && errorMessage && (
       <InputError isValid={isValid} message={errorMessage} />
     )}
-    {/* </> */}
   </InputControl>
 );
 
@@ -49,6 +48,7 @@ InputText.propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string,
   type: PropTypes.oneOf(["text", "textarea"]),
+  styleType: PropTypes.oneOf(["primary", "secondary"]),
   value: PropTypes.string,
   onChange: PropTypes.func,
   onBlur: PropTypes.func,
@@ -60,6 +60,7 @@ InputText.propTypes = {
 InputText.defaultProps = {
   label: null,
   type: "text",
+  styleType: "primary",
   value: "",
   onChange: null,
   onBlur: null,

@@ -1,5 +1,8 @@
+@import "src/styles/mixins/index";
+
 // resets
 @mixin input-reset {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,27 +13,27 @@
   display: block;
 }
 
-@mixin input-error {
-  color: red;
-}
-
 /********************\
 |****** STATES ******|
 \********************/
-@mixin input-state--invalid {
-  &.invalid {
-    @debug "here";
-    @content;
+@mixin input-placeholder($color: $color-grayscale-3) {
+  &::placeholder {
+    color: $color;
   }
-}
-@mixin input-state--hover {
-  &:hover {
-    @content;
+  &:placeholder-shown {
+    color: $color;
   }
-}
-@mixin input-state--focus {
-  &:focus {
-    @content;
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &::-moz-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
   }
 }
 
@@ -38,36 +41,71 @@
 |****** LABELS ******|
 \********************/
 @mixin input-label {
+  @include font-machine(semi-bold, $size: 12px, $color: $color-secondary-0);
   display: block;
+  margin-bottom: 4px;
 }
 @mixin input-label--invalid {
-  color: red;
+  color: $color-invalid-0;
 }
 
 /********************\
 |****** ERROR ******|
 \********************/
 @mixin input-error {
+  @include font-machine(light, $size: 12px, $color: $color-invalid-0);
+  margin-top: 4px;
   display: block;
-  color: red;
 }
 
 /******************\
 |****** BASE ******|
 \******************/
-@mixin input-base {
+@mixin input-base($background) {
   @include input-reset;
+  @include font-machine(light, $size: 16px, $color: $color-secondary-1);
+  @include input-placeholder;
+  padding: 14px 20px 16px 20px;
+  background: $background;
+  border-radius: 2px;
+  transition: border 0.15s ease-in-out;
+  border: 1px solid transparent;
 }
 @mixin input-base--invalid {
-  border: 1px solid red;
+  @include input-placeholder($color: $color-invalid-0);
+  border: 1px solid $color-invalid-0;
+}
+@mixin input-base--focus {
+  &:focus {
+    outline: none;
+    border: 1px solid $color-secondary-2;
+  }
 }
 
 /********************************\
 |****** INPUT[type="text"] ******|
 \********************************/
-@mixin input-text {
-  @include input-base;
+$color-input--primary--background: $color-lightscale-3;
+$color-input--secondary--background: #fff;
+
+// Primary
+@mixin input-text--primary {
+  @include input-base($background: $color-input--primary--background);
 }
-@mixin input-text--invalid {
+@mixin input-text--primary--invalid {
   @include input-base--invalid;
+}
+@mixin input-text--primary--focus {
+  @include input-base--focus;
+}
+
+// Secondary
+@mixin input-text--secondary {
+  @include input-base($color-input--secondary--background);
+}
+@mixin input-text--secondary--invalid {
+  @include input-base--invalid;
+}
+@mixin input-text--secondary--focus {
+  @include input-base--focus;
 }
