@@ -1,38 +1,73 @@
 // resets
-@mixin reset-input__base {
+@mixin input-reset {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 // Layouts
-@mixin create-input__control {
-  display: block;
-}
-
-@mixin create-input__container {
-  display: block;
-}
-
-// Creation Mixins
-@mixin create-input__base {
-  @include reset-input__base;
-}
-
-@mixin create-input__states {
-}
-
-// Component Mixins
 @mixin input-control {
-}
-@mixin input-container {
-}
-@mixin input-label {
+  display: block;
 }
 
 @mixin input-error {
+  color: red;
 }
 
+/********************\
+|****** STATES ******|
+\********************/
+@mixin input-state--invalid {
+  &.invalid {
+    @debug "here";
+    @content;
+  }
+}
+@mixin input-state--hover {
+  &:hover {
+    @content;
+  }
+}
+@mixin input-state--focus {
+  &:focus {
+    @content;
+  }
+}
+
+/********************\
+|****** LABELS ******|
+\********************/
+@mixin input-label {
+  display: block;
+}
+@mixin input-label--invalid {
+  color: red;
+}
+
+/********************\
+|****** ERROR ******|
+\********************/
+@mixin input-error {
+  display: block;
+  color: red;
+}
+
+/******************\
+|****** BASE ******|
+\******************/
+@mixin input-base {
+  @include input-reset;
+}
+@mixin input-base--invalid {
+  border: 1px solid red;
+}
+
+/********************************\
+|****** INPUT[type="text"] ******|
+\********************************/
 @mixin input-text {
-  @include create-input__base;
+  @include input-base;
+}
+@mixin input-text--invalid {
+  @include input-base--invalid;
 }

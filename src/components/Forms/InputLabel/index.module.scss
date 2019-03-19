@@ -2,4 +2,8 @@
 
 .input-label {
   @include input-label;
+
+  &.invalid {
+    @include input-label--invalid;
+  }
 }

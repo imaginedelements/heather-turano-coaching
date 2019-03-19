@@ -8,7 +8,7 @@ export const InputControl = ({ children }) => (
 );
 
 InputControl.propTypes = {
-  children: PropTypes.any.isRequired
+  children: PropTypes.any
 };
 
 export default InputControl;
