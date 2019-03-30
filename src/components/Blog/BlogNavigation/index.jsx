@@ -10,7 +10,7 @@ export const BlogNavigation = ({ pagePrev, pageNext }) => (
     <div styleName="link left">
       {pagePrev && (
         <>
-          <Icon icon="long-arrow-left" size="xs" iconColor="accent-0" />
+          <Icon icon="long-arrow-left" size="xs" color="accent-0" />
           <Link to={pagePrev}>Older</Link>
         </>
       )}
@@ -19,11 +19,7 @@ export const BlogNavigation = ({ pagePrev, pageNext }) => (
       {pageNext && (
         <>
           <Link to={pageNext}>Newer</Link>
-          <Icon
-            icon={["far", "long-arrow-right"]}
-            size="xs"
-            iconColor="accent-0"
-          />
+          <Icon icon={["far", "long-arrow-right"]} size="xs" color="accent-0" />
         </>
       )}
     </div>

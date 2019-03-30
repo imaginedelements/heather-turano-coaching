@@ -1,19 +1,17 @@
 @import "../index";
 
 .icon {
-  &.heading {
-    &-xl {
-      @include font-icon--heading-xl;
-    }
-    &-lg {
-      @include font-icon--heading-lg;
-    }
-    &-md {
-      @include font-icon--heading-md;
-    }
-    &-sm {
-      @include font-icon--heading-sm;
-    }
+  &.hxl {
+    @include font-icon--heading-xl;
+  }
+  &.hlg {
+    @include font-icon--heading-lg;
+  }
+  &.hmd {
+    @include font-icon--heading-md;
+  }
+  &.hsm {
+    @include font-icon--heading-sm;
   }
   &.xl {
     @include font-icon--xl;
@@ -29,5 +27,13 @@
   }
   &.xs {
     @include font-icon--xs;
+  }
+
+  &.default {
+    display: block;
+  }
+
+  &.center {
+    margin: auto auto;
   }
 }

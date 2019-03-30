@@ -47,7 +47,8 @@ class Stepper extends Component {
                 >
                   <Icon
                     icon={icon}
-                    size="sm"
+                    size="hsm"
+                    position="center"
                     color={(() => {
                       if (isActive) {
                         return "secondary-0";

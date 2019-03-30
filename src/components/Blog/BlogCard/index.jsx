@@ -33,16 +33,16 @@ export const BlogCard = ({
       </article>
       <ul styleName="quick-links">
         <li styleName="link secondary">
-          <Icon icon="facebook" size="xs" iconColor="lightscale-3" />
+          <Icon icon="facebook" size="xs" color="lightscale-3" />
         </li>
         <li styleName="link primary">
-          <Icon icon="pinterest" size="xs" iconColor="lightscale-3" />
+          <Icon icon="pinterest" size="xs" color="lightscale-3" />
         </li>
         <li styleName="link accent">
-          <Icon icon="instagram" size="xs" iconColor="lightscale-3" />
+          <Icon icon="instagram" size="xs" color="lightscale-3" />
         </li>
         <li styleName="link grayscale">
-          <Icon icon="twitter" size="xs" iconColor="lightscale-3" />
+          <Icon icon="twitter" size="xs" color="lightscale-3" />
         </li>
       </ul>
     </div>

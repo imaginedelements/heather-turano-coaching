@@ -16,11 +16,7 @@ export const BlogHeader = ({
   <header>
     <div styleName="page-header">
       <div styleName="link">
-        <Icon
-          icon={["far", "long-arrow-left"]}
-          size="xs"
-          iconColor="accent-0"
-        />
+        <Icon icon="long-arrow-left" size="xs" color="accent-0" />
         <Link to={backLinkRoute}>{backLinkText}</Link>
       </div>
       <div styleName="date">

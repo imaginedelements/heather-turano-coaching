@@ -35,7 +35,12 @@ class InteractiveCircleList extends Component {
                   styleName={`bubble ${isActive ? "active" : ""}`}
                   onClick={() => this.handleClick(i)}
                 >
-                  <Icon icon={icon} size="xl" iconColor="secondary-0" />
+                  <Icon
+                    icon={icon}
+                    size="hmd"
+                    position="center"
+                    color="secondary-0"
+                  />
                 </button>
                 <div styleName="blurb">
                   <Heading copy={title} size="subtitle" />

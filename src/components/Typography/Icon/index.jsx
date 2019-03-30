@@ -10,8 +10,8 @@ import "./index.module.scss";
 
 library.add(fal, fab);
 
-export const Icon = ({ icon, size, spin }) => (
-  <div styleName={`icon ${size}`}>
+export const Icon = ({ icon, size, position, spin }) => (
+  <div styleName={`icon ${size} ${position}`}>
     <FontAwesomeIcon fixedWidth icon={["fal", icon]} spin={spin} />
   </div>
 );
@@ -27,10 +27,10 @@ Icon.propTypes = {
    * icon type consists of a typography type and a size
    */
   size: PropTypes.oneOf([
-    "heading-xl",
-    "heading-lg",
-    "heading-md",
-    "heading-sm",
+    "hxl",
+    "hlg",
+    "hmd",
+    "hsm",
     "xl",
     "lg",
     "md",
@@ -40,10 +40,15 @@ Icon.propTypes = {
   /**
    * Include if the icon should spin
    */
-  spin: PropTypes.bool
+  spin: PropTypes.bool,
+  /**
+   * The position of the icon inside of its container
+   */
+  position: PropTypes.oneOf(["default", "center"])
 };
 
 Icon.defaultProps = {
-  spin: false
+  spin: false,
+  position: "default"
 };
 export default Icon;
