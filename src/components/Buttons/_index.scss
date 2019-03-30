@@ -1,0 +1,190 @@
+@import "~@bit/cadent.styles.sass.root";
+
+// Blended Colors
+$blend-base-dark: $color-neutral-6;
+$blend-base-light: $color-neutral-0;
+$blend-level-hover: 20%;
+$blend-level-active: 40%;
+
+// primary
+$button-color__primary: $color-neutral-4;
+$button-color__primary-border: $color-neutral-4;
+$button-color__primary-text: $color-neutral-0;
+
+// secondary
+$button-color__secondary: $color-neutral-0;
+$button-color__secondary-border: $button-color__primary;
+$button-color__secondary-text: $button-color__primary;
+
+// alternative
+$button-color__alt: $color-primary;
+$button-color__alt-border: $color-primary;
+$button-color__alt-text: $color-neutral-0;
+
+// Small (Alt) Variables
+$button-color__small: $color-neutral-4;
+$button-color__small-border: $color-neutral-4;
+$button-color__small-text: $color-neutral-0;
+
+// Stateful Variables
+$button-color__disabled: $color-neutral-1;
+$button-color__disabled-border: $color-neutral-1;
+$button-color__disabled-text: $color-neutral-2;
+$button-color__destructive: $color-invalid;
+$button-color__destructive-border: $color-invalid;
+$button-color__destructive-text: $color-neutral-0;
+$button-color__warning: $color-warning-4;
+$button-color__warning-border: $color-warning-4;
+$button-color__warning-text: $color-neutral-0;
+$button-color__success: $color-success-4;
+$button-color__success-border: $color-success-4;
+$button-color__success-text: $color-neutral-0;
+
+// Outline
+$button-offset__outline: space(xxs) * -1;
+
+// Transition
+$button-transition: all ease-in-out 0.2s;
+
+// Dimensions
+$button__min-width: space(xxl);
+
+@mixin button__base(
+  $background-color,
+  $border-color,
+  $text-color,
+  $blend-base-background: $blend-base-dark,
+  $blend-base-border: $blend-base-dark
+) {
+  position: relative;
+  background: $background-color;
+  border: 1px solid $border-color;
+  text-align: center;
+  transition: $button-transition;
+  min-width: $button__min-width;
+  cursor: pointer;
+
+  & > * {
+    width: 100%;
+  }
+
+  & > p {
+    color: $text-color !important;
+  }
+
+  @content;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: space(xxs);
+    left: $button-offset__outline;
+    top: $button-offset__outline;
+    bottom: $button-offset__outline;
+    right: $button-offset__outline;
+    transition: $button-transition;
+  }
+
+  &:hover {
+    background: mix(
+      $blend-base-background,
+      $background-color,
+      $blend-level-hover
+    );
+    border-color: mix($blend-base-border, $border-color, $blend-level-hover);
+  }
+
+  &:focus {
+    background: mix(
+      $blend-base-background,
+      $background-color,
+      $blend-level-hover
+    );
+    border-color: mix($blend-base-border, $border-color, $blend-level-hover);
+    outline: none;
+
+    &::after {
+      border-color: $border-color;
+    }
+  }
+
+  &:active {
+    background: mix(
+      $blend-base-background,
+      $background-color,
+      $blend-level-active
+    );
+    border-color: mix($blend-base-border, $border-color, $blend-level-active);
+  }
+
+  &:disabled {
+    background: $button-color__disabled;
+    border-color: $button-color__disabled-border;
+
+    & > p {
+      color: $button-color__disabled-text !important;
+    }
+  }
+}
+
+@mixin button__lg {
+  border-radius: space(xxs);
+  padding: space(xs) space(md);
+}
+
+@mixin button__sm {
+  border-radius: space(mini);
+  padding: space(xxs) space(sm);
+}
+
+@mixin button--primary {
+  @include button__base(
+    $button-color__primary,
+    $button-color__primary-border,
+    $button-color__primary-text
+  ) {
+    @include button__lg;
+  }
+}
+
+@mixin button--secondary {
+  @include button__base(
+    $button-color__secondary,
+    $button-color__secondary-border,
+    $button-color__secondary-text
+  ) {
+    @include button__lg;
+  }
+}
+
+@mixin button--alt {
+  @include button__base(
+    $button-color__alt,
+    $button-color__alt-border,
+    $button-color__alt-text
+  ) {
+    @include button__lg;
+  }
+}
+
+@mixin button--small {
+  @include button__base(
+    $button-color__small,
+    $button-color__small-border,
+    $button-color__small-text
+  ) {
+    @include button__sm;
+  }
+}
+
+@mixin button--destructive {
+  @include button__base(
+    $button-color__destructive,
+    $button-color__destructive-border,
+    $button-color__destructive-text
+  ) {
+    @include button__lg;
+  }
+}

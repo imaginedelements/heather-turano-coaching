@@ -10,7 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        include: path.resolve(__dirname, "../src/components"),
+        exclude: /node_modules/,
         use: [
           "style-loader",
           {

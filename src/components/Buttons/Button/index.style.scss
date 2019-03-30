@@ -1,0 +1,23 @@
+@import "~@bit/cadent.styles.sass.buttons";
+
+button {
+  &.primary {
+    @include button--primary;
+  }
+
+  &.secondary {
+    @include button--secondary;
+  }
+
+  &.alt {
+    @include button--alt;
+  }
+
+  &.small {
+    @include button--small;
+  }
+
+  &.destructive {
+    @include button--destructive;
+  }
+}

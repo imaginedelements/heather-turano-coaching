@@ -26,13 +26,13 @@ $font-weight: (
   color: $color;
   font-weight: #{map-get($font-weight, $weight)};
   font-style: $style;
-  line-height: 1;
+  line-height: 1.5;
   font-size: $size;
   // Utilize padding instead of line-height due to the drastically
   // uneven lead and led of the font-family that was provided.
   // Would have loved to use conventional means, but it didn't work out
-  padding-top: (($size * $line-height) - $size) / 2 + $lead-led-offset;
-  padding-bottom: (($size * $line-height) - $size) / 2 - $lead-led-offset;
+  // padding-top: (($size * $line-height) - $size) / 2 + $lead-led-offset;
+  // padding-bottom: (($size * $line-height) - $size) / 2 - $lead-led-offset;
 }
 
 @mixin icon__base($size) {

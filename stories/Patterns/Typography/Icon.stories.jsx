@@ -2,21 +2,17 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import base, { filename } from "paths.macro";
 
-import Icon from "@bit/cadent.components.typography.icon";
+import { Icon } from "../../../src/components/Typography";
 
 import { createStory } from "../../index";
-import notes from "./readme.md";
 
 storiesOf(createStory(base, filename), module)
-  .addParameters({
-    notes
-  })
   .add("all sizes", () => (
     <>
-      <Icon icon="rocket" size="heading-xl" />
-      <Icon icon="rocket" size="heading-lg" />
-      <Icon icon="rocket" size="heading-md" />
-      <Icon icon="rocket" size="heading-sm" />
+      <Icon icon="rocket" size="hxl" />
+      <Icon icon="rocket" size="hlg" />
+      <Icon icon="rocket" size="hmd" />
+      <Icon icon="rocket" size="hsm" />
       <Icon icon="rocket" size="xl" />
       <Icon icon="rocket" size="lg" />
       <Icon icon="rocket" size="md" />
