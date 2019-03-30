@@ -1,40 +1,19 @@
-@import "src/styles/scss/index";
+@import "../index";
 
-p {
-  @include font_machine("light", $size: map-get($typography, para));
-
-  & + p {
-    margin-top: 20px;
+p.paragraph {
+  &.xl {
+    @include font-paragraph--xl;
   }
-
-  &.grayscale-0 {
-    color: $color-grayscale-0;
+  &.lg {
+    @include font-paragraph--lg;
   }
-  &.grayscale-1 {
-    color: $color-grayscale-1;
+  &.md {
+    @include font-paragraph--md;
   }
-  &.grayscale-2 {
-    color: $color-grayscale-2;
+  &.sm {
+    @include font-paragraph--sm;
   }
-  &.grayscale-3 {
-    color: $color-grayscale-3;
-  }
-  &.lightscale-0 {
-    color: $color-lightscale-0;
-  }
-  &.lightscale-1 {
-    color: $color-lightscale-1;
-  }
-  &.lightscale-2 {
-    color: $color-lightscale-2;
-  }
-  &.lightscale-3 {
-    color: $color-lightscale-3;
-  }
-  &.invalid {
-    color: $color-invalid;
-  }
-  &.success {
-    color: $color-success;
+  &.xs {
+    @include font-paragraph--xs;
   }
 }

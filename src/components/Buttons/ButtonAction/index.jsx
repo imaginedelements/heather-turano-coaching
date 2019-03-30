@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CSSModules from "react-css-modules";
 
-import Label from "@bit/cadent.components.typography.label";
-import Icon from "@bit/cadent.components.typography.icon";
+import { Icon, Label } from "../../typography";
 
-import styles from "./index.style.scss";
+import "./index.module.scss";
 
 export const ButtonAction = ({ label, size, disabled, onClick, icon }) => (
   <button styleName="link" type="button" disabled={disabled} onClick={onClick}>
@@ -46,7 +44,4 @@ ButtonAction.defaultProps = {
   icon: null
 };
 
-const ButtonStyled = CSSModules(ButtonAction, styles, {
-  allowMultiple: true
-});
-export default ButtonStyled;
+export default ButtonAction;

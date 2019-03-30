@@ -70,31 +70,6 @@
   align-items: $align;
 }
 
-@mixin font_machine(
-  $weight,
-  $family: $font-family,
-  $style: normal,
-  $color: $color-grayscale-3,
-  $size: $font-size,
-  $line-height: $font-line-height
-) {
-  font-weight: #{map-get($font-weight, $weight)};
-  font-family: $family;
-  font-style: $style;
-  color: $color;
-  font-size: $size;
-  line-height: $line-height;
-
-  @include respond-tablet {
-    font-weight: #{map-get($font-weight, $weight)};
-    font-family: $family;
-    font-style: $style;
-    color: $color;
-    font-size: $size * $font-response-multiplier;
-    line-height: $line-height;
-  }
-}
-
 // Creates the border around the image
 @mixin image__border {
   outline: 1px solid $color-primary-0;

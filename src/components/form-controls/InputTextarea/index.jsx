@@ -7,11 +7,10 @@ import { InputControl } from "../InputControl";
 
 import "./index.module.scss";
 
-const InputText = ({
+const InputTextarea = ({
   name,
   value,
   label,
-  type,
   placeholder,
   onChange,
   onBlur,
@@ -25,11 +24,10 @@ const InputText = ({
   <InputControl>
     {label && <InputLabel label={label} for={name} isValid={isValid} />}
     <div>
-      <input
+      <textarea
         id={name}
         name={name}
-        type={type}
-        styleName={`input-${type} ${styleType} ${!isValid ? "invalid" : ""}`}
+        styleName={`input-textarea ${styleType} ${!isValid ? "invalid" : ""}`}
         placeholder={placeholder}
         value={value}
         onChange={onChange}
@@ -44,10 +42,10 @@ const InputText = ({
   </InputControl>
 );
 
-InputText.propTypes = {
+InputTextarea.propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string,
-  type: PropTypes.oneOf(["text", "textarea"]),
+  type: PropTypes.oneOf(["text", "email", "password", "search"]),
   styleType: PropTypes.oneOf(["primary", "secondary"]),
   value: PropTypes.string,
   onChange: PropTypes.func,
@@ -57,9 +55,8 @@ InputText.propTypes = {
   errorMessage: PropTypes.string
 };
 
-InputText.defaultProps = {
+InputTextarea.defaultProps = {
   label: null,
-  type: "text",
   styleType: "primary",
   value: "",
   onChange: null,
@@ -70,4 +67,4 @@ InputText.defaultProps = {
   errorMessage: null
 };
 
-export default InputText;
+export default InputTextarea;

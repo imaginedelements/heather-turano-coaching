@@ -18,7 +18,7 @@
 }
 
 .date {
-  @include font_machine("light", $size: 14px, $family: $font-family-header);
+  @include font_machine("light", $size: 14px, $family: $font-family-alt);
   margin-bottom: 20px;
 
   @include respond_phone {

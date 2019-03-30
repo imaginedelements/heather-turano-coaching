@@ -83,27 +83,3 @@ $breakpoints: (
   xl: 1200px,
   xxl: 1440px
 ) !default;
-
-// Fonts
-$font-weight: (
-  extra-light: 200,
-  light: 300,
-  regular: 400,
-  semi-bold: 600,
-  bold: 700
-);
-$typography: (
-  h1: 42px,
-  h2: 36px,
-  h3: 24px,
-  h4: 18px,
-  h5: 16px,
-  h6: 14px,
-  para: 14px,
-  tiny: 12px
-);
-$font-response-multiplier: 1.2;
-$font-family: "Raleway", sans-serif;
-$font-family-header: "Montserrat", sans-serif;
-$font-line-height: 1.6;
-$font-size: map-get($typography, para);

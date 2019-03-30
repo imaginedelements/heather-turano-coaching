@@ -1,53 +1,53 @@
-@import "src/styles/scss/index";
+@import "../index";
 
 .h1 {
   @include font_machine(
-    "extra-light",
+    $weight: "extra-light",
     $size: map-get($typography, h1),
     $color: $color-grayscale-0,
-    $family: $font-family-header
+    $family: $base--font-family-alt
   );
 }
 .h2 {
   @include font_machine(
-    "light",
+    $weight: "light",
     $size: map-get($typography, h2),
     $color: $color-grayscale-0,
-    $family: $font-family-header
+    $family: $base--font-family-alt
   );
 }
 .h3 {
   @include font_machine(
-    "regular",
+    $weight: "regular",
     $size: map-get($typography, h3),
     $color: $color-grayscale-0,
-    $family: $font-family-header
+    $family: $base--font-family-alt
   );
 }
 .h4 {
   @include font_machine(
-    "light",
+    $weight: "light",
     $size: map-get($typography, h4),
     $color: $color-grayscale-0,
-    $family: $font-family-header
+    $family: $base--font-family-alt
   );
 }
 
 .h5 {
   @include font_machine(
-    "regular",
+    $weight: "regular",
     $size: map-get($typography, h5),
     $color: $color-grayscale-0,
-    $family: $font-family-header
+    $family: $base--font-family-alt
   );
 }
 
 .h6 {
   @include font_machine(
-    "light",
+    $weight: "light",
     $size: map-get($typography, h6),
     $color: $color-grayscale-0,
-    $family: $font-family-header
+    $family: $base--font-family-alt
   );
 }
 
@@ -61,8 +61,11 @@
 }
 
 .grouping {
-  @include font_machine($weight: "heavy", $color: $color-grayscale-3);
-  font-size: 14px;
+  @include font_machine(
+    $weight: "heavy",
+    $color: $color-grayscale-3,
+    $size: 14px
+  );
   line-height: 14px;
   text-transform: uppercase;
   letter-spacing: -0.5px;
@@ -93,7 +96,11 @@
 
 .subtitle {
   @extend .title;
-  @include font_machine(regular, $color: $color-grayscale-0, $size: 14px);
+  @include font_machine(
+    $weight: regular,
+    $color: $color-grayscale-0,
+    $size: 14px
+  );
   padding: 20px 50px 10px 50px;
   margin-bottom: 10px;
 
@@ -106,7 +113,11 @@
 
 .category {
   @extend .subtitle;
-  @include font_machine(regular, $color: $color-secondary-0, $size: 10px);
+  @include font_machine(
+    $weight: regular,
+    $color: $color-secondary-0,
+    $size: 10px
+  );
   padding: 20px 20px 10px 20px;
   margin-bottom: 20px;
 

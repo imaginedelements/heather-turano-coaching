@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Paragraph } from "../Typography";
+import { Paragraph } from "../typography";
 
 import "./index.module.scss";
 import { Avatar } from "..";

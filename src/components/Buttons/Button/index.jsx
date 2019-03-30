@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CSSModules from "react-css-modules";
 
-import Label from "@bit/cadent.components.typography.label";
-import Icon from "@bit/cadent.components.typography.icon";
+import { Icon, Label } from "../../typography";
 
-import styles from "./index.style.scss";
+import styles from "./index.module.scss";
 
 export const Button = ({
   label,
@@ -25,14 +23,9 @@ export const Button = ({
     onSubmit={onSubmit}
   >
     {loading ? (
-      <Icon
-        size={styleType === "small" ? "md" : "lg"}
-        copy={label}
-        icon="spinner"
-        spin
-      />
+      <Icon size="md" copy={label} icon="spinner" spin />
     ) : (
-      <Label size={styleType === "small" ? "md" : "lg"}>{label}</Label>
+      <Label size="md">{label}</Label>
     )}
   </button>
   /* eslint-enable react/button-has-type */
@@ -86,7 +79,4 @@ Button.defaultProps = {
   loading: false
 };
 
-const ButtonStyled = CSSModules(Button, styles, {
-  allowMultiple: true
-});
-export default ButtonStyled;
+export default Button;

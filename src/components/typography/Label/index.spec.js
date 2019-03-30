@@ -1,12 +1,12 @@
-import Paragraph from "./index";
+import Label from "./index";
 
 const props = {
   color: "light",
   copy: "test"
 };
 
-describe("<Paragraph />", () => {
-  const wrapper = shallowWrapper(Paragraph)(props);
+describe("<Label />", () => {
+  const wrapper = shallowWrapper(Label)(props);
 
   it("should render correctly", () => {
     expect(wrapper).toMatchSnapshot();

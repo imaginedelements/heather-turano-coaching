@@ -13,7 +13,7 @@ export { default as MainNav } from "./MainNav";
 export { default as Footer } from "./Footer";
 export { default as UnderConstruction } from "./UnderConstruction";
 export { default as MarkdownWrapper } from "./MarkdownWrapper";
-export { Paragraph, Heading, Icon } from "./Typography";
+export { Paragraph, Heading, Icon } from "./typography";
 export {
   BlogLayout,
   BlogContainer,

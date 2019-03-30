@@ -1,4 +1,4 @@
-@import "~@bit/cadent.styles.sass.buttons";
+@import "../index";
 
 button {
   &.primary {
@@ -7,14 +7,6 @@ button {
 
   &.secondary {
     @include button--secondary;
-  }
-
-  &.alt {
-    @include button--alt;
-  }
-
-  &.small {
-    @include button--small;
   }
 
   &.destructive {

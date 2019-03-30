@@ -2,56 +2,31 @@
 
 // VARIABLES
 // bases
-$font-family: "MuseoSans";
-$default-font-line-height: 1.5;
-$default-font-color: $color-grayscale-0;
-$default-font-size: 16px;
-$lead-led-offset: 2;
-$font-weight: (
-  thin: 100,
+$base--font-family: "Raleway", sans-serif;
+$base--font-family-alt: "Montserrat", sans-serif;
+$base--font-color: $color-grayscale-0;
+$base--font-line-height: 1.6;
+$base--font-response-multiplier: 1.2;
+$base--font-weights: (
+  extra-light: 200,
   light: 300,
-  normal: 500,
+  regular: 400,
+  semi-bold: 600,
   bold: 700
 );
 
-@mixin font_machine(
-  $size,
-  $family: $font-family,
-  $weight: regular,
-  $style: normal,
-  $color: $default-font-color,
-  $line-height: $default-font-line-height
-) {
-  font-family: $family;
-  color: $color;
-  font-weight: #{map-get($font-weight, $weight)};
-  font-style: $style;
-  line-height: 1.5;
-  font-size: $size;
-  // Utilize padding instead of line-height due to the drastically
-  // uneven lead and led of the font-family that was provided.
-  // Would have loved to use conventional means, but it didn't work out
-  // padding-top: (($size * $line-height) - $size) / 2 + $lead-led-offset;
-  // padding-bottom: (($size * $line-height) - $size) / 2 - $lead-led-offset;
-}
-
-@mixin icon__base($size) {
-  @include make_flex(row, center, center);
-  width: $size * 1.5 !important;
-  height: $size * 1.5 !important;
-
-  & > span,
-  & > svg {
-    font-size: $size;
-  }
-}
-
 // Sizes
+// Families
+$typography-font-family: (
+  label: $base--font-family,
+  title: $base--font-family-alt
+);
+
 $typography-font-sizes: (
-  heading-xl: 12px * $factor,
-  heading-lg: 10px * $factor,
-  heading-md: 8px * $factor,
-  heading-sm: 6px * $factor,
+  heading-xl: 42px,
+  heading-lg: 36px,
+  heading-md: 24px,
+  heading-sm: 18px,
   xs: 10px,
   // rule exemption
     sm: 12px,
@@ -60,13 +35,49 @@ $typography-font-sizes: (
   xl: 18px
 );
 
+$typography: (
+  h1: 42px,
+  h2: 36px,
+  h3: 24px,
+  h4: 18px,
+  h5: 16px,
+  h6: 14px,
+  para: 14px,
+  tiny: 12px
+);
+
 // Weights
 $typography-font-weight: (
-  heading-fat: normal,
-  heading-thin: light,
-  paragraph: light,
-  caption: bold,
-  label: normal
+  heading-fat:
+    map-get(
+      $map: $base--font-weights,
+      $key: regular
+    ),
+  heading-thin:
+    map-get(
+      $map: $base--font-weights,
+      $key: light
+    ),
+  paragraph:
+    map-get(
+      $map: $base--font-weights,
+      $key: regular
+    ),
+  label:
+    map-get(
+      $map: $base--font-weights,
+      $key: semi-bold
+    ),
+  caption:
+    map-get(
+      $map: $base--font-weights,
+      $key: semi-bold
+    ),
+  title:
+    map-get(
+      $map: $base--font-weights,
+      $key: extra-light
+    )
 );
 
 // FNS
@@ -78,27 +89,85 @@ $typography-font-weight: (
   @return map-get($map: $typography-font-weight, $key: $weight);
 }
 
+@function get-font-family($family) {
+  @debug map-get($map: $typography-font-family, $key: $family);
+  @return map-get($map: $typography-font-family, $key: $family);
+}
+
+@mixin font_machine(
+  $size: $size,
+  $family: $base--font-family,
+  $weight: get-font-weight(regular),
+  $style: normal,
+  $color: $base--font-color,
+  $line-height: $base--font-line-height
+) {
+  font-family: $family;
+  color: $color;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+  line-height: $line-height;
+
+  @include respond-tablet {
+    font-size: $size * $base--font-response-multiplier;
+  }
+}
+
+@mixin icon__base($size) {
+  $font-size: get-font-size($size);
+
+  @include make_flex(row, center, center);
+  width: $font-size * $base--font-line-height !important;
+  height: $font-size * $base--font-line-height !important;
+
+  @include respond-tablet {
+    $rounded-size: floor(
+      ($font-size * $base--font-response-multiplier) * $base--font-line-height
+    );
+    width: $rounded-size !important;
+    height: $rounded-size !important;
+  }
+
+  & > span,
+  & > svg {
+    font-size: $font-size;
+
+    @include respond-tablet {
+      font-size: $font-size * $base--font-response-multiplier;
+    }
+  }
+}
+
+@mixin font-base {
+  margin: 0;
+}
+
 // COMPONENTS
 // heading
 @mixin font-heading--xl {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(heading-xl),
     $weight: get-font-weight(heading-fat)
   );
 }
 @mixin font-heading--lg {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(heading-lg),
     $weight: get-font-weight(heading-fat)
   );
 }
 @mixin font-heading--md {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(heading-md),
     $weight: get-font-weight(heading-thin)
   );
 }
 @mixin font-heading--sm {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(heading-sm),
     $weight: get-font-weight(heading-thin)
@@ -107,30 +176,35 @@ $typography-font-weight: (
 
 // caption
 @mixin font-caption--xl {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(xl),
     $weight: get-font-weight(caption)
   );
 }
 @mixin font-caption--lg {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(lg),
     $weight: get-font-weight(caption)
   );
 }
 @mixin font-caption--md {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(md),
     $weight: get-font-weight(caption)
   );
 }
 @mixin font-caption--sm {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(sm),
     $weight: get-font-weight(caption)
   );
 }
 @mixin font-caption--xs {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(xs),
     $weight: get-font-weight(caption)
@@ -139,30 +213,35 @@ $typography-font-weight: (
 
 // paragraph
 @mixin font-paragraph--xl {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(xl),
     $weight: get-font-weight(paragraph)
   );
 }
 @mixin font-paragraph--lg {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(lg),
     $weight: get-font-weight(paragraph)
   );
 }
 @mixin font-paragraph--md {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(md),
     $weight: get-font-weight(paragraph)
   );
 }
 @mixin font-paragraph--sm {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(sm),
     $weight: get-font-weight(paragraph)
   );
 }
 @mixin font-paragraph--xs {
+  @include font-base;
   @include font_machine(
     $size: get-font-size(xs),
     $weight: get-font-weight(paragraph)
@@ -170,31 +249,41 @@ $typography-font-weight: (
 }
 
 @mixin font-label--xl {
+  @include font-base;
   @include font_machine(
+    $family: get-font-family(label),
     $size: get-font-size(xl),
     $weight: get-font-weight(label)
   );
 }
 @mixin font-label--lg {
+  @include font-base;
   @include font_machine(
+    $family: get-font-family(label),
     $size: get-font-size(lg),
     $weight: get-font-weight(label)
   );
 }
 @mixin font-label--md {
+  @include font-base;
   @include font_machine(
+    $family: get-font-family(label),
     $size: get-font-size(md),
     $weight: get-font-weight(label)
   );
 }
 @mixin font-label--sm {
+  @include font-base;
   @include font_machine(
+    $family: get-font-family(label),
     $size: get-font-size(sm),
     $weight: get-font-weight(label)
   );
 }
 @mixin font-label--xs {
+  @include font-base;
   @include font_machine(
+    $family: get-font-family(label),
     $size: get-font-size(xs),
     $weight: get-font-weight(label)
   );
@@ -202,29 +291,117 @@ $typography-font-weight: (
 
 // icons
 @mixin font-icon--heading-xl {
-  @include icon__base($size: get-font-size(heading-xl));
+  @include icon__base(heading-xl);
 }
 @mixin font-icon--heading-lg {
-  @include icon__base($size: get-font-size(heading-lg));
+  @include icon__base(heading-lg);
 }
 @mixin font-icon--heading-md {
-  @include icon__base($size: get-font-size(heading-md));
+  @include icon__base(heading-md);
 }
 @mixin font-icon--heading-sm {
-  @include icon__base($size: get-font-size(heading-sm));
+  @include icon__base(heading-sm);
 }
 @mixin font-icon--xl {
-  @include icon__base($size: get-font-size(xl));
+  @include icon__base(xl);
 }
 @mixin font-icon--lg {
-  @include icon__base($size: get-font-size(lg));
+  @include icon__base(lg);
 }
 @mixin font-icon--md {
-  @include icon__base($size: get-font-size(md));
+  @include icon__base(md);
 }
 @mixin font-icon--sm {
-  @include icon__base($size: get-font-size(sm));
+  @include icon__base(sm);
 }
 @mixin font-icon--xs {
-  @include icon__base($size: get-font-size(xs));
+  @include icon__base(xs);
+}
+
+// titles
+@mixin font-title--lg {
+  @include font-base;
+  @include font_machine(
+    $weight: get-font-weight(title),
+    $size: get-font-size(heading-md),
+    $family: get-font-family(title),
+    $color: $color-primary-0
+  );
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20%;
+    margin-left: #{calc((20% / 2) * -1)};
+    left: 50%;
+    height: 1px;
+    background: $color-primary-0;
+    bottom: 0;
+  }
+}
+
+@mixin font-title--md {
+  @include font-base;
+  @include font_machine(
+    $weight: get-font-weight(title),
+    $size: get-font-size(md),
+    $family: get-font-family(title),
+    $color: $color-grayscale-0
+  );
+  text-transform: uppercase;
+  padding: 20px 50px 10px 50px;
+  margin-bottom: 10px;
+  text-align: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 50%;
+    height: 1px;
+    bottom: 0;
+    background: $color-grayscale-0;
+    margin-left: #{calc((10% / 2) * -1)};
+    width: 10%;
+  }
+}
+
+@mixin font-title--sm {
+  @include font-base;
+  @include font_machine(
+    $weight: regular,
+    $size: get-font-size(xs),
+    $color: $color-secondary-0
+  );
+  text-transform: uppercase;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 50%;
+    height: 1px;
+    bottom: 0;
+    background: $color-secondary-0;
+    margin-left: #{calc((10% / 2) * -1)};
+    width: 10%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    height: 1px;
+    background: $color-lightscale-0;
+  }
 }

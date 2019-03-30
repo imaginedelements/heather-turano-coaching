@@ -1,12 +1,14 @@
-import Paragraph from "./index";
+import React from "react";
+import Caption from "./index";
 
 const props = {
   color: "light",
+  color: "black",
   copy: "test"
 };
 
-describe("<Paragraph />", () => {
-  const wrapper = shallowWrapper(Paragraph)(props);
+describe("<Caption />", () => {
+  const wrapper = shallowWrapper(Caption)(props);
 
   it("should render correctly", () => {
     expect(wrapper).toMatchSnapshot();

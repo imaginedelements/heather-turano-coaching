@@ -2,7 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import base, { filename } from "paths.macro";
 
-import { Icon } from "../../../src/components/Typography";
+import { Icon } from "../../../src/components/typography";
 
 import { createStory } from "../../index";
 

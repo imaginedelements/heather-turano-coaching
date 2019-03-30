@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { HeroImage } from "./HeroImage";
-import { Heading } from "../Typography";
+import { Heading } from "../typography";
 
 import "./index.module.scss";
 

@@ -1,17 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Label } from "../../typography";
+
 import "./index.module.scss";
 
 export const InputLabel = ({ label, for: htmlFor, isValid }) => (
-  <>
-    <label
-      styleName={`input-label ${!isValid ? "invalid" : ""}`}
-      htmlFor={htmlFor}
-    >
+  <label htmlFor={htmlFor} styleName="input-label">
+    <Label size="sm" type="input" color={isValid ? "secondary-0" : "invalid-0"}>
       {label}
-    </label>
-  </>
+    </Label>
+  </label>
 );
 
 InputLabel.propTypes = {

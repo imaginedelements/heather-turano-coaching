@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Hero, Section, Carosel, Testimonial, Stepper } from "../../components";
-import { Paragraph } from "../../components/Typography";
+import { Paragraph } from "../../components/typography";
 
 export const HomePageTemplate = ({
   hero: { heroImage, heroTitle, heroSubTitle },

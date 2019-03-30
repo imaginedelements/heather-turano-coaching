@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 import "./index.module.scss";
 
-const Paragraph = ({ size, copy, children }) => (
-  <p styleName={`paragraph ${size}`}>{copy || children}</p>
+const Caption = ({ size, copy, children }) => (
+  <p styleName={`caption ${size}`}>{copy || children}</p>
 );
 
-Paragraph.propTypes = {
+Caption.propTypes = {
   /**
    * Size of the paragraph text
    */
@@ -22,9 +22,9 @@ Paragraph.propTypes = {
   children: PropTypes.string
 };
 
-Paragraph.defaultProps = {
+Caption.defaultProps = {
   copy: null,
   children: null
 };
 
-export default Paragraph;
+export default Caption;

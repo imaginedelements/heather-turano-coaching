@@ -1,44 +1,31 @@
-@import "~@bit/cadent.styles.sass.root";
+@import "src/styles/scss/index";
+@import "../form-controls/index";
 
 // Blended Colors
-$blend-base-dark: $color-neutral-6;
-$blend-base-light: $color-neutral-0;
+$blend-base-dark: #000;
+$blend-base-light: #fff;
 $blend-level-hover: 20%;
 $blend-level-active: 40%;
 
 // primary
-$button-color__primary: $color-neutral-4;
-$button-color__primary-border: $color-neutral-4;
-$button-color__primary-text: $color-neutral-0;
+$button-color__primary: #fff;
+$button-color__primary-border: $color-secondary-0;
+$button-color__primary-text: $color-secondary-0;
+$button-color__primary-blend-base-background: $blend-base-light;
+$button-color__primary-blend-base-border: $blend-base-dark;
 
 // secondary
-$button-color__secondary: $color-neutral-0;
-$button-color__secondary-border: $button-color__primary;
-$button-color__secondary-text: $button-color__primary;
-
-// alternative
-$button-color__alt: $color-primary;
-$button-color__alt-border: $color-primary;
-$button-color__alt-text: $color-neutral-0;
-
-// Small (Alt) Variables
-$button-color__small: $color-neutral-4;
-$button-color__small-border: $color-neutral-4;
-$button-color__small-text: $color-neutral-0;
+$button-color__secondary: $color-secondary-0;
+$button-color__secondary-border: #fff;
+$button-color__secondary-text: #fff;
 
 // Stateful Variables
-$button-color__disabled: $color-neutral-1;
-$button-color__disabled-border: $color-neutral-1;
-$button-color__disabled-text: $color-neutral-2;
+$button-color__disabled: $color-lightscale-1;
+$button-color__disabled-border: $color-lightscale-1;
+$button-color__disabled-text: $color-grayscale-3;
 $button-color__destructive: $color-invalid;
 $button-color__destructive-border: $color-invalid;
-$button-color__destructive-text: $color-neutral-0;
-$button-color__warning: $color-warning-4;
-$button-color__warning-border: $color-warning-4;
-$button-color__warning-text: $color-neutral-0;
-$button-color__success: $color-success-4;
-$button-color__success-border: $color-success-4;
-$button-color__success-text: $color-neutral-0;
+$button-color__destructive-text: #fff;
 
 // Outline
 $button-offset__outline: space(xxs) * -1;
@@ -48,6 +35,14 @@ $button-transition: all ease-in-out 0.2s;
 
 // Dimensions
 $button__min-width: space(xxl);
+
+@mixin button__reset {
+  cursor: pointer;
+  border: 0;
+  background: 0;
+  margin: 0;
+  padding: 0;
+}
 
 @mixin button__base(
   $background-color,
@@ -105,9 +100,9 @@ $button__min-width: space(xxl);
     border-color: mix($blend-base-border, $border-color, $blend-level-hover);
     outline: none;
 
-    &::after {
-      border-color: $border-color;
-    }
+    // &::after {
+    //   border-color: $border-color;
+    // }
   }
 
   &:active {
@@ -130,20 +125,17 @@ $button__min-width: space(xxl);
 }
 
 @mixin button__lg {
+  padding: space(xxs) space(md);
   border-radius: space(xxs);
-  padding: space(xs) space(md);
-}
-
-@mixin button__sm {
-  border-radius: space(mini);
-  padding: space(xxs) space(sm);
 }
 
 @mixin button--primary {
   @include button__base(
     $button-color__primary,
     $button-color__primary-border,
-    $button-color__primary-text
+    $button-color__primary-text,
+    $button-color__primary-blend-base-background,
+    $button-color__primary-blend-base-border
   ) {
     @include button__lg;
   }
@@ -156,26 +148,6 @@ $button__min-width: space(xxl);
     $button-color__secondary-text
   ) {
     @include button__lg;
-  }
-}
-
-@mixin button--alt {
-  @include button__base(
-    $button-color__alt,
-    $button-color__alt-border,
-    $button-color__alt-text
-  ) {
-    @include button__lg;
-  }
-}
-
-@mixin button--small {
-  @include button__base(
-    $button-color__small,
-    $button-color__small-border,
-    $button-color__small-text
-  ) {
-    @include button__sm;
   }
 }
 

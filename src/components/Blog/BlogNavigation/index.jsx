@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Link } from "../../Link";
-import { Icon } from "../../Typography";
+import { Icon } from "../../typography";
 import "./index.module.scss";
 
 export const BlogNavigation = ({ pagePrev, pageNext }) => (

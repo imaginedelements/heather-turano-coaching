@@ -1,4 +1,4 @@
-@import "~@bit/cadent.styles.sass.buttons";
+@import "../index";
 
 @mixin button-impact__text-style {
   & > p {
@@ -30,10 +30,10 @@ button.link {
   &:hover,
   &:focus {
     @include button-impact__text-style {
-      color: $color-brand-2;
+      color: $color-secondary-0;
     }
     @include button-impact__icon-style {
-      fill: $color-brand-2;
+      fill: $color-secondary-0;
     }
   }
 }
