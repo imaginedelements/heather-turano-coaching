@@ -37,20 +37,22 @@ class Stepper extends Component {
             const passedClass = isPassed ? "passed" : "";
             return (
               <div styleName="step" key={label}>
-                <div styleName={`label ${activeClass} ${passedClass}`}>{label}</div>
+                <div styleName={`label ${activeClass} ${passedClass}`}>
+                  {label}
+                </div>
                 <button
                   key={index.toString()}
                   styleName={`bubble ${activeClass} ${passedClass}`}
                   onClick={() => this.goToEntry(index)}
                 >
                   <Icon
-                    icon={["fal", icon]}
-                    iconSize="sm"
-                    iconColor={(() => {
-                      if(isActive) {
+                    icon={icon}
+                    size="sm"
+                    color={(() => {
+                      if (isActive) {
                         return "secondary-0";
                       }
-                      if(isPassed) {
+                      if (isPassed) {
                         return "secondary-2";
                       }
                       return "default";

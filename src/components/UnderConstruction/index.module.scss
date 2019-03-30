@@ -1,4 +1,4 @@
-@import "src/styles/mixins/index";
+@import "src/styles/scss/index";
 
 .placeholder {
   @include make_flex(row, center, center);

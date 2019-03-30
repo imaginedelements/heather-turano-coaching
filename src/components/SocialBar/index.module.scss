@@ -1,4 +1,4 @@
-@import "src/styles/mixins/index";
+@import "src/styles/scss/index";
 
 .social {
   @include make_flex(row, center, center);

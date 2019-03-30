@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Heading, Paragraph } from "../../Typography";
-import { Link } from "../../../components/Link";
-import { Icon } from "../../../components/Icon";
+import { Heading, Paragraph, Icon } from "../../Typography";
+import { Link } from "../../Link";
 
 import "./index.module.scss";
 
@@ -34,32 +33,16 @@ export const BlogCard = ({
       </article>
       <ul styleName="quick-links">
         <li styleName="link secondary">
-          <Icon
-            icon={["fab", "facebook"]}
-            iconSize="xxs"
-            iconColor="lightscale-3"
-          />
+          <Icon icon="facebook" size="xs" iconColor="lightscale-3" />
         </li>
         <li styleName="link primary">
-          <Icon
-            icon={["fab", "pinterest"]}
-            iconSize="xxs"
-            iconColor="lightscale-3"
-          />
+          <Icon icon="pinterest" size="xs" iconColor="lightscale-3" />
         </li>
         <li styleName="link accent">
-          <Icon
-            icon={["fab", "instagram"]}
-            iconSize="xxs"
-            iconColor="lightscale-3"
-          />
+          <Icon icon="instagram" size="xs" iconColor="lightscale-3" />
         </li>
         <li styleName="link grayscale">
-          <Icon
-            icon={["fab", "twitter"]}
-            iconSize="xxs"
-            iconColor="lightscale-3"
-          />
+          <Icon icon="twitter" size="xs" iconColor="lightscale-3" />
         </li>
       </ul>
     </div>

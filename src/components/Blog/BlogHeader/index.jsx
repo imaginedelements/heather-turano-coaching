@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Heading } from "../../Typography";
+import { Heading, Icon } from "../../Typography";
 import { Link } from "../../Link";
-import { Icon } from "../../Icon";
 import "./index.module.scss";
 
 export const BlogHeader = ({
@@ -19,7 +18,7 @@ export const BlogHeader = ({
       <div styleName="link">
         <Icon
           icon={["far", "long-arrow-left"]}
-          iconSize="xs"
+          size="xs"
           iconColor="accent-0"
         />
         <Link to={backLinkRoute}>{backLinkText}</Link>

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { Heading, Paragraph } from "../Typography";
-import Icon from "../Icon";
+import { Heading, Paragraph, Icon } from "../Typography";
 
 import "./index.module.scss";
 
@@ -36,11 +35,7 @@ class InteractiveCircleList extends Component {
                   styleName={`bubble ${isActive ? "active" : ""}`}
                   onClick={() => this.handleClick(i)}
                 >
-                  <Icon
-                    icon={["fal", icon]}
-                    iconSize="xl"
-                    iconColor="secondary-0"
-                  />
+                  <Icon icon={icon} size="xl" iconColor="secondary-0" />
                 </button>
                 <div styleName="blurb">
                   <Heading copy={title} size="subtitle" />

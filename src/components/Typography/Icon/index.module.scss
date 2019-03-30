@@ -1,0 +1,33 @@
+@import "../index";
+
+.icon {
+  &.heading {
+    &-xl {
+      @include font-icon--heading-xl;
+    }
+    &-lg {
+      @include font-icon--heading-lg;
+    }
+    &-md {
+      @include font-icon--heading-md;
+    }
+    &-sm {
+      @include font-icon--heading-sm;
+    }
+  }
+  &.xl {
+    @include font-icon--xl;
+  }
+  &.lg {
+    @include font-icon--lg;
+  }
+  &.md {
+    @include font-icon--md;
+  }
+  &.sm {
+    @include font-icon--sm;
+  }
+  &.xs {
+    @include font-icon--xs;
+  }
+}

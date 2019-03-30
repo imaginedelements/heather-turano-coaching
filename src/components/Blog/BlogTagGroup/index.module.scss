@@ -1,4 +1,4 @@
-@import "src/styles/mixins/index";
+@import "src/styles/scss/index";
 
 .tag-group {
   @include make_flex(row, flex-start, flex-start);

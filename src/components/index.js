@@ -4,7 +4,6 @@ export { default as SectionItem } from "./SectionItem";
 export { default as Carosel } from "./Carosel";
 export { default as Testimonial } from "./Testimonial";
 export { default as Stepper } from "./Stepper";
-export { default as Icon } from "./Icon";
 export { default as BackgroundImage } from "./BackgroundImage";
 export { default as Avatar } from "./Avatar";
 export { default as InteractiveCircleList } from "./InteractiveCircleList";
@@ -14,7 +13,7 @@ export { default as MainNav } from "./MainNav";
 export { default as Footer } from "./Footer";
 export { default as UnderConstruction } from "./UnderConstruction";
 export { default as MarkdownWrapper } from "./MarkdownWrapper";
-export { Paragraph, Heading } from "./Typography";
+export { Paragraph, Heading, Icon } from "./Typography";
 export {
   BlogLayout,
   BlogContainer,

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Link } from "../../Link";
-import { Icon } from "../../Icon";
+import { Icon } from "../../Typography";
 import "./index.module.scss";
 
 export const BlogNavigation = ({ pagePrev, pageNext }) => (
@@ -10,11 +10,7 @@ export const BlogNavigation = ({ pagePrev, pageNext }) => (
     <div styleName="link left">
       {pagePrev && (
         <>
-          <Icon
-            icon={["far", "long-arrow-left"]}
-            iconSize="xs"
-            iconColor="accent-0"
-          />
+          <Icon icon="long-arrow-left" size="xs" iconColor="accent-0" />
           <Link to={pagePrev}>Older</Link>
         </>
       )}
@@ -25,7 +21,7 @@ export const BlogNavigation = ({ pagePrev, pageNext }) => (
           <Link to={pageNext}>Newer</Link>
           <Icon
             icon={["far", "long-arrow-right"]}
-            iconSize="xs"
+            size="xs"
             iconColor="accent-0"
           />
         </>

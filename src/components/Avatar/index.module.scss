@@ -1,4 +1,4 @@
-@import "src/styles/mixins/index";
+@import "src/styles/scss/index";
 
 .avatar {
   min-height: 150px;
@@ -23,7 +23,6 @@
   }
 
   img {
-    @include animation_fadein;
     :global {
       animation: fadein 0.25s;
     }

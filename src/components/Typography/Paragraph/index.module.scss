@@ -1,4 +1,4 @@
-@import "src/styles/mixins/index";
+@import "src/styles/scss/index";
 
 p {
   @include font_machine("light", $size: map-get($typography, para));

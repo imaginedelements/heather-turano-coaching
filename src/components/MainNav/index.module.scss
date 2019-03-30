@@ -1,4 +1,4 @@
-@import "src/styles/mixins/index";
+@import "src/styles/scss/index";
 
 .nav {
   @include make_flex(row, space-evenly, center);
