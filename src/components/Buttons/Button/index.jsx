@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Icon, Label } from "../../typography";
+import { Icon, Paragraph } from "../../typography";
 
 import styles from "./index.module.scss";
 
@@ -25,7 +25,7 @@ export const Button = ({
     {loading ? (
       <Icon size="md" copy={label} icon="spinner" spin />
     ) : (
-      <Label size="md">{label}</Label>
+      <Paragraph size="md">{label}</Paragraph>
     )}
   </button>
   /* eslint-enable react/button-has-type */

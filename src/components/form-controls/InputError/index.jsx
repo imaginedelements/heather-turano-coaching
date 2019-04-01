@@ -1,10 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Caption } from "../../typography";
+
 import "./index.module.scss";
 
 export const InputError = ({ message }) => (
-  <div styleName="input-error">{message}</div>
+  <div styleName="input-error">
+    <Caption size="xs">{message}</Caption>
+  </div>
 );
 
 InputError.propTypes = {

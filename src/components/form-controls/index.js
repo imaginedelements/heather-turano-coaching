@@ -3,6 +3,7 @@ export { Formik as FormControl, Form } from "formik";
 
 // Form Stuffz
 export { default as FormField } from "./FormField";
+export { default as FormLayout } from "./FormLayout";
 
 // Inputs
 export { default as InputLabel } from "./InputLabel";

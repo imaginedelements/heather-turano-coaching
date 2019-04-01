@@ -2,8 +2,4 @@
 
 .input-control {
   @include input-control;
-
-  & + .input-control {
-    margin-top: 20px;
-  }
 }

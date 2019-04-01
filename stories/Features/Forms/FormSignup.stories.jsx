@@ -3,50 +3,65 @@ import { storiesOf } from "@storybook/react";
 import base, { filename } from "paths.macro";
 
 import { createStory } from "../../index";
-import {
-  FormControl,
-  Form,
-  FormField
-} from "../../../src/components/form-controls";
+import { FormSignup } from "../../../src/components-app/forms";
+
+const handleSubmit = values => alert(JSON.stringify(values));
 
 storiesOf(createStory(base, filename), module)
-  .add("1 field", () => (
-    <FormControl initialValues={{ firstName: "" }}>
-      <Form>
-        <FormField type="text" name="firstName" />
-      </Form>
-    </FormControl>
+  .add("default", () => (
+    <FormSignup actionLabel="lets do this!" handleSubmit={handleSubmit} />
   ))
-  .add("2 fields", () => (
-    <FormControl initialValues={{ firstName: "", lastName: "" }}>
-      <Form>
-        <FormField type="text" name="firstName" />
-        <FormField type="text" name="lastName" />
-      </Form>
-    </FormControl>
+  .add("stacked", () => (
+    <FormSignup
+      layout="stacked"
+      actionLabel="lets do this!"
+      handleSubmit={handleSubmit}
+    />
   ))
-  .add("3 fields", () => (
-    <FormControl initialValues={{ firstName: "", lastName: "", address: "" }}>
-      <Form>
-        <FormField type="text" name="firstName" />
-        <FormField type="text" name="lastName" />
-        <FormField type="text" name="address" />
-      </Form>
-    </FormControl>
+  .add("stacked - w/ first name", () => (
+    <FormSignup
+      shouldDisplayFirstName
+      layout="stacked"
+      actionLabel="lets do this!"
+      handleSubmit={handleSubmit}
+    />
   ))
-  .add("Initialized values", () => (
-    <FormControl
-      initialValues={{ firstName: "Tom", lastName: "Sawyer", address: "" }}
-    >
-      <Form>
-        <FormField type="text" name="firstName" label="First name" />
-        <FormField type="text" name="lastName" label="Last name" />
-        <FormField
-          type="text"
-          name="address"
-          placeholder="The bayou?"
-          label="Address"
-        />
-      </Form>
-    </FormControl>
+  .add("stacked - w/ placeholders", () => (
+    <FormSignup
+      shouldDisplayFirstName
+      layout="stacked"
+      actionLabel="lets do this!"
+      handleSubmit={handleSubmit}
+      placeholder={{
+        firstName: "this is what people call you",
+        email: "youremail@bomb.com"
+      }}
+    />
+  ))
+  .add("inline", () => (
+    <FormSignup
+      layout="inline"
+      actionLabel="lets do this!"
+      handleSubmit={handleSubmit}
+    />
+  ))
+  .add("inline - w/ first name", () => (
+    <FormSignup
+      shouldDisplayFirstName
+      layout="inline"
+      actionLabel="lets do this!"
+      handleSubmit={handleSubmit}
+    />
+  ))
+  .add("inline - w/ placeholders", () => (
+    <FormSignup
+      shouldDisplayFirstName
+      layout="inline"
+      actionLabel="lets do this!"
+      handleSubmit={handleSubmit}
+      placeholder={{
+        firstName: "this is what people call you",
+        email: "youremail@bomb.com"
+      }}
+    />
   ));

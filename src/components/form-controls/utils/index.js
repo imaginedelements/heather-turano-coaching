@@ -7,7 +7,8 @@ export const inputComponentMap = {
   label: InputLabel,
   error: InputError,
   // types
-  text: InputText
+  text: InputText,
+  email: InputText
 };
 
 export const inputIconMap = {

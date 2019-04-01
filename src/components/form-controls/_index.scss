@@ -38,11 +38,6 @@
   }
 }
 
-@mixin input-padding {
-  padding: space(xs) space(sm);
-  border-radius: space(xxs);
-}
-
 /********************\
 |****** LABELS ******|
 \********************/
@@ -55,7 +50,7 @@
 |****** ERROR ******|
 \********************/
 @mixin input-error {
-  margin-top: space(sm);
+  margin-top: space(xxs);
 }
 
 /******************\
@@ -65,11 +60,11 @@
   @include input-reset;
   @include font-paragraph--md;
   @include input-placeholder;
-  @include input-padding;
   background: $background;
-  border-radius: space(xxs);
+  padding: space(xs) space(sm);
+  border-radius: space(mini);
   transition: border 0.15s ease-in-out;
-  border: 1px solid transparent;
+  border: 1px solid $color-secondary-3;
 }
 @mixin input-base--invalid {
   @include input-placeholder($color: $color-invalid-0);
@@ -78,7 +73,7 @@
 @mixin input-base--focus {
   &:focus {
     outline: none;
-    border: 1px solid $color-secondary-2;
+    border: 1px solid $color-secondary-1;
   }
 }
 
