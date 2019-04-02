@@ -73,6 +73,41 @@ $color-invalid-1: make_color($color-invalid, 75);
 $color-invalid-2: make_color($color-invalid, 50);
 $color-invalid-3: make_color($color-invalid, 25);
 
+$colors: (
+  primary-0: make_color($color-primary, 100),
+  primary-1: make_color($color-primary, 75),
+  primary-2: make_color($color-primary, 50),
+  primary-3: make_color($color-primary, 25),
+  secondary-0: make_color($color-secondary, 100),
+  secondary-1: make_color($color-secondary, 75),
+  secondary-2: make_color($color-secondary, 50),
+  secondary-3: make_color($color-secondary, 25),
+  accent-0: make_color($color-accent, 100),
+  accent-1: make_color($color-accent, 75),
+  accent-2: make_color($color-accent, 50),
+  accent-3: make_color($color-accent, 25),
+  grayscale-0: make_color($color-grayscale, 100),
+  grayscale-1: make_color($color-grayscale, 75),
+  grayscale-2: make_color($color-grayscale, 50),
+  grayscale-3: make_color($color-grayscale, 25),
+  lightscale-0: make_color($color-lightscale, 100),
+  lightscale-1: make_color($color-lightscale, 75),
+  lightscale-2: make_color($color-lightscale, 50),
+  lightscale-3: make_color($color-lightscale, 25),
+  success-0: make_color($color-success, 100),
+  success-1: make_color($color-success, 75),
+  success-2: make_color($color-success, 50),
+  success-3: make_color($color-success, 25),
+  warning-0: make_color($color-warning, 100),
+  warning-1: make_color($color-warning, 75),
+  warning-2: make_color($color-warning, 50),
+  warning-3: make_color($color-warning, 25),
+  invalid-0: make_color($color-invalid, 100),
+  invalid-1: make_color($color-invalid, 75),
+  invalid-2: make_color($color-invalid, 50),
+  invalid-3: make_color($color-invalid, 25)
+);
+
 // Breakpoints
 $breakpoints: (
   xs: 0,

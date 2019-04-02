@@ -4,7 +4,7 @@
 // bases
 $base--font-family: "Raleway", sans-serif;
 $base--font-family-alt: "Montserrat", sans-serif;
-$base--font-color: $color-grayscale-0;
+$base--font-color: get-color(grayscale-0);
 $base--font-line-height: 1.6;
 $base--font-response-multiplier: 1.2;
 $base--font-weights: (
@@ -81,23 +81,22 @@ $typography-font-weight: (
 );
 
 // FNS
-@function get-font-size($size) {
+@function get-font--size($size) {
   @return map-get($map: $typography-font-sizes, $key: $size);
 }
 
-@function get-font-weight($weight) {
+@function get-font--weight($weight) {
   @return map-get($map: $typography-font-weight, $key: $weight);
 }
 
-@function get-font-family($family) {
-  @debug map-get($map: $typography-font-family, $key: $family);
+@function get-font--family($family) {
   @return map-get($map: $typography-font-family, $key: $family);
 }
 
 @mixin font_machine(
   $size: $size,
   $family: $base--font-family,
-  $weight: get-font-weight(regular),
+  $weight: get-font--weight(regular),
   $style: normal,
   $color: $base--font-color,
   $line-height: $base--font-line-height
@@ -115,7 +114,7 @@ $typography-font-weight: (
 }
 
 @mixin icon__base($size) {
-  $font-size: get-font-size($size);
+  $font-size: get-font--size($size);
 
   @include make_flex(row, center, center);
   width: $font-size * $base--font-line-height !important;
@@ -148,29 +147,29 @@ $typography-font-weight: (
 @mixin font-heading--xl {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(heading-xl),
-    $weight: get-font-weight(heading-fat)
+    $size: get-font--size(heading-xl),
+    $weight: get-font--weight(heading-fat)
   );
 }
 @mixin font-heading--lg {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(heading-lg),
-    $weight: get-font-weight(heading-fat)
+    $size: get-font--size(heading-lg),
+    $weight: get-font--weight(heading-fat)
   );
 }
 @mixin font-heading--md {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(heading-md),
-    $weight: get-font-weight(heading-thin)
+    $size: get-font--size(heading-md),
+    $weight: get-font--weight(heading-thin)
   );
 }
 @mixin font-heading--sm {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(heading-sm),
-    $weight: get-font-weight(heading-thin)
+    $size: get-font--size(heading-sm),
+    $weight: get-font--weight(heading-thin)
   );
 }
 
@@ -178,36 +177,36 @@ $typography-font-weight: (
 @mixin font-caption--xl {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(xl),
-    $weight: get-font-weight(caption)
+    $size: get-font--size(xl),
+    $weight: get-font--weight(caption)
   );
 }
 @mixin font-caption--lg {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(lg),
-    $weight: get-font-weight(caption)
+    $size: get-font--size(lg),
+    $weight: get-font--weight(caption)
   );
 }
 @mixin font-caption--md {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(md),
-    $weight: get-font-weight(caption)
+    $size: get-font--size(md),
+    $weight: get-font--weight(caption)
   );
 }
 @mixin font-caption--sm {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(sm),
-    $weight: get-font-weight(caption)
+    $size: get-font--size(sm),
+    $weight: get-font--weight(caption)
   );
 }
 @mixin font-caption--xs {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(xs),
-    $weight: get-font-weight(caption)
+    $size: get-font--size(xs),
+    $weight: get-font--weight(caption)
   );
 }
 
@@ -215,77 +214,77 @@ $typography-font-weight: (
 @mixin font-paragraph--xl {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(xl),
-    $weight: get-font-weight(paragraph)
+    $size: get-font--size(xl),
+    $weight: get-font--weight(paragraph)
   );
 }
 @mixin font-paragraph--lg {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(lg),
-    $weight: get-font-weight(paragraph)
+    $size: get-font--size(lg),
+    $weight: get-font--weight(paragraph)
   );
 }
 @mixin font-paragraph--md {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(md),
-    $weight: get-font-weight(paragraph)
+    $size: get-font--size(md),
+    $weight: get-font--weight(paragraph)
   );
 }
 @mixin font-paragraph--sm {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(sm),
-    $weight: get-font-weight(paragraph)
+    $size: get-font--size(sm),
+    $weight: get-font--weight(paragraph)
   );
 }
 @mixin font-paragraph--xs {
   @include font-base;
   @include font_machine(
-    $size: get-font-size(xs),
-    $weight: get-font-weight(paragraph)
+    $size: get-font--size(xs),
+    $weight: get-font--weight(paragraph)
   );
 }
 
 @mixin font-label--xl {
   @include font-base;
   @include font_machine(
-    $family: get-font-family(label),
-    $size: get-font-size(xl),
-    $weight: get-font-weight(label)
+    $family: get-font--family(label),
+    $size: get-font--size(xl),
+    $weight: get-font--weight(label)
   );
 }
 @mixin font-label--lg {
   @include font-base;
   @include font_machine(
-    $family: get-font-family(label),
-    $size: get-font-size(lg),
-    $weight: get-font-weight(label)
+    $family: get-font--family(label),
+    $size: get-font--size(lg),
+    $weight: get-font--weight(label)
   );
 }
 @mixin font-label--md {
   @include font-base;
   @include font_machine(
-    $family: get-font-family(label),
-    $size: get-font-size(md),
-    $weight: get-font-weight(label)
+    $family: get-font--family(label),
+    $size: get-font--size(md),
+    $weight: get-font--weight(label)
   );
 }
 @mixin font-label--sm {
   @include font-base;
   @include font_machine(
-    $family: get-font-family(label),
-    $size: get-font-size(sm),
-    $weight: get-font-weight(label)
+    $family: get-font--family(label),
+    $size: get-font--size(sm),
+    $weight: get-font--weight(label)
   );
 }
 @mixin font-label--xs {
   @include font-base;
   @include font_machine(
-    $family: get-font-family(label),
-    $size: get-font-size(xs),
-    $weight: get-font-weight(label)
+    $family: get-font--family(label),
+    $size: get-font--size(xs),
+    $weight: get-font--weight(label)
   );
 }
 
@@ -322,10 +321,10 @@ $typography-font-weight: (
 @mixin font-title--lg {
   @include font-base;
   @include font_machine(
-    $weight: get-font-weight(title),
-    $size: get-font-size(heading-md),
-    $family: get-font-family(title),
-    $color: $color-primary-0
+    $weight: get-font--weight(title),
+    $size: get-font--size(heading-md),
+    $family: get-font--family(title),
+    $color: get-color(primary-0)
   );
   text-transform: uppercase;
   padding-bottom: 20px;
@@ -339,7 +338,7 @@ $typography-font-weight: (
     margin-left: #{calc((20% / 2) * -1)};
     left: 50%;
     height: 1px;
-    background: $color-primary-0;
+    background: get-color(primary-0);
     bottom: 0;
   }
 }
@@ -347,10 +346,10 @@ $typography-font-weight: (
 @mixin font-title--md {
   @include font-base;
   @include font_machine(
-    $weight: get-font-weight(title),
-    $size: get-font-size(md),
-    $family: get-font-family(title),
-    $color: $color-grayscale-0
+    $weight: get-font--weight(title),
+    $size: get-font--size(md),
+    $family: get-font--family(title),
+    $color: get-color(grayscale-0)
   );
   text-transform: uppercase;
   padding: 20px 50px 10px 50px;
@@ -364,7 +363,7 @@ $typography-font-weight: (
     left: 50%;
     height: 1px;
     bottom: 0;
-    background: $color-grayscale-0;
+    background: get-color(grayscale-0);
     margin-left: #{calc((10% / 2) * -1)};
     width: 10%;
   }
@@ -374,8 +373,8 @@ $typography-font-weight: (
   @include font-base;
   @include font_machine(
     $weight: regular,
-    $size: get-font-size(xs),
-    $color: $color-secondary-0
+    $size: get-font--size(xs),
+    $color: get-color(secondary-0)
   );
   text-transform: uppercase;
   padding: 20px 20px 10px 20px;
@@ -389,7 +388,7 @@ $typography-font-weight: (
     left: 50%;
     height: 1px;
     bottom: 0;
-    background: $color-secondary-0;
+    background: get-color(secondary-0);
     margin-left: #{calc((10% / 2) * -1)};
     width: 10%;
   }
@@ -402,6 +401,6 @@ $typography-font-weight: (
     right: 0;
     bottom: -20px;
     height: 1px;
-    background: $color-lightscale-0;
+    background: get-color(lightscale-0);
   }
 }

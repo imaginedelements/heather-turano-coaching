@@ -7,7 +7,9 @@ import "./index.module.scss";
 
 export const InputError = ({ message }) => (
   <div styleName="input-error">
-    <Caption size="xs">{message}</Caption>
+    <Caption size="xs" color="invalid-0">
+      {message}
+    </Caption>
   </div>
 );
 

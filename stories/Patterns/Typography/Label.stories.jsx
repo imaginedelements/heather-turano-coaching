@@ -20,4 +20,23 @@ storiesOf(createStory(base, filename), module)
   .add("size - lg", () => <Label size="lg">Label lg</Label>)
   .add("size - md", () => <Label size="md">Label md</Label>)
   .add("size - sm", () => <Label size="sm">Label sm</Label>)
-  .add("using copy prop", () => <Label size="xs">Label xs</Label>);
+  .add("using copy prop", () => <Label size="xs">Label xs</Label>)
+  .add("color - invalid", () => (
+    <>
+      <Label size="xl" color="invalid-0">
+        Label xl
+      </Label>
+      <Label size="lg" color="invalid-0">
+        Label lg
+      </Label>
+      <Label size="md" color="invalid-0">
+        Label md
+      </Label>
+      <Label size="sm" color="invalid-0">
+        Label sm
+      </Label>
+      <Label size="xs" color="invalid-0">
+        Label xs
+      </Label>
+    </>
+  ));

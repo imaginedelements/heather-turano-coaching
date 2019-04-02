@@ -17,3 +17,7 @@
 @function width($col-width) {
   @return map-get($map: $col-spans, $key: $col-width);
 }
+
+@function get-color($color) {
+  @return map-get($map: $colors, $key: $color);
+}

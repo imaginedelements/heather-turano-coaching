@@ -1,14 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import Color from "../Color";
+
 import "./index.module.scss";
 
-const Label = ({ size, copy, children, type }) =>
-  type !== "input" ? (
-    <p styleName={`label ${size}`}>{copy || children}</p>
-  ) : (
-    <span styleName={`label ${size}`}>{copy || children}</span>
-  );
+const Label = ({ size, color, copy, children, type }) => {
+  const text = <Color color={color}>{copy || children}</Color>;
+  if (type !== "input") {
+    return <p styleName={`label ${size}`}>{text}</p>;
+  }
+  return <span styleName={`label ${size}`}>{text}</span>;
+};
 
 Label.propTypes = {
   /**
