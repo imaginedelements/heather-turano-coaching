@@ -5,7 +5,7 @@
 $base--font-family: "Raleway", sans-serif;
 $base--font-family-alt: "Montserrat", sans-serif;
 $base--font-color: get-color(grayscale-0);
-$base--font-line-height: 1.6;
+$base--font-line-height: 1.58;
 $base--font-response-multiplier: 1.2;
 $base--font-weights: (
   extra-light: 200,
@@ -19,6 +19,7 @@ $base--font-weights: (
 // Families
 $typography-font-families: (
   label: $base--font-family,
+  paragraph: $base--font-family,
   title: $base--font-family-alt,
   heading: $base--font-family-alt,
   text: $base--font-family-alt
@@ -26,7 +27,7 @@ $typography-font-families: (
 
 $typography-font-sizes: (
   heading-xl: 42px,
-  heading-lg: 36px,
+  heading-lg: 34px,
   heading-md: 28px,
   heading-sm: 24px,
   xs: 10px,
@@ -152,7 +153,7 @@ $typography-font-weights: (
   @include font-base;
   @include font_machine(
     $size: get-font--size(heading-lg),
-    $weight: get-font--weight(heading-thin),
+    $weight: get-font--weight(heading-fat),
     $family: get-font--family(heading)
   );
 }
@@ -168,6 +169,14 @@ $typography-font-weights: (
   @include font-base;
   @include font_machine(
     $size: get-font--size(heading-sm),
+    $weight: get-font--weight(heading-fat),
+    $family: get-font--family(heading)
+  );
+}
+@mixin font-heading--xs {
+  @include font-base;
+  @include font_machine(
+    $size: get-font--size(heading-xs),
     $weight: get-font--weight(heading-fat),
     $family: get-font--family(heading)
   );

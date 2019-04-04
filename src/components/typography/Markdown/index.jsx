@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 
 import "./index.module.scss";
 
-export const MarkdownWrapper = ({ children }) => (
+export const Markdown = ({ children }) => (
   <section styleName="markdown">{children}</section>
 );
 
-MarkdownWrapper.propTypes = {
+Markdown.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-export default MarkdownWrapper;
+export default Markdown;
