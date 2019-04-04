@@ -3,12 +3,8 @@ import { storiesOf } from "@storybook/react";
 import base, { filename } from "paths.macro";
 
 import { createStory } from "../../index";
-import {
-  FormControl,
-  Form,
-  FormField,
-  FormLayout
-} from "../../../src/components/form-controls";
+import { FormControl, Form, FormLayout } from "../../../src/components/forms";
+import { FormField } from "../../../src/components/inputs";
 
 storiesOf(createStory(base, filename), module)
   .add("default", () => (

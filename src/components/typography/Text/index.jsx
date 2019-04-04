@@ -4,32 +4,32 @@ import PropTypes from "prop-types";
 import Color from "../Color";
 import "./index.module.scss";
 
-const Paragraph = ({ size, color, copy, children }) => (
-  <p styleName={`paragraph ${size}`}>
+const Text = ({ size, color, copy, children }) => (
+  <p styleName={`txt ${size}`}>
     <Color color={color}>{copy || children}</Color>
   </p>
 );
 
-Paragraph.propTypes = {
+Text.propTypes = {
   /**
-   * Size of the paragraph text
+   * Size of the Text text
    */
   size: PropTypes.oneOf(["xl", "lg", "md", "sm", "xs"]).isRequired,
   color: PropTypes.string,
   /**
-   * The copy of the paragraph font
+   * The copy of the Text font
    */
   copy: PropTypes.string,
   /**
-   * The copy of the paragraph font
+   * The copy of the Text font
    */
   children: PropTypes.string
 };
 
-Paragraph.defaultProps = {
+Text.defaultProps = {
   color: null,
   copy: null,
   children: null
 };
 
-export default Paragraph;
+export default Text;

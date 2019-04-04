@@ -4,7 +4,7 @@ import { Field } from "formik";
 
 import { inputComponentMap } from "../utils";
 
-const FormField = ({
+const InputField = ({
   type,
   name,
   placeholder,
@@ -27,16 +27,16 @@ const FormField = ({
   </Field>
 );
 
-FormField.propTypes = {
+InputField.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.oneOf(["text", "textarea", "email"]).isRequired,
   onChange: PropTypes.string,
   onBlur: PropTypes.string
 };
 
-FormField.defaultProps = {
+InputField.defaultProps = {
   onChange: null,
   onBlur: null
 };
 
-export default FormField;
+export default InputField;

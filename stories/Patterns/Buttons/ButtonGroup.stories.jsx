@@ -11,20 +11,17 @@ storiesOf(createStory(base, filename), module)
     <ButtonGroup>
       <Button styleType="primary" label="Submit" />
       <Button styleType="secondary" label="Cancel" />
-      <Button styleType="alt" label="Start Over" />
     </ButtonGroup>
   ))
   .add("layout - inline", () => (
     <ButtonGroup layout="inline">
       <Button styleType="primary" label="Submit" />
       <Button styleType="secondary" label="Cancel" />
-      <Button styleType="alt" label="Start Over" />
     </ButtonGroup>
   ))
   .add("layout - stacked", () => (
     <ButtonGroup layout="stacked">
       <Button styleType="primary" label="Submit" />
       <Button styleType="secondary" label="Cancel" />
-      <Button styleType="alt" label="Start Over" />
     </ButtonGroup>
   ));

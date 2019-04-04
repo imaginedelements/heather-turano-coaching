@@ -10,7 +10,3 @@ export const inputComponentMap = {
   text: InputText,
   email: InputText
 };
-
-export const inputIconMap = {
-  text: "fa-text"
-};

@@ -26,4 +26,7 @@ storiesOf(createStory(base, filename), module)
   .add("size - lg (h2)", () => <Heading size="lg">Heading LG - H2</Heading>)
   .add("size - md (h3)", () => <Heading size="md">Heading MD - H3</Heading>)
   .add("size - sm (h4)", () => <Heading size="sm">Heading SM - H4</Heading>)
-  .add("using copy prop", () => <Heading size="sm" copy="Heading SM - H4" />);
+  .add("using copy prop", () => <Heading size="sm" copy="Heading SM - H4" />)
+  .add("color - secondary", () => (
+    <Heading color="secondary-0">Heading default - H1</Heading>
+  ));

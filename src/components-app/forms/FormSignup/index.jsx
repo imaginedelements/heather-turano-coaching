@@ -1,12 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import {
-  FormControl,
-  Form,
-  FormLayout,
-  FormField
-} from "../../../components/form-controls";
+import { FormControl, Form, FormLayout } from "../../../components/forms";
+import { FormField } from "../../../components/inputs";
 import { Button } from "../../../components/buttons";
 
 const FormSignup = ({

@@ -4,7 +4,7 @@ import base, { filename } from "paths.macro";
 import colors from "../../../src/styles/scss/exports/index.scss";
 
 import { createStory } from "../../index";
-import { InputText } from "../../../src/components/form-controls";
+import { InputText } from "../../../src/components/inputs";
 
 storiesOf(createStory(base, filename), module)
   .addParameters({
