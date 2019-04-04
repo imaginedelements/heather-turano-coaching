@@ -29,7 +29,7 @@ $typography-font-sizes: (
   heading-xl: 42px,
   heading-lg: 34px,
   heading-md: 28px,
-  heading-sm: 24px,
+  heading-sm: 22px,
   xs: 10px,
   // rule exemption
     sm: 12px,
@@ -153,7 +153,7 @@ $typography-font-weights: (
   @include font-base;
   @include font_machine(
     $size: get-font--size(heading-lg),
-    $weight: get-font--weight(heading-fat),
+    $weight: get-font--weight(heading-thin),
     $family: get-font--family(heading)
   );
 }

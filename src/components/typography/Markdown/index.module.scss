@@ -9,7 +9,7 @@
     margin: 0 auto;
 
     h1 {
-      @include font-heading--xl;
+      @include font-heading--lg;
 
       & + p {
         margin: 10px;
