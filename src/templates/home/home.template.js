@@ -1,16 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Paragraph } from "../../components/typography";
+import { Text } from "../../components/typography";
 import { Carosel, Stepper } from "../../components/navigation";
 
 import { Section } from "../../components-app/layouts";
 import { Hero } from "../../components-app/headers";
 import { Testimonial } from "../../components-app/custom";
+import { FormSignup } from "../../components-app/forms";
+import { FormContainer } from "../../components/forms";
 
 export const HomePageTemplate = ({
   hero: { heroImage, heroTitle, heroSubTitle },
-  callToAction,
+  callToAction: { ctaPlaceholder, ctaButtonLabel },
   introduction: {
     introTitle,
     introDescription
@@ -25,9 +27,17 @@ export const HomePageTemplate = ({
       alt="hero image"
       title={heroTitle}
       subTitle={heroSubTitle}
-    />
+    >
+      <FormSignup
+        layout="inline"
+        actionLabel={ctaButtonLabel}
+        placeholder={{
+          email: ctaPlaceholder
+        }}
+      />
+    </Hero>
     <Section title={introTitle}>
-      <Paragraph size="lg" copy={introDescription} />
+      <Text size="lg" copy={introDescription} />
     </Section>
     <Section title={testimonialTitle} styleType="alt">
       <Carosel entries={testimonialEntries}>
@@ -43,16 +53,25 @@ export const HomePageTemplate = ({
     </Section>
     <Section title={methodTitle}>
       <Stepper steps={methodSteps}>
-        {({ description }) => <Paragraph size="lg" copy={description} />}
+        {({ description }) => <Text size="lg" copy={description} />}
       </Stepper>
     </Section>
-    <Section title="Let's talk" styleType="secondary">
-      <Paragraph
-        size="lg"
-        copy="Does this sound sweet? Cool. Let's get working."
-      />
-      contact form
-      <Paragraph size="lg" copy="Looking forward to hearing from you!" />
+    <Section
+      title="Let's talk"
+      styleType="secondary"
+      contentOrientation="center"
+    >
+      <Text size="lg" copy="Does this sound sweet? Cool. Let's get working." />
+      <FormContainer styleType="standalone">
+        <FormSignup
+          layout="inline"
+          actionLabel={ctaButtonLabel}
+          placeholder={{
+            email: ctaPlaceholder
+          }}
+        />
+      </FormContainer>
+      <Text size="lg" copy="Looking forward to hearing from you!" />
     </Section>
   </>
 );

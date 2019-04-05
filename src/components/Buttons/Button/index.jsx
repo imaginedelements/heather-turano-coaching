@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { Icon, Paragraph } from "../../../components/typography";
 
-import styles from "./index.module.scss";
+import "./index.module.scss";
 
 export const Button = ({
   label,

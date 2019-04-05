@@ -6,19 +6,20 @@ import { Heading } from "../../../components/typography";
 
 import "./index.module.scss";
 
-const Hero = ({ img, alt, title }) => (
+const Hero = ({ img, alt, title, children }) => (
   <section styleName="hero">
     <HeroImage img={img} alt={alt} />
     <div styleName="top">
       <Heading size="xl" copy={`'${title}'`} color="light" />
     </div>
     <div styleName="bottom">
-      <div>InputPlaceholder</div>
+      <div>{children}</div>
     </div>
   </section>
 );
 
 Hero.propTypes = {
+  children: PropTypes.any.isRequired,
   img: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired
 };

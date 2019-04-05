@@ -24,20 +24,18 @@ const InputText = ({
 }) => (
   <InputControl>
     {label && <InputLabel label={label} for={name} isValid={isValid} />}
-    <div>
-      <input
-        id={name}
-        name={name}
-        type={type}
-        styleName={`input-${type} ${styleType} ${!isValid ? "invalid" : ""}`}
-        placeholder={placeholder}
-        value={value}
-        onChange={onChange}
-        onBlur={onBlur}
-        disabled={isDisabled}
-        readOnly={!onChange || isReadOnly}
-      />
-    </div>
+    <input
+      id={name}
+      name={name}
+      type={type}
+      styleName={`input-${type} ${styleType} ${!isValid ? "invalid" : ""}`}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+      onBlur={onBlur}
+      disabled={isDisabled}
+      readOnly={!onChange || isReadOnly}
+    />
     {!isValid && errorMessage && (
       <InputError isValid={isValid} message={errorMessage} />
     )}

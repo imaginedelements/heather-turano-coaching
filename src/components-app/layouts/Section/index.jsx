@@ -5,25 +5,27 @@ import { Title } from "../../../components/typography";
 
 import "./index.module.scss";
 
-const Section = ({ styleType, title, children }) => (
+const Section = ({ styleType, title, children, contentOrientation }) => (
   <section styleName={`section ${styleType}`}>
     <header>
       <Title size="lg">{title}</Title>
     </header>
     <article>
-      <div>{children}</div>
+      <div styleName={contentOrientation}>{children}</div>
     </article>
   </section>
 );
 
 Section.propTypes = {
   styleType: PropTypes.oneOf(["default", "alt", "transparent", "secondary"]),
+  contentOrientation: PropTypes.oneOf(["left", "center", "right"]),
   title: PropTypes.string.isRequired,
   children: PropTypes.any.isRequired
 };
 
 Section.defaultProps = {
-  styleType: "default"
+  styleType: "default",
+  contentOrientation: "left"
 };
 
 export default Section;

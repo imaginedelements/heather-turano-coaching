@@ -65,6 +65,7 @@
   border-radius: space(mini);
   transition: border 0.15s ease-in-out;
   border: 1px solid $color-secondary-3;
+  width: 100%;
 }
 @mixin input-base--invalid {
   @include input-placeholder($color: $color-invalid-0);
