@@ -1,6 +1,6 @@
 @import "../index";
 
-.markdown {
+.md {
   display: block;
   padding: 0 20px;
 
@@ -18,8 +18,8 @@
 
     h2 {
       @include font-heading--sm;
-      // color: $color-secondary-0;
-      margin-top: 34px;
+      margin-top: 48px;
+      line-height: 1.4;
 
       & + p {
         margin-top: 10px;
@@ -30,7 +30,7 @@
       @include font-paragraph--lg;
 
       & + p {
-        margin-top: 20px;
+        margin-top: 26px;
       }
     }
 
@@ -40,14 +40,14 @@
       padding: 0;
 
       li {
-        @include font-paragraph--md;
+        @include font-paragraph--lg;
         margin-left: 40px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         color: $color-secondary-0;
         font-style: bold;
 
         & > p {
-          @include font-paragraph--md;
+          @include font-paragraph--lg;
         }
       }
 

@@ -105,7 +105,9 @@ $colors: (
   invalid-0: make_color($color-invalid, 100),
   invalid-1: make_color($color-invalid, 75),
   invalid-2: make_color($color-invalid, 50),
-  invalid-3: make_color($color-invalid, 25)
+  invalid-3: make_color($color-invalid, 25),
+  white: #fff,
+  black: #000
 );
 
 // Breakpoints

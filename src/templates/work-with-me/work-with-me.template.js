@@ -1,14 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Paragraph } from "../../components/typography";
+
 import { Content } from "../../components-gatsby";
-import {
-  Section,
-  SectionItem,
-  Paragraph,
-  FooterImage,
-  InteractiveCircleList
-} from "../../components";
+
+import { Section, SectionItem } from "../../components-app/layouts";
+import { FooterImage } from "../../components-app/background-images";
+import { InteractiveCircleList } from "../../components-app/custom";
 
 export const WorkWithMePageTemplate = ({
   main: {

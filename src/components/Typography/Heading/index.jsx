@@ -50,8 +50,7 @@ Heading.defaultProps = {
   size: "xl",
   color: "default",
   copy: null,
-  children: null,
-  color: null
+  children: null
 };
 
 export default Heading;

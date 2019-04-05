@@ -1,7 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Section, Paragraph, BlogList, BlogCard } from "../../components";
+import { Paragraph } from "../../components/typography";
+
+import { Section } from "../../components-app/layouts";
+import { BlogList, BlogCard } from "../../components-app/blog";
 
 export const BlogPageTemplate = ({
   title: pageTitle,

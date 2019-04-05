@@ -1,8 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Hero, Section, Carosel, Testimonial, Stepper } from "../../components";
 import { Paragraph } from "../../components/typography";
+import { Carosel, Stepper } from "../../components/navigation";
+
+import { Section } from "../../components-app/layouts";
+import { Hero } from "../../components-app/headers";
+import { Testimonial } from "../../components-app/custom";
 
 export const HomePageTemplate = ({
   hero: { heroImage, heroTitle, heroSubTitle },
@@ -23,7 +27,7 @@ export const HomePageTemplate = ({
       subTitle={heroSubTitle}
     />
     <Section title={introTitle}>
-      <Paragraph copy={introDescription} />
+      <Paragraph size="lg" copy={introDescription} />
     </Section>
     <Section title={testimonialTitle} styleType="alt">
       <Carosel entries={testimonialEntries}>
@@ -39,13 +43,16 @@ export const HomePageTemplate = ({
     </Section>
     <Section title={methodTitle}>
       <Stepper steps={methodSteps}>
-        {({ description }) => <Paragraph copy={description} />}
+        {({ description }) => <Paragraph size="lg" copy={description} />}
       </Stepper>
     </Section>
     <Section title="Let's talk" styleType="secondary">
-      <Paragraph copy="Does this sound sweet? Cool. Let's get working." />
+      <Paragraph
+        size="lg"
+        copy="Does this sound sweet? Cool. Let's get working."
+      />
       contact form
-      <Paragraph copy="Looking forward to hearing from you!" />
+      <Paragraph size="lg" copy="Looking forward to hearing from you!" />
     </Section>
   </>
 );

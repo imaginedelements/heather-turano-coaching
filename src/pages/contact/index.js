@@ -1,7 +1,8 @@
 import React from "react";
 
 import { Layout } from "../../components-gatsby";
-import { Section } from "../../components";
+
+import { Section } from "../../components-app/layouts";
 
 const Contact = () => (
   <Layout>

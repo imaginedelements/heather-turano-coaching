@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Icon, Label } from "../../typography";
+import { Icon, Label } from "../../../components/typography";
 
 import "./index.module.scss";
 

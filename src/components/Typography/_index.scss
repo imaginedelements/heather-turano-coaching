@@ -50,12 +50,22 @@ $typography-font-weights: (
       $map: $base--font-weights,
       $key: regular
     ),
-  paragraph:
+  title:
     map-get(
       $map: $base--font-weights,
-      $key: regular
+      $key: extra-light
     ),
   text:
+    map-get(
+      $map: $base--font-weights,
+      $key: extra-light
+    ),
+  caption:
+    map-get(
+      $map: $base--font-weights,
+      $key: light
+    ),
+  paragraph:
     map-get(
       $map: $base--font-weights,
       $key: regular
@@ -64,16 +74,6 @@ $typography-font-weights: (
     map-get(
       $map: $base--font-weights,
       $key: semi-bold
-    ),
-  caption:
-    map-get(
-      $map: $base--font-weights,
-      $key: semi-bold
-    ),
-  title:
-    map-get(
-      $map: $base--font-weights,
-      $key: extra-light
     )
 );
 

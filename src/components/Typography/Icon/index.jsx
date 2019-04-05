@@ -10,8 +10,8 @@ import "./index.module.scss";
 
 library.add(fal, fab);
 
-export const Icon = ({ icon, size, position, spin }) => (
-  <div styleName={`icon ${size} ${position}`}>
+export const Icon = ({ icon, size, position, spin, color }) => (
+  <div className={color} styleName={`icon ${size} ${position}`}>
     <FontAwesomeIcon fixedWidth icon={["fal", icon]} spin={spin} />
   </div>
 );

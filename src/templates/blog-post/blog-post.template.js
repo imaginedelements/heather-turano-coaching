@@ -8,7 +8,7 @@ import {
   BlogTagGroup,
   BlogNavigation,
   BlogLayout
-} from "../../components";
+} from "../../components-app/blog";
 
 export const BlogPostPageTemplate = ({
   title,

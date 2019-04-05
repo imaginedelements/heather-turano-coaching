@@ -1,7 +1,10 @@
 import React from "react";
 
 import { Layout } from "../../components-gatsby";
-import { Section, Paragraph } from "../../components";
+
+import { Paragraph } from "../../components/typography";
+
+import { Section } from "../../components-app/layouts";
 
 const PrivacyPolicy = () => (
   <Layout>
