@@ -1,13 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Paragraph } from "../../components/typography";
+import { Text } from "../../components/typography";
 
 import { Content } from "../../components-gatsby";
 
 import { BackgroundImage } from "../../components-app/background-images";
 import { Avatar } from "../../components-app/images";
 import { Section, SectionItem } from "../../components-app/layouts";
+import { FormSignup } from "../../components-app/forms";
+import { FormContainer } from "../../components/forms";
 
 export const AboutPageTemplate = ({
   main: {
@@ -29,7 +31,7 @@ export const AboutPageTemplate = ({
       fadeUp
     >
       <Section title={mainTitle} styleType="transparent">
-        <Paragraph>{mainBlurb}</Paragraph>
+        <Text size="md">{mainBlurb}</Text>
       </Section>
     </BackgroundImage>
     <Section title={overviewTitle}>
@@ -44,7 +46,16 @@ export const AboutPageTemplate = ({
       </SectionItem>
     </Section>
     <Section title={ctaTitle}>
-      <Paragraph>{ctaBlurb}</Paragraph>
+      <Text size="lg">{ctaBlurb}</Text>
+      <FormContainer styleType="standalone">
+        <FormSignup
+          layout="inline"
+          actionLabel={ctaButtonLabel}
+          placeholder={{
+            email: ctaInputPlaceholder
+          }}
+        />
+      </FormContainer>
     </Section>
   </>
 );
