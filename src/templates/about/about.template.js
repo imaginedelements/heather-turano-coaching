@@ -45,7 +45,7 @@ export const AboutPageTemplate = ({
         <Content content={detailBody} contentType="html" />
       </SectionItem>
     </Section>
-    <Section title={ctaTitle}>
+    <Section title={ctaTitle} contentOrientation="center">
       <Text size="lg">{ctaBlurb}</Text>
       <FormContainer styleType="standalone">
         <FormSignup
