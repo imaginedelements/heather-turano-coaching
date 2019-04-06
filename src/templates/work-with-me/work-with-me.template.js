@@ -52,7 +52,8 @@ export const WorkWithMePageTemplate = ({
     </Section>
     <FooterImage img={approachImage} alt={approachTitle}>
       <Section title={approachTitle} styleType="transparent">
-        <Content contentType="html" content={approachContent} />
+        <Text size="lg">{approachContent}</Text>
+        {/* <Content contentType="html" content={approachContent} /> */}
       </Section>
     </FooterImage>
   </>
