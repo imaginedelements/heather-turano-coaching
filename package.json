@@ -52,6 +52,7 @@
     "storybook": "start-storybook"
   },
   "devDependencies": {
+    "@cadent/eslint-config-cadent": "^3.0.0",
     "@storybook/addon-backgrounds": "^5.0.6",
     "@storybook/addon-info": "^5.0.6",
     "@storybook/react": "^5.0.6",

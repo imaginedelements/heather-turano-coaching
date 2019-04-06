@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Caption } from "../../../components/typography";
+import { Caption } from "../../components/typography";
 
 import "./index.module.scss";
 
@@ -14,7 +14,7 @@ export const InputError = ({ message }) => (
 );
 
 InputError.propTypes = {
-  message: PropTypes.string
+  message: PropTypes.string.isRequired
 };
 
 export default InputError;
