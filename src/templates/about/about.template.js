@@ -35,14 +35,16 @@ export const AboutPageTemplate = ({
       </Section>
     </BackgroundImage>
     <Section title={overviewTitle}>
-      <Content content={overviewBody} contentType="html" />
+      <Text size="lg">{overviewBody}</Text>
+      {/* <Content content={overviewBody} contentType="html" /> */}
     </Section>
     <Section title={detailTitle} styleType="alt">
       <SectionItem>
         <Avatar image={detailAvatarImage} alt="heather avatar" size="lg" />
       </SectionItem>
       <SectionItem>
-        <Content content={detailBody} contentType="html" />
+        <Text size="lg">{detailBody}</Text>
+        {/* <Content content={detailBody} contentType="html" /> */}
       </SectionItem>
     </Section>
     <Section title={ctaTitle} contentOrientation="center">
