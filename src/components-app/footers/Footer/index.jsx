@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as GatsbyLink } from "gatsby";
 
-import { Paragraph } from "../../../components/typography";
+import { Paragraph, Text } from "../../../components/typography";
 
 import { FormSignup } from "../../forms";
 import "./index.module.scss";
@@ -47,40 +47,37 @@ const Footer = ({ quickLinks }) => (
     <div styleName="credits">
       <div>
         <div styleName="info">
-          <div>
-            <Paragraph size="md" color="grayscale-0">
-              Copyright &copy; 2018
-            </Paragraph>
-          </div>
-          <div>
-            <Paragraph size="md" color="grayscale-0">
-              Heather Turano Coaching, LLC
-            </Paragraph>
-          </div>
-          <div>
-            <Paragraph size="md" color="grayscale-0">
-              All Rights Reserved
-            </Paragraph>
-          </div>
+          <Text size="sm" color="grayscale-0">
+            Copyright &copy; 2018
+          </Text>
+          <Text size="sm" color="grayscale-0">
+            Heather Turano Coaching, LLC
+          </Text>
+          <Text size="sm" color="grayscale-0">
+            All Rights Reserved
+          </Text>
         </div>
         <div styleName="created-by">
-          <span>
-            <Paragraph size="md" color="grayscale-0">
-              Designed and developed by
-            </Paragraph>{" "}
-          </span>
-          <a
-            href="http://www.imaginedelements.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Imagined Elements, LLC
-          </a>
+          <Text size="sm" color="grayscale-0">
+            Designed and developed by
+          </Text>
+          <span>&nbsp;</span>
+          <Text size="sm" color="secondary-0">
+            <a
+              href="http://www.imaginedelements.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Imagined Elements, LLC
+            </a>
+          </Text>
         </div>
       </div>
       <div styleName="privacy">
         <GatsbyLink to="/privacy-policy">
-          Privary Policy &amp; Terms of Use
+          <Text size="sm" color="secondary-0">
+            Privary Policy &amp; Terms of Use
+          </Text>
         </GatsbyLink>
       </div>
     </div>

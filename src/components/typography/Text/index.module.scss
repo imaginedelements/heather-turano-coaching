@@ -16,4 +16,8 @@ p.txt {
   &.xs {
     @include font-text--xs;
   }
+
+  & + .txt {
+    margin-top: 20px;
+  }
 }

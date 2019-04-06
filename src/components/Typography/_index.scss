@@ -146,7 +146,8 @@ $typography-font-weights: (
   @include font_machine(
     $size: get-font--size(heading-xl),
     $weight: get-font--weight(heading-thin),
-    $family: get-font--family(heading)
+    $family: get-font--family(heading),
+    $line-height: 1.24
   );
 }
 @mixin font-heading--lg {

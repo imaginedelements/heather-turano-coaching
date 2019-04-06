@@ -18,7 +18,6 @@ const Testimonial = ({ image, type, location, quote }) => (
         <Text size="sm" color="grayscale-1">
           {type}
         </Text>
-
         <Text size="sm" color="secondary-0">
           <span>&nbsp;-&nbsp;</span>
           {location}

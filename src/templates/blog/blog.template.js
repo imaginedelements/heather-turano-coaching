@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Paragraph } from "../../components/typography";
+import { Text } from "../../components/typography";
 
 import { Section } from "../../components-app/layouts";
 import { BlogList, BlogCard } from "../../components-app/blog";
@@ -13,7 +13,7 @@ export const BlogPageTemplate = ({
 }) => (
   <>
     <Section title={pageTitle}>
-      <Paragraph>{pageDescription}</Paragraph>
+      <Text size="lg">{pageDescription}</Text>
     </Section>
     <BlogList>
       {posts.map(

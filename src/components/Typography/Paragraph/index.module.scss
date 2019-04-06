@@ -16,4 +16,8 @@ p.paragraph {
   &.xs {
     @include font-paragraph--xs;
   }
+
+  & + .paragraph {
+    margin-top: 20px;
+  }
 }

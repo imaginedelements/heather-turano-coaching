@@ -2,7 +2,7 @@
 
 .md {
   display: block;
-  padding: 0 20px;
+  padding: 30px 0;
 
   & > div {
     max-width: 700px;
@@ -10,15 +10,21 @@
 
     h1 {
       @include font-heading--lg;
+      margin-top: 100px;
+      line-height: 1.4;
 
       & + p {
-        margin: 10px;
+        margin-top: 10px;
+      }
+
+      & + h2 {
+        margin-top: 30px;
       }
     }
 
     h2 {
       @include font-heading--sm;
-      margin-top: 48px;
+      margin-top: 60px;
       line-height: 1.4;
 
       & + p {
@@ -32,6 +38,14 @@
       & + p {
         margin-top: 26px;
       }
+    }
+
+    ol {
+      list-style-type: decimal;
+    }
+
+    ul {
+      list-style-type: decimal;
     }
 
     ol,
@@ -59,7 +73,7 @@
     img {
       @include image__border;
       width: 100%;
-      margin: 40px 0;
+      margin-top: 20px;
     }
 
     blockquote {

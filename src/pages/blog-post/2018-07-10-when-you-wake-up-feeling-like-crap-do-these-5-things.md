@@ -16,11 +16,11 @@ tags:
   - crap
 ---
 
-![This is me. being Lazy AF and feeling sorry for myself as I wake up. ](/img/img_0105.jpg)
-
 This is me. being Lazy AF and feeling sorry for myself as I wake up.
 
 I even slept in the guest room because i was tausing and turning and thought it would help to switch beds. well it didnt. And I got a few hours of sleep and had weird dreams about old managers and people crashing into my car in a Whole Foods parking lot. (these were actually my dreams.)
+
+![This is me. being Lazy AF and feeling sorry for myself as I wake up. ](/img/img_0105.jpg)
 
 I finally decided it was time to open my eyes and start the day, but as i laid there I wondered "how would I get through the day if i had started it already feeling like crap."
 

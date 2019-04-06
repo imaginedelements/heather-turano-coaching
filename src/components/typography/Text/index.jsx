@@ -23,7 +23,7 @@ Text.propTypes = {
   /**
    * The copy of the Text font
    */
-  children: PropTypes.string
+  children: PropTypes.any
 };
 
 Text.defaultProps = {

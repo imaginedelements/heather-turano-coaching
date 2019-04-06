@@ -1,7 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Heading, Icon, Label } from "../../../components/typography";
+import {
+  Heading,
+  Icon,
+  Label,
+  Paragraph
+} from "../../../components/typography";
 import { Link } from "../../../components/links";
 
 import "./index.module.scss";
@@ -18,27 +23,29 @@ const BlogHeader = ({
     <div styleName="page-header">
       <div styleName="link">
         <Link to={backLinkRoute}>
-          <Icon icon="long-arrow-left" size="sm" color="accent-0" />
-          <Label size="sm" color="accent-0">
+          <Icon icon="long-arrow-left" size="md" color="accent-0" />
+          <Label size="md" color="accent-0">
             {backLinkText}
           </Label>
         </Link>
       </div>
       <div styleName="date">
-        <Label size="md" color="grayscale-3">
-          <span>{dateCreated}</span>
-          <span>|</span>
-        </Label>
-        <Label size="md" color="secondary-0">
-          <span>{dateCreated}</span>
-          <span>|</span>
-        </Label>
-        <span>Written by {author}</span>
+        <div>
+          <Paragraph size="md" color="grayscale-3">
+            <span>{dateCreated}</span>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+          </Paragraph>
+        </div>
+        <div>
+          <Paragraph size="md" color="secondary-0">
+            <span>Written by {author}</span>
+          </Paragraph>
+        </div>
       </div>
-      <Heading copy={title} size="h3" />
+      <Heading size="xl">{title}</Heading>
       {description ? (
         <div styleName="description">
-          <Heading copy={description} size="h6" />
+          <Paragraph size="h6">{description}</Paragraph>
         </div>
       ) : null}
     </div>

@@ -2,10 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import {
-  Heading,
+  Title,
+  Label,
   Paragraph,
-  Icon,
-  Caption
+  Caption,
+  Icon
 } from "../../../components/typography";
 import { Link } from "../../../components/links";
 
@@ -21,14 +22,14 @@ const BlogCard = ({
   blogLinkRoute
 }) => (
   <li styleName="container">
-    <Heading copy={category} size="category" />
+    <Title size="sm">{category}</Title>
     <div styleName="post">
       <article styleName="img">
         <img src={thumbnail} alt={thumbnailAlt} />
       </article>
       <article styleName="summary">
         <header>
-          <Heading copy={title} size="h5" />
+          <Label size="xl">{title}</Label>
           <div styleName="date">
             <Caption size="sm" color="grayscale-2">
               {dateCreated}
@@ -36,11 +37,16 @@ const BlogCard = ({
           </div>
         </header>
         <div>
-          <Paragraph copy={prompt} />
+          <Paragraph size="md">{prompt}</Paragraph>
         </div>
-        <Link to={blogLinkRoute}>Keep Reading →</Link>
+        <Link to={blogLinkRoute}>
+          <Label size="md" color="accent-0">
+            Keep Reading
+          </Label>
+          <Icon icon="long-arrow-right" size="md" color="accent-0" />
+        </Link>
       </article>
-      <ul styleName="quick-links">
+      {/* <ul styleName="quick-links">
         <li styleName="link secondary">
           <Icon icon="facebook" size="xs" color="lightscale-3" />
         </li>
@@ -53,7 +59,7 @@ const BlogCard = ({
         <li styleName="link grayscale">
           <Icon icon="twitter" size="xs" color="lightscale-3" />
         </li>
-      </ul>
+      </ul> */}
     </div>
   </li>
 );

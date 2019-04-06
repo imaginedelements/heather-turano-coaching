@@ -18,29 +18,42 @@
   }
 
   &.inline {
-    @include make-flex(row, flex-start, flex-start);
-
     & > * {
-      & + * {
-        margin-left: space(xxs);
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        border-left-width: 0.5px;
+      width: 100%;
 
-        input {
+      & + * {
+        margin-top: space(sm);
+      }
+    }
+
+    @include respond-tablet {
+      @include make-flex(row, flex-start, flex-start);
+
+      & > * {
+        width: initial;
+
+        & + * {
+          margin-left: space(xxs);
           border-top-left-radius: 0;
           border-bottom-left-radius: 0;
           border-left-width: 0.5px;
+          margin-top: 0;
+
+          input {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left-width: 0.5px;
+          }
         }
-      }
 
-      &:not(:last-child) {
-        flex: 1;
+        &:not(:last-child) {
+          flex: 1;
 
-        input {
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
-          border-right-width: 0.5px;
+          input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-right-width: 0.5px;
+          }
         }
       }
     }

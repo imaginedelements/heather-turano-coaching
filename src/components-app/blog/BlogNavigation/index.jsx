@@ -2,25 +2,29 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Link } from "../../../components/links";
-import { Icon } from "../../../components/typography";
+import { Icon, Label } from "../../../components/typography";
 import "./index.module.scss";
 
 const BlogNavigation = ({ pagePrev, pageNext }) => (
   <footer styleName="blog-footer">
     <div styleName="link left">
       {pagePrev && (
-        <>
-          <Icon icon="long-arrow-left" size="xs" color="accent-0" />
-          <Link to={pagePrev}>Older</Link>
-        </>
+        <Link to={pagePrev}>
+          <Icon icon="long-arrow-left" size="lg" color="accent-0" />
+          <Label size="lg" color="accent-0">
+            Older stuff
+          </Label>
+        </Link>
       )}
     </div>
     <div styleName="link right">
       {pageNext && (
-        <>
-          <Link to={pageNext}>Newer</Link>
-          <Icon icon={["far", "long-arrow-right"]} size="xs" color="accent-0" />
-        </>
+        <Link to={pageNext}>
+          <Label size="lg" color="accent-0">
+            Newer stuff
+          </Label>
+          <Icon icon={"long-arrow-right"} size="lg" color="accent-0" />
+        </Link>
       )}
     </div>
   </footer>

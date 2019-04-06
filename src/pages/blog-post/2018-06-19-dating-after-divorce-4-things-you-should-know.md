@@ -18,7 +18,7 @@ tags:
   - divorced
 ---
 
-1. Make a List
+## 1. Make a List
 
 I know it may sound crazy but manifesting what you want in your ideal person is a sure fire way to get the love you are looking for.
 
@@ -26,19 +26,19 @@ Write a list (yes, on paper) of all the qualities, values and personality traits
 
 After you are done writing the list let it go into the universe. Know you will find exactly what is on that list.
 
-2. Date a Lot of People
+## 2. Date a Lot of People
 
 Even if you are a mushy monogamist, do not go on one date and then get married. It is your job to date as many people as you can and get an idea of they type of person you really need in your life now. It is also your job to watch this person and see who they are before you fall head over heals.
 
 The experts recommendation is dating at least 3 people seriously before you settle down with the next person. This helps you get over unhealthy behaviors from your previous marriage and develop healthy patterns to build a stable foundation for your next.
 
-3. Date People You Normally Would Not Date
+## 3. Date People You Normally Would Not Date
 
 Remember your Ex is your Ex for a reason. They weren't right for you, so don't date them again. Please.
 
 You know that guy that you are friends with that you can talk about anything too? or that co-worker that you work so well with and can solve any problem that comes up? News flash those are the qualities that are most important in a lasting relationship. Not the muscles and the perfect body. So go for the guy that you can talk to and work through problems with.
 
-4. Dating Apps Are Insane
+## 4. Dating Apps Are Insane
 
 If you are anything like me after my divorce. Texting didn't even exist and people had to call each other to plan a date. This seems to have gotten lost on this "swipe right, ghosting, bread crumbing" generation.
 

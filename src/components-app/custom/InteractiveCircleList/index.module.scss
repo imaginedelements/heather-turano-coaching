@@ -74,12 +74,18 @@
   }
 
   &.active {
+    :global {
+      .icon {
+        color: $color-secondary-0 !important;
+      }
+    }
+
     @include respond_desktop {
       background: $color-secondary-0;
       border-color: $color-secondary-2;
       :global {
         .icon {
-          color: #fff;
+          color: #fff !important;
         }
       }
     }

@@ -25,17 +25,10 @@ If you are in a relationship that makes you feel crazy, you could be dealing wit
 Here are 4 manipulation tactics Narcissist use to emotionally abuse and manipulate their victims.
 
 1. Gaslighting
-
 2. Projection
-
 3. silent treatment
-
 4. Destructive conditioning
-
-Boundary testing and hovering
-
-Aggressive jabs disguised as jokes
-
-Control
-
-Aggressive Conditioning
+5. Boundary testing and hovering
+6. Aggressive jabs disguised as jokes
+7. Control
+8. Aggressive Conditioning

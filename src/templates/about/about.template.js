@@ -31,7 +31,7 @@ export const AboutPageTemplate = ({
       fadeUp
     >
       <Section title={mainTitle} styleType="transparent">
-        <Text size="md">{mainBlurb}</Text>
+        <Text size="lg">{mainBlurb}</Text>
       </Section>
     </BackgroundImage>
     <Section title={overviewTitle}>

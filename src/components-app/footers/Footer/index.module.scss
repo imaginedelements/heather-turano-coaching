@@ -29,7 +29,7 @@
     @include respond_tablet {
       @include make_flex(row, flex-start, center);
       margin-bottom: 10px;
-      & > div {
+      & > * {
         &:not(:first-child) {
           &:before {
             content: ", ";
@@ -42,11 +42,11 @@
   .created-by {
     display: none;
 
-    & > a {
+    & a {
       color: $color-secondary-0;
     }
     @include respond_tablet {
-      display: block;
+      @include make-flex(row, flex-start, center);
     }
   }
 

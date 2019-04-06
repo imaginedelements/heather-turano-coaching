@@ -20,10 +20,16 @@
   & > a {
     display: block;
     text-transform: uppercase;
-    transition: color 0.15s ease-in-out;
+
+    span {
+      transition: color 0.15s ease-in-out;
+    }
 
     &.active {
-      color: $color-primary-0;
+      span {
+        transition: color 0.15s ease-in-out;
+        color: $color-primary-0;
+      }
     }
   }
 }
