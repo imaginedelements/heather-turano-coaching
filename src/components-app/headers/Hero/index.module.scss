@@ -2,11 +2,7 @@
 
 .hero {
   width: 100%;
-  height: 240px;
-
-  @include respond_tablet {
-    height: 350px;
-  }
+  height: 350px;
 
   @include respond_desktop {
     height: 550px;
@@ -37,7 +33,7 @@
     &.bottom {
       top: 50%;
       bottom: 0;
-      display: none;
+      // display: none;
 
       & > * {
         @include make_flex(row, flex-start, flex-end);

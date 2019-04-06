@@ -10,7 +10,7 @@ const Hero = ({ img, alt, title, children }) => (
   <section styleName="hero">
     <HeroImage img={img} alt={alt} />
     <div styleName="top">
-      <Heading size="xl" copy={`'${title}'`} color="light" />
+      <Heading size="xl" copy={`'${title}'`} color="lightscale-0" />
     </div>
     <div styleName="bottom">
       <div>{children}</div>

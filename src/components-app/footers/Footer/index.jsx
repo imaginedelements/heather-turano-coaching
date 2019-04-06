@@ -48,13 +48,8 @@ const Footer = ({ quickLinks }) => (
       <div>
         <div styleName="info">
           <Text size="sm" color="grayscale-0">
-            Copyright &copy; 2018
-          </Text>
-          <Text size="sm" color="grayscale-0">
-            Heather Turano Coaching, LLC
-          </Text>
-          <Text size="sm" color="grayscale-0">
-            All Rights Reserved
+            Copyright &copy; 2018, Heather Turano Coaching, LLC, All Rights
+            Reserved
           </Text>
         </div>
         <div styleName="created-by">
