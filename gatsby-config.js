@@ -7,9 +7,7 @@ module.exports = {
       resolve: "gatsby-plugin-eslint",
       options: {
         options: {
-          fix: true,
-          cache: true,
-          emitWarning: true
+          fix: true
         }
       }
     },
