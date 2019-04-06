@@ -37,7 +37,7 @@
   padding-bottom: 50px;
 
   @include respond_desktop {
-    @include on-circle($item-count: 5, $circle-size: 28em, $item-size: 9em);
+    @include on-circle($item-count: 5, $circle-size: 30em, $item-size: 9em);
     margin: 5em auto 5em;
     border: solid 5px $color-secondary-0;
   }
@@ -111,9 +111,9 @@
   @include respond_desktop {
     display: block;
     position: absolute;
-    margin-top: -27em;
-    left: 9em;
-    right: 9em;
+    margin-top: -28em;
+    left: 8em;
+    right: 8em;
     text-align: center;
 
     p {

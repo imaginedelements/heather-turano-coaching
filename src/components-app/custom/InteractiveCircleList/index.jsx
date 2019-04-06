@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { Heading, Paragraph, Icon } from "../../../components/typography";
+import { Paragraph, Icon, Title } from "../../../components/typography";
 
 import "./index.module.scss";
 
@@ -39,20 +39,20 @@ class InteractiveCircleList extends Component {
                     icon={icon}
                     size="hmd"
                     position="center"
-                    color="secondary-0"
+                    color={isActive ? "lightscale-3" : "secondary-0"}
                   />
                 </button>
                 <div styleName="blurb">
-                  <Heading copy={title} size="subtitle" />
-                  <Paragraph>{blurb}</Paragraph>
+                  <Title size="md">{title}</Title>
+                  <Paragraph size="sm">{blurb}</Paragraph>
                 </div>
               </li>
             );
           })}
         </ul>
         <div styleName="outsideBlurb">
-          <Heading copy={list[activeBubbleIndex].title} size="subtitle" />
-          <Paragraph>{list[activeBubbleIndex].blurb}</Paragraph>
+          <Title size="md">{list[activeBubbleIndex].title}</Title>
+          <Paragraph size="sm">{list[activeBubbleIndex].blurb}</Paragraph>
         </div>
       </>
     );

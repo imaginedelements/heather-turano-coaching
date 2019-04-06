@@ -1,8 +1,10 @@
 import React from "react";
 import { Link as GatsbyLink } from "gatsby";
 
-import "./index.module.scss";
 import { Paragraph } from "../../../components/typography";
+
+import { FormSignup } from "../../forms";
+import "./index.module.scss";
 
 const Footer = ({ quickLinks }) => (
   <footer styleName="footer">
@@ -31,6 +33,15 @@ const Footer = ({ quickLinks }) => (
             Join the movement
           </Paragraph>
         </header>
+        <div styleName="mail">
+          <FormSignup
+            layout="inline"
+            actionLabel="I have candy"
+            placeholder={{
+              email: "youremailaddress@awesome.com"
+            }}
+          />
+        </div>
       </div>
     </div>
     <div styleName="credits">

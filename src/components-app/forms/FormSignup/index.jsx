@@ -7,6 +7,7 @@ import { Button } from "../../../components/buttons";
 
 const FormSignup = ({
   shouldDisplayFirstName,
+  shouldDisplayLabels,
   actionLabel,
   handleSubmit,
   layout,
@@ -28,14 +29,16 @@ const FormSignup = ({
             <FormField
               type="text"
               name="firstName"
-              label={layout !== "inline" ? "First name" : null}
+              label={
+                layout !== "inline" && shouldDisplayLabels ? "First name" : null
+              }
               placeholder={placeholderFirstName}
             />
           )}
           <FormField
             type="email"
             name="email"
-            label={layout !== "inline" ? "Email" : null}
+            label={layout !== "inline" && shouldDisplayLabels ? "Email" : null}
             placeholder={placeholderEmail}
           />
           <Button
@@ -53,6 +56,7 @@ const FormSignup = ({
 
 FormSignup.propTypes = {
   shouldDisplayFirstName: PropTypes.bool,
+  shouldDisplayLabels: PropTypes.bool,
   actionLabel: PropTypes.string.isRequired,
   handleSubmit: PropTypes.func.isRequired,
   placeholder: PropTypes.shape({
@@ -64,6 +68,7 @@ FormSignup.propTypes = {
 
 FormSignup.defaultProps = {
   shouldDisplayFirstName: false,
+  shouldDisplayLabels: false,
   placeholder: {
     firstName: "First name",
     email: "email@bomb.com"

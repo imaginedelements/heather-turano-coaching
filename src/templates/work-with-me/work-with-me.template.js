@@ -1,19 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Paragraph } from "../../components/typography";
+import { Text } from "../../components/typography";
 
 import { Content } from "../../components-gatsby";
 
 import { Section, SectionItem } from "../../components-app/layouts";
 import { FooterImage } from "../../components-app/background-images";
 import { InteractiveCircleList } from "../../components-app/custom";
+import { FormSignup } from "../../components-app/forms";
+import { FormContainer } from "../../components/forms";
 
 export const WorkWithMePageTemplate = ({
   main: {
     title: mainTitle,
-    blurb: mainBlurb
-    // contactForm: { inputPlaceholder, emailPlaceholder, buttonLabel }
+    blurb: mainBlurb,
+    contactForm: { inputPlaceholder, emailPlaceholder, buttonLabel }
   },
   pillars: { title: pillarsTitle, description: pillarsDescription, pillarList },
   approach: {
@@ -25,13 +27,24 @@ export const WorkWithMePageTemplate = ({
   <>
     <Section title={mainTitle}>
       <SectionItem>
-        <Paragraph>{mainBlurb}</Paragraph>
+        <Text size="lg">{mainBlurb}</Text>
       </SectionItem>
-      <SectionItem>contactFormPlaceholder</SectionItem>
+      <SectionItem>
+        <FormContainer styleType="standalone">
+          <FormSignup
+            layout="inline"
+            actionLabel={buttonLabel}
+            placeholder={{
+              firstName: inputPlaceholder,
+              email: emailPlaceholder
+            }}
+          />
+        </FormContainer>
+      </SectionItem>
     </Section>
     <Section title={pillarsTitle} styleType="alt">
       <SectionItem>
-        <Paragraph>{pillarsDescription}</Paragraph>
+        <Text size="lg">{pillarsDescription}</Text>
       </SectionItem>
       <SectionItem>
         <InteractiveCircleList list={pillarList} />
