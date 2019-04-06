@@ -32,6 +32,7 @@ class Carosel extends Component {
         <footer>
           {entries.map((_, index) => (
             <button
+              type="button"
               key={index.toString()}
               styleName={`bubble ${
                 index === currentlyViewingEntry ? "active" : ""

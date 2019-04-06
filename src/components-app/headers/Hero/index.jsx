@@ -21,6 +21,7 @@ const Hero = ({ img, alt, title, children }) => (
 Hero.propTypes = {
   children: PropTypes.any.isRequired,
   img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired
 };
 

@@ -4,6 +4,7 @@ import { Markdown } from "../../components/typography";
 
 export const Content = ({ contentType, className, content }) =>
   contentType === "html" ? (
+    /* eslint-disable react/jsx-filename-extension */
     <Markdown>
       <div
         className={className}

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
 import MainNav from "../../navigation/MainNav";
@@ -13,5 +14,9 @@ const Header = ({ route, ...restProps }) => (
     </div>
   </header>
 );
+
+Header.propTypes = {
+  route: PropTypes.string.isRequired
+};
 
 export default Header;

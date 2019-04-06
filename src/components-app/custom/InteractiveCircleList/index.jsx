@@ -32,6 +32,7 @@ class InteractiveCircleList extends Component {
             return (
               <li key={title} styleName="pillar">
                 <button
+                  type="button"
                   styleName={`bubble ${isActive ? "active" : ""}`}
                   onClick={() => this.handleClick(i)}
                 >
@@ -66,7 +67,7 @@ InteractiveCircleList.propTypes = {
       icon: PropTypes.string.isRequired,
       blurb: PropTypes.string.isRequired
     })
-  )
+  ).isRequired
 };
 
 export default InteractiveCircleList;

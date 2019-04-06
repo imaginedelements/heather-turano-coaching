@@ -70,7 +70,8 @@ BlogCard.propTypes = {
   prompt: PropTypes.string.isRequired,
   blogLinkRoute: PropTypes.string.isRequired,
   thumbnail: PropTypes.string.isRequired,
-  thumbnailAlt: PropTypes.string.isRequired
+  thumbnailAlt: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired
 };
 
 export default BlogCard;
