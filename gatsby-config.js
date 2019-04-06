@@ -35,7 +35,7 @@ module.exports = {
         filetypes: {
           ".scss": { syntax: `postcss-scss` }
         },
-        exclude: `\/global\/`
+        exclude: /global/
       }
     },
     "gatsby-plugin-react-helmet",
