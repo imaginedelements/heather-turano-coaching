@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { Text } from "../../components/typography";
 
-import { Content } from "../../components-gatsby";
+// import { Content } from "../../components-gatsby";
 
 import { BackgroundImage } from "../../components-app/background-images";
 import { Avatar } from "../../components-app/images";
