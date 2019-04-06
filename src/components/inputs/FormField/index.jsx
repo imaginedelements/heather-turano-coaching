@@ -31,12 +31,16 @@ InputField.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.oneOf(["text", "textarea", "email"]).isRequired,
   onChange: PropTypes.string,
-  onBlur: PropTypes.string
+  onBlur: PropTypes.string,
+  placeholder: PropTypes.string,
+  label: PropTypes.string
 };
 
 InputField.defaultProps = {
   onChange: null,
-  onBlur: null
+  onBlur: null,
+  label: null,
+  placeholder: ""
 };
 
 export default InputField;

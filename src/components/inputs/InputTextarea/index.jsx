@@ -45,14 +45,15 @@ const InputTextarea = ({
 InputTextarea.propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string,
-  type: PropTypes.oneOf(["text", "email", "password", "search"]),
   styleType: PropTypes.oneOf(["primary", "secondary"]),
   value: PropTypes.string,
   onChange: PropTypes.func,
   onBlur: PropTypes.func,
   isValid: PropTypes.bool,
   isDisabled: PropTypes.bool,
-  errorMessage: PropTypes.string
+  errorMessage: PropTypes.string,
+  placeholder: PropTypes.string,
+  isReadOnly: PropTypes.bool
 };
 
 InputTextarea.defaultProps = {
@@ -64,7 +65,8 @@ InputTextarea.defaultProps = {
   isValid: true,
   isDisabled: false,
   isReadOnly: false,
-  errorMessage: null
+  errorMessage: null,
+  placeholder: ""
 };
 
 export default InputTextarea;

@@ -23,7 +23,7 @@ Title.propTypes = {
 
 Title.defaultProps = {
   copy: null,
-  childrdn: null,
+  children: null,
   size: "lg"
 };
 

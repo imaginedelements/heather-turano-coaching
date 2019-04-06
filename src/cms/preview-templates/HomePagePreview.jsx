@@ -53,8 +53,8 @@ const HomePagePreview = ({ entry, getAsset }) => (
 HomePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  }),
-  getAsset: PropTypes.func
+  }).isRequired,
+  getAsset: PropTypes.func.isRequired
 };
 
 export default HomePagePreview;

@@ -11,7 +11,7 @@ const PrivacyPolicy = () => (
     <div style={{ marginTop: "50px" }} />
     <Section title="Privacy Policy" styleType="alt">
       <Text size="lg">
-        Your privacy is important to us. It is Heather Turano Coaching LLC's
+        Your privacy is important to us. It is Heather Turano Coaching LLC&aps;s
         policy to respect your privacy regarding any information we may collect
         from you across our website,{" "}
         <a href="http://heatherturanocoaching.com">

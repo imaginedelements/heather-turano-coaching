@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Caption } from "../../components/typography";
+import { Caption } from "../../typography";
 
 import "./index.module.scss";
 

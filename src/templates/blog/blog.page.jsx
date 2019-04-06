@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
@@ -58,5 +59,9 @@ const Blog = ({
     <BlogPageTemplate title={title} description={description} posts={posts} />
   </Layout>
 );
+
+Blog.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export default Blog;

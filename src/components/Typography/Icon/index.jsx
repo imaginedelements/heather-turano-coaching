@@ -44,7 +44,8 @@ Icon.propTypes = {
   /**
    * The position of the icon inside of its container
    */
-  position: PropTypes.oneOf(["default", "center"])
+  position: PropTypes.oneOf(["default", "center"]),
+  color: PropTypes.string.isRequired
 };
 
 Icon.defaultProps = {

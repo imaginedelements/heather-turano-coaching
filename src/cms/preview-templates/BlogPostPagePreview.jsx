@@ -15,8 +15,8 @@ const BlogPostPagePreview = ({ entry, widgetFor }) => (
 BlogPostPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  }),
-  widgetFor: PropTypes.func
+  }).isRequired,
+  widgetFor: PropTypes.func.isRequired
 };
 
 export default BlogPostPagePreview;

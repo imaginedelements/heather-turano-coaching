@@ -23,7 +23,7 @@ const BlogNavigation = ({ pagePrev, pageNext }) => (
           <Label size="lg" color="accent-0">
             Newer stuff
           </Label>
-          <Icon icon={"long-arrow-right"} size="lg" color="accent-0" />
+          <Icon icon="long-arrow-right" size="lg" color="accent-0" />
         </Link>
       )}
     </div>

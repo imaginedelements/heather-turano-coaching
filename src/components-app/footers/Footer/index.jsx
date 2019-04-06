@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link as GatsbyLink } from "gatsby";
 
 import { Paragraph, Text } from "../../../components/typography";
@@ -78,5 +79,9 @@ const Footer = ({ quickLinks }) => (
     </div>
   </footer>
 );
+
+Footer.propTypes = {
+  quickLinks: PropTypes.array.isRequired
+};
 
 export default Footer;

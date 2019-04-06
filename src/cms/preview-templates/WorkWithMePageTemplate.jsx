@@ -39,8 +39,8 @@ const WorkWithMePagePreview = ({ entry, getAsset }) => (
 WorkWithMePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  }),
-  getAsset: PropTypes.func
+  }).isRequired,
+  getAsset: PropTypes.func.isRequired
 };
 
 export default WorkWithMePagePreview;

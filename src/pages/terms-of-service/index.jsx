@@ -22,9 +22,10 @@ const PrivacyPolicy = () => (
     <ol type="a">
       <li>
         Permission is granted to temporarily download one copy of the materials
-        (information or software) on Heather Turano Coaching LLC's website for
-        personal, non-commercial transitory viewing only. This is the grant of a
-        license, not a transfer of title, and under this license you may not:
+        (information or software) on Heather Turano Coaching LLC&aps;s website
+        for personal, non-commercial transitory viewing only. This is the grant
+        of a license, not a transfer of title, and under this license you may
+        not:
         <ol type="i">
           <li>modify or copy the materials;</li>
           <li>
@@ -33,15 +34,15 @@ const PrivacyPolicy = () => (
           </li>
           <li>
             attempt to decompile or reverse engineer any software contained on
-            Heather Turano Coaching LLC's website;
+            Heather Turano Coaching LLC&aps;s website;
           </li>
           <li>
             remove any copyright or other proprietary notations from the
             materials; or
           </li>
           <li>
-            transfer the materials to another person or "mirror" the materials
-            on any other server.
+            transfer the materials to another person or &aps;mirror&aps; the
+            materials on any other server.
           </li>
         </ol>
       </li>
@@ -56,10 +57,10 @@ const PrivacyPolicy = () => (
     <h3>3. Disclaimer</h3>
     <ol type="a">
       <li>
-        The materials on Heather Turano Coaching LLC's website are provided on
-        an 'as is' basis. Heather Turano Coaching LLC makes no warranties,
-        expressed or implied, and hereby disclaims and negates all other
-        warranties including, without limitation, implied warranties or
+        The materials on Heather Turano Coaching LLC&aps;s website are provided
+        on an &aps;as is&aps; basis. Heather Turano Coaching LLC makes no
+        warranties, expressed or implied, and hereby disclaims and negates all
+        other warranties including, without limitation, implied warranties or
         conditions of merchantability, fitness for a particular purpose, or
         non-infringement of intellectual property or other violation of rights.
       </li>
@@ -75,17 +76,17 @@ const PrivacyPolicy = () => (
       In no event shall Heather Turano Coaching LLC or its suppliers be liable
       for any damages (including, without limitation, damages for loss of data
       or profit, or due to business interruption) arising out of the use or
-      inability to use the materials on Heather Turano Coaching LLC's website,
-      even if Heather Turano Coaching LLC or a Heather Turano Coaching LLC
-      authorized representative has been notified orally or in writing of the
-      possibility of such damage. Because some jurisdictions do not allow
+      inability to use the materials on Heather Turano Coaching LLC&aps;s
+      website, even if Heather Turano Coaching LLC or a Heather Turano Coaching
+      LLC authorized representative has been notified orally or in writing of
+      the possibility of such damage. Because some jurisdictions do not allow
       limitations on implied warranties, or limitations of liability for
       consequential or incidental damages, these limitations may not apply to
       you.
     </p>
     <h3>5. Accuracy of materials</h3>
     <p>
-      The materials appearing on Heather Turano Coaching LLC's website could
+      The materials appearing on Heather Turano Coaching LLC&aps;s website could
       include technical, typographical, or photographic errors. Heather Turano
       Coaching LLC does not warrant that any of the materials on its website are
       accurate, complete or current. Heather Turano Coaching LLC may make
@@ -99,7 +100,7 @@ const PrivacyPolicy = () => (
       its website and is not responsible for the contents of any such linked
       site. The inclusion of any link does not imply endorsement by Heather
       Turano Coaching LLC of the site. Use of any such linked website is at the
-      user's own risk.
+      user&aps;s own risk.
     </p>
     <h3>7. Modifications</h3>
     <p>

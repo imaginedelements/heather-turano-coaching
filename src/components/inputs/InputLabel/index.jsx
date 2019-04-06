@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Label } from "../../components/typography";
+import { Label } from "../../typography";
 
 import "./index.module.scss";
 

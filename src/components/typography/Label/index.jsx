@@ -30,7 +30,8 @@ Label.propTypes = {
    * The type of the input determines what type of HTML
    * node is rendered
    */
-  type: PropTypes.oneOf(["default", "input"])
+  type: PropTypes.oneOf(["default", "input"]),
+  color: PropTypes.string.isRequired
 };
 
 Label.defaultProps = {

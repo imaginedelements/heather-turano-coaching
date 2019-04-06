@@ -54,8 +54,8 @@ const AboutPagePreview = ({ entry, getAsset }) => (
 AboutPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  }),
-  widgetFor: PropTypes.func
+  }).isRequired,
+  getAsset: PropTypes.func.isRequired
 };
 
 export default AboutPagePreview;

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
@@ -60,5 +61,9 @@ const About = ({
     />
   </Layout>
 );
+
+About.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export default About;

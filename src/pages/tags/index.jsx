@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 
@@ -11,7 +12,6 @@ export const TagRoute = ({
     }
   }
 }) => {
-  console.log(edges);
   return (
     <section className="section">
       <Helmet title={`${tag} | ${title}`} />
@@ -41,6 +41,11 @@ export const TagRoute = ({
       </div>
     </section>
   );
+};
+
+TagRoute.propTypes = {
+  pageContext: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired
 };
 
 export default TagRoute;

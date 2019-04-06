@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
@@ -65,5 +66,9 @@ const Home = ({
     />
   </Layout>
 );
+
+Home.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export default Home;

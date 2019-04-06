@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
@@ -53,5 +54,9 @@ const Services = ({
     <WorkWithMePageTemplate main={main} pillars={pillars} approach={approach} />
   </Layout>
 );
+
+Services.propTypes = {
+  data: PropTypes.object.isRequired
+};
 
 export default Services;

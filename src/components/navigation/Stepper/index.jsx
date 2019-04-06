@@ -54,6 +54,7 @@ class Stepper extends Component {
                   </Caption>
                 </div>
                 <button
+                  type="button"
                   key={index.toString()}
                   styleName={`bubble ${activeClass} ${passedClass}`}
                   onClick={() => this.goToEntry(index)}
@@ -93,7 +94,8 @@ Stepper.propTypes = {
       icon: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired
     })
-  ).isRequired
+  ).isRequired,
+  children: PropTypes.func.isRequired
 };
 
 export default Stepper;

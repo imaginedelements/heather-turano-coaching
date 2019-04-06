@@ -52,6 +52,8 @@ InputText.propTypes = {
   onBlur: PropTypes.func,
   isValid: PropTypes.bool,
   isDisabled: PropTypes.bool,
+  isReadOnly: PropTypes.bool,
+  placeholder: PropTypes.string,
   errorMessage: PropTypes.string
 };
 
@@ -65,7 +67,8 @@ InputText.defaultProps = {
   isValid: true,
   isDisabled: false,
   isReadOnly: false,
-  errorMessage: null
+  errorMessage: null,
+  placeholder: ""
 };
 
 export default InputText;

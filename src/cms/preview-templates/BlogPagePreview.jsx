@@ -13,7 +13,7 @@ const BlogPostPreview = ({ entry }) => (
 BlogPostPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  })
+  }).isRequired
 };
 
 export default BlogPostPreview;
