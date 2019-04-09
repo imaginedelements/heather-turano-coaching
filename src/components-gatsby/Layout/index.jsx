@@ -2,56 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
-import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faShare,
-  faHeart,
-  faVideo,
-  faLink,
-  faCoffee,
-  faListOl,
-  faSeedling,
-  faSpa,
-  faHandHoldingHeart,
-  faComments,
-  faCheeseburger,
-  faCoffeeTogo
-} from "@fortawesome/pro-light-svg-icons";
-import {
-  faLongArrowLeft,
-  faLongArrowRight
-} from "@fortawesome/pro-regular-svg-icons";
-import {
-  faInstagram,
-  faFacebook,
-  faPinterest,
-  faTwitter
-} from "@fortawesome/free-brands-svg-icons";
-
-import { Header, Footer } from "../../components";
+import { Header } from "../../components-app/headers";
+import { Footer } from "../../components-app/footers";
 
 import "./index.module.scss";
-
-library.add(
-  faShare,
-  faHeart,
-  faVideo,
-  faLink,
-  faLongArrowLeft,
-  faLongArrowRight,
-  faInstagram,
-  faFacebook,
-  faPinterest,
-  faTwitter,
-  faCoffee,
-  faListOl,
-  faSeedling,
-  faSpa,
-  faHandHoldingHeart,
-  faComments,
-  faCheeseburger,
-  faCoffeeTogo
-);
 
 const menuItems = [
   {

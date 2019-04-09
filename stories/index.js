@@ -6,5 +6,7 @@
  */
 export const createStory = (dirname, filename) => {
   const dirArr = dirname.split("/");
-  return `${dirArr[dirArr.length - 2]}/${filename.split(".")[0]}`;
+  return `${dirArr[dirArr.length - 3]}|${dirArr[dirArr.length - 2]}/${
+    filename.split(".")[0]
+  }`;
 };

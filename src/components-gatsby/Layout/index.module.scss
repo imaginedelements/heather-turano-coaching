@@ -1,6 +1,5 @@
-@import "src/styles/mixins/index";
-@import "src/styles/base/index";
-@import "~bulma/sass/utilities/initial-variables";
+@import "src/styles/scss/base/index";
+@import "src/styles/scss/index";
 
 .main {
   @include make_flex(column, flex-start, flex-start);
