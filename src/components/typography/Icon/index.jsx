@@ -1,10 +1,10 @@
-import React from "./node_modules/react";
-import PropTypes from "./node_modules/prop-types";
+import React from "react";
+import PropTypes from "prop-types";
 
-import { FontAwesomeIcon } from "./node_modules/@fortawesome/react-fontawesome";
-import { library } from "./node_modules/@fortawesome/fontawesome-svg-core";
-import { fal } from "./node_modules/@fortawesome/pro-light-svg-icons";
-import { fab } from "./node_modules/@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fal } from "@fortawesome/pro-light-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 import "./index.module.scss";
 
