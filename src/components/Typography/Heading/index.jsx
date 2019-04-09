@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Color from "../Color";
 import "./index.module.scss";
 
-export const Heading = ({ size, color, copy, children }) => {
+const Heading = ({ size, color, copy, children }) => {
   switch (size) {
     case "xl":
       return (

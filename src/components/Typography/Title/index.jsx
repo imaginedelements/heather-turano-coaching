@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./index.module.scss";
 
-export const Title = ({ size, copy, children }) => {
+const Title = ({ size, copy, children }) => {
   switch (size) {
     case "md":
       return <h5 styleName="md">{copy || children}</h5>;

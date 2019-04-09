@@ -1,16 +1,16 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "./node_modules/react";
+import PropTypes from "./node_modules/prop-types";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fal } from "@fortawesome/pro-light-svg-icons";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "./node_modules/@fortawesome/react-fontawesome";
+import { library } from "./node_modules/@fortawesome/fontawesome-svg-core";
+import { fal } from "./node_modules/@fortawesome/pro-light-svg-icons";
+import { fab } from "./node_modules/@fortawesome/free-brands-svg-icons";
 
 import "./index.module.scss";
 
 library.add(fal, fab);
 
-export const Icon = ({ icon, size, position, spin, color }) => (
+const Icon = ({ icon, size, position, spin, color }) => (
   <div className={`icon ${color}`} styleName={`icon ${size} ${position}`}>
     <FontAwesomeIcon fixedWidth icon={["fal", icon]} spin={spin} />
   </div>
@@ -52,4 +52,5 @@ Icon.defaultProps = {
   spin: false,
   position: "default"
 };
+
 export default Icon;
