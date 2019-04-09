@@ -7,7 +7,7 @@ import {
   Paragraph,
   Caption,
   Icon
-} from "../../../components/typography/index";
+} from "../../../components/typography";
 import { Link } from "../../../components/links";
 
 import "./index.module.scss";
