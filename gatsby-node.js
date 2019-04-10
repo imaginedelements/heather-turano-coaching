@@ -4,6 +4,7 @@ const { createFilePath } = require("gatsby-source-filesystem");
 
 // gets all of the pages needed from the markdown
 // creates the pages after it gathers the information
+/* eslint-disable consistent-return */
 exports.createPages = ({ graphql, actions: { createPage } }) =>
   graphql(`
     query NodeQuery {
@@ -24,17 +25,15 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
     }
   `).then(result => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
       return Promise.reject(result.errors);
     }
 
     const cmsPages = result.data.allMarkdownRemark.edges;
 
     cmsPages.forEach((edge, i, arr) => {
-      const id = edge.node.id;
+      const { id } = edge.node;
       const prevPage = arr[i - 1];
       const nextPage = arr[i + 1];
-      console.log(prevPage, nextPage);
 
       createPage({
         path:
@@ -43,7 +42,7 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.key)}/${
             edge.node.frontmatter.key
-          }.page.js`
+          }.page.jsx`
         ),
         // The context is passed as props to the component as well
         // as into the component's GraphQL query.
@@ -78,7 +77,7 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
 
       createPage({
         path: tagPath,
-        component: path.resolve(`src/pages/tags/index.js`),
+        component: path.resolve(`src/pages/tags/index.jsx`),
         context: {
           tag
         }

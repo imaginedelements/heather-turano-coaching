@@ -4,6 +4,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-eslint",
+      options: {
+        options: {
+          fix: true
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./static/img/favicon.png",
