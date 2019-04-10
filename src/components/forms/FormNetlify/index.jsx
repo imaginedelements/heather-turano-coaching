@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 
 import FormHoneypot from "./FormHoneypot";
 
-const FormNetlify = ({ children, formName, action, includeCaptcha }) =>
+const FormNetlify = ({ children, name, action, includeCaptcha }) =>
   action ? (
     <form
-      name={formName}
+      name={name}
       method="POST"
       action={action}
       data-netlify="true"
@@ -18,7 +18,7 @@ const FormNetlify = ({ children, formName, action, includeCaptcha }) =>
     </form>
   ) : (
     <form
-      name={formName}
+      name={name}
       method="POST"
       data-netlify="true"
       netlify-honeypot="bot-field"
@@ -30,7 +30,7 @@ const FormNetlify = ({ children, formName, action, includeCaptcha }) =>
   );
 
 FormNetlify.propTypes = {
-  formName: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   children: PropTypes.any.isRequired,
   action: PropTypes.func,
   includeCaptcha: PropTypes.bool
