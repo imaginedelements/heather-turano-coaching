@@ -6,9 +6,10 @@ import { Section, SectionItem } from "../../components-app/layouts";
 
 import {
   FormControl,
-  Form,
   FormLayout,
-  FormContainer
+  FormContainer,
+  FormNetlify,
+  FormCaptcha
 } from "../../components/forms";
 import { FormField } from "../../components/inputs";
 import { Button } from "../../components/buttons";
@@ -31,13 +32,9 @@ const Contact = () => (
             email: "",
             message: ""
           }}
-          onSubmit={(values, { setSubmitting }) => {
-            setSubmitting(false);
-            // handleSubmit(values);
-          }}
         >
-          {({ isSubmitting, handleSubmit }) => (
-            <Form>
+          {() => (
+            <FormNetlify name="contact" includeCaptcha>
               <FormLayout styleType="stacked">
                 <FormField type="text" name="firstName" label="First name" />
                 <FormField type="text" name="lastName" label="Last name" />
@@ -53,15 +50,14 @@ const Contact = () => (
                   label="Your message"
                   placeholder="What's on your mind? How can I help you?"
                 />
+                <FormCaptcha />
                 <Button
                   styleType="secondary"
                   label="Let's get this party started!"
                   htmlType="submit"
-                  onSubmit={handleSubmit}
-                  loading={isSubmitting}
                 />
               </FormLayout>
-            </Form>
+            </FormNetlify>
           )}
         </FormControl>
       </FormContainer>
