@@ -13,6 +13,7 @@ const FormNetlify = ({ children, name, action, includeCaptcha }) =>
       netlify-honeypot="bot-field"
       data-netlify-recaptcha={includeCaptcha}
     >
+      <input type="hidden" name="form-name" value={name} />
       <FormHoneypot botFieldName="bot-field" />
       {children}
     </form>
