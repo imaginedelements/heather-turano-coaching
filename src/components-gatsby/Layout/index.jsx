@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 
 import { Header } from "../../components-app/headers";
 import { Footer } from "../../components-app/footers";
+import { UnderConstruction } from "../../components-app/states";
 
 import "./index.module.scss";
 
@@ -31,15 +32,17 @@ const menuItems = [
 ];
 
 const Layout = ({ children, ...restProps }) => (
-  <div styleName="main">
-    <Helmet
-      title="Home | Heather Turano Coaching"
-      bodyAttributes={{ class: "" }}
-    />
-    <Header {...restProps} navItems={menuItems} route={menuItems[0].route} />
-    <section styleName="content">{children}</section>
-    <Footer quickLinks={menuItems} />
-  </div>
+  <UnderConstruction>
+    <div styleName="main">
+      <Helmet
+        title="Home | Heather Turano Coaching"
+        bodyAttributes={{ class: "" }}
+      />
+      <Header {...restProps} navItems={menuItems} route={menuItems[0].route} />
+      <section styleName="content">{children}</section>
+      <Footer quickLinks={menuItems} />
+    </div>
+  </UnderConstruction>
 );
 
 Layout.propTypes = {
