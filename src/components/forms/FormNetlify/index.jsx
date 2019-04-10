@@ -3,46 +3,41 @@ import PropTypes from "prop-types";
 
 import FormHoneypot from "./FormHoneypot";
 
-const FormNetlify = ({
-  children,
-  formName,
-  action,
-  includeHoneypot,
-  includeCaptcha
-}) =>
+const FormNetlify = ({ children, name, action, includeCaptcha }) =>
   action ? (
     <form
-      name={formName}
+      name={name}
       method="POST"
       action={action}
-      dataNetlifyRecaptcha={includeCaptcha}
-      dataNetlify="true"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      data-netlify-recaptcha={includeCaptcha}
     >
-      {includeHoneypot && <FormHoneypot />}
+      <input type="hidden" name="form-name" value={name} />
+      <FormHoneypot botFieldName="bot-field" />
       {children}
     </form>
   ) : (
     <form
-      name={formName}
+      name={name}
       method="POST"
-      dataNetlifyRecaptcha={includeCaptcha}
-      dataNetlify="true"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      data-netlify-recaptcha={includeCaptcha}
     >
-      {includeHoneypot && <FormHoneypot />}
+      <FormHoneypot botFieldName="bot-field" />
       {children}
     </form>
   );
 
 FormNetlify.propTypes = {
-  formName: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   children: PropTypes.any.isRequired,
   action: PropTypes.func,
-  includeHoneypot: PropTypes.bool,
   includeCaptcha: PropTypes.bool
 };
 
 FormNetlify.defaultProps = {
-  includeHoneypot: true,
   includeCaptcha: false,
   action: null
 };
