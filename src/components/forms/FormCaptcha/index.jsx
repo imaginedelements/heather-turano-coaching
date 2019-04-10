@@ -1,5 +1,8 @@
 import React from "react";
+import Recaptcha from "react-google-recaptcha";
 
-const FormCaptcha = () => <div data-netlify-recaptcha="true" />;
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
+
+const FormCaptcha = () => <Recaptcha sitekey={RECAPTCHA_KEY} />;
 
 export default FormCaptcha;
