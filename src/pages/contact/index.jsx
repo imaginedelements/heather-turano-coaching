@@ -8,10 +8,9 @@ import {
   FormControl,
   FormLayout,
   FormContainer,
-  FormNetlify,
-  FormCaptcha
+  FormNetlify
 } from "../../components/forms";
-import { FormField } from "../../components/inputs";
+import { FormField, InputCaptcha } from "../../components/inputs";
 import { Button } from "../../components/buttons";
 import { Text } from "../../components/typography";
 
@@ -50,7 +49,7 @@ const Contact = () => (
                   label="Your message"
                   placeholder="What's on your mind? How can I help you?"
                 />
-                <FormCaptcha />
+                <InputCaptcha />
                 <Button
                   styleType="secondary"
                   label="Let's get this party started!"
