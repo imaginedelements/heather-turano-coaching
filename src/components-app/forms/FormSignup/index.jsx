@@ -1,7 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { FormControl, Form, FormLayout } from "../../../components/forms";
+import {
+  FormControl,
+  FormLayout,
+  FormNetlify
+} from "../../../components/forms";
 import { FormField } from "../../../components/inputs";
 import { Button } from "../../../components/buttons";
 
@@ -9,7 +13,6 @@ const FormSignup = ({
   shouldDisplayFirstName,
   shouldDisplayLabels,
   actionLabel,
-  handleSubmit,
   layout,
   placeholder: { firstName: placeholderFirstName, email: placeholderEmail }
 }) => (
@@ -17,13 +20,9 @@ const FormSignup = ({
     initialValues={
       shouldDisplayFirstName ? { firstName: "", email: "" } : { email: "" }
     }
-    onSubmit={(values, { setSubmitting }) => {
-      setSubmitting(false);
-      handleSubmit(values);
-    }}
   >
-    {({ isSubmitting, handleSubmit }) => (
-      <Form>
+    {() => (
+      <FormNetlify name="sign-up">
         <FormLayout styleType={layout}>
           {shouldDisplayFirstName && (
             <FormField
@@ -41,15 +40,9 @@ const FormSignup = ({
             label={layout !== "inline" && shouldDisplayLabels ? "Email" : null}
             placeholder={placeholderEmail}
           />
-          <Button
-            styleType="secondary"
-            label={actionLabel}
-            htmlType="submit"
-            onSubmit={handleSubmit}
-            loading={isSubmitting}
-          />
+          <Button styleType="secondary" label={actionLabel} htmlType="submit" />
         </FormLayout>
-      </Form>
+      </FormNetlify>
     )}
   </FormControl>
 );
@@ -58,7 +51,6 @@ FormSignup.propTypes = {
   shouldDisplayFirstName: PropTypes.bool,
   shouldDisplayLabels: PropTypes.bool,
   actionLabel: PropTypes.string.isRequired,
-  handleSubmit: PropTypes.func.isRequired,
   placeholder: PropTypes.shape({
     firstName: PropTypes.string,
     email: PropTypes.string
