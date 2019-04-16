@@ -1,14 +1,24 @@
 ---
-templateKey: blog-post
-heroImage: /img/img_0105.jpg
-heroImageAlt: Bed Photo
+protected: false
+category: Mind Body Wellness
+thumbnail: /img/img_0105.jpg
+thumbnailAlt: I just cant even!
 title: 'When you wake up feeling like crap, do these 5 things.'
 subTitle: 5 things to do when you wake up feeling like crap.
 date: '2018-07-10T09:16:14-04:00'
-description: >-
-  Everyone has been there. You sleep like crap and you feel horrible when you
-  open your eyes. And then instead of having compassion for yourself, you bet
-  yourself up about feeling bad and not being your happiest or best self. 
+prompt: >-
+  This is me. being Lazy AF and feeling sorry for myself as I wake up. 
+
+
+  I even slept in the guest room because I was tossing and turning and thought
+  it would help to switch beds. Well it didn't. And I got a few hours of sleep
+  and had weird dreams about old managers and people crashing into my car in a
+  Whole Foods parking lot. (these were actually my dreams.)
+
+
+  I finally decided it was time to open my eyes and start the day, but as I laid
+  there I wondered "how would I get through the day if I had started it already
+  feeling like crap." so this is what I did.
 tags:
   - crap
 ---
