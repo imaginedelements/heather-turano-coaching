@@ -1,18 +1,20 @@
 ---
-templateKey: blog-post
-heroImage: /img/coffee-container-couple-373970.jpg
-heroImageAlt: Date
+protected: false
+category: Dating & Love
+thumbnail: /img/img_8128.jpg
+thumbnailAlt: Before you date anyone you must be able to walk alone and love yourself first.
 title: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
 subTitle: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
 date: '2018-06-19T16:19:22-04:00'
-description: >-
-  So you are now single and ready to date after years off the market. There
-  could be new ways of meeting people that never existed when you were last
-  single. Maybe you even forget how to flirt or what to wear on a date.  Here
-  are 4 things you should know now that you are divorced and ready to find love
-  again.
+prompt: >-
+  I know it may sound crazy but manifesting what you want in your ideal person
+  is a sure fire way to get the love you are looking for. I know because I did
+  it and it worked! Check out the 4 things that helped me and will help you find
+  lasting love after divorce.
 tags:
   - divorced
+  - dating after divorce
+  - dating tips after divorce
 ---
 ## 1. Make a List
 
@@ -36,10 +38,20 @@ You know that guy that you are friends with that you can talk about anything too
 
 ## 4. Dating Apps Are Insane, set your standards
 
-If you are anything like me after my divorce. Texting didn't even exist and people had to call each other to plan a date. This seems to have gotten lost on this "swipe right, ghosting, bread crumbing" generation. 
+If you are anything like me after my divorce. Texting didn't even exist when i started dating my Ex and people had to call each other to plan a date. This seems to have gotten lost on this "swipe right, ghosting, bread crumbing" generation. 
 
 Raise and set your standards in the beginning for how you expect to be treated. Tell them to call and ask you out, not "text you out" (Yes, that is actually a thing). Tell them that you have a very full life, so they have to schedule in advance for a date (No last minute bootie calls wanted). 
 
 If they are lazy in the beginning of your relationship. They will be so much worse as things move forward. By setting your standards in the beginning it will weed out the people just looking for one night stands or a casual thing. 
 
-Remember you did this once. An't no body got time for that.
+Remember you did this once. An't no body got time for that again.
+
+
+
+## What has helped you on your journey back to dating after divorce? 
+
+Leave a message in the comments below and share your story! 
+
+If you enjoy this content, join the community and sign up for our email list. Get FREE, awesome, never boring content to help you on your journey through life and love! 
+
+And as always, love yourself first!
