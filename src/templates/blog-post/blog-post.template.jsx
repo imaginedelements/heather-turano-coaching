@@ -15,7 +15,6 @@ export const BlogPostPageTemplate = ({
   description,
   dateCreated,
   content,
-  contentType,
   tags,
   pagePrev,
   pageNext
@@ -31,7 +30,7 @@ export const BlogPostPageTemplate = ({
           dateCreated={dateCreated}
           author="Heather Turano"
         />
-        <Content contentType={contentType} content={content} />
+        <Content contentType="html" content={content} />
         {tags && <BlogTagGroup tags={tags} />}
         <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
       </BlogContainer>
@@ -41,7 +40,6 @@ export const BlogPostPageTemplate = ({
 
 BlogPostPageTemplate.propTypes = {
   content: PropTypes.string.isRequired,
-  contentType: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
