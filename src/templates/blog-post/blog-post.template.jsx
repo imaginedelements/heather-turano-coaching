@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Content } from "../../components-gatsby";
+import { Content, HTMLContent } from "../../components-gatsby";
 import {
   BlogContainer,
   BlogHeader,
@@ -15,31 +15,37 @@ export const BlogPostPageTemplate = ({
   description,
   dateCreated,
   content,
+  contentComponent,
   tags,
   pagePrev,
   pageNext
-}) => (
-  <BlogLayout>
-    <div className="content">
-      <BlogContainer>
-        <BlogHeader
-          title={title}
-          description={description}
-          backLinkRoute="/blog"
-          backLinkText="Back to the list"
-          dateCreated={dateCreated}
-          author="Heather Turano"
-        />
-        <Content contentType="html" content={content} />
-        {tags && <BlogTagGroup tags={tags} />}
-        <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
-      </BlogContainer>
-    </div>
-  </BlogLayout>
-);
+}) => {
+  const BlogContent = contentComponent || Content;
+
+  return (
+    <BlogLayout>
+      <div className="content">
+        <BlogContainer>
+          <BlogHeader
+            title={title}
+            description={description}
+            backLinkRoute="/blog"
+            backLinkText="Back to the list"
+            dateCreated={dateCreated}
+            author="Heather Turano"
+          />
+          <BlogContent content={content} />
+          {tags && <BlogTagGroup tags={tags} />}
+          <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
+        </BlogContainer>
+      </div>
+    </BlogLayout>
+  );
+};
 
 BlogPostPageTemplate.propTypes = {
   content: PropTypes.string.isRequired,
+  contentComponent: PropTypes.node,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
@@ -49,5 +55,6 @@ BlogPostPageTemplate.propTypes = {
 };
 
 BlogPostPageTemplate.defaultProps = {
+  contentComponent: HTMLContent,
   tags: []
 };
