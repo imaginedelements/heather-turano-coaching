@@ -16,33 +16,34 @@ export const BlogPageTemplate = ({
       <Text size="lg">{pageDescription}</Text>
     </Section>
     <BlogList>
-      {posts.map(
-        ({
-          node: {
-            id,
-            fields: { slug: blogLinkRoute },
-            frontmatter: {
-              category,
-              title,
-              prompt,
-              date: dateCreated,
-              thumbnail,
-              thumbnailAlt
+      {posts &&
+        posts.map(
+          ({
+            node: {
+              id,
+              fields: { slug: blogLinkRoute },
+              frontmatter: {
+                category,
+                title,
+                prompt,
+                date: dateCreated,
+                thumbnail,
+                thumbnailAlt
+              }
             }
-          }
-        }) => (
-          <BlogCard
-            key={id}
-            category={category}
-            title={title}
-            prompt={prompt}
-            blogLinkRoute={blogLinkRoute}
-            dateCreated={dateCreated}
-            thumbnail={thumbnail}
-            thumbnailAlt={thumbnailAlt}
-          />
-        )
-      )}
+          }) => (
+            <BlogCard
+              key={id}
+              category={category}
+              title={title}
+              prompt={prompt}
+              blogLinkRoute={blogLinkRoute}
+              dateCreated={dateCreated}
+              thumbnail={thumbnail}
+              thumbnailAlt={thumbnailAlt}
+            />
+          )
+        )}
     </BlogList>
   </>
 );
