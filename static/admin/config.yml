@@ -58,8 +58,8 @@ collections:
           widget: "text",
           hint: "This is the text that the user will see in each of the blog cards under the title. It is intended to be a field where you can provide a hook to get your users interested and clicking on the `read more` link",
         }
-      - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
   - name: "pages"
     label: "Pages"
     files:
