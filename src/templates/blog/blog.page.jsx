@@ -50,18 +50,15 @@ const Blog = ({
     },
     allMarkdownRemark: { edges: posts }
   }
-}) => {
-  console.log(title, description, posts);
-  return (
-    <Layout>
-      <Helmet
-        title="Blog | Heather Turano Coaching"
-        bodyAttributes={{ class: "" }}
-      />
-      <BlogPageTemplate title={title} description={description} posts={posts} />
-    </Layout>
-  );
-};
+}) => (
+  <Layout>
+    <Helmet
+      title="Blog | Heather Turano Coaching"
+      bodyAttributes={{ class: "" }}
+    />
+    <BlogPageTemplate title={title} description={description} posts={posts} />
+  </Layout>
+);
 
 Blog.propTypes = {
   data: PropTypes.object.isRequired
