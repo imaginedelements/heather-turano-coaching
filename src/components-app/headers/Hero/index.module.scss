@@ -28,6 +28,10 @@
     &.top {
       top: 0;
       bottom: 50%;
+
+      & > div {
+        max-width: 70%;
+      }
     }
 
     &.bottom {
