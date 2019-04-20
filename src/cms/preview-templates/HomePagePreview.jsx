@@ -11,10 +11,6 @@ const HomePagePreview = ({ entry, getAsset }) => {
 
   return (
     <HomePageTemplate
-      callToAction={{
-        ctaPlaceholder: entry.getIn(["data", "callToAction", "ctaPlaceholder"]),
-        ctaButtonLabel: entry.getIn(["data", "callToAction", "ctaButtonLabel"])
-      }}
       hero={{
         heroImage: getAsset(entry.getIn(["data", "hero", "heroImage"])),
         heroTitle: entry.getIn(["data", "hero", "heroTitle"]),
@@ -24,35 +20,66 @@ const HomePagePreview = ({ entry, getAsset }) => {
           actionRoute: entry.getIn(["data", "hero", "heroCta", "actionRoute"])
         }
       }}
-      introduction={{
-        introTitle: entry.getIn(["data", "introduction", "introTitle"]),
-        introDescription: entry.getIn([
-          "data",
-          "introduction",
-          "introDescription"
-        ]),
-        introAction: {
-          actionLabel: entry.getIn([
+      emailSignup={{
+        title: entry.getIn(["data", "emailSignup", "title"]),
+        body: entry.getIn(["data", "emailSignup", "body"]),
+        form: {
+          firstNamePlaceholder: entry.getIn([
             "data",
-            "introduction",
-            "introAction",
-            "actionLabel"
+            "emailSignup",
+            "form",
+            "firstNamePlaceholder"
           ]),
-          actionRoute: entry.getIn([
+          emailAddressPlaceholder: entry.getIn([
             "data",
-            "introduction",
-            "introAction",
-            "actionRoute"
+            "emailSignup",
+            "form",
+            "emailAddressPlaceholder"
+          ]),
+          submitLabel: entry.getIn([
+            "data",
+            "emailSignup",
+            "form",
+            "submitLabel"
           ])
         }
       }}
       testimonials={{
-        testimonials: entry.getIn(["data", "testimonials", "testimonials"]),
+        testimonialTitle: entry.getIn([
+          "data",
+          "testimonials",
+          "testimonialTitle"
+        ]),
         testimonialEntries
       }}
       method={{
         methodTitle: entry.getIn(["data", "method", "methodTitle"]),
         methodSteps
+      }}
+      coachingSignup={{
+        title: entry.getIn(["data", "coachingSignup", "title"]),
+        body: entry.getIn(["data", "coachingSignup", "body"]),
+        form: {
+          firstNamePlaceholder: entry.getIn([
+            "data",
+            "coachingSignup",
+            "form",
+            "firstNamePlaceholder"
+          ]),
+          emailAddressPlaceholder: entry.getIn([
+            "data",
+            "coachingSignup",
+            "form",
+            "emailAddressPlaceholder"
+          ]),
+          submitLabel: entry.getIn([
+            "data",
+            "coachingSignup",
+            "form",
+            "submitLabel"
+          ])
+        },
+        prompt: entry.getIn(["data", "coachingSignup", "prompt"])
       }}
     />
   );

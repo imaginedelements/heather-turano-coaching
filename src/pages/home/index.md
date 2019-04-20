@@ -1,8 +1,5 @@
 ---
 key: home
-callToAction:
-  ctaPlaceholder: youremailaddress@awesome.com
-  ctaButtonLabel: I have candy...
 hero:
   heroImage: /img/dsc_0605.jpg
   heroTitle: Love yourself first
@@ -10,14 +7,18 @@ hero:
   heroCta:
     label: click here to get free things
     actionRoute: contact
-introduction:
-  introTitle: "welcome home"
-  introDescription: >-
+emailSignup:
+  title: "welcome home"
+  body: >-
     My name is Heather and I am a life & yoga coach… because, well, life right!
     I was put on this earth to guide, mentor, and enlighten people to approach
     life in a balanced manner, and to see themselves as a temple when external
     influences halt them from doing so. Whatever you’re going through, all be it relationship trouble, work angst, or clouded judgement, I’m here to listen,
     understand, and guide.
+  form:
+    firstNamePlaceholder: testing...
+    emailAddressPlaceholder: testing...
+    submitLabel: click me
   introAction:
     actionLabel: "How can I help you?"
     actionRoute: contact
@@ -81,4 +82,12 @@ method:
         sit amet non magna.
       icon: seedling
       label: grow
+coachingSignup:
+  title: Let's chat
+  body: Does this sound sweet and give you all the feels youve been waiting for from a coach?
+  form:
+    firstNamePlaceholder: first name
+    emailAddressPlaceholder: email address
+    submitLabel: click me
+  prompt: Looking forward to hearing from you
 ---

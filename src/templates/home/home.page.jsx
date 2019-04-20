@@ -10,10 +10,6 @@ export const pageQuery = graphql`
   query HomePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-        callToAction {
-          ctaPlaceholder
-          ctaButtonLabel
-        }
         hero {
           heroImage
           heroTitle
@@ -23,9 +19,14 @@ export const pageQuery = graphql`
             actionRoute
           }
         }
-        introduction {
-          introTitle
-          introDescription
+        emailSignup {
+          title
+          body
+          form {
+            firstNamePlaceholder
+            emailAddressPlaceholder
+            submitLabel
+          }
         }
         testimonials {
           testimonialTitle
@@ -44,6 +45,16 @@ export const pageQuery = graphql`
             label
           }
         }
+        coachingSignup {
+          title
+          body
+          prompt
+          form {
+            firstNamePlaceholder
+            emailAddressPlaceholder
+            submitLabel
+          }
+        }
       }
     }
   }
@@ -52,7 +63,14 @@ export const pageQuery = graphql`
 const Home = ({
   data: {
     markdownRemark: {
-      frontmatter: { callToAction, hero, introduction, testimonials, method }
+      frontmatter: {
+        callToAction,
+        hero,
+        emailSignup,
+        testimonials,
+        method,
+        coachingSignup
+      }
     }
   }
 }) => (
@@ -64,9 +82,10 @@ const Home = ({
     <HomePageTemplate
       hero={hero}
       callToAction={callToAction}
-      introduction={introduction}
+      emailSignup={emailSignup}
       testimonials={testimonials}
       method={method}
+      coachingSignup={coachingSignup}
     />
   </Layout>
 );

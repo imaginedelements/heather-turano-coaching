@@ -106,21 +106,6 @@ collections:
         name: "home"
         fields:
           - { label: "key", name: "key", widget: "hidden", default: "home" }
-          - label: "Call to action"
-            name: "callToAction"
-            widget: "object"
-            fields:
-              - {
-                  label: "Input placeholder text",
-                  name: "ctaPlaceholder",
-                  widget: "string",
-                  defaut: "youremailaddress@isawesome.com",
-                }
-              - {
-                  label: "Button label",
-                  name: "ctaButtonLabel",
-                  widget: "string",
-                }
           - label: "Hero"
             name: "hero"
             widget: "object"
@@ -155,27 +140,30 @@ collections:
                       options: ["contact"],
                       hint: "select a page from the dropdown of where you want the user to be taken after they click on the page. If you need another page, just let me know and I can create one very easy for you",
                     }
-          - label: "Introduction"
-            name: "introduction"
+          - label: "Email signup"
+            name: "emailSignup"
             widget: "object"
             fields:
-              - { label: "Title", name: "introTitle", widget: "string" }
-              - { label: "Sub-title", name: "introSubTitle", widget: "string" }
-              - {
-                  label: "Description",
-                  name: "introDescription",
-                  widget: "text",
-                }
-              - label: "Button"
-                name: "introAction"
-                widget: "object"
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Form"
+                name: form
+                widget: object
                 fields:
-                  - { label: "Label", name: "actionLabel", widget: "text" }
                   - {
-                      label: "Go to page",
-                      name: actionRoute,
-                      widget: "select",
-                      options: ["about", "blog", "work-with-me", "contact"],
+                      label: First name input (placeholder),
+                      name: "firstNamePlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Email address input (placeholder),
+                      name: "emailAddressPlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Submit label,
+                      name: "submitLabel",
+                      widget: "string",
                     }
           - label: "Testimonials"
             name: "testimonials"
@@ -231,6 +219,32 @@ collections:
                       label: "Description",
                       name: "description",
                       widget: "text",
+                    }
+          - label: "Coaching signup"
+            name: "coachingSignup"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "string" }
+              - { label: "Prompt", name: "prompt", widget: "string" }
+              - label: "Form"
+                name: form
+                widget: object
+                fields:
+                  - {
+                      label: First name input (placeholder),
+                      name: "firstNamePlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Email address input (placeholder),
+                      name: "emailAddressPlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Submit label,
+                      name: "submitLabel",
+                      widget: "string",
                     }
       ##### About
       - file: "src/pages/about/index.md"

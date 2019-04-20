@@ -19,10 +19,15 @@ export const HomePageTemplate = ({
     heroSubTitle,
     heroCta: { label: heroCtaLabel, actionRoute: heroActionRoute }
   },
-  callToAction: { ctaPlaceholder, ctaButtonLabel },
-  introduction: { introTitle, introDescription },
+  emailSignup: { title, body, form },
   testimonials: { testimonialTitle, testimonialEntries },
-  method: { methodTitle, methodSteps }
+  method: { methodTitle, methodSteps },
+  coachingSignup: {
+    title: coachingTitle,
+    body: coachingBody,
+    form: coachingForm,
+    promopt: coachingPrompt
+  }
 }) => (
   <>
     <Hero
@@ -37,16 +42,16 @@ export const HomePageTemplate = ({
         onClick={() => navigate(`/${heroActionRoute}`)}
       />
     </Hero>
-    <Section title={introTitle}>
-      {introDescription && <Text size="lg" copy={introDescription} />}
+    <Section title={title}>
+      {body && <Text size="lg" copy={body} />}
       <FormContainer>
         <FormSignup
           layout="stacked"
           shouldDisplayFirstName
-          actionLabel={ctaButtonLabel}
+          actionLabel={form.submitLabel}
           placeholder={{
-            email: ctaPlaceholder,
-            firstName: "First name"
+            firstName: form.firstNamePlaceholder,
+            email: form.emailAddressPlaceholder
           }}
         />
       </FormContainer>
@@ -69,29 +74,31 @@ export const HomePageTemplate = ({
       </Stepper>
     </Section>
     <Section
-      title="Let's talk"
+      title={coachingTitle}
       styleType="secondary"
       contentOrientation="center"
     >
-      <Text size="lg" copy="Does this sound sweet? Cool. Let's get working." />
+      <Text size="lg">{coachingBody}</Text>
       <FormContainer styleType="standalone">
         <FormSignup
           layout="inline"
-          actionLabel={ctaButtonLabel}
+          actionLabel={coachingForm.submitLabel}
+          shouldDisplayFirstName
           placeholder={{
-            email: ctaPlaceholder
+            firstName: coachingForm.firstNamePlaceholder,
+            email: coachingForm.emailAddressPlaceholder
           }}
         />
       </FormContainer>
-      <Text size="lg" copy="Looking forward to hearing from you!" />
+      <Text size="lg">{coachingPrompt}</Text>
     </Section>
   </>
 );
 
 HomePageTemplate.propTypes = {
-  callToAction: PropTypes.object.isRequired,
   hero: PropTypes.object.isRequired,
-  introduction: PropTypes.object.isRequired,
+  emailSignup: PropTypes.object.isRequired,
   testimonials: PropTypes.object.isRequired,
-  method: PropTypes.object.isRequired
+  method: PropTypes.object.isRequired,
+  coachingSignup: PropTypes.object.isRequired
 };
