@@ -12,9 +12,16 @@ main:
   mainTitle: Oh Hey There
 sectionOne:
   body: >-
-    Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo
-    luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-  title: Let's go deeper
+    I am pretty much just like you. I am a curious, driven, “don’t fit into a
+    mold” type of person. I have most DEFINITELY been where you are right now.
+    And ABSOLUTELY struggled through the same quicksand you find yourself
+    dredging through at the moment. 
+
+
+    I am a writer, a coach, and a speaker for those who don’t have a big enough
+    Italian voice. My life, like yours, is dedicated to learning how to get out
+    of my own way and become a F###ing extraordinary human.
+  title: 'OK, I Got it… Let’s just get honest.'
 sectionTwo:
   avatar: /img/heather-paris-cropped.jpeg
   body: >-
