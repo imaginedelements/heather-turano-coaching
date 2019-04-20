@@ -18,6 +18,10 @@ export const pageQuery = graphql`
           heroImage
           heroTitle
           heroSubTitle
+          heroCta {
+            label
+            actionRoute
+          }
         }
         introduction {
           introTitle

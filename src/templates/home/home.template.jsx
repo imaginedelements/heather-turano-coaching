@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { navigate } from "gatsby";
 
 import { Text } from "../../components/typography";
 import { Carosel, Stepper } from "../../components/navigation";
@@ -9,15 +10,17 @@ import { Hero } from "../../components-app/headers";
 import { Testimonial } from "../../components-app/custom";
 import { FormSignup } from "../../components-app/forms";
 import { FormContainer } from "../../components/forms";
+import { Button } from "../../components/buttons";
 
 export const HomePageTemplate = ({
-  hero: { heroImage, heroTitle, heroSubTitle },
-  callToAction: { ctaPlaceholder, ctaButtonLabel },
-  introduction: {
-    introTitle,
-    introDescription
-    // introAction: { actionLabel, actionRoute }
+  hero: {
+    heroImage,
+    heroTitle,
+    heroSubTitle,
+    heroCta: { label: heroCtaLabel, actionRoute: heroActionRoute }
   },
+  callToAction: { ctaPlaceholder, ctaButtonLabel },
+  introduction: { introTitle, introDescription },
   testimonials: { testimonialTitle, testimonialEntries },
   method: { methodTitle, methodSteps }
 }) => (
@@ -28,16 +31,25 @@ export const HomePageTemplate = ({
       title={heroTitle}
       subTitle={heroSubTitle}
     >
-      <FormSignup
-        layout="inline"
-        actionLabel={ctaButtonLabel}
-        placeholder={{
-          email: ctaPlaceholder
-        }}
+      <Button
+        styleType="secondary"
+        label={heroCtaLabel}
+        onClick={() => navigate(`/${heroActionRoute}`)}
       />
     </Hero>
     <Section title={introTitle}>
-      <Text size="lg" copy={introDescription} />
+      {introDescription && <Text size="lg" copy={introDescription} />}
+      <FormContainer>
+        <FormSignup
+          layout="stacked"
+          shouldDisplayFirstName
+          actionLabel={ctaButtonLabel}
+          placeholder={{
+            email: ctaPlaceholder,
+            firstName: "First name"
+          }}
+        />
+      </FormContainer>
     </Section>
     <Section title={testimonialTitle} styleType="alt">
       <Carosel entries={testimonialEntries}>

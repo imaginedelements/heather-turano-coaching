@@ -7,6 +7,9 @@ hero:
   heroImage: /img/dsc_0605.jpg
   heroTitle: Love yourself first
   heroSubTitle: this is a test subtitle
+  heroCta:
+    label: click here to get free things
+    actionRoute: contact
 introduction:
   introTitle: "welcome home"
   introDescription: >-

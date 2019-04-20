@@ -109,11 +109,29 @@ collections:
                   widget: "string",
                   default: null,
                 }
+              - label: "Call to action"
+                name: "heroCta"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Button label",
+                      name: "label",
+                      widget: "string",
+                      default: "press this to get free things",
+                    }
+                  - {
+                      label: "Go to page",
+                      name: actionRoute,
+                      widget: "select",
+                      options: ["contact"],
+                      hint: "select a page from the dropdown of where you want the user to be taken after they click on the page. If you need another page, just let me know and I can create one very easy for you",
+                    }
           - label: "Introduction"
             name: "introduction"
             widget: "object"
             fields:
               - { label: "Title", name: "introTitle", widget: "string" }
+              - { label: "Sub-title", name: "introSubTitle", widget: "string" }
               - {
                   label: "Description",
                   name: "introDescription",
