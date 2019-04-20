@@ -11,7 +11,19 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        description
+        body
+        prompt
+        form {
+          firstName {
+            placeholder
+          }
+          emailAddress {
+            placeholder
+          }
+          submit {
+            label
+          }
+        }
       }
     }
   }
@@ -20,7 +32,7 @@ export const pageQuery = graphql`
 const Blog = ({
   data: {
     markdownRemark: {
-      frontmatter: { title, description }
+      frontmatter: { title, body, prompt, form }
     }
   }
 }) => (
@@ -29,7 +41,7 @@ const Blog = ({
       title="Blog | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <BlogPageTemplate title={title} description={description} />
+    <BlogPageTemplate title={title} body={body} prompt={prompt} form={form} />
   </Layout>
 );
 

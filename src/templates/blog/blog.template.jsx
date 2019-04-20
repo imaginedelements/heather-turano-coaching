@@ -5,14 +5,31 @@ import { Text } from "../../components/typography";
 
 import { Section } from "../../components-app/layouts";
 import { BlogCardList } from "../../components-static";
+import { FormSignup } from "../../components-app/forms";
+import FormConatiner from "../../components/forms/FormContainer";
 
 export const BlogPageTemplate = ({
-  title: pageTitle,
-  description: pageDescription
+  title,
+  body,
+  prompt,
+  form: { firstName, emailAddress, submit }
 }) => (
   <>
-    <Section title={pageTitle}>
-      <Text size="lg">{pageDescription}</Text>
+    <Section title={title}>
+      <Text size="lg">{body}</Text>
+      <FormConatiner>
+        <FormSignup
+          shouldDisplayFirstName
+          shouldDisplayLabels
+          actionLabel={submit.label}
+          layout="stacked"
+          placeholder={{
+            firstName: firstName.placeholder,
+            emailAddress: emailAddress.placeholder
+          }}
+        />
+      </FormConatiner>
+      <Text size="lg">{prompt}</Text>
     </Section>
     <BlogCardList />
   </>
@@ -20,7 +37,9 @@ export const BlogPageTemplate = ({
 
 BlogPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  body: PropTypes.string.isRequired,
+  prompt: PropTypes.string.isRequired,
+  form: PropTypes.object.isRequired
 };
 
 export default BlogPageTemplate;

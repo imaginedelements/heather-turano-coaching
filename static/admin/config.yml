@@ -69,8 +69,37 @@ collections:
         name: "blog"
         fields:
           - { label: "key", name: "key", widget: "hidden", default: "blog" }
-          - { label: "Title", name: "title", width: "string" }
-          - { label: "Description", name: "description", width: "text" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "text" }
+          - label: "CTA Form"
+            name: "form"
+            widget: "object"
+            fields:
+              - label: "First name"
+                name: "firstName"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Placeholder",
+                      name: "placeholder",
+                      widget: "string",
+                    }
+              - label: "Email address"
+                name: "emailAddress"
+                widget: "object"
+                fields:
+                  - {
+                      label: "Placeholder",
+                      name: "placeholder",
+                      widget: "string",
+                    }
+              - label: "Submit"
+                name: "submit"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+          - { label: "Prompt", name: "prompt", widget: "text" }
+
       ##### Home
       - file: "src/pages/home/index.md"
         label: "Home"
@@ -213,10 +242,10 @@ collections:
             name: "main"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Title", name: "mainTitle", widget: "string" }
+              - { label: "Blurb", name: "mainBlurb", widget: "text" }
               - label: "Background Image"
-                name: "backgroundImage"
+                name: "mainImage"
                 widget: "object"
                 fields:
                   - { label: "Img", name: "imgLocation", widget: "image" }
@@ -242,8 +271,8 @@ collections:
             name: "sectionTwo"
             widget: "object"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Avatar", name: "avatar", widget: "image" }
+              - { label: "Title", name: "detailTitle", widget: "string" }
+              - { label: "Avatar Image", name: "avatar", widget: "image" }
               - { label: "Body", name: "body", widget: "text" }
           - label: "Call to Action"
             name: "callToAction"
@@ -253,13 +282,13 @@ collections:
               - { label: "Body", name: "body", widget: "text" }
               - {
                   label: "Input Placeholder Text",
-                  name: "placeholder",
+                  name: "catInputPlaceholder",
                   widget: "string",
                   default: "youremail@awesome.com",
                 }
               - {
                   label: "Input Button Label",
-                  name: "label",
+                  name: "ctaButtonLabel",
                   widget: "string",
                   default: "Gimmie that wisdom",
                 }

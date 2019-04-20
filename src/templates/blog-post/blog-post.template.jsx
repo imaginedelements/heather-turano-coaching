@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Content, HTMLContent } from "../../components-gatsby";
+import { Content } from "../../components-gatsby";
 import {
   BlogContainer,
   BlogHeader,
@@ -12,7 +12,6 @@ import {
 
 export const BlogPostPageTemplate = ({
   title,
-  description,
   dateCreated,
   content,
   contentComponent,
@@ -28,7 +27,6 @@ export const BlogPostPageTemplate = ({
         <BlogContainer>
           <BlogHeader
             title={title}
-            description={description}
             backLinkRoute="/blog"
             backLinkText="Back to the list"
             dateCreated={dateCreated}
@@ -45,16 +43,14 @@ export const BlogPostPageTemplate = ({
 
 BlogPostPageTemplate.propTypes = {
   content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.node,
+  contentComponent: PropTypes.any.isRequired,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   pagePrev: PropTypes.string.isRequired,
   pageNext: PropTypes.string.isRequired,
   tags: PropTypes.array
 };
 
 BlogPostPageTemplate.defaultProps = {
-  contentComponent: HTMLContent,
   tags: []
 };

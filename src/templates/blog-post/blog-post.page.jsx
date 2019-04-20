@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
-import { Layout } from "../../components-gatsby";
+import { Layout, HTMLContent } from "../../components-gatsby";
 import { BlogPostPageTemplate } from "./blog-post.template";
 
 export const query = graphql`
@@ -13,7 +13,6 @@ export const query = graphql`
       frontmatter {
         title
         key
-        description
         pageKey
         protected
         category
@@ -30,7 +29,7 @@ const BlogPost = ({
   data: {
     markdownRemark: {
       html,
-      frontmatter: { date: dateCreated, title, description, tags }
+      frontmatter: { date: dateCreated, title, tags }
     }
   },
   pageContext: { pagePrev, pageNext }
@@ -38,8 +37,7 @@ const BlogPost = ({
   <Layout>
     <BlogPostPageTemplate
       content={html}
-      contentType="html"
-      description={description}
+      contentComponent={HTMLContent}
       tags={tags}
       title={title}
       dateCreated={dateCreated}
