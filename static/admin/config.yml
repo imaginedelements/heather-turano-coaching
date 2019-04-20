@@ -213,10 +213,10 @@ collections:
             name: "main"
             widget: "object"
             fields:
-              - { label: "Title", name: "mainTitle", widget: "string" }
-              - { label: "Blurb", name: "mainBlurb", widget: "text" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
               - label: "Background Image"
-                name: "mainImage"
+                name: "backgroundImage"
                 widget: "object"
                 fields:
                   - { label: "Img", name: "imgLocation", widget: "image" }
@@ -227,62 +227,39 @@ collections:
                       hint: "This text will display if the image is not found",
                     }
                   - {
-                      label: "Background image (x position)",
-                      name: "imgXPosition",
-                      widget: "number",
-                      default: 0,
-                      valueType: "int",
-                      min: 0,
-                      max: 100,
-                      step: 1,
-                    }
-                  - {
-                      label: "Background image (y position)",
-                      name: "imgYPosition",
-                      default: 0,
-                      valueType: "int",
-                      min: 0,
-                      max: 100,
-                      step: 1,
-                    }
-                  - {
                       label: "Background image (height)",
                       name: "imgHeight",
                       widget: "number",
                       default: 700,
                     }
-          - label: "Overview"
-            name: "overview"
+          - label: "Section 1"
+            name: "sectionOne"
             widget: "object"
             fields:
-              - { label: "Title", name: "overviewTitle", widget: "string" }
-              - { label: "Blurb", name: "body", widget: "markdown" }
-          - label: "Detail"
-            name: "detail"
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - label: "Section 2"
+            name: "sectionTwo"
             widget: "object"
             fields:
-              - { label: "Title", name: "detailTitle", widget: "string" }
-              - {
-                  label: "Avatar Image",
-                  name: "detailAvatarImage",
-                  widget: "image",
-                }
-              - { label: "Blurb", name: "body", widget: "markdown" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Avatar", name: "avatar", widget: "image" }
+              - { label: "Body", name: "body", widget: "text" }
           - label: "Call to Action"
             name: "callToAction"
             widget: "object"
             fields:
-              - { label: "Title", name: "ctaTitle", widget: "string" }
-              - { label: "Blurb", name: "ctaBlurb", widget: "text" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
               - {
                   label: "Input Placeholder Text",
-                  name: "catInputPlaceholder",
+                  name: "placeholder",
                   widget: "string",
                   default: "youremail@awesome.com",
                 }
               - {
                   label: "Input Button Label",
-                  name: "ctaButtonLabel",
+                  name: "label",
                   widget: "string",
                   default: "Gimmie that wisdom",
                 }

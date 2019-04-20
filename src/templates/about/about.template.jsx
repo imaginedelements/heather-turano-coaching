@@ -13,48 +13,40 @@ import { FormContainer } from "../../components/forms";
 
 export const AboutPageTemplate = ({
   main: {
-    mainTitle,
-    mainImage: { imgLocation, imgAlt, imgXPosition, imgYPosition, imgHeight },
-    mainBlurb
+    backgroundImage: { imgLocation, imgAlt, imgHeight },
+    ...main
   },
-  overview: { overviewTitle, body: overviewBody },
-  detail: { detailTitle, detailAvatarImage, body: detailBody },
-  callToAction: { ctaTitle, ctaBlurb, ctaInputPlaceholder, ctaButtonLabel }
+  sectionOne,
+  sectionTwo,
+  callToAction
 }) => (
   <>
-    <BackgroundImage
-      image={imgLocation}
-      alt={imgAlt}
-      xPos={imgXPosition}
-      yPos={imgYPosition}
-      height={imgHeight}
-      fadeUp
-    >
-      <Section title={mainTitle} styleType="transparent">
-        <Text size="lg">{mainBlurb}</Text>
+    <BackgroundImage image={imgLocation} alt={imgAlt} height={imgHeight} fadeUp>
+      <Section title={main.title} styleType="transparent">
+        <Text size="lg">{main.body}</Text>
       </Section>
     </BackgroundImage>
-    <Section title={overviewTitle}>
-      <Text size="lg">{overviewBody}</Text>
-      {/* <Content content={overviewBody} contentType="html" /> */}
+    <Section title={sectionOne.title}>
+      <Text size="lg">{sectionOne.body}</Text>
+      {/* <Content content={sectionOne.body} contentType="html" /> */}
     </Section>
-    <Section title={detailTitle} styleType="alt">
+    <Section title={sectionTwo.title} styleType="alt">
       <SectionItem>
-        <Avatar image={detailAvatarImage} alt="heather avatar" size="lg" />
+        <Avatar image={sectionTwo.avatar} alt="heather avatar" size="lg" />
       </SectionItem>
       <SectionItem>
-        <Text size="lg">{detailBody}</Text>
-        {/* <Content content={detailBody} contentType="html" /> */}
+        <Text size="lg">{sectionTwo.body}</Text>
+        {/* <Content content={sectionTwo.body} contentType="html" /> */}
       </SectionItem>
     </Section>
-    <Section title={ctaTitle} contentOrientation="center">
-      <Text size="lg">{ctaBlurb}</Text>
+    <Section title={callToAction.title} contentOrientation="center">
+      <Text size="lg">{callToAction.body}</Text>
       <FormContainer styleType="standalone">
         <FormSignup
           layout="inline"
-          actionLabel={ctaButtonLabel}
+          actionLabel={callToAction.label}
           placeholder={{
-            email: ctaInputPlaceholder
+            email: callToAction.placeholder
           }}
         />
       </FormContainer>
@@ -64,7 +56,7 @@ export const AboutPageTemplate = ({
 
 AboutPageTemplate.propTypes = {
   main: PropTypes.object.isRequired,
-  overview: PropTypes.object.isRequired,
-  detail: PropTypes.object.isRequired,
+  sectionOne: PropTypes.object.isRequired,
+  sectionTwo: PropTypes.object.isRequired,
   callToAction: PropTypes.object.isRequired
 };

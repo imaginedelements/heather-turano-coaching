@@ -11,30 +11,28 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         main {
-          mainTitle
-          mainImage {
+          title
+          body
+          backgroundImage {
             imgAlt
             imgLocation
-            imgXPosition
-            imgYPosition
             imgHeight
           }
-          mainBlurb
         }
-        overview {
-          overviewTitle
+        sectionOne {
+          title
           body
         }
-        detail {
-          detailTitle
-          detailAvatarImage
+        sectionTwo {
+          title
+          avatar
           body
         }
         callToAction {
-          ctaTitle
-          ctaBlurb
-          ctaInputPlaceholder
-          ctaButtonLabel
+          title
+          body
+          placeholder
+          label
         }
       }
     }
@@ -44,7 +42,7 @@ export const pageQuery = graphql`
 const About = ({
   data: {
     markdownRemark: {
-      frontmatter: { main, overview, detail, callToAction }
+      frontmatter: { main, sectionOne, sectionTwo, callToAction }
     }
   }
 }) => (
@@ -55,8 +53,8 @@ const About = ({
     />
     <AboutPageTemplate
       main={main}
-      overview={overview}
-      detail={detail}
+      sectionOne={sectionOne}
+      sectionTwo={sectionTwo}
       callToAction={callToAction}
     />
   </Layout>
