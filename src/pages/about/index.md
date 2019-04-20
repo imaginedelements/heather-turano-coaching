@@ -42,9 +42,9 @@ sectionOne:
 sectionTwo:
   avatar: /img/heather-paris-cropped.jpeg
   body: >
-    This is my “been there done that’ story. Sort of the reason why I am now
-    dedicated to helping smart, thoughtful, multi-dimensional humans like
-    yourself. 
+    This is the real me! And this is my “been there done that" story. Sort of
+    the reason why I am now dedicated to helping smart, thoughtful,
+    multi-dimensional humans like yourself. 
 
 
     I know first hand about toxic relationship cycles, the codependent doubt
@@ -52,8 +52,8 @@ sectionTwo:
     until you fall asleep. The burning desire to be more than just your job,
     paycheck, kids and pretend happy persona you created on social media.
     Because all we are really craving is just some honest gosh-darn connection
-    and some kickass passion in your life. Gimme that JOY and HAPPINESS damn
-    it! 
+    and some kickass passion in your life. Gimme that JOY and HAPPINESS damn it!
+    Am I right?
 
 
     Lastly, My life and energy is to support your growth and strip away the
@@ -66,6 +66,6 @@ callToAction:
     life? Let’s get this journey started!
   catInputPlaceholder: Email Address
   ctaButtonLabel: Gimme that JOY
-  title: Sound like a match made in ‘you’re not alone” heaven?
+  title: Sound like a match made in "you’re not alone” heaven?
 ---
 
