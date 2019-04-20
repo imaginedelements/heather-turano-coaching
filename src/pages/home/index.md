@@ -1,43 +1,28 @@
 ---
 key: home
+callToAction:
+  ctaButtonLabel: I have candy...
+  ctaPlaceholder: youremailaddress@awesome.com
 hero:
   heroImage: /img/dsc_0605.jpg
-  heroTitle: Love yourself first
   heroSubTitle: this is a test subtitle
-  heroCta:
-    label: click here to get free things
+  heroTitle: Love yourself first
+introduction:
+  introAction:
+    actionLabel: How can I help you?
     actionRoute: contact
-emailSignup:
-  title: "welcome home"
-  body: >-
+  introDescription: >-
     My name is Heather and I am a life & yoga coach… because, well, life right!
     I was put on this earth to guide, mentor, and enlighten people to approach
     life in a balanced manner, and to see themselves as a temple when external
-    influences halt them from doing so. Whatever you’re going through, all be it relationship trouble, work angst, or clouded judgement, I’m here to listen,
+    influences halt them from doing so. Whatever you’re going through, all be it
+    relationship trouble, work angst, or clouded judgement, I’m here to listen,
     understand, and guide.
-  form:
-    firstNamePlaceholder: testing...
-    emailAddressPlaceholder: testing...
-    submitLabel: click me
-  introAction:
-    actionLabel: "How can I help you?"
-    actionRoute: contact
+  introTitle: welcome home
 testimonials:
-  testimonialTitle: "Hear from the mob"
   testimonialEntries:
-    - clientImage: /img/backlit-beach-color-258109.jpg
-      clientType: "baller ass client"
-      clientLocation: "The mother fucking mooon"
-      clientQuote: >-
-        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
-        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
-        porta ac consectetur ac, vestibulum at eros.
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
-      clientType: "baller ass client 2"
-      clientLocation: "Your butt"
+      clientLocation: The mother fucking mooon
       clientQuote: >-
         Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
         ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
@@ -45,9 +30,19 @@ testimonials:
         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros.
+      clientType: baller ass client
+    - clientImage: /img/aquatic-bloom-blooming-158465.jpg
+      clientLocation: Your butt
+      clientQuote: >-
+        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
+        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
+        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
+        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
+        porta ac consectetur ac, vestibulum at eros.
+      clientType: baller ass client 2
     - clientImage: /img/zen-stones.jpg
-      clientType: "baller ass client 3"
-      clientLocation: "Camden, yo"
+      clientLocation: 'Camden, yo'
       clientQuote: >-
         Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
         ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
@@ -55,8 +50,9 @@ testimonials:
         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros
+      clientType: baller ass client 3
+  testimonialTitle: Hear from the mob
 method:
-  methodTitle: My Methodology
   methodSteps:
     - description: >-
         Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
@@ -82,12 +78,6 @@ method:
         sit amet non magna.
       icon: seedling
       label: grow
-coachingSignup:
-  title: Let's chat
-  body: Does this sound sweet and give you all the feels youve been waiting for from a coach?
-  form:
-    firstNamePlaceholder: first name
-    emailAddressPlaceholder: email address
-    submitLabel: click me
-  prompt: Looking forward to hearing from you
+  methodTitle: My Methodology
 ---
+
