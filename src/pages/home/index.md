@@ -20,7 +20,7 @@ introduction:
 
     (Note: HH stands for 'Honest Heather' or 'Happy Hour', which ever floats
     your boat) 
-  introSubTitle: This is a sub title
+  introSubTitle: hjh
   introTitle: 'Let me send you some mind-shifting, never lame Emails'
 testimonials:
   testimonialEntries:
