@@ -1,8 +1,5 @@
 ---
 key: home
-callToAction:
-  ctaButtonLabel: Gimmie Some Knowledge Candy!
-  ctaPlaceholder: youremailaddress@awesome.com
 hero:
   heroCta:
     actionRoute: contact
@@ -10,18 +7,15 @@ hero:
   heroImage: /img/dsc_0605.jpg
   heroSubTitle: and finally get the life and love you really want. I’ll show you how.
   heroTitle: Stop settling for ordinary
-introduction:
-  introAction:
-    actionLabel: How can I help you?
-    actionRoute: contact
-  introDescription: >-
+emailSignup:
+  body: >-
     Are you ready to get some honest connection and feel-good truth by doing
-    nothing? Sign up to become an HH insider! 
-
-    (Note: HH stands for 'Honest Heather' or 'Happy Hour', which ever floats
-    your boat) 
-  introSubTitle: hjh
-  introTitle: 'Let me send you some mind-shifting, never lame Emails'
+    nothing?
+  form:
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: Get some knowledge candy
+  title: 'Let me send you some mind-shifting, never lame Emails'
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
@@ -82,5 +76,15 @@ method:
       icon: seedling
       label: 3. Get Results
   methodTitle: '3 steps, it’s easy-peezy!  '
+coachingSignup:
+  body: >-
+    Does this sound sweet and give you all the feels you’ve been wanting from a
+    coach? 
+  form:
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: 'Cool, let''s get working!'
+  prompt: I'll be in touch to set up your 90 minute discovery session.
+  title: Let's Chat
 ---
 
