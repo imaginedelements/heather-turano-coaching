@@ -4,8 +4,13 @@ callToAction:
   ctaButtonLabel: I have candy...
   ctaPlaceholder: youremailaddress@awesome.com
 hero:
+  heroCta:
+    actionRoute: contact
+    label: Press this to get FREE things
   heroImage: /img/dsc_0605.jpg
-  heroSubTitle: this is a test subtitle
+  heroSubTitle: >-
+    Stop settling for ordinary and get the life and love you really want. I’ll
+    show you how.
   heroTitle: Love yourself first
 introduction:
   introAction:
@@ -18,6 +23,7 @@ introduction:
     influences halt them from doing so. Whatever you’re going through, all be it
     relationship trouble, work angst, or clouded judgement, I’m here to listen,
     understand, and guide.
+  introSubTitle: This is a sub title
   introTitle: welcome home
 testimonials:
   testimonialEntries:
