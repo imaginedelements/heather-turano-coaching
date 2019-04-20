@@ -5,48 +5,30 @@ import { AboutPageTemplate } from "../../templates/about/about.template";
 const AboutPagePreview = ({ entry, getAsset }) => (
   <AboutPageTemplate
     main={{
-      mainTitle: entry.getIn(["data", "main", "mainTitle"]),
-      mainImage: {
+      title: entry.getIn(["data", "main", "title"]),
+      body: entry.getIn(["data", "main", "body"]),
+      backgroundImage: {
         imgLocation: getAsset(
-          entry.getIn(["data", "main", "mainImage", "imgLocation"])
+          entry.getIn(["data", "main", "backgroundImage", "imgLocation"])
         ),
-        imgAlt: entry.getIn(["data", "main", "mainImage", "imgAlt"]),
-        imgXPosition: entry.getIn([
-          "data",
-          "main",
-          "mainImage",
-          "imgXPosition"
-        ]),
-        imgYPosition: entry.getIn([
-          "data",
-          "main",
-          "mainImage",
-          "imgYPosition"
-        ]),
-        imgHeight: entry.getIn(["data", "main", "mainImage", "imgHeight"])
-      },
-      mainBlurb: entry.getIn(["data", "main", "mainBlurb"])
+        imgAlt: entry.getIn(["data", "main", "backgroundImage", "imgAlt"]),
+        imgHeight: entry.getIn(["data", "main", "backgroundImage", "imgHeight"])
+      }
     }}
-    overview={{
-      overviewTitle: entry.getIn(["data", "overview", "overviewTitle"]),
-      body: entry.getIn(["data", "overview", "body"])
+    sectionOne={{
+      title: entry.getIn(["data", "sectionOne", "title"]),
+      body: entry.getIn(["data", "sectionOne", "body"])
     }}
-    detail={{
-      detailTitle: entry.getIn(["data", "detail", "detailTitle"]),
-      detailAvatarImage: getAsset(
-        entry.getIn(["data", "detail", "detailAvatarImage"])
-      ),
-      body: entry.getIn(["data", "overview", "body"])
+    sectionTwo={{
+      title: entry.getIn(["data", "sectionTwo", "title"]),
+      body: entry.getIn(["data", "overview", "body"]),
+      avatar: getAsset(entry.getIn(["data", "sectionTwo", "avatar"]))
     }}
     callToAction={{
-      ctaTitle: entry.getIn(["data", "callToAction", "ctaTitle"]),
-      ctaBlurb: entry.getIn(["data", "callToAction", "ctaBlurb"]),
-      ctaInputPlaceholder: entry.getIn([
-        "data",
-        "callToAction",
-        "ctaInputPlaceholder"
-      ]),
-      ctaButtonLabel: entry.getIn(["data", "callToAction", "ctaButtonLabel"])
+      title: entry.getIn(["data", "callToAction", "title"]),
+      body: entry.getIn(["data", "callToAction", "body"]),
+      placeholder: entry.getIn(["data", "callToAction", "placeholder"]),
+      label: entry.getIn(["data", "callToAction", "label"])
     }}
   />
 );

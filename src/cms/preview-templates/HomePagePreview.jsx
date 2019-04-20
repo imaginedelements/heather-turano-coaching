@@ -18,7 +18,11 @@ const HomePagePreview = ({ entry, getAsset }) => {
       hero={{
         heroImage: getAsset(entry.getIn(["data", "hero", "heroImage"])),
         heroTitle: entry.getIn(["data", "hero", "heroTitle"]),
-        heroSubTitle: entry.getIn(["data", "hero", "heroSubTitle"])
+        heroSubTitle: entry.getIn(["data", "hero", "heroSubTitle"]),
+        heroCta: {
+          label: entry.getIn(["data", "hero", "heroCta", "label"]),
+          actionRoute: entry.getIn(["data", "hero", "heroCta", "actionRoute"])
+        }
       }}
       introduction={{
         introTitle: entry.getIn(["data", "introduction", "introTitle"]),
