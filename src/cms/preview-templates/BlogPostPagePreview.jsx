@@ -4,6 +4,7 @@ import { BlogPostPageTemplate } from "../../templates/blog-post/blog-post.templa
 
 const BlogPostPagePreview = ({ entry, widgetFor }) => {
   const body = widgetFor("body");
+  console.log(body);
 
   return (
     <BlogPostPageTemplate

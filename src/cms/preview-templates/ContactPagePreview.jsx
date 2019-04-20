@@ -7,54 +7,62 @@ const ContactPagePreview = ({ entry }) => (
     form={{
       title: entry.getIn(["data", "form", "title"]),
       description: entry.getIn(["data", "form", "description"]),
-      firstName: {
-        label: entry.getIn(["data", "form", "fields", "firstName", "label"]),
-        placeholder: entry.getIn([
-          "data",
-          "form",
-          "fields",
-          "firstName",
-          "placeholder"
-        ])
-      },
-      lastName: {
-        label: entry.getIn(["data", "form", "fields", "lastName", "label"]),
-        placeholder: entry.getIn([
-          "data",
-          "form",
-          "fields",
-          "lastName",
-          "placeholder"
-        ])
-      },
-      emailAddress: {
-        label: entry.getIn(["data", "form", "fields", "emailAddress", "label"]),
-        placeholder: entry.getIn([
-          "data",
-          "form",
-          "fields",
-          "emailAddress",
-          "placeholder"
-        ])
-      },
-      natureOfContact: {
-        label: entry.getIn([
-          "data",
-          "form",
-          "fields",
-          "natureOfContact",
-          "label"
-        ]),
-        placeholder: entry.getIn([
-          "data",
-          "form",
-          "fields",
-          "natureOfContact",
-          "placeholder"
-        ])
-      },
-      submit: {
-        label: entry.getIn(["data", "form", "fields", "submit", "label"])
+      fields: {
+        firstName: {
+          label: entry.getIn(["data", "form", "fields", "firstName", "label"]),
+          placeholder: entry.getIn([
+            "data",
+            "form",
+            "fields",
+            "firstName",
+            "placeholder"
+          ])
+        },
+        lastName: {
+          label: entry.getIn(["data", "form", "fields", "lastName", "label"]),
+          placeholder: entry.getIn([
+            "data",
+            "form",
+            "fields",
+            "lastName",
+            "placeholder"
+          ])
+        },
+        emailAddress: {
+          label: entry.getIn([
+            "data",
+            "form",
+            "fields",
+            "emailAddress",
+            "label"
+          ]),
+          placeholder: entry.getIn([
+            "data",
+            "form",
+            "fields",
+            "emailAddress",
+            "placeholder"
+          ])
+        },
+        natureOfContact: {
+          label: entry.getIn([
+            "data",
+            "form",
+            "fields",
+            "natureOfContact",
+            "label"
+          ]),
+          placeholder: entry.getIn([
+            "data",
+            "form",
+            "fields",
+            "natureOfContact",
+            "placeholder"
+          ])
+        },
+        submit: {
+          label: entry.getIn(["data", "form", "fields", "submit", "label"])
+        }
       }
     }}
     general={{
