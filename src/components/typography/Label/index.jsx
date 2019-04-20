@@ -31,13 +31,14 @@ Label.propTypes = {
    * node is rendered
    */
   type: PropTypes.oneOf(["default", "input"]),
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 Label.defaultProps = {
   copy: null,
   children: null,
-  type: "default"
+  type: "default",
+  color: "grayscale-0"
 };
 
 export default Label;
