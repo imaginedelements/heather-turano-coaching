@@ -13,8 +13,7 @@ introduction:
     My name is Heather and I am a life & yoga coach… because, well, life right!
     I was put on this earth to guide, mentor, and enlighten people to approach
     life in a balanced manner, and to see themselves as a temple when external
-    influences halt them from doing so. Whatever you’re going through, all be it
-    relationship trouble, work angst, or clouded judgement, I’m here to listen,
+    influences halt them from doing so. Whatever you’re going through, all be it relationship trouble, work angst, or clouded judgement, I’m here to listen,
     understand, and guide.
   introAction:
     actionLabel: "How can I help you?"

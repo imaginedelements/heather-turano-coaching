@@ -329,3 +329,80 @@ collections:
                 }
               - { label: "Content", name: "body", widget: "markdown" }
               - { label: "Footer image", name: "image", widget: "image" }
+      ##### Contact
+      - file: "src/pages/contact/index.mx"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - { label: "key", name: "key", widget: "hidden", default: "contact" }
+          - label: "Contact Form"
+            name: "form"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Fields"
+                name: "fields"
+                fields:
+                  - label: "First name"
+                    name: "firstName"
+                    widget: "object"
+                    fields:
+                      - { label: "Label", name: "label", widget: "string" }
+                      - {
+                          label: "Placeholder",
+                          name: "placeholder",
+                          widget: "string",
+                        }
+                  - label: "Last name"
+                    name: "lastName"
+                    widget: "object"
+                    fields:
+                      - { label: "Label", name: "label", widget: "string" }
+                      - {
+                          label: "Placeholder",
+                          name: "placeholder",
+                          widget: "string",
+                        }
+                  - label: "Email address"
+                    name: "emailAddress"
+                    widget: "object"
+                    fields:
+                      - { label: "Label", name: "label", widget: "string" }
+                      - {
+                          label: "Placeholder",
+                          name: "placeholder",
+                          widget: "string",
+                        }
+                  - label: "Nature of contact"
+                    name: "natureOfContact"
+                    widget: "object"
+                    fields:
+                      - { label: "Label", name: "label", widget: "string" }
+                      - {
+                          label: "Placeholder",
+                          name: "placeholder",
+                          widget: "string",
+                        }
+                  - label: "Submit action"
+                    name: "submit"
+                    widget: "object"
+                    fields:
+                      - { label: "Label", name: "label", widget: "string" }
+          - label: "General contact"
+            name: "general"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Email text"
+                name: "emailAddress"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - {
+                      label: "Go to email address",
+                      name: "emailLink",
+                      widget: "string",
+                      hint: "This is the email address value that you want populated in the default email viewer that pops up on the users computer. For instance, if the user was to click on this, their default email client will open up and value that you enter here will populate in the 'TO:' field of the email. You're not going to be able to see this value change so make sure that you're sure of the email address that you enter here.",
+                    }
