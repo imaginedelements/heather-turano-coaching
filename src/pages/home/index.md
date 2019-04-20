@@ -1,30 +1,27 @@
 ---
 key: home
 callToAction:
-  ctaButtonLabel: I have candy...
+  ctaButtonLabel: Gimmie Some Knowledge Candy!
   ctaPlaceholder: youremailaddress@awesome.com
 hero:
   heroCta:
     actionRoute: contact
-    label: Press this to get FREE things
+    label: Press this to get a FREE Mini Coaching Session
   heroImage: /img/dsc_0605.jpg
-  heroSubTitle: >-
-    Stop settling for ordinary and get the life and love you really want. I’ll
-    show you how.
-  heroTitle: Love yourself first
+  heroSubTitle: and finally get the life and love you really want. I’ll show you how.
+  heroTitle: Stop settling for ordinary
 introduction:
   introAction:
     actionLabel: How can I help you?
     actionRoute: contact
   introDescription: >-
-    My name is Heather and I am a life & yoga coach… because, well, life right!
-    I was put on this earth to guide, mentor, and enlighten people to approach
-    life in a balanced manner, and to see themselves as a temple when external
-    influences halt them from doing so. Whatever you’re going through, all be it
-    relationship trouble, work angst, or clouded judgement, I’m here to listen,
-    understand, and guide.
+    Are you ready to get some honest connection and feel-good truth by doing
+    nothing? Sign up to become an HH insider! 
+
+    (Note: HH stands for 'Honest Heather' or 'Happy Hour', which ever floats
+    your boat) 
   introSubTitle: This is a sub title
-  introTitle: welcome home
+  introTitle: 'Let me send you some mind-shifting, never lame Emails'
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
@@ -57,7 +54,7 @@ testimonials:
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros
       clientType: baller ass client 3
-  testimonialTitle: Hear from the mob
+  testimonialTitle: Hear it from the Good Vibe Tribe
 method:
   methodSteps:
     - description: >-
