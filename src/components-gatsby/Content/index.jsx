@@ -1,8 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Markdown } from "../../components/typography";
+
 const Content = ({ content, className }) => (
-  <div className={className}>{content}</div>
+  <Markdown>
+    <div className={className}>{content}</div>
+  </Markdown>
 );
 
 Content.propTypes = {
