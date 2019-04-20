@@ -7,17 +7,54 @@ const ContactPagePreview = ({ entry }) => (
     form={{
       title: entry.getIn(["data", "form", "title"]),
       description: entry.getIn(["data", "form", "description"]),
-      fields: {
-        firstName: entry.getIn(["data", "form", "fields", "firstName"]),
-        lastName: entry.getIn(["data", "form", "fields", "lastName"]),
-        emailAddress: entry.getIn(["data", "form", "fields", "emailAddress"]),
-        natureOfContact: entry.getIn([
+      firstName: {
+        label: entry.getIn(["data", "form", "fields", "firstName", "label"]),
+        placeholder: entry.getIn([
           "data",
           "form",
           "fields",
-          "natureOfContact"
+          "firstName",
+          "placeholder"
+        ])
+      },
+      lastName: {
+        label: entry.getIn(["data", "form", "fields", "lastName", "label"]),
+        placeholder: entry.getIn([
+          "data",
+          "form",
+          "fields",
+          "lastName",
+          "placeholder"
+        ])
+      },
+      emailAddress: {
+        label: entry.getIn(["data", "form", "fields", "emailAddress", "label"]),
+        placeholder: entry.getIn([
+          "data",
+          "form",
+          "fields",
+          "emailAddress",
+          "placeholder"
+        ])
+      },
+      natureOfContact: {
+        label: entry.getIn([
+          "data",
+          "form",
+          "fields",
+          "natureOfContact",
+          "label"
         ]),
-        submit: entry.getIn(["data", "form", "fields", "submit"])
+        placeholder: entry.getIn([
+          "data",
+          "form",
+          "fields",
+          "natureOfContact",
+          "placeholder"
+        ])
+      },
+      submit: {
+        label: entry.getIn(["data", "form", "fields", "submit", "label"])
       }
     }}
     general={{
