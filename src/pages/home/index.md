@@ -65,14 +65,14 @@ method:
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros.
       icon: coffee
-      label: discover
+      label: '1. Get Talkin’ '
     - description: >-
         Donec id elit non mi porta gravida at eget metus. Cras mattis
         consectetur purus sit amet fermentum. Integer posuere erat a ante
         venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla
         sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
       icon: list-ol
-      label: plan
+      label: '2. Get Honest '
     - description: >-
         Maecenas sed diam eget risus varius blandit sit amet non magna. Integer
         posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas
@@ -80,7 +80,7 @@ method:
         semper. Donec sed odio dui. Maecenas sed diam eget risus varius blandit
         sit amet non magna.
       icon: seedling
-      label: grow
-  methodTitle: My Methodology
+      label: 3. Get Results
+  methodTitle: '3 steps, it’s easy-peezy!  '
 ---
 
