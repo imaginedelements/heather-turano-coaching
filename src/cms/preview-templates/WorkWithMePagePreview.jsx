@@ -17,11 +17,13 @@ const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
           firstNamePlaceholder: entry.getIn([
             "data",
             "main",
+            "coachingSignup",
             "firstNamePlaceholder"
           ]),
           emailAddressPlaceholder: entry.getIn([
             "data",
             "main",
+            "coachingSignup",
             "emailAddressPlaceholder"
           ]),
           submitLabel: entry.getIn(["data", "main", "submitLabel"])
@@ -35,15 +37,18 @@ const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
       approach={{
         title: entry.getIn(["data", "approach", "title"]),
         image: getAsset(entry.getIn(["data", "approach", "image"])),
+        prompt: entry.getIn(["data", "approach", "prompt"]),
         coachingSignup: {
           firstNamePlaceholder: entry.getIn([
             "data",
             "approach",
+            "coachingSignup",
             "firstNamePlaceholder"
           ]),
           emailAddressPlaceholder: entry.getIn([
             "data",
             "approach",
+            "coachingSignup",
             "emailAddressPlaceholder"
           ]),
           submitLabel: entry.getIn(["data", "approach", "submitLabel"])
