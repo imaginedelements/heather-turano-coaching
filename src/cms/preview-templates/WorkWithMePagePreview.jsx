@@ -26,7 +26,12 @@ const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
             "coachingSignup",
             "emailAddressPlaceholder"
           ]),
-          submitLabel: entry.getIn(["data", "main", "submitLabel"])
+          submitLabel: entry.getIn([
+            "data",
+            "main",
+            "coachingSignup",
+            "submitLabel"
+          ])
         }
       }}
       pillars={{
@@ -51,7 +56,12 @@ const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
             "coachingSignup",
             "emailAddressPlaceholder"
           ]),
-          submitLabel: entry.getIn(["data", "approach", "submitLabel"])
+          submitLabel: entry.getIn([
+            "data",
+            "approach",
+            "coachingSignup",
+            "submitLabel"
+          ])
         }
       }}
       content={body}
