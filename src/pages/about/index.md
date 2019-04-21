@@ -17,9 +17,12 @@ sectionTwo:
   avatar: "/img/heather-paris-cropped.jpeg"
   body: >-
     Donec sed odio dui. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.
-callToAction:
-  title: "Wisdom awaits you"
-  body: Want more info? Sign up to stay up to date and become way more awesome in the process.
-  placeholder: "youremail@awesome.com"
-  label: "Gimmie that wisdom"
+coachingSignup:
+  title: Let's chat
+  body: Does this sound sweet and give you all the feels youve been waiting for from a coach?
+  form:
+    firstNamePlaceholder: first name
+    emailAddressPlaceholder: email address
+    submitLabel: click me
+  prompt: Looking forward to hearing from you
 ---

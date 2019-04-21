@@ -13,17 +13,23 @@ import { FormContainer } from "../../components/forms";
 
 export const AboutPageTemplate = ({
   main: {
-    backgroundImage: { imgLocation, imgAlt, imgHeight },
-    ...main
+    title: mainTitle,
+    body: mainBody,
+    backgroundImage: { imgLocation, imgAlt, imgHeight }
   },
   sectionOne,
   sectionTwo,
-  callToAction
+  coachingSignup: {
+    title: coachingTitle,
+    body: coachingBody,
+    prompt: coachingPrompt,
+    form: coachingForm
+  }
 }) => (
   <>
     <BackgroundImage image={imgLocation} alt={imgAlt} height={imgHeight} fadeUp>
-      <Section title={main.title} styleType="transparent">
-        <Text size="lg">{main.body}</Text>
+      <Section title={mainTitle} styleType="transparent">
+        <Text size="lg">{mainBody}</Text>
       </Section>
     </BackgroundImage>
     <Section title={sectionOne.title}>
@@ -39,17 +45,20 @@ export const AboutPageTemplate = ({
         {/* <Content content={sectionTwo.body} contentType="html" /> */}
       </SectionItem>
     </Section>
-    <Section title={callToAction.title} contentOrientation="center">
-      <Text size="lg">{callToAction.body}</Text>
+    <Section title={coachingTitle} contentOrientation="center">
+      <Text size="lg">{coachingBody}</Text>
       <FormContainer styleType="standalone">
         <FormSignup
           layout="inline"
-          actionLabel={callToAction.label}
+          actionLabel={coachingForm.submitLabel}
+          shouldDisplayFirstName
           placeholder={{
-            email: callToAction.placeholder
+            firstName: coachingForm.firstNamePlaceholder,
+            email: coachingForm.emailAddressPlaceholder
           }}
         />
       </FormContainer>
+      {coachingPrompt && <Text size="lg">{coachingBody}</Text>}
     </Section>
   </>
 );
@@ -58,5 +67,5 @@ AboutPageTemplate.propTypes = {
   main: PropTypes.object.isRequired,
   sectionOne: PropTypes.object.isRequired,
   sectionTwo: PropTypes.object.isRequired,
-  callToAction: PropTypes.object.isRequired
+  coachingSignup: PropTypes.object.isRequired
 };

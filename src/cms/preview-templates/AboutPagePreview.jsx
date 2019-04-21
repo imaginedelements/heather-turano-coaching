@@ -24,11 +24,30 @@ const AboutPagePreview = ({ entry, getAsset }) => (
       body: entry.getIn(["data", "overview", "body"]),
       avatar: getAsset(entry.getIn(["data", "sectionTwo", "avatar"]))
     }}
-    callToAction={{
-      title: entry.getIn(["data", "callToAction", "title"]),
-      body: entry.getIn(["data", "callToAction", "body"]),
-      placeholder: entry.getIn(["data", "callToAction", "placeholder"]),
-      label: entry.getIn(["data", "callToAction", "label"])
+    coachingSignup={{
+      title: entry.getIn(["data", "coachingSignup", "title"]),
+      body: entry.getIn(["data", "coachingSignup", "body"]),
+      form: {
+        firstNamePlaceholder: entry.getIn([
+          "data",
+          "coachingSignup",
+          "form",
+          "firstNamePlaceholder"
+        ]),
+        emailAddressPlaceholder: entry.getIn([
+          "data",
+          "coachingSignup",
+          "form",
+          "emailAddressPlaceholder"
+        ]),
+        submitLabel: entry.getIn([
+          "data",
+          "coachingSignup",
+          "form",
+          "submitLabel"
+        ])
+      },
+      prompt: entry.getIn(["data", "coachingSignup", "prompt"])
     }}
   />
 );

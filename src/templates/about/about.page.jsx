@@ -28,11 +28,15 @@ export const pageQuery = graphql`
           avatar
           body
         }
-        callToAction {
+        coachingSignup {
           title
           body
-          placeholder
-          label
+          prompt
+          form {
+            firstNamePlaceholder
+            emailAddressPlaceholder
+            submitLabel
+          }
         }
       }
     }
@@ -42,7 +46,7 @@ export const pageQuery = graphql`
 const About = ({
   data: {
     markdownRemark: {
-      frontmatter: { main, sectionOne, sectionTwo, callToAction }
+      frontmatter: { main, sectionOne, sectionTwo, coachingSignup }
     }
   }
 }) => (
@@ -55,7 +59,7 @@ const About = ({
       main={main}
       sectionOne={sectionOne}
       sectionTwo={sectionTwo}
-      callToAction={callToAction}
+      coachingSignup={coachingSignup}
     />
   </Layout>
 );

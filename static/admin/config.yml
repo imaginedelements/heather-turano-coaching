@@ -256,10 +256,10 @@ collections:
             name: "main"
             widget: "object"
             fields:
-              - { label: "Title", name: "mainTitle", widget: "string" }
-              - { label: "Blurb", name: "mainBlurb", widget: "text" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
               - label: "Background Image"
-                name: "mainImage"
+                name: "backgroundImage"
                 widget: "object"
                 fields:
                   - { label: "Img", name: "imgLocation", widget: "image" }
@@ -285,27 +285,35 @@ collections:
             name: "sectionTwo"
             widget: "object"
             fields:
-              - { label: "Title", name: "detailTitle", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
               - { label: "Avatar Image", name: "avatar", widget: "image" }
               - { label: "Body", name: "body", widget: "text" }
-          - label: "Call to Action"
-            name: "callToAction"
+          - label: "Coaching signup"
+            name: "coachingSignup"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
-              - {
-                  label: "Input Placeholder Text",
-                  name: "catInputPlaceholder",
-                  widget: "string",
-                  default: "youremail@awesome.com",
-                }
-              - {
-                  label: "Input Button Label",
-                  name: "ctaButtonLabel",
-                  widget: "string",
-                  default: "Gimmie that wisdom",
-                }
+              - { label: "Body", name: "body", widget: "string" }
+              - { label: "Prompt", name: "prompt", widget: "string" }
+              - label: "Form"
+                name: form
+                widget: object
+                fields:
+                  - {
+                      label: First name input (placeholder),
+                      name: "firstNamePlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Email address input (placeholder),
+                      name: "emailAddressPlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Submit label,
+                      name: "submitLabel",
+                      widget: "string",
+                    }
       ##### Work with me
       - file: "src/pages/work-with-me/index.md"
         label: "Work with me"
