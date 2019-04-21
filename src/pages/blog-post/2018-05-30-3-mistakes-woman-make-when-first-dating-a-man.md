@@ -1,13 +1,12 @@
 ---
 key: blog-post
-pageKey: blog-post
 protected: false
-category: "Random life stuff"
-thumbnail: "/img/products-grid2.jpg"
-thumbnailAlt: "coffee up in this jawn"
+category: Random life stuff
+thumbnail: /img/products-full-width.jpg
+thumbnailAlt: coffee up in this jawn
 title: 3 mistakes woman make when first dating a man
 subTitle: 3 mistakes woman make when first dating a man subtitle
-date: "2018-05-30T00:00:00-04:00"
+date: '2018-05-30T00:00:00-04:00'
 prompt: >-
   Why aren't we asking our selves if he is worthy of our time? why are we
   falling in love with a person when we haven't even met them in person?  Here
