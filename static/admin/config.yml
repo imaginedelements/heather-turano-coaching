@@ -71,35 +71,22 @@ collections:
           - { label: "key", name: "key", widget: "hidden", default: "blog" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
-          - label: "CTA Form"
-            name: "form"
-            widget: "object"
-            fields:
-              - label: "First name"
-                name: "firstName"
-                widget: "object"
-                fields:
-                  - {
-                      label: "Placeholder",
-                      name: "placeholder",
-                      widget: "string",
-                    }
-              - label: "Email address"
-                name: "emailAddress"
-                widget: "object"
-                fields:
-                  - {
-                      label: "Placeholder",
-                      name: "placeholder",
-                      widget: "string",
-                    }
-              - label: "Submit"
-                name: "submit"
-                widget: "object"
-                fields:
-                  - { label: "Label", name: "label", widget: "string" }
           - { label: "Prompt", name: "prompt", widget: "text" }
-
+          - label: "Email Signup"
+            name: form
+            widget: object
+            fields:
+              - {
+                  label: First name input (placeholder),
+                  name: "firstNamePlaceholder",
+                  widget: "string",
+                }
+              - {
+                  label: Email address input (placeholder),
+                  name: "emailAddressPlaceholder",
+                  widget: "string",
+                }
+              - { label: Submit label, name: "submitLabel", widget: "string" }
       ##### Home
       - file: "src/pages/home/index.md"
         label: "Home"

@@ -12,7 +12,7 @@ export const BlogPageTemplate = ({
   title,
   body,
   prompt,
-  form: { firstName, emailAddress, submit }
+  form: { firstNamePlaceholder, emailAddressPlaceholder, submitLabel }
 }) => (
   <>
     <Section title={title}>
@@ -20,12 +20,11 @@ export const BlogPageTemplate = ({
       <FormConatiner>
         <FormSignup
           shouldDisplayFirstName
-          shouldDisplayLabels
-          actionLabel={submit.label}
+          actionLabel={submitLabel}
           layout="stacked"
           placeholder={{
-            firstName: firstName.placeholder,
-            emailAddress: emailAddress.placeholder
+            firstName: firstNamePlaceholder,
+            email: emailAddressPlaceholder
           }}
         />
       </FormConatiner>

@@ -7,20 +7,17 @@ const BlogPostPreview = ({ entry }) => (
     title={entry.getIn(["data", "title"])}
     body={entry.getIn(["data", "body"])}
     form={{
-      firstName: {
-        placeholder: entry.getIn(["data", "form", "firstName", "placeholder"])
-      },
-      emailAddress: {
-        placeholder: entry.getIn([
-          "data",
-          "form",
-          "emailAddress",
-          "placeholder"
-        ])
-      },
-      submit: {
-        placeholder: entry.getIn(["data", "form", "submit", "label"])
-      }
+      firstNamePlaceholder: entry.getIn([
+        "data",
+        "form",
+        "firstNamePlaceholder"
+      ]),
+      emailAddressPlaceholder: entry.getIn([
+        "data",
+        "form",
+        "emailAddressPlaceholder"
+      ]),
+      submitLabel: entry.getIn(["data", "form", "submitLabel"])
     }}
     prompt={entry.getIn(["data", "prompt"])}
   />

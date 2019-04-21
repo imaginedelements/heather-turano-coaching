@@ -14,15 +14,9 @@ export const pageQuery = graphql`
         body
         prompt
         form {
-          firstName {
-            placeholder
-          }
-          emailAddress {
-            placeholder
-          }
-          submit {
-            label
-          }
+          firstNamePlaceholder
+          emailAddressPlaceholder
+          submitLabel
         }
       }
     }
