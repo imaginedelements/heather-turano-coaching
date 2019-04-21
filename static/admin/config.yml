@@ -373,7 +373,6 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "markdown" }
               - { label: "Prompt", name: "prompt", widget: "text" }
               - { label: "Footer image", name: "image", widget: "image" }
               - label: "Coaching signup"
@@ -395,7 +394,7 @@ collections:
                       name: "submitLabel",
                       widget: "string",
                     }
-
+          - label: "Approach body", name: "body", widget: "markdown"
       ##### Contact
       - file: "src/pages/contact/index.md"
         label: "Contact"

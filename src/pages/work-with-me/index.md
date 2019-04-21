@@ -13,7 +13,7 @@ main:
   coachingSignup:
     emailAddressPlaceholder: youremail@awesome.com
     firstNamePlaceholder: Name
-    submitLabel: 'Yes, Please put me on the waitlist!'
+    submitLabel: "Yes, Please put me on the waitlist!"
   title: Ahhhh breathe… you have arrived.
 pillars:
   description: >-
@@ -56,15 +56,15 @@ pillars:
         creative writing skills that will get you noticed in no time.
       icon: coffee-togo
       title: Career & Business
-  title: 'Where could you use some help? '
+  title: "Where could you use some help? "
 approach:
-  body: lkjkljhkjhkjh
   coachingSignup:
     emailAddressPlaceholder: youremail@awesome.com
     firstNamePlaceholder: Name
-    submitLabel: 'Yes, Please put me on the waitlist!'
+    submitLabel: "Yes, Please put me on the waitlist!"
   image: /img/cactus.jpg
   prompt: testing the prompt
   title: my approach
 ---
 
+# testing
