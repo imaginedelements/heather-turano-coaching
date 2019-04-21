@@ -63,14 +63,7 @@ export const pageQuery = graphql`
 const Home = ({
   data: {
     markdownRemark: {
-      frontmatter: {
-        callToAction,
-        hero,
-        emailSignup,
-        testimonials,
-        method,
-        coachingSignup
-      }
+      frontmatter: { hero, emailSignup, testimonials, method, coachingSignup }
     }
   }
 }) => (
@@ -81,7 +74,6 @@ const Home = ({
     />
     <HomePageTemplate
       hero={hero}
-      callToAction={callToAction}
       emailSignup={emailSignup}
       testimonials={testimonials}
       method={method}

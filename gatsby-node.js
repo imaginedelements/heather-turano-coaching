@@ -2,6 +2,17 @@ const _ = require("lodash");
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 
+exports.onCreateNode = ({ node, actions: { createNodeField }, getNode }) => {
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode });
+    createNodeField({
+      name: `slug`,
+      node,
+      value
+    });
+  }
+};
+
 // gets all of the pages needed from the markdown
 // creates the pages after it gathers the information
 /* eslint-disable consistent-return */
@@ -84,14 +95,3 @@ exports.createPages = ({ graphql, actions: { createPage } }) =>
       });
     });
   });
-
-exports.onCreateNode = ({ node, actions: { createNodeField }, getNode }) => {
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode });
-    createNodeField({
-      name: `slug`,
-      node,
-      value
-    });
-  }
-};

@@ -132,7 +132,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Body", name: "body", widget: "markdown" }
               - label: "Form"
                 name: form
                 widget: object
@@ -205,14 +205,14 @@ collections:
                   - {
                       label: "Description",
                       name: "description",
-                      widget: "text",
+                      widget: "markdown",
                     }
           - label: "Coaching signup"
             name: "coachingSignup"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }
               - { label: "Prompt", name: "prompt", widget: "string" }
               - label: "Form"
                 name: form
