@@ -6,7 +6,7 @@ const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
   const pillars = entry.getIn(["data", "pillars", "pillarList"]);
   const pillarList = pillars ? pillars.toJS() : [];
 
-  const content = widgetFor("body");
+  const body = widgetFor("body");
 
   return (
     <WorkWithMePageTemplate
@@ -49,7 +49,7 @@ const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
           submitLabel: entry.getIn(["data", "approach", "submitLabel"])
         }
       }}
-      content={content}
+      content={body}
     />
   );
 };

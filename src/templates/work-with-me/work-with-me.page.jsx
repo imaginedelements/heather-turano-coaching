@@ -32,6 +32,7 @@ export const query = graphql`
         approach {
           title
           image
+          body
           prompt
           coachingSignup {
             firstNamePlaceholder
