@@ -11,9 +11,9 @@ main:
     fill up fast. But as soon as spaces do open up, I will personally be in
     touch to schedule your 90-minute Discovery Session.
   coachingSignup:
-    firstNamePlaceholder: Name
     emailAddressPlaceholder: youremail@awesome.com
-    submitLabel: "Yes, Please put me on the waitlist!"
+    firstNamePlaceholder: Name
+    submitLabel: 'Yes, Please put me on the waitlist!'
   title: Ahhhh breathe… you have arrived.
 pillars:
   description: >-
@@ -56,17 +56,15 @@ pillars:
         creative writing skills that will get you noticed in no time.
       icon: coffee-togo
       title: Career & Business
-  title: "Where could you use some help? "
+  title: 'Where could you use some help? '
 approach:
-  image: /img/cactus.jpg
-  title: my approach
-  prompt: testing the prompt
+  body: lkjkljhkjhkjh
   coachingSignup:
-    firstNamePlaceholder: Name
     emailAddressPlaceholder: youremail@awesome.com
-    submitLabel: "Yes, Please put me on the waitlist!"
+    firstNamePlaceholder: Name
+    submitLabel: 'Yes, Please put me on the waitlist!'
+  image: /img/cactus.jpg
+  prompt: testing the prompt
+  title: my approach
 ---
 
-## testing
-
-Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
