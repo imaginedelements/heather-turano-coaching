@@ -68,7 +68,7 @@ coachingSignup:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
     submitLabel: Gimme that JOY.
-  prompt: .
-  title: Sound like a match made in ‘you’re not alone” heaven?
+  prompt: I mean you do want JOY don't you?
+  title: Sound like a match made in "you’re not alone” heaven?
 ---
 
