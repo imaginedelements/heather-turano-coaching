@@ -1,19 +1,12 @@
 ---
 key: work-with-me
 main:
-  blurb: >
-    NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019. 
-
-
-    Fill out the form below and you’ll be added to my waitlist for one-on-one
-    coaching. I only work with a certain number of awesome humans at a time
-    (because I pour 1,000% of my energy and focus into your growth), so spots
-    fill up fast. But as soon as spaces do open up, I will personally be in
-    touch to schedule your 90-minute Discovery Session.
-  contactForm:
-    buttonLabel: 'Yes, Please put me on the waitlist!'
-    emailPlaceholder: youremail@awesome.com
-    inputPlaceholder: Name
+  body: |
+    NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019
+  coachingSignup:
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: 'Yes, Please put me on the waitlist'
   title: Ahhhh breathe… you have arrived.
 pillars:
   description: >-
@@ -58,8 +51,13 @@ pillars:
       title: Career & Business
   title: 'Where could you use some help? '
 approach:
-  body: "Attempting to describe the exact science and magic behind great coaching presents a challenge because every coaching opportunity is new and wildly different.\_That’s because\_you\_are\_totally unique, and so are your dreams (and struggles).\_#truth.\n\nI don’t do store-bought, sauce-from-the-jar style coaching. I don’t have some one-size-fits-all program or set system that “guarantees” transformation.\n\nInstead,\_I do the only thing that ever actually works–having deep, powerful, honest coaching conversations\_with real people, who want real change.\n\nMy clients are smart, thoughtful, multi-dimensional humans who are committed to themselves and their journey.\_They are resourceful, creative, hard-working\_thinkers and feelers.\_They crave passion and purpose. They desire fulfilling relationships and careers. They know they want\_something,\_and they’re super sick of living without it.\n\nIf you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance.\_Life is hard enough, and you really don’t need to go it alone.\n\nFill out the form at the top or bottom of this page and you’ll be added to my waitlist for one-on-one coaching.\_I only work with a certain number of awesome humans at a time (because I pour 1,000% of my energy and focus into your growth), so spots fill up fast. But as soon as spaces do open up, I will personally be in touch to schedule your 90-minute Discovery Session."
+  body: "Attempting to describe the exact science and magic behind great coaching presents a challenge because every coaching opportunity is new and wildly different.\_That’s because\_you\_are\_totally unique, and so are your dreams (and struggles).\_#truth.\n\nI don’t do store-bought, sauce-from-the-jar style coaching. I don’t have some one-size-fits-all program or set system that “guarantees” transformation.\n\nInstead,\_I do the only thing that ever actually works–having deep, powerful, honest coaching conversations\_with real people, who want real change.\n\nMy clients are smart, thoughtful, multi-dimensional humans who are committed to themselves and their journey.\_They are resourceful, creative, hard-working\_thinkers and feelers.\_They crave passion and purpose. They desire fulfilling relationships and careers. They know they want\_something,\_and they’re super sick of living without it.\n\nIf you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance.\_Life is hard enough, and you really don’t need to go it alone."
+  coachingSignup:
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: 'Yes, Please put me on the waitlist'
   image: /img/cactus.jpg
+  prompt: "Fill out the form at the top or bottom of this page and you’ll be added to my waitlist for one-on-one coaching.\_I only work with a certain number of awesome humans at a time (because I pour 1,000% of my energy and focus into your growth), so spots fill up fast. But as soon as spaces do open up, I will personally be in touch to schedule your 90-minute Discovery Session."
   title: my approach
 ---
 
