@@ -330,25 +330,25 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Blurb", name: "blurb", widget: "text" }
-              - label: "Contact form"
-                name: "contactForm"
+              - { label: "Body", name: "body", widget: "text" }
+              - label: "Coaching signup"
+                name: "coachingSignup"
                 widget: "object"
                 fields:
                   - {
-                      label: "Name input placeholder",
-                      name: "inputPlaceholder",
-                      widget: string,
+                      label: First name input (placeholder),
+                      name: "firstNamePlaceholder",
+                      widget: "string",
                     }
                   - {
-                      label: "Email input placeholder",
-                      name: "emailPlaceholder",
-                      widget: string,
+                      label: Email address input (placeholder),
+                      name: "emailAddressPlaceholder",
+                      widget: "string",
                     }
                   - {
-                      label: "Button label",
-                      name: "buttonLabel",
-                      widget: string,
+                      label: Submit label,
+                      name: "submitLabel",
+                      widget: "string",
                     }
           - label: "Pillars of life"
             name: "pillars"
@@ -367,14 +367,30 @@ collections:
             name: "approach"
             widget: "object"
             fields:
-              - {
-                  label: "Title",
-                  name: "title",
-                  widget: "string",
-                  default: "my approach",
-                }
-              - { label: "Content", name: "body", widget: "markdown" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }
+              - { label: "Prompt", name: "prompt", widget: "text" }
               - { label: "Footer image", name: "image", widget: "image" }
+              - label: "Coaching signup"
+                name: "coachingSignup"
+                widget: "object"
+                fields:
+                  - {
+                      label: First name input (placeholder),
+                      name: "firstNamePlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Email address input (placeholder),
+                      name: "emailAddressPlaceholder",
+                      widget: "string",
+                    }
+                  - {
+                      label: Submit label,
+                      name: "submitLabel",
+                      widget: "string",
+                    }
+
       ##### Contact
       - file: "src/pages/contact/index.md"
         label: "Contact"

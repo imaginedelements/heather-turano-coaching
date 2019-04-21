@@ -2,12 +2,12 @@
 key: work-with-me
 main:
   title: "behold, services"
-  blurb: >-
+  body: >-
     Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-  contactForm:
-    inputPlaceholder: "Name"
-    emailPlaceholder: "youremail@awesome.com"
-    buttonLabel: "Click for knowledge bombs"
+  coachingSignup:
+    firstNamePlaceholder: first name
+    emailAddressPlaceholder: email address
+    submitLabel: click me
 pillars:
   title: "Key life pillars"
   description: >-
@@ -30,6 +30,16 @@ pillars:
       blurb: "Get the passion back in your career by creating an environment that you want to come to every day. If change is what you are searching for, learn my full proof career finder method to finding your true passion and calling in life. create resumes, build portfolios and execute creative writing skills that will get you noticed in no time."
 approach:
   title: "my approach"
-  body: "markdown"
   image: "/img/cactus.jpg"
+  prompt: test prompt
+  coachingSignup:
+    firstNamePlaceholder: first name
+    emailAddressPlaceholder: email address
+    submitLabel: click me
 ---
+
+testing markdown
+
+**testing bold**
+
+this is rich text

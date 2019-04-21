@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
-import { Layout } from "../../components-gatsby";
+import { Layout, HTMLContent } from "../../components-gatsby";
 import { WorkWithMePageTemplate } from "./work-with-me.template";
 
 export const query = graphql`
@@ -13,11 +13,11 @@ export const query = graphql`
       frontmatter {
         main {
           title
-          blurb
-          contactForm {
-            inputPlaceholder
-            emailPlaceholder
-            buttonLabel
+          body
+          coachingSignup {
+            firstNamePlaceholder
+            emailAddressPlaceholder
+            submitLabel
           }
         }
         pillars {
@@ -31,8 +31,13 @@ export const query = graphql`
         }
         approach {
           title
-          body
           image
+          prompt
+          coachingSignup {
+            firstNamePlaceholder
+            emailAddressPlaceholder
+            submitLabel
+          }
         }
       }
     }
@@ -42,6 +47,7 @@ export const query = graphql`
 const Services = ({
   data: {
     markdownRemark: {
+      html,
       frontmatter: { main, pillars, approach }
     }
   }
@@ -51,7 +57,13 @@ const Services = ({
       title="Services | Heather Turano Coaching"
       bodyAttributes={{ class: "" }}
     />
-    <WorkWithMePageTemplate main={main} pillars={pillars} approach={approach} />
+    <WorkWithMePageTemplate
+      content={html}
+      contentComponent={HTMLContent}
+      main={main}
+      pillars={pillars}
+      approach={approach}
+    />
   </Layout>
 );
 

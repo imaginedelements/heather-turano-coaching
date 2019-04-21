@@ -2,34 +2,29 @@ import React from "react";
 import PropTypes from "prop-types";
 import { WorkWithMePageTemplate } from "../../templates/work-with-me/work-with-me.template";
 
-const WorkWithMePagePreview = ({ entry, getAsset }) => {
+const WorkWithMePagePreview = ({ entry, getAsset, widgetFor }) => {
   const pillars = entry.getIn(["data", "pillars", "pillarList"]);
   const pillarList = pillars ? pillars.toJS() : [];
+
+  const content = widgetFor("body");
 
   return (
     <WorkWithMePageTemplate
       main={{
         title: entry.getIn(["data", "main", "title"]),
-        blurb: entry.getIn(["data", "main", "blurb"]),
-        contactForm: {
-          inputPlaceholder: entry.getIn([
+        body: entry.getIn(["data", "main", "body"]),
+        coachingSignup: {
+          firstNamePlaceholder: entry.getIn([
             "data",
             "main",
-            "contactForm",
-            "inputPlaceholder"
+            "firstNamePlaceholder"
           ]),
-          emailPlaceholder: entry.getIn([
+          emailAddressPlaceholder: entry.getIn([
             "data",
             "main",
-            "contactForm",
-            "emailPlaceholder"
+            "emailAddressPlaceholder"
           ]),
-          buttonLabel: entry.getIn([
-            "data",
-            "main",
-            "contactForm",
-            "buttonLabel"
-          ])
+          submitLabel: entry.getIn(["data", "main", "submitLabel"])
         }
       }}
       pillars={{
@@ -39,9 +34,22 @@ const WorkWithMePagePreview = ({ entry, getAsset }) => {
       }}
       approach={{
         title: entry.getIn(["data", "approach", "title"]),
-        body: entry.getIn(["data", "approach", "body"]),
-        image: getAsset(entry.getIn(["data", "approach", "image"]))
+        image: getAsset(entry.getIn(["data", "approach", "image"])),
+        coachingSignup: {
+          firstNamePlaceholder: entry.getIn([
+            "data",
+            "approach",
+            "firstNamePlaceholder"
+          ]),
+          emailAddressPlaceholder: entry.getIn([
+            "data",
+            "approach",
+            "emailAddressPlaceholder"
+          ]),
+          submitLabel: entry.getIn(["data", "approach", "submitLabel"])
+        }
       }}
+      content={content}
     />
   );
 };
@@ -50,7 +58,8 @@ WorkWithMePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
   }).isRequired,
-  getAsset: PropTypes.func.isRequired
+  getAsset: PropTypes.func.isRequired,
+  widgetFor: PropTypes.func.isRequired
 };
 
 export default WorkWithMePagePreview;
