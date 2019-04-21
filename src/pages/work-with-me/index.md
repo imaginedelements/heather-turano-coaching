@@ -11,7 +11,7 @@ main:
     fill up fast. But as soon as spaces do open up, I will personally be in
     touch to schedule your 90-minute Discovery Session.
   coachingSignup:
-    emailAddressPlaceholder: youremail@awesome.com
+    emailAddressPlaceholder: Email
     firstNamePlaceholder: Name
     submitLabel: 'Yes, Please put me on the waitlist! '
   title: Ahhhh breathe… you have arrived.
@@ -59,7 +59,7 @@ pillars:
   title: 'Where could you use some help? '
 approach:
   coachingSignup:
-    emailAddressPlaceholder: youremail@awesome.com
+    emailAddressPlaceholder: Email
     firstNamePlaceholder: Name
     submitLabel: 'Yes, Please put me on the waitlist!'
   image: /img/cactus.jpg
