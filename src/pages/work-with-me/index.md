@@ -13,7 +13,7 @@ main:
   coachingSignup:
     emailAddressPlaceholder: youremail@awesome.com
     firstNamePlaceholder: Name
-    submitLabel: 'Yes, Please put me on the waitlist!'
+    submitLabel: 'Yes, Please put me on the waitlist! '
   title: Ahhhh breathe… you have arrived.
 pillars:
   description: >-
@@ -63,7 +63,7 @@ approach:
     firstNamePlaceholder: Name
     submitLabel: 'Yes, Please put me on the waitlist!'
   image: /img/cactus.jpg
-  prompt: hhgff
+  prompt: 'Succulents are really in right now so I added some to my website. '
   title: my approach
 ---
 Attempting to describe the exact science and magic behind great coaching presents a challenge because every coaching opportunity is new and wildly different. That’s because you are totally unique, and so are your dreams (and struggles). #truth
