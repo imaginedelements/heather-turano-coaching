@@ -1,7 +1,11 @@
 ---
 key: about
 main:
-  mainBlurb: >-
+  backgroundImage:
+    imgAlt: baller Heather
+    imgHeight: 1000
+    imgLocation: /img/baller-heather.jpeg
+  body: >
     The whole “taking about yourself” is sort of a strange, awkward thing, have
     you ever noticed that?
 
@@ -22,11 +26,7 @@ main:
 
     Maybe you go with an elevator pitch? Or greatest accomplishments? Hummmmm,
     nope, thats not it. Let me think… 
-  mainImage:
-    imgAlt: heather-versailles
-    imgHeight: 600
-    imgLocation: /img/baller-heather.jpeg
-  mainTitle: Oh Hey There
+  title: Oh Hey There
 sectionOne:
   body: >-
     I am pretty much just like you. I am a curious, driven, “don’t fit into a
@@ -59,13 +59,16 @@ sectionTwo:
     Lastly, My life and energy is to support your growth and strip away the
     stories you have told yourself of who you THINK you are, so that you can
     become the crazy awesome people you are MEANT to be!
-  detailTitle: ' I know, can you believe it!  You aren’t alone.'
-callToAction:
+  title: 'I know, can you believe it!  You aren’t alone.'
+coachingSignup:
   body: >-
     Are you ready for some honest connection and that feel-good passion for
     life? Let’s get this journey started!
-  catInputPlaceholder: Email Address
-  ctaButtonLabel: Gimme that JOY
-  title: Sound like a match made in "you’re not alone” heaven?
+  form:
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: Gimme that JOY.
+  prompt: .
+  title: Sound like a match made in ‘you’re not alone” heaven?
 ---
 
