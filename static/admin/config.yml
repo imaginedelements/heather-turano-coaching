@@ -294,7 +294,12 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Body", name: "body", widget: "string" }
-              - { label: "Prompt", name: "prompt", widget: "string" }
+              - {
+                  label: "Prompt",
+                  name: "prompt",
+                  widget: "string",
+                  optional: true,
+                }
               - label: "Form"
                 name: form
                 widget: object

@@ -21,7 +21,7 @@ const AboutPagePreview = ({ entry, getAsset }) => (
     }}
     sectionTwo={{
       title: entry.getIn(["data", "sectionTwo", "title"]),
-      body: entry.getIn(["data", "overview", "body"]),
+      body: entry.getIn(["data", "sectionTwo", "body"]),
       avatar: getAsset(entry.getIn(["data", "sectionTwo", "avatar"]))
     }}
     coachingSignup={{

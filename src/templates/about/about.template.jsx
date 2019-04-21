@@ -58,7 +58,7 @@ export const AboutPageTemplate = ({
           }}
         />
       </FormContainer>
-      {coachingPrompt && <Text size="lg">{coachingBody}</Text>}
+      {coachingPrompt && <Text size="lg">{coachingPrompt}</Text>}
     </Section>
   </>
 );

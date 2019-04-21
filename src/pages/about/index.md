@@ -20,9 +20,9 @@ sectionTwo:
 coachingSignup:
   title: Let's chat
   body: Does this sound sweet and give you all the feels youve been waiting for from a coach?
+  prompt: Looking forward to hearing from you
   form:
     firstNamePlaceholder: first name
     emailAddressPlaceholder: email address
     submitLabel: click me
-  prompt: Looking forward to hearing from you
 ---
