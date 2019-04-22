@@ -19,11 +19,11 @@ emailSignup:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
     submitLabel: Get Some Knowledge Candy >
-  title: 'Let me send you some mind-shifting, never lame Emails.'
+  title: "Let me send you some mind-shifting, never lame Emails."
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
-      clientLocation: 'Somewhere Sunny, FL'
+      clientLocation: "Somewhere Sunny, FL"
       clientQuote: >-
         Holy cow Heather! The resume redesign has been huge! I have two
         interviews lined up at MAJOR spas this week! Thank You for helping me
@@ -31,17 +31,17 @@ testimonials:
         appreciative all of your help on my journey.
       clientType: Marketing Director
     - clientImage: /img/cactus.jpg
-      clientLocation: 'OMMM Shanti Philly, PA'
+      clientLocation: "OMMM Shanti Philly, PA"
       clientQuote: >-
         Some people come into our lives for just a season, but make a huge
         impact. Heather’s Season in my life has been such a joy.
       clientType: Yoga Client
     - clientImage: /img/zen-stones.jpg
-      clientLocation: 'It''s Always Sunny, PA'
+      clientLocation: "It's Always Sunny, PA"
       clientQuote: >-
         Heather is a remarkable, kind, giving and loving person. She has brought
-        sunshine and balance into my being, and humanity into so many others. 
-      clientType: 'Retired & Loving Life '
+        sunshine and balance into my being, and humanity into so many others.
+      clientType: "Retired & Loving Life "
   testimonialTitle: Hear from the Insiders
 method:
   methodSteps:
@@ -84,4 +84,3 @@ coachingSignup:
   prompt: asdf
   title: Let's Chat!
 ---
-
