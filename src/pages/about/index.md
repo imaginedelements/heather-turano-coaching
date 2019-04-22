@@ -55,7 +55,7 @@ sectionTwo:
     Lastly, My life and energy is to support your growth and strip away the
     stories you have told yourself of who you **THINK you are**, so that you can
     become the crazy awesome people you are **MEANT to be**!
-  title: 'I know, can you believe it!  You aren’t alone.'
+  title: "I know, can you believe it!  You aren’t alone."
 coachingSignup:
   body: >-
     Are you ready for some honest connection and that feel-good passion for
@@ -63,8 +63,7 @@ coachingSignup:
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
-    submitLabel: 'Yes, Gimme some JOY!'
-  prompt: ' We are talking about joy people! Sign Up and I will be in touch in a snap to set up your first session! Talk with you soon.'
+    submitLabel: "Yes, Gimme some JOY!"
+  prompt: " We are talking about joy people! Sign Up and I will be in touch in a snap to set up your first session! Talk with you soon."
   title: Sound like a match made in "you’re not alone” heaven?
 ---
-
