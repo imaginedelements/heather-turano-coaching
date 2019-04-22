@@ -30,4 +30,3 @@ coachingSignup:
   prompt: asdf
   title: asdf
 ---
-
