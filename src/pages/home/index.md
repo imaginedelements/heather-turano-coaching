@@ -3,28 +3,23 @@ key: home
 hero:
   heroCta:
     actionRoute: contact
-    label: asdf
+    label: Sign up for a FREE mini Session!
   heroImage: /img/dsc_0605.jpg
-  heroSubTitle: this is a test subtitle
+  heroSubTitle: >-
+    Stop settling for ordinary and get the life, love and business you really
+    want! I've done it, I’ll show you how.
   heroTitle: Love yourself first
 emailSignup:
-  body: |-
-    asdfasdf
-
-    # heading 1
-
-    testing more markdown
-
-    this is testing a new line
-
-    ## heading 2
-
-    testing another newline
+  body: >-
+    **Are you ready to get some honest connection and feel-good truth by doing
+    nothing?** Sign up below and become an HH Insider. Get FREE tips, tricks,
+    freebees, and updates on how to do 'this whole life thing' a little easier!
+    Join the community of honest conversation.
   form:
-    emailAddressPlaceholder: asdf
-    firstNamePlaceholder: asdf
-    submitLabel: asdf
-  title: asdf
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: Get Some Knowledge Candy >
+  title: 'Let me send you some mind-shifting, never lame Emails.'
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
@@ -68,14 +63,14 @@ method:
         ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
         porta ac consectetur ac, vestibulum at eros.
       icon: coffee
-      label: discover
+      label: Discover
     - description: >-
         Donec id elit non mi porta gravida at eget metus. Cras mattis
         consectetur purus sit amet fermentum. Integer posuere erat a ante
         venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla
         sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
       icon: list-ol
-      label: plan
+      label: Plan
     - description: >-
         Maecenas sed diam eget risus varius blandit sit amet non magna. Integer
         posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas
@@ -83,26 +78,19 @@ method:
         semper. Donec sed odio dui. Maecenas sed diam eget risus varius blandit
         sit amet non magna.
       icon: seedling
-      label: grow
-  methodTitle: My Methodology
+      label: Grow
+  methodTitle: 3 step Methodology
 coachingSignup:
-  body: |-
-    asdf
+  body: >-
+    Does this whole coaching thing sound super sweet? Are you ready to take back
+    a specific part of your life with some honest truth and dedication? 
 
-    # heading 1
-
-    testing more markdown
-
-    this is testing a new line
-
-    ## heading 2
-
-    testing another newline
+     If so, let's Chat. **Sign up below and I will be in touch in a jiffy!**
   form:
-    emailAddressPlaceholder: asdf
-    firstNamePlaceholder: asdf
-    submitLabel: asdf
+    emailAddressPlaceholder: Email
+    firstNamePlaceholder: First Name
+    submitLabel: I'm Ready. Let's get working >
   prompt: asdf
-  title: asdf
+  title: Let's Chat!
 ---
 
