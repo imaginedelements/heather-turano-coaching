@@ -11,6 +11,21 @@ emailSignup:
   body: >-
     Are you ready to get some honest connection and feel-good truth by doing
     nothing?
+
+
+    # heading 1
+
+
+    testing more markdown
+
+
+    this is testing a new line
+
+
+    ## heading 2
+
+
+    testing another newline
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
@@ -80,6 +95,21 @@ coachingSignup:
   body: >-
     Does this sound sweet and give you all the feels you’ve been wanting from a
     coach? 
+
+
+    # heading 1
+
+
+    testing more markdown
+
+
+    this is testing a new line
+
+
+    ## heading 2
+
+
+    testing another newline
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
