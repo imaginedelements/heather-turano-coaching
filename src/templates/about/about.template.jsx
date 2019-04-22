@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Text, Markdown } from "../../components/typography";
+import { Markdown } from "../../components/typography";
 
 import { BackgroundImage } from "../../components-app/background-images";
 import { Avatar } from "../../components-app/images";
@@ -27,7 +27,7 @@ export const AboutPageTemplate = ({
   <>
     <BackgroundImage image={imgLocation} alt={imgAlt} height={imgHeight} fadeUp>
       <Section title={mainTitle} styleType="transparent">
-        <Text size="lg">{mainBody}</Text>
+        <Markdown content={mainBody} />
       </Section>
     </BackgroundImage>
     <Section title={sectionOne.title}>
