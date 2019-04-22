@@ -12,9 +12,9 @@ hero:
 emailSignup:
   body: >-
     **Are you ready to get some honest connection and feel-good truth by doing
-    nothing?** Sign up below and become an HH Insider. Get FREE tips, tricks,
-    printable downloads, and updates on how to do 'this whole life thing' a
-    little easier! Join the community of honest conversation.
+    nothing?** Sign up below and become an 'Honest Heather Insider'. Get FREE
+    tips, tricks, printable downloads, and updates on how to do 'this whole life
+    thing' a little easier! Join the community of honest conversation.
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
