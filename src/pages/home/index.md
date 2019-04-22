@@ -1,24 +1,30 @@
 ---
 key: home
-callToAction:
-  ctaButtonLabel: I have candy...
-  ctaPlaceholder: youremailaddress@awesome.com
 hero:
+  heroCta:
+    actionRoute: contact
+    label: asdf
   heroImage: /img/dsc_0605.jpg
   heroSubTitle: this is a test subtitle
   heroTitle: Love yourself first
-introduction:
-  introAction:
-    actionLabel: How can I help you?
-    actionRoute: contact
-  introDescription: >-
-    My name is Heather and I am a life & yoga coach… because, well, life right!
-    I was put on this earth to guide, mentor, and enlighten people to approach
-    life in a balanced manner, and to see themselves as a temple when external
-    influences halt them from doing so. Whatever you’re going through, all be it
-    relationship trouble, work angst, or clouded judgement, I’m here to listen,
-    understand, and guide.
-  introTitle: welcome home
+emailSignup:
+  body: |-
+    asdfasdf
+
+    # heading 1
+
+    testing more markdown
+
+    this is testing a new line
+
+    ## heading 2
+
+    testing another newline
+  form:
+    emailAddressPlaceholder: asdf
+    firstNamePlaceholder: asdf
+    submitLabel: asdf
+  title: asdf
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
@@ -79,5 +85,24 @@ method:
       icon: seedling
       label: grow
   methodTitle: My Methodology
+coachingSignup:
+  body: |-
+    asdf
+
+    # heading 1
+
+    testing more markdown
+
+    this is testing a new line
+
+    ## heading 2
+
+    testing another newline
+  form:
+    emailAddressPlaceholder: asdf
+    firstNamePlaceholder: asdf
+    submitLabel: asdf
+  prompt: asdf
+  title: asdf
 ---
 
