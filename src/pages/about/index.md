@@ -44,16 +44,12 @@ sectionTwo:
     humans like yourself.  
 
 
-
-
     I know first hand about toxic relationship cycles, the codependent doubt
     that “you aren’t lovable”, the “not enoughness” voice that keeps nagging you
     until you fall asleep. The burning desire to be more than just your job,
-    paycheck, kids and pretend happy persona we created on social media. Because
+    paycheck, kids and pretend happy persona we create on social media. Because
     all we are really craving is just some honest, gosh-darn connection and some
     kickass passion in your life. **"Gimme that JOY and HAPPINESS damn it!".**
-
-
 
 
     Lastly, My life and energy is to support your growth and strip away the
@@ -67,7 +63,7 @@ coachingSignup:
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
-    submitLabel: 'Gimme some of that JOY! '
+    submitLabel: 'Yes, Gimme some JOY!'
   prompt: ' We are talking about joy people! Sign Up and I will be in touch in a snap to set up your first session! Talk with you soon.'
   title: Sound like a match made in "you’re not alone” heaven?
 ---
