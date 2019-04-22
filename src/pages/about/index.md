@@ -3,15 +3,12 @@ key: about
 main:
   backgroundImage:
     imgAlt: asdfasdf
-    imgHeight: 1602
+    imgHeight: 1250
     imgLocation: /img/baller-heather.jpeg
   body: >-
     **The whole “taking about yourself” is sort of a strange, awkward thing,
-    have you ever noticed that?**
-
-
-    What are you supposed to say about yourself? And for that matter, how does a
-    person even approach this?
+    have you ever noticed that?** What are you supposed to say about yourself?
+    And for that matter, how does a person even approach this?
 
 
     * **Where were you born?** I was Born in Florida.
@@ -24,14 +21,8 @@ main:
     * **What is your favorite food?** I love cheese; Damn you lactose!
 
 
-    OR
-
-
-    Maybe you go with an elevator pitch? Greatest accomplishments? Where I
-    graduated from? awards I've won? 
-
-
-    **Hummmmm, nope, thats not it. Let me think…**
+    Maybe you go with an elevator pitch? Greatest accomplishments? **Hummmmm,
+    nope, thats not it. Let me think…**
   title: Oh Hey There!
 sectionOne:
   body: >-
