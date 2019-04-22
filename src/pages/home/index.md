@@ -23,36 +23,26 @@ emailSignup:
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
-      clientLocation: The mother fucking mooon
+      clientLocation: 'Somewhere Sunny, FL'
       clientQuote: >-
-        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
-        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
-        porta ac consectetur ac, vestibulum at eros.
-      clientType: baller ass client
-    - clientImage: /img/aquatic-bloom-blooming-158465.jpg
-      clientLocation: Your butt
+        Holy cow Heather! The resume redesign has been huge! I have two
+        interviews lined up at MAJOR spas this week! Thank You for helping me
+        get noticed in the sea of applications! I am so excited and really
+        appreciative all of your help on my journey.
+      clientType: Marketing Director
+    - clientImage: /img/cactus.jpg
+      clientLocation: 'OMMM Shanti Philly, PA'
       clientQuote: >-
-        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
-        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
-        porta ac consectetur ac, vestibulum at eros.
-      clientType: baller ass client 2
+        Some people come into our lives for just a season, but make a huge
+        impact. Heather’s Season in my life has been such a joy.
+      clientType: Yoga Client
     - clientImage: /img/zen-stones.jpg
-      clientLocation: 'Camden, yo'
+      clientLocation: 'It''s Always Sunny, PA'
       clientQuote: >-
-        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
-        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
-        porta ac consectetur ac, vestibulum at eros
-      clientType: baller ass client 3
-  testimonialTitle: Hear from the mob
+        Heather is a remarkable, kind, giving and loving person. She has brought
+        sunshine and balance into my being, and humanity into so many others. 
+      clientType: 'Retired & Loving Life '
+  testimonialTitle: Hear from the Insiders
 method:
   methodSteps:
     - description: >-
