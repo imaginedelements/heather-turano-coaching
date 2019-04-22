@@ -46,27 +46,28 @@ testimonials:
 method:
   methodSteps:
     - description: >-
-        Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta
-        ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies
-        vehicula ut id elit. Fusce dapibus, tellus ac cursus commodo, tortor
-        mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus,
-        porta ac consectetur ac, vestibulum at eros.
+        This is the part where we get HONEST! Your journey will begin with a 90
+        Minute Discovery Session that digs in to the exact areas you want to
+        focus on. With a serious of prepared questions, honest conversation and
+        insightful data gathering. We will unearth your truth and move toward
+        setting up a plan for your journey.
       icon: coffee
       label: Discover
     - description: >-
-        Donec id elit non mi porta gravida at eget metus. Cras mattis
-        consectetur purus sit amet fermentum. Integer posuere erat a ante
-        venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla
-        sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
+        The planning will begin after your discovery session. We will decide
+        your top priorities and focus our energy on the patterns, habits and
+        thinking that may be keeping you stuck. We will discuss proven tools,
+        strategies and creative ways to move through these blockers. It will be
+        hard work, but you don't have to do it alone!
       icon: list-ol
       label: Plan
     - description: >-
-        Maecenas sed diam eget risus varius blandit sit amet non magna. Integer
-        posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas
-        faucibus mollis interdum. Vestibulum id ligula porta felis euismod
-        semper. Donec sed odio dui. Maecenas sed diam eget risus varius blandit
-        sit amet non magna.
+        THIS IS THE GOLD BABY! Getting you to the desired results you are
+        looking for. No matter what we have worked on, you will be left with a
+        feeling of calm and balance. You now will have tools to help you move
+        through the waves of your life with ease. Knowing no matter what comes
+        your way there is always something to be learned and the ability to
+        transform into the amazing human being you are meant to become!
       icon: seedling
       label: Grow
   methodTitle: 3 step Methodology
