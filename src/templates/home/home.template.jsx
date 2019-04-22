@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { navigate } from "gatsby";
 
-import { Text } from "../../components/typography";
+import { Text, Markdown } from "../../components/typography";
 import { Carosel, Stepper } from "../../components/navigation";
 
 import { Section } from "../../components-app/layouts";
@@ -25,8 +25,7 @@ export const HomePageTemplate = ({
   coachingSignup: {
     title: coachingTitle,
     body: coachingBody,
-    form: coachingForm,
-    promopt: coachingPrompt
+    form: coachingForm
   }
 }) => (
   <>
@@ -43,7 +42,7 @@ export const HomePageTemplate = ({
       />
     </Hero>
     <Section title={title}>
-      {body && <Text size="lg" copy={body} />}
+      {body && <Markdown content={body} />}
       <FormContainer>
         <FormSignup
           layout="stacked"
@@ -78,7 +77,7 @@ export const HomePageTemplate = ({
       styleType="secondary"
       contentOrientation="center"
     >
-      <Text size="lg">{coachingBody}</Text>
+      {coachingBody && <Markdown content={coachingBody} />}
       <FormContainer styleType="standalone">
         <FormSignup
           layout="inline"
@@ -90,7 +89,6 @@ export const HomePageTemplate = ({
           }}
         />
       </FormContainer>
-      <Text size="lg">{coachingPrompt}</Text>
     </Section>
   </>
 );

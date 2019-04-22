@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Text } from "../../components/typography";
+import { Markdown } from "../../components/typography";
 
 import { Section } from "../../components-app/layouts";
 import { BlogCardList } from "../../components-static";
@@ -16,7 +16,7 @@ export const BlogPageTemplate = ({
 }) => (
   <>
     <Section title={title}>
-      <Text size="lg">{body}</Text>
+      <Markdown content={body} />
       <FormConatiner>
         <FormSignup
           shouldDisplayFirstName
@@ -28,7 +28,7 @@ export const BlogPageTemplate = ({
           }}
         />
       </FormConatiner>
-      <Text size="lg">{prompt}</Text>
+      <Markdown content={prompt} />
     </Section>
     <BlogCardList />
   </>

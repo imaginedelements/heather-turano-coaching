@@ -70,8 +70,8 @@ collections:
         fields:
           - { label: "key", name: "key", widget: "hidden", default: "blog" }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "text" }
-          - { label: "Prompt", name: "prompt", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Prompt", name: "prompt", widget: "markdown" }
           - label: "Email Signup"
             name: form
             widget: object
@@ -244,7 +244,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Body", name: "body", widget: "markdown" }
               - label: "Background Image"
                 name: "backgroundImage"
                 widget: "object"
@@ -267,20 +267,20 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Body", name: "body", widget: "markdown" }
           - label: "Section 2"
             name: "sectionTwo"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Avatar Image", name: "avatar", widget: "image" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Body", name: "body", widget: "markdown" }
           - label: "Coaching signup"
             name: "coachingSignup"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "string" }
+              - { label: "Body", name: "body", widget: "markdown" }
               - {
                   label: "Prompt",
                   name: "prompt",
@@ -322,7 +322,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Body", name: "body", widget: "markdown" }
               - label: "Coaching signup"
                 name: "coachingSignup"
                 widget: "object"
@@ -347,7 +347,11 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "markdown",
+                }
               - label: "List of pillars"
                 name: "pillarList"
                 widget: "list"
@@ -393,7 +397,11 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
+              - {
+                  label: "Description",
+                  name: "description",
+                  widget: "markdown",
+                }
               - label: "Fields"
                 name: "fields"
                 fields:

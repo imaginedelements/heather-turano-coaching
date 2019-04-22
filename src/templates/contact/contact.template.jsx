@@ -11,7 +11,7 @@ import {
 } from "../../components/forms";
 import { FormField, InputCaptcha } from "../../components/inputs";
 import { Button } from "../../components/buttons";
-import { Text, Color } from "../../components/typography";
+import { Text, Color, Markdown } from "../../components/typography";
 
 export const ContactPageTemplate = ({
   form: {
@@ -27,7 +27,7 @@ export const ContactPageTemplate = ({
 }) => (
   <>
     <Section title={formTitle}>
-      <Text size="lg">{formDescription}</Text>
+      <Markdown content={formDescription} />
       <FormContainer styleType="standalone">
         <FormControl
           initialValues={{

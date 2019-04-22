@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Text } from "../../components/typography";
+import { Text, Markdown } from "../../components/typography";
 
 import { Content } from "../../components-gatsby";
 import { Section, SectionItem } from "../../components-app/layouts";
@@ -28,7 +28,7 @@ export const WorkWithMePageTemplate = ({
     <>
       <Section title={mainTitle}>
         <SectionItem>
-          <Text size="lg">{mainBody}</Text>
+          <Markdown content={mainBody} />
         </SectionItem>
         <SectionItem>
           <FormContainer styleType="standalone">
@@ -46,7 +46,7 @@ export const WorkWithMePageTemplate = ({
       </Section>
       <Section title={pillarsTitle} styleType="alt">
         <SectionItem>
-          <Text size="lg">{pillarsDescription}</Text>
+          <Markdown content={pillarsDescription} />
         </SectionItem>
         <SectionItem>
           <InteractiveCircleList list={pillarList} />
