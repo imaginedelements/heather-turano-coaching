@@ -21,7 +21,7 @@ form:
       placeholder: What's on your mind? how can I help you?
     submit:
       label: Let's get this party started!
-  title: That time when you want to just get in touch
+  title: That time when you just want to get in touch.
 general:
   description: >-
     All business inquiries, questions requests, general frustrations, and wild
