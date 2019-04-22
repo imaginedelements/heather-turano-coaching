@@ -62,7 +62,7 @@ method:
       icon: list-ol
       label: Plan
     - description: >-
-        THIS IS THE GOLD BABY! Getting you to the desired results you are
+        THIS IS THE GOLD TICKET! Getting you to the desired results you are
         looking for. No matter what we have worked on, you will be left with a
         feeling of calm and balance. You now will have tools to help you move
         through the waves of your life with ease. Knowing no matter what comes
