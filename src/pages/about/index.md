@@ -1,15 +1,12 @@
 ---
 key: about
 main:
-  mainBlurb: >-
-    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-    fermentum massa justo sit amet risus. Vestibulum id ligula porta felis
-    euismod semper.
-  mainImage:
-    imgAlt: heather-versailles
-    imgHeight: 600
+  backgroundImage:
+    imgAlt: asdfasdf
+    imgHeight: 1320
     imgLocation: /img/baller-heather.jpeg
-  mainTitle: Oh Hey There
+  body: asdfasdfasdf
+  title: asdf
 sectionOne:
   body: >-
     Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo
@@ -23,13 +20,13 @@ sectionTwo:
     metus. Donec id elit non mi porta gravida at eget metus. Donec id elit non
     mi porta gravida at eget metus. Cras mattis consectetur purus sit amet
     fermentum.
-  detailTitle: ' I know, can you believe it!  You aren’t alone.'
-callToAction:
-  body: >-
-    Want more info? Sign up to stay up to date and become way more awesome in
-    the process.
-  catInputPlaceholder: placeholder text
-  ctaButtonLabel: Button label
-  title: Wisdom awaits you
+  title: asdf
+coachingSignup:
+  body: asdfasdf
+  form:
+    emailAddressPlaceholder: asdf
+    firstNamePlaceholder: asdf
+    submitLabel: asdf
+  prompt: asdf
+  title: asdf
 ---
-
