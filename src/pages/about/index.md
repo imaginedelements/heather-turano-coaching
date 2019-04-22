@@ -3,7 +3,7 @@ key: about
 main:
   backgroundImage:
     imgAlt: baller Heather
-    imgHeight: 1000
+    imgHeight: 1319
     imgLocation: /img/baller-heather.jpeg
   body: >
     The whole “taking about yourself” is sort of a strange, awkward thing, have
