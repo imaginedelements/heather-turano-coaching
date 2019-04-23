@@ -3,8 +3,8 @@ key: contact
 form:
   description: >-
     To inquire about other services I offer, please fill out the form below and
-    we will get back to you in a jiffy! Speaking engagements, workshops,
-    retreats, yoga and meditation classes, pie eating contests, you get the
+    we will get back to you in a jiffy! **Speaking engagements, workshops,
+    retreats, yoga and meditation classes, pie eating contests,** you get the
     idea…
   fields:
     emailAddress:
@@ -21,7 +21,7 @@ form:
       placeholder: What's on your mind? how can I help you?
     submit:
       label: Let's get this party started!
-  title: That time when you want to get in touch
+  title: That time when you just want to get in touch.
 general:
   description: >-
     All business inquiries, questions requests, general frustrations, and wild
