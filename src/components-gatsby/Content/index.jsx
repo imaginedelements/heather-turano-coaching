@@ -3,11 +3,9 @@ import PropTypes from "prop-types";
 
 import { Markdown } from "../../components/typography";
 
-const Content = ({ content: Content, className }) => (
+const Content = ({ content, className }) => (
   <Markdown>
-    <div className={className}>
-      <Content />
-    </div>
+    <div className={className}>{content}</div>
   </Markdown>
 );
 

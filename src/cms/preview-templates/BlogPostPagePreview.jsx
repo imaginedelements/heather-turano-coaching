@@ -9,9 +9,8 @@ const BlogPostPagePreview = ({ entry, widgetFor }) => {
   return (
     <BlogPostPageTemplate
       title={entry.getIn(["data", "title"])}
-      description={entry.getIn(["data", "description"])}
       dateCreated={entry.getIn(["data", "date"])}
-      content={body}
+      // content={body}
       // tags={entry.getIn(["data", "tags"])}
     />
   );
