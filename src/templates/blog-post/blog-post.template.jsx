@@ -43,7 +43,7 @@ export const BlogPostPageTemplate = ({
 
 BlogPostPageTemplate.propTypes = {
   content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.any.isRequired,
+  contentComponent: PropTypes.any,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
   pagePrev: PropTypes.string.isRequired,
@@ -52,5 +52,6 @@ BlogPostPageTemplate.propTypes = {
 };
 
 BlogPostPageTemplate.defaultProps = {
-  tags: []
+  tags: [],
+  contentComponent: null
 };
