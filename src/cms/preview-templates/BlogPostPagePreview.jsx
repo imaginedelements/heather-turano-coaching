@@ -3,15 +3,16 @@ import PropTypes from "prop-types";
 import { BlogPostPageTemplate } from "../../templates/blog-post/blog-post.template";
 
 const BlogPostPagePreview = ({ entry, widgetFor }) => {
-  const body = widgetFor("body");
-  console.log(body);
+  const Content = widgetFor("body");
+  console.log(Content);
+  console.log(<Content />);
 
   return (
     <BlogPostPageTemplate
       title={entry.getIn(["data", "title"])}
       description={entry.getIn(["data", "description"])}
       dateCreated={entry.getIn(["data", "date"])}
-      content={body}
+      content={<Content />}
       // tags={entry.getIn(["data", "tags"])}
     />
   );
