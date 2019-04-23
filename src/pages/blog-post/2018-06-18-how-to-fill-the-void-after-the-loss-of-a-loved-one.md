@@ -58,3 +58,5 @@ This is how you know it was real and beautiful and worth that space being empty 
 **Mantra:**
 
 A helpful mantra to recite to yourself may sound something like this, “I love that hole where you were”.
+
+Once you shift your mind, you can start to move through loss easier. and begin to heal.
