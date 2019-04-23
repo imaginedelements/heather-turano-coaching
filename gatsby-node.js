@@ -2,11 +2,23 @@ const _ = require("lodash");
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.onCreateNode = ({ node, actions: { createNodeField }, getNode }) => {
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode });
+    createNodeField({
+      name: `slug`,
+      node,
+      value
+    });
+  }
+};
 
-  return graphql(`
-    {
+// gets all of the pages needed from the markdown
+// creates the pages after it gathers the information
+/* eslint-disable consistent-return */
+exports.createPages = ({ graphql, actions: { createPage } }) =>
+  graphql(`
+    query NodeQuery {
       allMarkdownRemark(limit: 1000) {
         edges {
           node {
@@ -16,7 +28,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             }
             frontmatter {
               tags
-              templateKey
+              key
             }
           }
         }
@@ -24,23 +36,37 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
       return Promise.reject(result.errors);
     }
 
-    const posts = result.data.allMarkdownRemark.edges;
+    const cmsPages = result.data.allMarkdownRemark.edges;
 
-    posts.forEach(edge => {
-      const id = edge.node.id;
+    cmsPages.forEach((edge, i, arr) => {
+      const { id } = edge.node;
+      const prevPage = arr[i - 1];
+      const nextPage = arr[i + 1];
+
       createPage({
-        path: edge.node.fields.slug,
+        path:
+          edge.node.frontmatter.key === "home" ? "/" : edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `src/templates/${String(edge.node.frontmatter.key)}/${
+            edge.node.frontmatter.key
+          }.page.jsx`
         ),
-        // additional data can be passed via context
+        // The context is passed as props to the component as well
+        // as into the component's GraphQL query.
         context: {
-          id
+          id,
+          pagePrev:
+            prevPage && prevPage.node.frontmatter.key === "blog-post"
+              ? prevPage.node.fields.slug
+              : null,
+          pageNext:
+            nextPage && nextPage.node.frontmatter.key === "blog-post"
+              ? nextPage.node.fields.slug
+              : null
         }
       });
     });
@@ -48,7 +74,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     // Tag pages:
     let tags = [];
     // Iterate through each post, putting all found tags into `tags`
-    posts.forEach(edge => {
+    cmsPages.forEach(edge => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags);
       }
@@ -62,24 +88,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
       createPage({
         path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
+        component: path.resolve(`src/pages/tags/index.jsx`),
         context: {
           tag
         }
       });
     });
   });
-};
-
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode });
-    createNodeField({
-      name: `slug`,
-      node,
-      value
-    });
-  }
-};
