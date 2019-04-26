@@ -1,21 +1,20 @@
 ---
 key: blog-post
 protected: false
-category: Random life stuff
+category: Dating & Love
 thumbnail: /img/products-full-width.jpg
-thumbnailAlt: coffee up in this jawn
+thumbnailAlt: coffee up in this
 title: 3 mistakes woman make when first dating a man
 subTitle: 3 mistakes woman make when first dating a man subtitle
-date: 2019-04-24T18:51:58.375Z
+date: 'September 27, 2018'
 prompt: >-
-  Why aren't we asking our selves if he is worthy of our time? why are we
+  Why aren't we asking our selves if he is worthy of our time? Why are we
   falling in love with a person when we haven't even met them in person?  Here
-  are 3 mistakes woman make when they first start dating a man.
+  are 3 mistakes woman make when they first start dating a man. 
 tags:
   - relationships
   - random life stuff
 ---
-
 ## Mistake #1: Stop trying to prove your worthy of him
 
 One mistake I see in woman often (and I have been know to do this in my past as well.) is when we start dating a guy, we try way too hard to prove we are worthy of him. When we barely even know who he is and if we even want to actually date him. At this stage of dating you should be testing him out. **Your attitude should be "why do you deserve me".** You need to show him that you have an abundant amount of potential men you could be dating in your back pocket and he is the lucky one you are giving a chance to. And if he can’t show up at the level you are at, than it's on to the next one!
@@ -30,10 +29,16 @@ The second mistake I see is, woman tend to drop their life for a date. For examp
 
 Mistake number three, Oh Ladies and this is a doozy, **do not sleep with them**. I think woman sometimes think that a guy will not stay unless you sleep with them after the third date. I say, Isn’t it better if on date three, you say good night with a kiss and see if he calls you and asks you out for date 4?
 
-There are no rules on this. I have waited and not waited but the fact is. If you sleep with them that doesn’t mean they will commit to you. Wait until you are in a committed relationship. Then you both have decided that it is worth the next step.
+There are no rules on this. I have waited and not waited but the fact is. If you sleep with them that doesn’t mean they will commit to you. Wait until you are in a committed relationship. Then you both have decided that it is worth the next step and you protect yourself from a lot more pain if it doesn't end up working out.
 
-All in all, Men need to feel like you are a challenge. They need to feel like you don’t just go out with anyone that asks for your number. They need to feel like they are special because you chose to give them a chance. Let them fight for your time, let them wonder if you like them, let them chase you and show you they are worthy of you.
+## I will close this post with some little tid-bits of brilliant insight
 
-Stay in that beautiful feminine energy. Just sit back, be open, relaxed, and light. Let them take care of you. If he is the right man. He will rise to the challenge and do the work. If he is the wrong man, he will fall away, and it is your job to let him.
+**Men need to feel like you are a challenge.** They need to feel like you don’t just go out with anyone that asks for your number. They need to feel like they are special because you chose to give them a chance. Let them fight for your time, let them wonder if you like them, let them chase you and show you they are worthy of you.
 
-There is no need to convince anyone to be with you. If you start convincing some one to be with you now, that will be the pattern of your relationship, and who wants that? you will see who is right and who is wrong if you just lean back, observe his actions and except who they are at face value, not who you want them to be.
+**Stay in that beautiful feminine energy.** Just sit back, be open, relaxed, and light. Let them take care of you. If he is the right man. He will rise to the challenge and do the work. If he is the wrong man, he will fall away, and it is your job to let him.
+
+**There is no need to convince anyone to be with you.** If you start convincing some one to be with you now, that will be the pattern of your relationship, and who wants that? you will see who is right and who is wrong if you just lean back, observe his actions and except who they are at face value, not who you want them to be.
+
+# What mistakes have you made in the past when first dating some one?
+
+Share your story, experience or comments below! This space is for helping others like yourself feel less alone on this crazy journey. Join the community of honest feel good conversation! You can also become a HH Insider by joining our email community!
