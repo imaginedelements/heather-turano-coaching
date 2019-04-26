@@ -6,7 +6,7 @@ thumbnail: /img/beard-beverages-break-630831-min.jpg
 thumbnailAlt: How a man treats you is how he feels about you.
 title: How a man treats you is how he feels about you.
 subTitle: How a man treats you is how he feels about you.
-date: 2019-04-24T18:51:58.375Z
+date: 'October 12, 2017'
 prompt: >-
   Have you ever wondered if a man likes you? Have you ever dated a guy and you
   get mixed signals? Well I am here to clear all the confusion up with this
