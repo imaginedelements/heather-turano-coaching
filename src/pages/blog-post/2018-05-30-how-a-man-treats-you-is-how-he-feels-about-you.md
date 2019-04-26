@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Dating & Love
-thumbnail: /img/beard-beverages-break-630831-min.jpg
+thumbnail: /img/products-grid2.jpg
 thumbnailAlt: How a man treats you is how he feels about you.
 title: How a man treats you is how he feels about you.
 subTitle: How a man treats you is how he feels about you.
