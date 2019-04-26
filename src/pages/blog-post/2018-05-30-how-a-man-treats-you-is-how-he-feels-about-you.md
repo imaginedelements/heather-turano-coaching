@@ -15,6 +15,8 @@ prompt: >-
 tags:
   - relationships
 ---
+![how a man treats you is how he feels about you](/img/fullsizeoutput_15e7.jpeg)
+
 Bottom line ladies, **how a man treats you is how he feels about you**. Let me repeat that, **"How a man treats you is how he feels about you".** Now one more time and you say it out loud and direct it toward yourself; **"How a man treats ME is how he feels about ME. "**
 
 > **"How a man treats ME is how he feels about ME. "**
