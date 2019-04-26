@@ -1,10 +1,9 @@
 ---
 key: blog-post
-pageKey: blog-post
 protected: false
-category: "Random life stuff"
-thumbnail: "/img/products-grid2.jpg"
-thumbnailAlt: "coffee up in this jawn"
+category: Dating & Love
+thumbnail: /img/fullsizeoutput_15e7.jpeg
+thumbnailAlt: coffee up in this jawn
 title: How a man treats you is how he feels about you.
 subTitle: How a man treats you is how he feels about you.
 date: 2019-04-24T18:51:58.375Z
@@ -16,8 +15,9 @@ prompt: >-
 tags:
   - relationships
 ---
+Bottom line ladies, **how a man treats you is how he feels about you**. Let me repeat that, **"How a man treats you is how he feels about you".** Now one more time and you say it out loud and direct it toward yourself; **"How a man treats ME is how he feels about ME. "**
 
-Bottom line ladies, **how a man treats you is how he feels about you**. lets repeat that together, How a man treats you is how he feels about you. Now one more time and direct it toward yourself. **How a man treats ME is how he feels about ME. **
+> **"How a man treats ME is how he feels about ME. "**
 
 **Lets start with a story shall we?**
 
@@ -33,8 +33,8 @@ Yep that is what we do! We start to convince ourselves that this is ok because h
 
 Men use **words** to tell woman what they know woman want to hear, because it is easier than telling the truth and possibly having a disagreement. Men will do anything to avoid upsetting a woman, even lie.
 
-It is only with constant actions or **“investment over time” **that you can gauge how a man truly feels about you. When he invests his resources like **time, money** and **energy **into you, that is the clear sign he really likes you.
+It is only with constant actions or **“investment over time”** that you can gauge how a man truly feels about you. When he invests his resources like **time, money** and **energy** into you, that is the clear sign he really likes you.
 
-**So to recap: How he is treating you is how he feels about you. **
+**So to recap: How he is treating you is how he feels about you.** 
 
 So stop convincing yourself that he is treating you better than he is. Take men at face value. Lean back and and just watch him, he will show you how he feels about you. Good or bad.
