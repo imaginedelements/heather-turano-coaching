@@ -1,18 +1,22 @@
 ---
 key: blog-post
-pageKey: blog-post
 protected: false
-category: "Random life stuff"
-thumbnail: "/img/products-grid2.jpg"
-thumbnailAlt: "coffee up in this jawn"
+category: Mind Body Wellness
+thumbnail: /img/2018-05-13-11.28.jpg
+thumbnailAlt: Calming my Anxiety
 title: Why does my anxiety keep coming back?
 subTitle: Why does my anxiety keep coming back?
 date: 2019-04-24T18:51:58.375Z
-prompt: what is anxiety? why do i get it? and how can I get rid of it?
+prompt: >-
+  What is anxiety? Why do I get it? And how can I get rid of it? All valid
+  questions and I have pondered the same things over my 35 years on this earth
+  many many times. Just know, anxiety is a normal human response to fear and
+  stress in our everyday lives.
 tags:
   - anexity
-  - ""
+  - ''
 ---
+What is anxiety? Why do I get it? And how can I get rid of it?
 
 All valid questions and I have pondered the same things over my 35 years on this earth many many times.
 
@@ -46,7 +50,7 @@ So we can't get rid of it. It is part of us. we just need tools to out smart it 
 
 • Lie on the floor on your back, feel yourself grounded.
 
-• Reach out to loved ones, a therapist, or coach and talk things through.\*
+• Reach out to loved ones, a therapist, or coach and talk things through.*
 
 • Know you are not alone.
 
