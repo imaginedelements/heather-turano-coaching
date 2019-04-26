@@ -1,11 +1,10 @@
 ---
 key: blog-post
-pageKey: blog-post
 protected: false
-category: "Random life stuff"
-thumbnail: "/img/products-grid2.jpg"
-thumbnailAlt: "coffee up in this jawn"
-title: "When you wake up feeling like crap, do these 5 things."
+category: Random life stuff
+thumbnail: /img/img_0105.jpg
+thumbnailAlt: When I just "Can't Even".
+title: 'When you wake up feeling like crap, do these 5 things.'
 subTitle: 5 things to do when you wake up feeling like crap.
 date: 2019-04-24T18:51:58.375Z
 prompt: >-
