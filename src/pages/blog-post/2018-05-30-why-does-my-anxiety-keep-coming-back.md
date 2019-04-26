@@ -7,7 +7,7 @@ thumbnail: "/img/products-grid2.jpg"
 thumbnailAlt: "coffee up in this jawn"
 title: Why does my anxiety keep coming back?
 subTitle: Why does my anxiety keep coming back?
-date: "2018-05-30T13:44:08-04:00"
+date: 2019-04-24T18:51:58.375Z
 prompt: what is anxiety? why do i get it? and how can I get rid of it?
 tags:
   - anexity

@@ -51,7 +51,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Sub-title", name: "subTitle", widget: "string" }
 
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "date",
+          format: "MMMM DD, YYYY",
+        }
       - {
           label: "Prompt",
           name: "prompt",

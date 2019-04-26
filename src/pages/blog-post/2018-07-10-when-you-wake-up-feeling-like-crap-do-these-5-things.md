@@ -7,7 +7,7 @@ thumbnail: "/img/products-grid2.jpg"
 thumbnailAlt: "coffee up in this jawn"
 title: "When you wake up feeling like crap, do these 5 things."
 subTitle: 5 things to do when you wake up feeling like crap.
-date: "2018-07-10T09:16:14-04:00"
+date: 2019-04-24T18:51:58.375Z
 prompt: >-
   Every one has been there. You sleep like crap and you feel horrible when you
   open your eyes. And then instead of having compassion for yourself, you bet

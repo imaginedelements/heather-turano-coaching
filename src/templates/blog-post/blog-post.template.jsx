@@ -13,7 +13,7 @@ import {
 export const BlogPostPageTemplate = ({
   title,
   dateCreated,
-  // content,
+  content,
   contentComponent,
   tags,
   pagePrev,
@@ -21,7 +21,7 @@ export const BlogPostPageTemplate = ({
 }) => {
   const BlogContent = contentComponent || Content;
 
-  console.log(BlogContent);
+  console.log(dateCreated);
 
   return (
     <BlogLayout>
@@ -34,7 +34,7 @@ export const BlogPostPageTemplate = ({
             dateCreated={dateCreated}
             author="Heather Turano"
           />
-          {/* <BlogContent content={content} /> */}
+          <BlogContent content={content} />
           {tags && <BlogTagGroup tags={tags} />}
           <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
         </BlogContainer>
@@ -44,7 +44,7 @@ export const BlogPostPageTemplate = ({
 };
 
 BlogPostPageTemplate.propTypes = {
-  // content: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
   contentComponent: PropTypes.any,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,

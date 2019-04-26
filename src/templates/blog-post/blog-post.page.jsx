@@ -19,7 +19,7 @@ export const query = graphql`
         thumbnail
         thumbnailAlt
         subTitle
-        date(formatString: "MMMM DD, YYYY")
+        date
       }
     }
   }
