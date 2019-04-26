@@ -3,7 +3,7 @@ key: blog-post
 protected: false
 category: Random life stuff
 thumbnail: /img/products-full-width.jpg
-thumbnailAlt: coffee up in this jawn
+thumbnailAlt: coffee up in this
 title: 3 mistakes woman make when first dating a man
 subTitle: 3 mistakes woman make when first dating a man subtitle
 date: 2019-04-24T18:51:58.375Z
