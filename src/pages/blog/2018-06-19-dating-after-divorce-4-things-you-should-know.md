@@ -5,7 +5,7 @@ thumbnail: /img/img_8128.jpg
 thumbnailAlt: Before you date anyone you must be able to walk alone and love yourself first.
 title: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
 subTitle: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
-date: '2018-06-19T16:19:22-04:00'
+date: 'July 04, 2018'
 prompt: >-
   I know it may sound crazy but manifesting what you want in your ideal person
   is a sure fire way to get the love you are looking for. I know because I did
@@ -16,6 +16,8 @@ tags:
   - dating after divorce
   - dating tips after divorce
 ---
+![](/img/img_8128.jpg)
+
 ## 1. Make a List
 
 I know it may sound crazy but manifesting what you want in your ideal person is a sure fire way to get the love you are looking for. 
@@ -46,9 +48,7 @@ If they are lazy in the beginning of your relationship. They will be so much wor
 
 Remember you did this once. An't no body got time for that again.
 
-
-
-## What has helped you on your journey back to dating after divorce? 
+## What has helped you on your journey back to dating after divorce?
 
 Leave a message in the comments below and share your story! 
 
