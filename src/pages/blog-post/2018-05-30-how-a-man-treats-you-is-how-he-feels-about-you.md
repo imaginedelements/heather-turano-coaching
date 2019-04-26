@@ -1,13 +1,12 @@
 ---
 key: blog-post
-pageKey: blog-post
 protected: false
-category: "Random life stuff"
-thumbnail: "/img/products-grid2.jpg"
-thumbnailAlt: "coffee up in this jawn"
+category: Dating & Love
+thumbnail: /img/beard-beverages-break-630831-min.jpg
+thumbnailAlt: How a man treats you is how he feels about you.
 title: How a man treats you is how he feels about you.
 subTitle: How a man treats you is how he feels about you.
-date: 2019-04-24T18:51:58.375Z
+date: 'October 12, 2017'
 prompt: >-
   Have you ever wondered if a man likes you? Have you ever dated a guy and you
   get mixed signals? Well I am here to clear all the confusion up with this
@@ -16,10 +15,13 @@ prompt: >-
 tags:
   - relationships
 ---
+![how a man treats you is how he feels about you](/img/fullsizeoutput_15e7.jpeg "Don't convince yourself of anything else.")
 
-Bottom line ladies, **how a man treats you is how he feels about you**. lets repeat that together, How a man treats you is how he feels about you. Now one more time and direct it toward yourself. **How a man treats ME is how he feels about ME. **
+Bottom line ladies, **how a man treats you is how he feels about you**. Let me repeat that, **"How a man treats you is how he feels about you".** Now one more time and you say it out loud and direct it toward yourself; **"How a man treats ME is how he feels about ME. "**
 
-**Lets start with a story shall we?**
+> **"How a man treats ME is how he feels about ME. "**
+
+## Lets start with a story. Shall we?
 
 You are dating a man for about 3 months. And he is TELLING you that he is "crazy about you" (something every woman has been waiting to hear her life, am I right?). However, he is just so busy that he can't talk on the phone and he can only go out Wednesday nights because he has so much going on.
 
@@ -29,12 +31,18 @@ So what do we as woman do with that information? We start to convince ourselves 
 
 Yep that is what we do! We start to convince ourselves that this is ok because he SAYS he is crazy about us. Even though his **ACTIONS** don't match his **WORDS**.
 
-**Words mean nothing with out reenforcing those words with action.**
+## Words mean nothing with out reenforcing those words with action.
 
-Men use **words** to tell woman what they know woman want to hear, because it is easier than telling the truth and possibly having a disagreement. Men will do anything to avoid upsetting a woman, even lie.
+**Men use words to tell woman what they know woman want to hear,** because it is easier than telling the truth and possibly having a disagreement. Men will do anything to avoid upsetting a woman, even lie.
 
-It is only with constant actions or **“investment over time” **that you can gauge how a man truly feels about you. When he invests his resources like **time, money** and **energy **into you, that is the clear sign he really likes you.
+It is only with constant actions or **“investment over time”** that you can gauge how a man truly feels about you. When he invests his resources like **time, money** and **energy** into you, that is the clear sign he really likes you.
 
-**So to recap: How he is treating you is how he feels about you. **
+## So to recap: How he is treating you is how he feels about you. 
 
-So stop convincing yourself that he is treating you better than he is. Take men at face value. Lean back and and just watch him, he will show you how he feels about you. Good or bad.
+**So stop convincing yourself that he is treating you better than he is.** Take men at face value. Lean back and and just watch him, he will show you how he feels about you. **Good or bad.** Your only job is to believe him.
+
+# When have you convinced yourself that his bread crumbs were enough?
+
+> "I don't want bread crumbs! I want the whole loaf! "
+
+As always share your stories, comments, questions or experience below. The Honest Heather Insiders are itching to know we aren't alone in this crazy world. Thanks for stopping by!
