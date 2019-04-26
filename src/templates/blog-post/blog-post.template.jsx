@@ -13,13 +13,15 @@ import {
 export const BlogPostPageTemplate = ({
   title,
   dateCreated,
-  content,
+  // content,
   contentComponent,
   tags,
   pagePrev,
   pageNext
 }) => {
   const BlogContent = contentComponent || Content;
+
+  console.log(BlogContent);
 
   return (
     <BlogLayout>
@@ -32,7 +34,7 @@ export const BlogPostPageTemplate = ({
             dateCreated={dateCreated}
             author="Heather Turano"
           />
-          <BlogContent content={content} />
+          {/* <BlogContent content={content} /> */}
           {tags && <BlogTagGroup tags={tags} />}
           <BlogNavigation tags={tags} pagePrev={pagePrev} pageNext={pageNext} />
         </BlogContainer>
@@ -42,8 +44,8 @@ export const BlogPostPageTemplate = ({
 };
 
 BlogPostPageTemplate.propTypes = {
-  content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.any.isRequired,
+  // content: PropTypes.string.isRequired,
+  contentComponent: PropTypes.any,
   title: PropTypes.string.isRequired,
   dateCreated: PropTypes.string.isRequired,
   pagePrev: PropTypes.string.isRequired,
@@ -52,5 +54,6 @@ BlogPostPageTemplate.propTypes = {
 };
 
 BlogPostPageTemplate.defaultProps = {
-  tags: []
+  tags: [],
+  contentComponent: null
 };

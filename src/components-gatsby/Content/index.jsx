@@ -10,7 +10,7 @@ const Content = ({ content, className }) => (
 );
 
 Content.propTypes = {
-  content: PropTypes.node.isRequired,
+  content: PropTypes.object.isRequired,
   className: PropTypes.string
 };
 

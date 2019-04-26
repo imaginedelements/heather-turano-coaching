@@ -4,14 +4,13 @@ import { BlogPostPageTemplate } from "../../templates/blog-post/blog-post.templa
 
 const BlogPostPagePreview = ({ entry, widgetFor }) => {
   const body = widgetFor("body");
-  console.log(body);
+  console.log("body from CMS widgetFor", body);
 
   return (
     <BlogPostPageTemplate
       title={entry.getIn(["data", "title"])}
-      description={entry.getIn(["data", "description"])}
       dateCreated={entry.getIn(["data", "date"])}
-      content={body}
+      // content={body}
       // tags={entry.getIn(["data", "tags"])}
     />
   );
