@@ -5,7 +5,7 @@ thumbnail: /img/img_0105.jpg
 thumbnailAlt: I just cant even!
 title: 'When you wake up feeling like crap, do these 5 things'
 subTitle: 5 things to do when you wake up feeling like crap.
-date: '2018-07-10T09:16:14-04:00'
+date: 'January 01, 2019'
 prompt: >-
   This is me. being Lazy AF and feeling sorry for myself as I wake up. 
 
