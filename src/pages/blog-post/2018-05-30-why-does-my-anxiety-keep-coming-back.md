@@ -1,18 +1,22 @@
 ---
 key: blog-post
-pageKey: blog-post
 protected: false
-category: "Random life stuff"
-thumbnail: "/img/products-grid2.jpg"
-thumbnailAlt: "coffee up in this jawn"
+category: Mind Body Wellness
+thumbnail: /img/2018-05-13-11.28.jpg
+thumbnailAlt: Calming my Anxiety
 title: Why does my anxiety keep coming back?
 subTitle: Why does my anxiety keep coming back?
-date: 2019-04-24T18:51:58.375Z
-prompt: what is anxiety? why do i get it? and how can I get rid of it?
+date: 'November 14, 2018'
+prompt: >-
+  What is anxiety? Why do I get it? And how can I get rid of it? All valid
+  questions and I have pondered the same things over my 35 years on this earth
+  many many times. Just know, anxiety is a normal human response to fear and
+  stress in our everyday lives.
 tags:
   - anexity
-  - ""
+  - ''
 ---
+What is anxiety? Why do I get it? And how can I get rid of it?
 
 All valid questions and I have pondered the same things over my 35 years on this earth many many times.
 
@@ -36,7 +40,7 @@ Note to the "its only me" people... Everyone on the planet gets anxiety, however
 
 We have the opportunity to decide to feed into those feelings or practice mindfulness in these moments to get out of it quicker. We decide the stories we make up in our head. Whether good or bad.
 
-So we can't get rid of it. It is part of us. we just need tools to out smart it and not feed into it.
+So we can't get rid of it. It is part of us. We just need tools to out smart it and not feed into it.
 
 ## Helpful ways to work through anxiety and stress.
 
@@ -46,10 +50,12 @@ So we can't get rid of it. It is part of us. we just need tools to out smart it 
 
 • Lie on the floor on your back, feel yourself grounded.
 
-• Reach out to loved ones, a therapist, or coach and talk things through.\*
+• Reach out to loved ones, a therapist, or coach and talk things through.*
 
 • Know you are not alone.
 
-What are some ways you deal with anxiety or stress? Leave them below along with any comment or stories you would like to share. The "love yourself first" community is here to support you in your journey to healing and peace.
+## What are some ways you deal with anxiety or stress? 
 
-\*Please note, I am not a healthcare provider and if you are struggling with anxiety, stress or depression make sure to reach out to your healthcare provider for help.
+Leave them below along with any comment or stories you would like to share. The "love yourself first" community is here to support you in your journey to healing and peace.
+
+_\*Please note, I am not a healthcare provider and if you are struggling with anxiety, stress or depression make sure to reach out to your healthcare provider for help._
