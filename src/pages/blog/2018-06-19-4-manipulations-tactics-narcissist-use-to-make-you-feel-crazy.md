@@ -5,7 +5,7 @@ thumbnail: /img/alone-black-and-white-casual-1487956-min.jpg
 thumbnailAlt: You are Not Crazy!
 title: 4 Manipulations Tactics Narcissist Use To Make you feel Crazy
 subTitle: 'Trust me, you''re not crazy'
-date: '2018-06-19T17:23:59-04:00'
+date: 'August 29, 2018'
 prompt: >-
   When a person you are dating or married to has NPD (narcissistic personality
   disorder), among many things, this person is mentally and emotionally toxic,
@@ -54,20 +54,23 @@ After a few of these silent treatments The victim starts to stay silent in argum
 
 ## 4. Aggressive jabs disguised as jokes
 
-When you have to hurt someone to make a joke, it isn't a joke. Aggressive jabs at people you "supposedly love" are not jokes. They are a way to make the abuser feel superior to the people around them. Narcissists do this a lot because they have such fragile egos and self esteem. they need to put others down to make sure they feel more confident. 
+When you have to hurt someone to make a joke, it isn't a joke. Aggressive jabs at people you "supposedly love" are a way to make the abuser feel superior to the people around them. Narcissists do this a lot, because they have such fragile egos and self esteem. They need to put others down to make sure they feel more confident and feed their ego. We call this "narcissistic supply". 
 
-A great example of aggressive jabs may be 
+A great example of aggressive jabs may be if you get dressed up for an evening out and you come downstairs in hopes your partner will tell you how wonderful you look. But when you come down you are met with a comment like this; "Man, you look horrible were you trying to dress up?". You get upset and start to go back upstairs to change and you then hear, "I was just joking, jezz you take everything so seriously".
 
+Ask yourself one question. was that really a joke? Um nope. It was just to put you in your place and put dout in the head of the victim. This is so the Narcissist can feel superior and break down the confidence of the healthy individual over time. Causing the victim to lose their sense of self worth slowly over time.
 
+\*\*\*\*\*\*\*\*\*\**
 
-Destructive conditioning
+Some other emotional abuse tactics not discussed in this post are:
 
-1. Boundary testing and hovering
-2. Control
-3. Aggressive Conditioning
+1. Destructive conditioning
+2. Boundary testing and hovering
+3. Control
+4. Aggressive Conditioning
 
-Go in peace my friends!
+If you are interested in these behaviors leave me a message and I will post in more detail about them.
 
-## What other tactics have you or some one close to you experienced?
+## What other manipulation tactics have you or some one close to you experienced?
 
 As always leave a comment or questions on your experience below. This community is for support and nurturing. We are all on this journey to heal and find joy once again. Just knowing we are not alone in that journey makes all the difference!
