@@ -16,7 +16,7 @@ tags:
   - dating after divorce
   - dating tips after divorce
 ---
-![](/img/img_8128.jpg)
+![Dating After Divorce](/img/img_8128.jpg "Be Awesome Alone, Heal, & Love Yourself First!")
 
 ## 1. Make a List
 
