@@ -2,8 +2,8 @@
 key: about
 main:
   backgroundImage:
-    imgAlt: asdfasdf
-    imgHeight: 1250
+    imgAlt: Photo of me!
+    imgHeight: 1327
     imgLocation: /img/baller-heather.jpeg
   body: >-
     **The whole “taking about yourself” is sort of a strange, awkward thing,
@@ -39,7 +39,7 @@ sectionOne:
 sectionTwo:
   avatar: /img/heather-paris-cropped.jpeg
   body: >-
-    This section is my “been there done that’ story. Sort of the whole reason
+    This section is my “been there done that" story. Sort of the whole reason
     why I am now dedicated to **helping smart, thoughtful, multi-dimensional**
     humans like yourself.  
 
@@ -55,7 +55,7 @@ sectionTwo:
     Lastly, My life and energy is to support your growth and strip away the
     stories you have told yourself of who you **THINK you are**, so that you can
     become the crazy awesome people you are **MEANT to be**!
-  title: "I know, can you believe it!  You aren’t alone."
+  title: 'I know, can you believe it!  You aren’t alone.'
 coachingSignup:
   body: >-
     Are you ready for some honest connection and that feel-good passion for
@@ -63,7 +63,8 @@ coachingSignup:
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
-    submitLabel: "Yes, Gimme some JOY!"
-  prompt: " We are talking about joy people! Sign Up and I will be in touch in a snap to set up your first session! Talk with you soon."
+    submitLabel: 'Yes, I am ready to change my life!'
+  prompt: ' We are talking about joy people! Sign up and I will be in touch in a snap to set up your first session! Talk with you soon.'
   title: Sound like a match made in "you’re not alone” heaven?
 ---
+
