@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter"
+    title: "Gatsby + Netlify CMS Starter",
+    siteUrl: "https://heatherturanocoaching.com/"
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
