@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Dating & Love
-thumbnail: /img/administration-adult-african-1089563.jpg
+thumbnail: /img/blur-carefree-couple-289237.jpg
 thumbnailAlt: coffee up in this
 title: 3 mistakes woman make when first dating a man
 subTitle: 3 mistakes woman make when first dating a man subtitle
