@@ -72,7 +72,23 @@ const Footer = ({ quickLinks }) => (
       <div styleName="privacy">
         <GatsbyLink to="/privacy-policy">
           <Text size="sm" color="secondary-0">
-            Privary Policy &amp; Terms of Use
+            Privary Policy
+          </Text>
+        </GatsbyLink>
+        <Text size="sm" color="secondary-0">
+          &nbsp;|&nbsp;
+        </Text>
+        <GatsbyLink to="/terms-of-service">
+          <Text size="sm" color="secondary-0">
+            Terms of Service
+          </Text>
+        </GatsbyLink>
+        <Text size="sm" color="secondary-0">
+          &nbsp;|&nbsp;
+        </Text>
+        <GatsbyLink to="/cookie-policy">
+          <Text size="sm" color="secondary-0">
+            Cookie Policy
           </Text>
         </GatsbyLink>
       </div>

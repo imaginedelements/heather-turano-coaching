@@ -52,6 +52,7 @@
 
   .privacy {
     @include respond_tablet {
+      @include make-flex(row, flex-start, center);
       text-align: right;
 
       & > a {
