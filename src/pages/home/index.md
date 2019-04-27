@@ -12,9 +12,9 @@ hero:
 emailSignup:
   body: >-
     **Are you ready to get some honest connection and feel-good truth by doing
-    nothing?** Sign up below and become an 'Honest Heather Insider'. Get FREE
-    tips, tricks, printable downloads, and updates on how to do 'this whole life
-    thing' a little easier! Join the community of honest conversation.
+    nothing?** Sign up below and become an "Honest Heather Insider". Get FREE
+    tips, tricks, printable downloads, and updates on how to do this whole life
+    thing a little easier! Join the community of honest conversation.
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
@@ -59,7 +59,7 @@ testimonials:
         Heather is a remarkable, kind, giving and loving person. She has brought
         sunshine and balance into my being, and humanity into so many others.
       clientType: 'Retired & Loving Life '
-  testimonialTitle: Hear from the Insiders
+  testimonialTitle: Hear it from the Insiders
 method:
   methodSteps:
     - description: >-
@@ -97,8 +97,8 @@ coachingSignup:
   form:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
-    submitLabel: I'm Ready. Let's get working >
-  prompt: asdf
+    submitLabel: I'm Ready. Let's get working!
+  prompt: Looking forward to hearing from you!
   title: Let's Chat!
 ---
 
