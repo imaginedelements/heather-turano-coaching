@@ -24,7 +24,7 @@ form:
   title: That time when you just want to get in touch.
 general:
   description: >-
-    All business inquiries, questions requests, general frustrations, and wild
+    All business inquiries, questions, requests, general frustrations, and wild
     outpourings of appreciation (lol) can be directed to
   emailAddress:
     emailLink: me@heatherturanocoaching.com
