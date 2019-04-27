@@ -19,29 +19,46 @@ emailSignup:
     emailAddressPlaceholder: Email
     firstNamePlaceholder: First Name
     submitLabel: Get Some Knowledge Candy >
-  title: "Let me send you some mind-shifting, never lame Emails."
+  title: 'Let me send you some mind-shifting, never lame Emails.'
 testimonials:
   testimonialEntries:
     - clientImage: /img/aquatic-bloom-blooming-158465.jpg
-      clientLocation: "Somewhere Sunny, FL"
+      clientLocation: 'Somewhere Sunny, FL'
       clientQuote: >-
         Holy cow Heather! The resume redesign has been huge! I have two
         interviews lined up at MAJOR spas this week! Thank You for helping me
         get noticed in the sea of applications! I am so excited and really
         appreciative all of your help on my journey.
       clientType: Marketing Director
-    - clientImage: /img/cactus.jpg
-      clientLocation: "OMMM Shanti Philly, PA"
+    - clientImage: /img/backlit-beach-color-258109.jpg
+      clientLocation: 'The Sunshine State, FL'
+      clientQuote: >-
+        Heather helped me save my life! Her personal experience and
+        intuitiveness recognized from the first day I met her that I was in an
+        abusive relationship. She guided me through multiple calls, writings and
+        in-person sessions to help me try to see this for myself. By sharing her
+        story of finding her true self and how she moved forward, she helped me
+        focus only on what I needed that day, encouraged me to relax my body and
+        mind with yoga, exercises and loving people around me. Heather shared
+        her stories, books and her heart. She also guided me to seek a therapist
+        as an additional source of understanding and healing; and it was
+        extremely helpful. We still check in from time to time for support and
+        enhancing my new life. I can never thank Heather enough!
+      clientType: 'Abuse Survivor & Warrior '
+    - clientImage: /img/backlit-beach-dawn-588561.jpg
+      clientLocation: 'OMMM Shanti Philly, PA'
       clientQuote: >-
         Some people come into our lives for just a season, but make a huge
-        impact. Heather’s Season in my life has been such a joy.
+        impact. Heather’s Season in my life has been such a joy. I continue to
+        learn and grow in body, mind and spirit through her yoga teachings and
+        life principles. 
       clientType: Yoga Client
     - clientImage: /img/zen-stones.jpg
-      clientLocation: "It's Always Sunny, PA"
+      clientLocation: 'It''s Always Sunny, PA'
       clientQuote: >-
         Heather is a remarkable, kind, giving and loving person. She has brought
         sunshine and balance into my being, and humanity into so many others.
-      clientType: "Retired & Loving Life "
+      clientType: 'Retired & Loving Life '
   testimonialTitle: Hear from the Insiders
 method:
   methodSteps:
@@ -84,3 +101,4 @@ coachingSignup:
   prompt: asdf
   title: Let's Chat!
 ---
+
