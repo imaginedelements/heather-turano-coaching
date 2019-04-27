@@ -31,15 +31,16 @@ const Footer = ({ quickLinks }) => (
       <div styleName="block">
         <header>
           <Paragraph size="md" color="grayscale-0">
-            Join the movement
+            Sign up to become a Honest Heather Insider. Join the community of
+            honest, feel-good conversation.
           </Paragraph>
         </header>
         <div styleName="mail">
           <FormSignup
             layout="inline"
-            actionLabel="I have candy"
+            actionLabel="Join the email list!"
             placeholder={{
-              email: "youremailaddress@awesome.com"
+              email: "your@email.com"
             }}
           />
         </div>
