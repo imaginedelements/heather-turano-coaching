@@ -2,14 +2,8 @@
 key: work-with-me
 main:
   body: >-
-    **Fill out the form below and you’ll be added to my waitlist for one-on-one
-    coaching.** 
-
-
-    I only work with a certain number of awesome humans at a time (because I
-    pour 1,000% of my energy and focus into your growth), so spots fill up fast.
-    But as soon as spaces do open up, I will personally be in touch to schedule
-    your 90-minute Discovery Session.
+    Fill out the form below and you’ll be added to my waitlist for one-on-one
+    coaching. 
 
 
     **\*\**_NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY
@@ -83,6 +77,8 @@ My clients are smart, thoughtful, multi-dimensional humans who are committed to 
 
 If you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance. Life is hard enough, and you really don’t need to go it alone.
 
-\*\*\*NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019.\*\*\*
+**_\*\*\*NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019.\*\*\*_**
 
-Sign up below and I will be get in contact with you to schedule your 90 minute discovery session.
+I only work with a certain number of awesome humans at a time (because I pour 1,000% of my energy and focus into your growth), so spots fill up fast. 
+
+Sign up below and I will personally be in touch to schedule your 90-minute Discovery Session.
