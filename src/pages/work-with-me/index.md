@@ -2,18 +2,18 @@
 key: work-with-me
 main:
   body: >-
-    \*\**_NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY
-    2019.\*\**_
-
-
-    Fill out the form below and you’ll be added to my waitlist for one-on-one
-    coaching. 
+    **Fill out the form below and you’ll be added to my waitlist for one-on-one
+    coaching.** 
 
 
     I only work with a certain number of awesome humans at a time (because I
     pour 1,000% of my energy and focus into your growth), so spots fill up fast.
     But as soon as spaces do open up, I will personally be in touch to schedule
     your 90-minute Discovery Session.
+
+
+    **\*\**_NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY
+    2019.\*\**_**
   coachingSignup:
     emailAddressPlaceholder: youremail@awesome.com
     firstNamePlaceholder: Name
