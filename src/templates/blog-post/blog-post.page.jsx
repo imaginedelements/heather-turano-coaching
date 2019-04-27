@@ -13,7 +13,6 @@ export const query = graphql`
       frontmatter {
         title
         key
-        pageKey
         protected
         category
         thumbnail
