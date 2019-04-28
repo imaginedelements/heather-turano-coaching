@@ -4,7 +4,7 @@ hero:
   heroCta:
     actionRoute: contact
     label: Sign up for a FREE mini Session!
-  heroImage: /img/dsc_0605.jpg
+  heroImage: /img/img_9022_darker.jpg
   heroSubTitle: >-
     Stop settling for ordinary and get the life, love and business you really
     want! I've done it, I’ll show you how.
@@ -28,7 +28,7 @@ testimonials:
         Holy cow Heather! The resume redesign has been huge! I have two
         interviews lined up at MAJOR spas this week! Thank You for helping me
         get noticed in the sea of applications! I am so excited and really
-        appreciative all of your help on my journey.
+        appreciative of your help on my journey.
       clientType: Marketing Director
     - clientImage: /img/backlit-beach-color-258109.jpg
       clientLocation: 'The Sunshine State, FL'
