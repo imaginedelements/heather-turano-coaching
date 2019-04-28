@@ -58,6 +58,7 @@ export const WorkWithMePageTemplate = ({
           <ApproachContent content={content} />
           <FormContainer styleType="standalone">
             <FormSignup
+              name="work-with-me-2"
               layout="inline"
               actionLabel={approachForm.submitLabel}
               shouldDisplayFirstName
