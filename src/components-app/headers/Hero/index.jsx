@@ -12,13 +12,13 @@ const Hero = ({ img, alt, title, subTitle, children }) => (
     <div styleName="top">
       <div>
         <Heading size="xl" copy={`'${title}'`} color="lightscale-0" />
-        <Paragraph size="xl" color="lightscale-0">
-          {subTitle}
-        </Paragraph>
+        <div styleName="block sm">
+          <Paragraph size="xl" color="lightscale-0">
+            {subTitle}
+          </Paragraph>
+        </div>
       </div>
-    </div>
-    <div styleName="bottom">
-      <div>{children}</div>
+      <div styleName="block lg">{children}</div>
     </div>
   </section>
 );

@@ -21,8 +21,6 @@ export const BlogPostPageTemplate = ({
 }) => {
   const BlogContent = contentComponent || Content;
 
-  console.log(dateCreated);
-
   return (
     <BlogLayout>
       <div className="content">
