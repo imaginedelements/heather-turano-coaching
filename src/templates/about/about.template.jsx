@@ -45,6 +45,7 @@ export const AboutPageTemplate = ({
       <Markdown content={coachingBody} />
       <FormContainer styleType="standalone">
         <FormSignup
+          name="about"
           layout="inline"
           actionLabel={coachingForm.submitLabel}
           shouldDisplayFirstName

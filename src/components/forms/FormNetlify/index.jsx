@@ -39,7 +39,7 @@ FormNetlify.propTypes = {
 
 FormNetlify.defaultProps = {
   includeCaptcha: false,
-  action: null
+  action: "/success"
 };
 
 export default FormNetlify;

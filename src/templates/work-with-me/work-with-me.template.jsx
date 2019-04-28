@@ -33,6 +33,7 @@ export const WorkWithMePageTemplate = ({
         <SectionItem>
           <FormContainer styleType="standalone">
             <FormSignup
+              name="work-with-me"
               layout="inline"
               actionLabel={mainForm.submitLabel}
               shouldDisplayFirstName

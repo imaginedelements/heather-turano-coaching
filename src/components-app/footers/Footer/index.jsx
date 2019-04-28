@@ -37,6 +37,7 @@ const Footer = ({ quickLinks }) => (
         </header>
         <div styleName="mail">
           <FormSignup
+            name="footer"
             layout="inline"
             actionLabel="Join the Email list!"
             placeholder={{

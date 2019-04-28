@@ -10,6 +10,7 @@ import { FormField } from "../../../components/inputs";
 import { Button } from "../../../components/buttons";
 
 const FormSignup = ({
+  name,
   shouldDisplayFirstName,
   shouldDisplayLabels,
   actionLabel,
@@ -22,7 +23,7 @@ const FormSignup = ({
     }
   >
     {() => (
-      <FormNetlify name="sign-up">
+      <FormNetlify name={`sign-up-${name}`} action="/sign-up-success">
         <FormLayout styleType={layout}>
           {shouldDisplayFirstName && (
             <FormField
@@ -48,6 +49,7 @@ const FormSignup = ({
 );
 
 FormSignup.propTypes = {
+  name: PropTypes.string.isRequired,
   shouldDisplayFirstName: PropTypes.bool,
   shouldDisplayLabels: PropTypes.bool,
   actionLabel: PropTypes.string.isRequired,

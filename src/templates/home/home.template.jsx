@@ -45,6 +45,7 @@ export const HomePageTemplate = ({
       {body && <Markdown content={body} />}
       <FormContainer>
         <FormSignup
+          name="home"
           layout="stacked"
           shouldDisplayFirstName
           actionLabel={form.submitLabel}

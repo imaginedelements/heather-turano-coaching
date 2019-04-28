@@ -19,6 +19,7 @@ export const BlogPageTemplate = ({
       <Markdown content={body} />
       <FormConatiner>
         <FormSignup
+          name="blog"
           shouldDisplayFirstName
           actionLabel={submitLabel}
           layout="stacked"
