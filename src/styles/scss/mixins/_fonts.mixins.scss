@@ -18,6 +18,7 @@ $base--font-weights: (
 // Sizes
 // Families
 $typography-font-families: (
+  default: $base--font-family,
   label: $base--font-family,
   paragraph: $base--font-family,
   title: $base--font-family-alt,
@@ -55,7 +56,12 @@ $typography-font-weights: (
       $map: $base--font-weights,
       $key: extra-light
     ),
-  text:
+  text-mobile:
+    map-get(
+      $map: $base--font-weights,
+      $key: light
+    ),
+  text-tablet:
     map-get(
       $map: $base--font-weights,
       $key: extra-light
@@ -90,26 +96,189 @@ $typography-font-weights: (
   @return map-get($map: $typography-font-families, $key: $family);
 }
 
+// FONT MACHINE
 @mixin font_machine(
   $size: $size,
-  $family: $base--font-family,
-  $weight: get-font--weight(regular),
+  $family: default,
+  $weight: regular,
   $style: normal,
   $color: $base--font-color,
   $line-height: $base--font-line-height
 ) {
-  font-family: $family;
-  color: $color;
-  font-weight: $weight;
+  $private--font-family: get-font--family($family);
+  @debug #{$family - $size};
+  $private--font-size: get-font--size($size);
+  $private--font-weight: get-font--weight($weight);
+  $private--font-color: get-color($color);
+
+  font-family: $private--font-family;
+  color: $private--font-color;
+  font-weight: $private--font-weight;
   font-style: $style;
-  font-size: $size;
+  font-size: $private--font-size;
   line-height: $line-height;
 
   @include respond-tablet {
-    font-size: $size * $base--font-response-multiplier;
+    font-size: $private--font-size * $base--font-response-multiplier;
   }
 }
 
+@mixin font-base {
+  margin: 0;
+}
+
+// COMPONENTS
+// heading
+@mixin font-heading--xl {
+  @include font-base;
+  @include font_machine(
+    $size: heading-xl,
+    $weight: heading-thin,
+    $family: heading,
+    $line-height: 1.24
+  );
+}
+@mixin font-heading--lg {
+  @include font-base;
+  @include font_machine(
+    $size: heading-lg,
+    $weight: heading-thin,
+    $family: heading
+  );
+}
+@mixin font-heading--md {
+  @include font-base;
+  @include font_machine(
+    $size: heading-md,
+    $weight: heading-fat,
+    $family: heading
+  );
+}
+@mixin font-heading--sm {
+  @include font-base;
+  @include font_machine(
+    $size: heading-sm,
+    $weight: heading-fat,
+    $family: heading
+  );
+}
+@mixin font-heading--xs {
+  @include font-base;
+  @include font_machine(
+    $size: heading-xs,
+    $weight: heading-fat,
+    $family: heading
+  );
+}
+
+// caption
+@mixin font-caption--xl {
+  @include font-base;
+  @include font_machine($size: xl, $weight: caption);
+}
+@mixin font-caption--lg {
+  @include font-base;
+  @include font_machine($size: lg, $weight: caption);
+}
+@mixin font-caption--md {
+  @include font-base;
+  @include font_machine($size: md, $weight: caption);
+}
+@mixin font-caption--sm {
+  @include font-base;
+  @include font_machine($size: sm, $weight: caption);
+}
+@mixin font-caption--xs {
+  @include font-base;
+  @include font_machine($size: xs, $weight: caption);
+}
+
+// paragraph
+@mixin font-paragraph--xl {
+  @include font-base;
+  @include font_machine($size: xl, $weight: paragraph);
+}
+@mixin font-paragraph--lg {
+  @include font-base;
+  @include font_machine($size: lg, $weight: paragraph);
+}
+@mixin font-paragraph--md {
+  @include font-base;
+  @include font_machine($size: md, $weight: paragraph);
+}
+@mixin font-paragraph--sm {
+  @include font-base;
+  @include font_machine($size: sm, $weight: paragraph);
+}
+@mixin font-paragraph--xs {
+  @include font-base;
+  @include font_machine($size: xs, $weight: paragraph);
+}
+
+// text
+@mixin font-text--xl {
+  @include font-base;
+  @include font_machine($size: xl, $weight: text-mobile, $family: text);
+
+  @include respond-tablet {
+    font-weight: get-font--weight(text-tablet);
+  }
+}
+@mixin font-text--lg {
+  @include font-base;
+  @include font_machine($size: lg, $weight: text-mobile, $family: text);
+
+  @include respond-tablet {
+    font-weight: get-font--weight(text-tablet);
+  }
+}
+@mixin font-text--md {
+  @include font-base;
+  @include font_machine($size: md, $weight: text-mobile, $family: text);
+
+  @include respond-tablet {
+    font-weight: get-font--weight(text-tablet);
+  }
+}
+@mixin font-text--sm {
+  @include font-base;
+  @include font_machine($size: sm, $weight: text-mobile, $family: text);
+
+  @include respond-tablet {
+    font-weight: get-font--weight(text-tablet);
+  }
+}
+@mixin font-text--xs {
+  @include font-base;
+  @include font_machine($size: xs, $weight: text-mobile, $family: text);
+
+  @include respond-tablet {
+    font-weight: get-font--weight(text-tablet);
+  }
+}
+
+@mixin font-label--xl {
+  @include font-base;
+  @include font_machine($family: label, $size: xl, $weight: label);
+}
+@mixin font-label--lg {
+  @include font-base;
+  @include font_machine($family: label, $size: lg, $weight: label);
+}
+@mixin font-label--md {
+  @include font-base;
+  @include font_machine($family: label, $size: md, $weight: label);
+}
+@mixin font-label--sm {
+  @include font-base;
+  @include font_machine($family: label, $size: sm, $weight: label);
+}
+@mixin font-label--xs {
+  @include font-base;
+  @include font_machine($family: label, $size: xs, $weight: label);
+}
+
+// icons
 @mixin icon__base($size) {
   $font-size: get-font--size($size);
 
@@ -135,212 +304,6 @@ $typography-font-weights: (
   }
 }
 
-@mixin font-base {
-  margin: 0;
-}
-
-// COMPONENTS
-// heading
-@mixin font-heading--xl {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(heading-xl),
-    $weight: get-font--weight(heading-thin),
-    $family: get-font--family(heading),
-    $line-height: 1.24
-  );
-}
-@mixin font-heading--lg {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(heading-lg),
-    $weight: get-font--weight(heading-thin),
-    $family: get-font--family(heading)
-  );
-}
-@mixin font-heading--md {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(heading-md),
-    $weight: get-font--weight(heading-fat),
-    $family: get-font--family(heading)
-  );
-}
-@mixin font-heading--sm {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(heading-sm),
-    $weight: get-font--weight(heading-fat),
-    $family: get-font--family(heading)
-  );
-}
-@mixin font-heading--xs {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(heading-xs),
-    $weight: get-font--weight(heading-fat),
-    $family: get-font--family(heading)
-  );
-}
-
-// caption
-@mixin font-caption--xl {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(xl),
-    $weight: get-font--weight(caption)
-  );
-}
-@mixin font-caption--lg {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(lg),
-    $weight: get-font--weight(caption)
-  );
-}
-@mixin font-caption--md {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(md),
-    $weight: get-font--weight(caption)
-  );
-}
-@mixin font-caption--sm {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(sm),
-    $weight: get-font--weight(caption)
-  );
-}
-@mixin font-caption--xs {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(xs),
-    $weight: get-font--weight(caption)
-  );
-}
-
-// paragraph
-@mixin font-paragraph--xl {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(xl),
-    $weight: get-font--weight(paragraph)
-  );
-}
-@mixin font-paragraph--lg {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(lg),
-    $weight: get-font--weight(paragraph)
-  );
-}
-@mixin font-paragraph--md {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(md),
-    $weight: get-font--weight(paragraph)
-  );
-}
-@mixin font-paragraph--sm {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(sm),
-    $weight: get-font--weight(paragraph)
-  );
-}
-@mixin font-paragraph--xs {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(xs),
-    $weight: get-font--weight(paragraph)
-  );
-}
-
-// text
-@mixin font-text--xl {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(xl),
-    $weight: get-font--weight(text),
-    $family: get-font--family(text)
-  );
-}
-@mixin font-text--lg {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(lg),
-    $weight: get-font--weight(text),
-    $family: get-font--family(text)
-  );
-}
-@mixin font-text--md {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(md),
-    $weight: get-font--weight(text),
-    $family: get-font--family(text)
-  );
-}
-@mixin font-text--sm {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(sm),
-    $weight: get-font--weight(text),
-    $family: get-font--family(text)
-  );
-}
-@mixin font-text--xs {
-  @include font-base;
-  @include font_machine(
-    $size: get-font--size(xs),
-    $weight: get-font--weight(text),
-    $family: get-font--family(text)
-  );
-}
-
-@mixin font-label--xl {
-  @include font-base;
-  @include font_machine(
-    $family: get-font--family(label),
-    $size: get-font--size(xl),
-    $weight: get-font--weight(label)
-  );
-}
-@mixin font-label--lg {
-  @include font-base;
-  @include font_machine(
-    $family: get-font--family(label),
-    $size: get-font--size(lg),
-    $weight: get-font--weight(label)
-  );
-}
-@mixin font-label--md {
-  @include font-base;
-  @include font_machine(
-    $family: get-font--family(label),
-    $size: get-font--size(md),
-    $weight: get-font--weight(label)
-  );
-}
-@mixin font-label--sm {
-  @include font-base;
-  @include font_machine(
-    $family: get-font--family(label),
-    $size: get-font--size(sm),
-    $weight: get-font--weight(label)
-  );
-}
-@mixin font-label--xs {
-  @include font-base;
-  @include font_machine(
-    $family: get-font--family(label),
-    $size: get-font--size(xs),
-    $weight: get-font--weight(label)
-  );
-}
-
-// icons
 @mixin font-icon--heading-xl {
   @include icon__base(heading-xl);
 }
@@ -373,10 +336,10 @@ $typography-font-weights: (
 @mixin font-title--lg {
   @include font-base;
   @include font_machine(
-    $weight: get-font--weight(title),
-    $size: get-font--size(heading-md),
-    $family: get-font--family(title),
-    $color: get-color(primary-0)
+    $weight: title,
+    $size: heading-md,
+    $family: title,
+    $color: primary-0
   );
   text-transform: uppercase;
   padding-bottom: 20px;
@@ -398,9 +361,9 @@ $typography-font-weights: (
 @mixin font-title--md {
   @include font-base;
   @include font_machine(
-    $weight: get-font--weight(title),
-    $size: get-font--size(md),
-    $family: get-font--family(title),
+    $weight: title,
+    $size: md,
+    $family: title,
     $color: get-color(grayscale-0)
   );
   text-transform: uppercase;
@@ -423,11 +386,7 @@ $typography-font-weights: (
 
 @mixin font-title--sm {
   @include font-base;
-  @include font_machine(
-    $weight: regular,
-    $size: get-font--size(xs),
-    $color: get-color(secondary-0)
-  );
+  @include font_machine($weight: regular, $size: xs, $color: secondary-0);
   text-transform: uppercase;
   padding: 20px 20px 10px 20px;
   margin-bottom: 20px;
