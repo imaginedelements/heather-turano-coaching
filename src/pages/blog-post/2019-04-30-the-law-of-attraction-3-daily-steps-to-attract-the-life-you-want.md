@@ -15,7 +15,7 @@ prompt: >-
 ---
 ![](/img/img_9621.jpg)
 
-## My 30 day Law of Attraction Challenge starts today! 
+## My 30 day Law of Attraction Challenge starts today!
 
 My goal for writing this post was to help structure my meditation and mindfulness each day, now more then ever. With my pregnancy coming to its final month. I want to make sure I document the events and feelings I have along the way. Along with embodying the energy I want to attract into my life now and moving forward.
 
@@ -25,17 +25,15 @@ So let's just dive in shall we?
 
 ## Step 1: Meditate for at least 10 minutes
 
-
-
 Meditating everyday is great but try splitting up your meditation into steps.
 
 1. Use the first few minutes of your meditation to **center and focus on just your breath**.  Connect body and mind by just noticing the present moment and your breathing.
-2. **Embody the life I want to attract.** Focus on how you want to FEEL during the day and the person I want to be. Then visualize and embody being that person and feeing that way already. 
+2. During the second part of your meditation, **focus on embodying the life you want to attract.** Focus on how you want to FEEL during the day and the person you want to be. Then visualize and embody being that person and feeling that way already. 
 3. Lastly, ask the universe for abundance in all things and signs to get where you want to be. **Mantra: "I open myself up for new opportunities to become available to me"**
 
 > During this attraction meditation “I Impose my image on the world, not the worlds image on me.”
 
-## Step 2: Journal 
+## Step 2: Journal
 
 Right after you meditate, when your mind is in a good place and your energy is at its best, write it all down. **Who are you, who do you want to be, how do you want to feel, share your fears, acknowledge how your body feels, where is your mind, the things you are grateful for, even what you did yesterday.** Anything and everything that comes to your mind, write it down and put it out there. 
 
@@ -51,7 +49,7 @@ Set 3 times per day to feel grateful and really FEEL and embody it in all of you
 
 The law of attraction is based on your energy flow. So making sure to emit gratefulness through the course of the day ensures that you will attract that energy back to you as the day goes on.
 
-## Step 4: Take action! 
+## Step 4: Take action!
 
 This could be the hardest step. **It is one thing to meditate and feel grateful but it is a whole different beast to actually take action on the things you want in your life.** The law of attraction needs action as well as energy to move you toward attracting your desires. 
 
@@ -60,8 +58,6 @@ This could be the hardest step. **It is one thing to meditate and feel grateful 
 
 > We can’t just "OHM" and get everything we desire. Taking action is necessary to attract our desires. 
 
-
-
-# Join the 30 day law of attraction challenge with me! 
+# Join the 30 day law of attraction challenge with me!
 
 **Sign up for my email list to become and "Honest Heather Insider" and get the latest tips and tricks on doing this whole life thing a little easier.** Join in on the honest conversation and feel-good truth being shared in our community!
