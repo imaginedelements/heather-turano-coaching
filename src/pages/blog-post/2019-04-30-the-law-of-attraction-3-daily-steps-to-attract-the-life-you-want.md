@@ -4,7 +4,7 @@ protected: false
 category: Mind Body Wellness
 thumbnail: /img/img_9621.jpg
 thumbnailAlt: Law Of Attention
-title: 'The Law Of Attraction: 3 daily steps to attract the life you want.'
+title: 'The Law Of Attraction: 4 daily steps to attract the life you want.'
 subTitle: 30 day meditation and embodiment challenge
 date: 2019-04-23T18:30:28.251Z
 prompt: >-
