@@ -17,7 +17,7 @@ pillars:
   description: >-
     Over the years some of our joints getting rusty and we just need a little
     tune up from time to time. Take a look at the different areas that make up
-    your life. What areas in your life need a tune up? or maybe even a tune down
+    your life. What areas in your life need a tune up? Or maybe even a tune down
     (yep, that’s a thing).  Where can I help you gain more confidence, strength
     and insight?
   pillarList:
@@ -67,17 +67,17 @@ approach:
     Looking forward to working with you! 
   title: 'Behold, you are unique '
 ---
-Attempting to describe the exact science and magic behind great coaching presents a challenge because every coaching opportunity is new and wildly different. That’s because you are totally unique, and so are your dreams (and struggles). #truth
+Attempting to describe the exact science and magic behind great coaching presents a challenge because **every coaching opportunity is new and wildly different**. That’s because **you are totally unique, and so are your dreams** (and struggles). #truth
 
 I don’t do store-bought, sauce-from-the-jar style coaching. I don’t have some one-size-fits-all program or set system that “guarantees” transformation.
 
 Instead, I do the only thing that ever actually works–having deep, powerful, honest coaching conversations with real people, who want real change.
 
-My clients are smart, thoughtful, multi-dimensional humans who are committed to themselves and their journey. They are resourceful, creative, hard-working thinkers and feelers. They crave passion and purpose. They desire fulfilling relationships and careers. They know they want something, and they’re super sick of living without it.
+**My clients are smart, thoughtful, multi-dimensional humans who are committed to themselves and their journey.** They are resourceful, creative, hard-working thinkers and feelers. They crave passion and purpose. They desire fulfilling relationships and careers. They know they want something, and they’re super sick of living without it.
 
-If you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance. Life is hard enough, and you really don’t need to go it alone.
+**_If you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance._** Life is hard enough, and you really don’t need to go it alone.
 
-_**\*\*\*NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019.\*\*\***_
+**_\*\*\*NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019.\*\*\*_**
 
 I only work with a certain number of awesome humans at a time (because I pour 1,000% of my energy and focus into your growth), so spots fill up fast. 
 
