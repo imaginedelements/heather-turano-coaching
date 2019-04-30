@@ -48,8 +48,9 @@ sectionTwo:
     that “you aren’t lovable”, the “not enoughness” voice that keeps nagging you
     until you fall asleep. The burning desire to be more than just your job,
     paycheck, kids and pretend happy persona we create on social media. Because
-    all we are really craving is just some honest, gosh-darn connection and some
-    kickass passion in your life. **"Gimme that JOY and HAPPINESS damn it!".**
+    all any of us are really craving is just some **_honest, gosh-darn
+    connection_** and some **_kickass passion_** in our life. **"Gimme that JOY
+    and HAPPINESS damn it!".**
 
 
     Lastly, My life and energy is to support your growth and strip away the
