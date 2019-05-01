@@ -6,7 +6,7 @@ thumbnail: /img/beard-beverages-break-630831-min.jpg
 thumbnailAlt: coffee up in this
 title: 3 mistakes woman make when first dating a man
 subTitle: 3 mistakes woman make when first dating a man subtitle
-date: 2019-04-23T18:30:28.251Z
+date: 2018-07-12T18:30:28.251Z
 prompt: >-
   Why aren't we asking our selves if he is worthy of our time? Why are we
   falling in love with a person when we haven't even met them in person?  Here
