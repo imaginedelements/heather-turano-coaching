@@ -4,7 +4,7 @@ protected: false
 category: Random life stuff
 thumbnail: /img/fullsizeoutput_1d29.jpeg
 thumbnailAlt: '33 weeks pregnant '
-title: The Baby That Saved My Life.  Sharing my story 4 years after abortion.
+title: The Baby That Saved My Life.  Sharing my story; 4 years after my abortion.
 subTitle: My Abortion Story
 date: 2019-05-01T13:25:47.503Z
 prompt: >-
@@ -22,13 +22,9 @@ tags:
   - Abortion
   - my body my choice
 ---
-![I am 33 weeks ](/img/fullsizeoutput_1d29.jpeg "My Abortion Story")
+## Part 1: 
 
-_this photo is of me today, happily 33 weeks pregnant._ 
-
-## Part 1
-
-Remembering this time “like it was yesterday” is an understatement. This time in my life has played over and over in my mind, like a really bad song stuck in my head that I can't seem to get rid of. **_What could I have done different? Why was this the out come? Why did it take such tragedy to shake me awake?_** 
+Remembering this time “like it was yesterday” is an understatement. This time in my life has played over and over in my mind, like a really bad song stuck in my head that I can't seem to get rid of. _**What could I have done different? Why was this the out come? Why did it take such tragedy to shake me awake?**_ 
 
 > This is a story of manipulation, confusion, loss, sadness, and awakening. It is a story that took me years to honor and ultimately come to love. It is a story of strength and survival. It is my journey. It is my Truth. And if you have come to join me, it means you too may have went through your own individual journey to consciousness. So I welcome you.
 
@@ -36,11 +32,13 @@ I was 32 when I became pregnant with my first child. It wasn’t an accident. I 
 
 One try, and there it was. I missed my period. It was the first time I had ever bought a pregnancy test. I waited for my Husband to get home from work and told him I was taking a test. It was the longest few minute of my life. And as I waited in the bath room alone my anxiety and panic became overwhelming. I could barely breathe and felt faint. My body started to shake as the test reveal its truth. I collapsed on the floor of the bathroom as my life flashed in front of my eyes. It was positive.
 
-I gathered myself together off the floor of the bathroom. Picked myself up as I had done many times before and hate myself for the feeling what I felt inside about the positive result. I made it into the bedroom where my ex was changing for his run and told him the news. I told him I was really scared, I told him I was worried and needed his support with getting through this. _**He glared at me from across the room with the emptiest eyes I had ever seen and said “This is what you wanted, now you will have to deal with it”.**_ He stood up and walked out of the room. **_“It is what I wanted”_** I repeated in my head as I fell to the bedroom floor sobbing. Why did I feel like I had made the worst decision of my life? If it was something I wanted why did it feel wrong? Why did I feel like it was the end of my life? Why did I feel trapped and suffocating? **And then the answer came. It flashed across my mind, clear as day. The voice said** _**“you can not do this, get out, save me and save yourself”.**_ 
+I gathered myself together off the floor of the bathroom. Picked myself up as I had done many times before and hate myself for the feeling what I felt inside about the positive result. I made it into the bedroom where my ex was changing for his run and told him the news. I told him I was really scared, I told him I was worried and needed his support with getting through this. **_He glared at me from across the room with the emptiest eyes I had ever seen and said “This is what you wanted, now you will have to deal with it”._** He stood up and walked out of the room. _**“It is what I wanted”**_ I repeated in my head as I fell to the bedroom floor sobbing. Why did I feel like I had made the worst decision of my life? If it was something I wanted why did it feel wrong? Why did I feel like it was the end of my life? Why did I feel trapped and suffocating? **And then the answer came. It flashed across my mind, clear as day. The voice said** **_“you can not do this, get out, save me and save yourself”._** 
 
-I shook my head vigorously hoping the visions and voice would go away. But the feeling in my Being was so strong that I couldn’t just ignore it. That night as I tried to sleep the voices became louder. _**“You can not do this, get out save me and save yourself”.**_ As my Ex slept soundly, I got up in the darkness and walked to my office. My monitor eliminated the room as I started my search. I began to type; **G-O-O-G-L-E; RETURN Key. A-B-O-R-T-I-O-N; RETURN Key.**
+I shook my head vigorously hoping the visions and voice would go away. But the feeling in my Being was so strong that I couldn’t just ignore it. That night as I tried to sleep the voices became louder. **_“You can not do this, get out save me and save yourself”._** As my Ex slept soundly, I got up in the darkness and walked to my office. My monitor eliminated the room as I started my search. I began to type; **G-O-O-G-L-E; RETURN Key. A-B-O-R-T-I-O-N; RETURN Key.**
 
-## Part 2
+## Part 2: 
+
+
 
 As I searched the internet in the darkness that night. My panic started to lessen. I jotted down phone numbers and doctors and reviews. The voice started to go away and my breathing became calm once again. 
 
@@ -51,8 +49,6 @@ It was Saturday when I woke. I walked down stairs to find my Husband sitting in 
 So I told no one (except for one of my dearest closest friends). And started calling the places I had researched. **If you are under the impression abortions are done anywhere and everywhere; I have news for you, they aren’t.** 
 
 > _“We don’t do them unless their is something wrong with the fetus”. “Did your test results come back positive”. “We only do them if you are a patient here”._
->
->  
 
 **Call after call I was rejected.** And can we talk about feeling like a absolutely horrible person? People are not nice when it comes to these matters, they judge, are harsh, and have no empathy for someone who is “killing a baby”. 
 
@@ -62,11 +58,11 @@ Finally the day came for the procedure. It was my brothers birthday. I had to ma
 
 > Now in hindsight, I know I must have been suffering from extreme postpartum depression for the months that fallowed my abortion. 
 
-Depressed, not eating or sleeping. Watching friend after friend excitingly announce their pregnancies. **All while I cried inside and stayed silent;** **_ashamed, guilty and beaten down._** **I was a failure.**
+Depressed, not eating or sleeping. Watching friend after friend excitingly announce their pregnancies. **All while I cried inside and stayed silent;** _**ashamed, guilty and beaten down.**_ **I was a failure.**
 
-The sadness continued as April pasted when I would have given birth, and I started thinking to myself **_“why did I do such a drastic thing”. This was something I wanted and still want. What was wrong with me?_** 
+The sadness continued as April pasted when I would have given birth, and I started thinking to myself _**“why did I do such a drastic thing”. This was something I wanted and still want. What was wrong with me?**_ 
 
-**So I started on a journey to figure out the truth.** I began questioning everything, I started going to therapy to figure out the _**“why”**_ to my story. The answers to the "why" I unearth were nothing I had ever expected. 
+**So I started on a journey to figure out the truth.** I began questioning everything, I started going to therapy to figure out the **_“why”_** to my story. The answers to the "why" I unearth were nothing I had ever expected. 
 
 **That Baby Saved My Life.** Getting pregnant was an awakening for me. It shook me to my core. I could no longer dismiss and pick myself up from the abuse I was living with everyday. 
 
@@ -78,8 +74,12 @@ what I have learned through this whole journey about abortion and the right to c
 
 > Sometimes abortion isn’t about death, sometimes it is about saving a life. 
 
-## Thank you for allowing me to share my story. I hope It shed light on the gray areas of this topic. 
+## Thank you for allowing me to share my story. I hope It shed light on the gray area of this topic. 
 
+Not everyones path to pregnancy is straight. Love and Light to everyone on their own journeys. 
 
+![](/img/fullsizeoutput_1d29.jpeg)
 
-Love and Light to everyone on their journey to healing.
+_This photo is of me today, happily 33 weeks pregnant.  4 years after my abortion._ 
+
+##
