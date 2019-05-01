@@ -28,7 +28,7 @@ const BlogCardList = () => (
                 thumbnail
                 thumbnailAlt
                 subTitle
-                date
+                date(formatString: "MMMM DD, YYYY")
               }
             }
           }
