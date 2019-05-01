@@ -4,9 +4,9 @@ protected: false
 category: Dating & Love
 thumbnail: /img/img_8128.jpg
 thumbnailAlt: Before you date anyone you must be able to walk alone and love yourself first.
-title: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
-subTitle: 'Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce'
-date: 'July 11, 2018'
+title: "Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce"
+subTitle: "Dating After Divorce: 4 Things To Help You Find Lasting Love After Divorce"
+date: 2019-04-23T18:30:28.251Z
 prompt: >-
   So you are now single and ready to date after years off the market. There
   could be new ways of meeting people that never existed when you were last
@@ -16,6 +16,7 @@ prompt: >-
 tags:
   - divorced
 ---
+
 ![Dating after Divorce](/img/img_8128.jpg "Be Awesome, Heal, and Love Yourself First")
 
 ## 1. Make a List

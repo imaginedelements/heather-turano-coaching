@@ -6,7 +6,7 @@ thumbnail: /img/boy-child-cry-256658-min.jpg
 thumbnailAlt: loss of a loved one
 title: How to fill the void after the loss of a loved one
 subTitle: How to fill the void after the loss of a loved one
-date: 'July 11, 2018'
+date: 2019-04-23T18:30:28.251Z
 prompt: >-
   Part of life is loss. losing a parent, a friend, a spouse. Depending on when
   this happens in our life, it can have a lasting impact on your patterns and
@@ -17,6 +17,7 @@ tags:
   - loosing a parent
   - losing a loved one
 ---
+
 In my experience, everyone goes through the stages of grief when they lose someone. There is no skipping these stages.
 
 However, some people get stuck and never fully move through all of these stages.
@@ -45,19 +46,17 @@ It may numb the pain or distract the days. But you will face that hole over and 
 
 Here is the one shift you need to make in your thinking:
 
-* Find comfort in that empty part of your Being, where that special person once occupied.
-* Sit with it. Accept this as truth. And know it is ok to feel it.
-* This is how you know it was real and beautiful and worth that space being empty forever.
+- Find comfort in that empty part of your Being, where that special person once occupied.
+- Sit with it. Accept this as truth. And know it is ok to feel it.
+- This is how you know it was real and beautiful and worth that space being empty forever.
 
 **Mantra:**
 
-A helpful mantra to recite to yourself may sound something like this: 
+A helpful mantra to recite to yourself may sound something like this:
 
 > “I love that hole where you once were. How special is it that nothing will ever be able to fill that space. I feel comfort in that hole”.
 
 Once you shift your mind, you can start to move through loss easier and begin to heal.
-
-
 
 ## Have you lost anyone close? How do you deal with loss?
 

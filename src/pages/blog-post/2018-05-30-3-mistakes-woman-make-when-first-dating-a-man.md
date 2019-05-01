@@ -6,15 +6,16 @@ thumbnail: /img/beard-beverages-break-630831-min.jpg
 thumbnailAlt: coffee up in this
 title: 3 mistakes woman make when first dating a man
 subTitle: 3 mistakes woman make when first dating a man subtitle
-date: 'September 27, 2018'
+date: 2019-04-23T18:30:28.251Z
 prompt: >-
   Why aren't we asking our selves if he is worthy of our time? Why are we
   falling in love with a person when we haven't even met them in person?  Here
-  are 3 mistakes woman make when they first start dating a man. 
+  are 3 mistakes woman make when they first start dating a man.
 tags:
   - relationships
   - random life stuff
 ---
+
 ## Mistake #1: Stop trying to prove your worthy of him
 
 One mistake I see in woman often (and I have been know to do this in my past as well.) is when we start dating a guy, we try way too hard to prove we are worthy of him. When we barely even know who he is and if we even want to actually date him. At this stage of dating you should be testing him out. **Your attitude should be "why do you deserve me".** You need to show him that you have an abundant amount of potential men you could be dating in your back pocket and he is the lucky one you are giving a chance to. And if he can’t show up at the level you are at, than it's on to the next one!

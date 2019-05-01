@@ -106,7 +106,6 @@ $typography-font-weights: (
   $line-height: $base--font-line-height
 ) {
   $private--font-family: get-font--family($family);
-  @debug #{$family - $size};
   $private--font-size: get-font--size($size);
   $private--font-weight: get-font--weight($weight);
   $private--font-color: get-color($color);

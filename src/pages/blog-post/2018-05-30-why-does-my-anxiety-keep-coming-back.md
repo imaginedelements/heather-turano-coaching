@@ -6,7 +6,7 @@ thumbnail: /img/2018-05-13-11.28.jpg
 thumbnailAlt: Calming my Anxiety
 title: Why does my anxiety keep coming back?
 subTitle: Why does my anxiety keep coming back?
-date: 'November 14, 2018'
+date: 2019-04-23T18:30:28.251Z
 prompt: >-
   What is anxiety? Why do I get it? And how can I get rid of it? All valid
   questions and I have pondered the same things over my 35 years on this earth
@@ -14,8 +14,9 @@ prompt: >-
   stress in our everyday lives.
 tags:
   - anexity
-  - ''
+  - ""
 ---
+
 What is anxiety? Why do I get it? And how can I get rid of it?
 
 All valid questions and I have pondered the same things over my 35 years on this earth many many times.
@@ -50,11 +51,11 @@ So we can't get rid of it. It is part of us. We just need tools to out smart it 
 
 • Lie on the floor on your back, feel yourself grounded.
 
-• Reach out to loved ones, a therapist, or coach and talk things through.*
+• Reach out to loved ones, a therapist, or coach and talk things through.\*
 
 • Know you are not alone.
 
-## What are some ways you deal with anxiety or stress? 
+## What are some ways you deal with anxiety or stress?
 
 Leave them below along with any comment or stories you would like to share. The "love yourself first" community is here to support you in your journey to healing and peace.
 

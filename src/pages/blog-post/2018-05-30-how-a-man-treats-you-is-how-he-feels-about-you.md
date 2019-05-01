@@ -6,7 +6,7 @@ thumbnail: /img/angry-argument-breakup-984954.jpg
 thumbnailAlt: How a man treats you is how he feels about you.
 title: How a man treats you is how he feels about you.
 subTitle: How a man treats you is how he feels about you.
-date: 'October 12, 2017'
+date: 2019-04-23T18:30:28.251Z
 prompt: >-
   Have you ever wondered if a man likes you? Have you ever dated a guy and you
   get mixed signals? Well I am here to clear all the confusion up with this
@@ -15,6 +15,7 @@ prompt: >-
 tags:
   - relationships
 ---
+
 ![how a man treats you is how he feels about you](/img/fullsizeoutput_15e7.jpeg "Don't convince yourself of anything else.")
 
 Bottom line ladies, **how a man treats you is how he feels about you**. Let me repeat that, **"How a man treats you is how he feels about you".** Now one more time and you say it out loud and direct it toward yourself; **"How a man treats ME is how he feels about ME. "**
@@ -37,7 +38,7 @@ Yep that is what we do! We start to convince ourselves that this is ok because h
 
 It is only with constant actions or **“investment over time”** that you can gauge how a man truly feels about you. When he invests his resources like **time, money** and **energy** into you, that is the clear sign he really likes you.
 
-## So to recap: How he is treating you is how he feels about you. 
+## So to recap: How he is treating you is how he feels about you.
 
 **So stop convincing yourself that he is treating you better than he is.** Take men at face value. Lean back and and just watch him, he will show you how he feels about you. **Good or bad.** Your only job is to believe him.
 
