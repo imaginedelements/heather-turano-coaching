@@ -48,35 +48,35 @@ So I told no one (except for one of my dearest friends) and started calling the 
 
 > _“We don’t do them unless there is something wrong with the fetus.”. “Did your test results come back positive for a genetic disease?”. “We only do them if you are a patient here.”._
 
-**Call after call I was rejected.** And can we talk about feeling like a absolutely horrible person? People are not nice when it comes to these matters. They judge, are very harsh, and have no empathy for someone who is “killing a baby”. 
+**Call after call I was rejected.** And can we talk about feeling like an absolutely horrible person? The cold reality is people are not nice when it comes to these matters. They judge, are very harsh, and have no empathy for someone who is “killing a baby”. 
 
-After a while, I finally got a hold of a division of one of the major hospitals in Philadelphia that preforms abortions. I scheduled an appointment. I was unaware before this point that you actually had to wait to have an abortion. They would confirm I was pregnant. Then, in PA there is a wait period of 2 weeks after that appointment to have the procedure done. As if having an abortion isn’t traumatic enough, the waiting is catastrophic to your psyche. **Those 4 weeks of waiting were debilitating.** 
+After a while, I finally got a hold of a division of one of the major hospitals in Philadelphia that preforms abortions and scheduled an appointment. Up until this point, I was unaware that there is a waiting period to go forward with an abortion. After the hospital confirmed the pregnancy, PA required a mandatory wait period of 2 weeks to make sure I was of "right mind" before continuing on with the procedure. As if having an abortion isn’t traumatic enough, the waiting is catastrophic to your psyche. **Those 4 weeks of waiting were debilitating.**
 
-Finally the day came for the procedure. It was my brothers birthday. I had to make up some excuse to not be there. When I came home. I was exhausted, emotionally, physically, and mentally. My body was very confused I assume, my hormones and emotions started to go crazy. 
+Finally, the day came for the procedure. It was my brothers birthday and I had to make up some excuse to not be there. When I came home, I was emotionally, physically, and mentally exhausted and my body was very confused. I assumed my hormones and emotions started to go crazy. 
 
 > Now in hindsight, I know I must have been suffering from extreme postpartum depression for the months that fallowed my abortion. 
 
 Depressed, not eating or sleeping, watching as friend after friend excitingly announce their pregnancies. **All while I cried inside and stayed silent;** **_ashamed, guilty and beaten down._** **I was a failure.**
 
-The sadness continued; April passed, when I would have given birth, and I started thinking to myself **_“why did I do such a drastic thing? This was something I wanted and still want. What was wrong with me?"._** 
+The sadness continued. April passed, when I would have given birth, and I started thinking to myself **_“why did I do such a drastic thing? This was something I wanted and still want. What was wrong with me?"._** 
 
-**So I started on a journey to figure out the truth.** I began questioning everything, I started going to therapy to figure out the _**“why”**_ to my story. And I found my answers. The "why" I unearthed was nothing I had ever expected to find. It had little to do with the abortion and so much to do with the emotional and mental abuse I was suffering from in my marriage.
+**So I started on a journey to figure out the truth.** I began questioning everything, I started going to therapy to figure out the _**“why”**_ to my story and eventually, I found my answers. The "why" I unearthed was nothing I had ever expected to find. It had little to do with the abortion and so much more to do with the emotional and mental abuse I was suffering from in my marriage.
 
-**I always say "That Baby Saved My Life".** Getting pregnant was an awakening for me. It shook me to my core. I could no longer dismiss and pick myself up from the abuse I was living with every day. 
+**I always say "That Baby Saved My Life".** Getting pregnant was an awakening for me. It shook me to my core where I could no longer dismiss what was going on and pick myself up from the abuse I was living with every day.
 
-I left my marriage almost a year to the day after having my abortion. 
+I left my marriage almost a year to the day after having my abortion.
 
-As I look back now, I know the abortion was the right choice for me. I have come to peace with the decision I had to make for the both of us. In the end though, I know it was that baby who saved my life. That baby shook me until I couldn’t ignore what was happening in my marriage any longer. Every April, I smile and think of how that child saved me and how I saved that child knowing none of it was in vain.
+As I look back now, I know the abortion was the right choice for me. I have come to peace with the decision I had to make for the both of us. In the end though, I know it was that baby who saved my life. Every April, I smile and think of how the child and I saved each other, knowing none of it was in vain.
 
 What I have learned through this whole journey about abortion and the right to choose is this:
 
-> Sometimes abortion isn’t about death, sometimes it is about saving a life.
+> Sometimes abortion isn’t about the loss of life. Sometimes it's about saving a life.
 
 ## Thank you for allowing me to share my story. I hope It shed light on the gray area of this topic.
 
 Not everyones path to pregnancy is straight. Some times that path is messy, with sharp edges and sinkholes. But having choice is a right everyone should have for the health of their body and mind. I am glad I had the choice. 
 
-Love and Light to everyone on their own journeys. 
+Love and light to everyone on their own journeys. 
 
 ![](/img/fullsizeoutput_1d29.jpeg)
 
