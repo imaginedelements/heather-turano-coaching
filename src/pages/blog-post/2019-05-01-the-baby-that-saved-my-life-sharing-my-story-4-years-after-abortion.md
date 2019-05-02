@@ -10,14 +10,12 @@ date: 2019-05-01T13:25:47.503Z
 prompt: >-
   I have walked you through many of my fears of pregnancy the past few months as
   my new baby arrives. All of them leading to the peak of my journey. This post
-  is venerable for me to discuss, however I feel it is necessary to shed light
-  on a subject that is so black and white in so many peoples eyes. Most people
-  feel you are either for or against it.  I think it is essential to understand
-  the depth of what "having a choice" for a woman actually means. I hope you are
-  able to read this post with openness and understanding. You may not like my
-  decisions, but they are mine and I know they were right for me. It has taken
-  me many years to own this story and my hope is that I may be able to share a
-  side of abortion that is rarely seen or discussed.
+  is vulnerable for me to discuss, however, I feel it is necessary to shed light
+  on a subject that is so black and white in so many peoples eyes. I think it is
+  essential to understand the depth of what "having a choice" for a woman
+  actually means. I ask that you read this post with openness and understanding.
+  It has taken me many years to own this story and my hope is that I may be able
+  to share a side of abortion that is rarely seen or discussed.
 tags:
   - Abortion
   - my body my choice
