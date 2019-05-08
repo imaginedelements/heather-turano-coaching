@@ -3,10 +3,10 @@ key: blog-post
 protected: false
 category: Relationships
 thumbnail: /img/alone-black-and-white-casual-1487956-min.jpg
-thumbnailAlt: "'Trust me, you''re not crazy'"
+thumbnailAlt: '''Trust me, you''''re not crazy'''
 title: 4 Manipulations Tactics Narcissist Use To Make you feel Crazy
 subTitle: 4 Manipulations Tactics Narcissist Use To Make you feel Crazy
-date: 2019-04-23T18:30:28.251Z
+date: 2018-10-11T04:00:00.000Z
 prompt: >-
   Narcissists are not just people that take to many selfies and think highly of
   them selves. We all have narcissistic traits that keep us motivated and help
