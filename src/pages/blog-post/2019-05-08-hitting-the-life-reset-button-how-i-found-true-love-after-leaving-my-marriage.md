@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Dating & Love
-thumbnail: /img/fullsizeoutput_1dd8.jpeg
+thumbnail: /img/img_0795.jpg
 thumbnailAlt: Manifesting love with a list
 title: 'Hitting the Life Reset Button: How I found true love after leaving my marriage'
 subTitle: How I found true love after leaving my marriage
@@ -14,17 +14,13 @@ prompt: >-
   home, and career I learned to use manifestation to attract a new life that was
   in alignment with my desires.
 ---
-![](/img/fullsizeoutput_1dd8.jpeg)
+![My manifestation list ](/img/img_0795.jpg "How I found true love after leaving my marriage")
 
 ## Part 1 : Hitting the Life Reset Button
 
-After my expired marriage at 33; I began dating; having no clue what the hell I was doing. **I mean the last time I had dated there was no smart phones and texting didn't even exist. Men had to call you and talk to you and then ask you out.** This was definitely not the case these days with dating apps like match and bumble. **Swiping right if you like the way someone looks?** Doesn’t that seem like the most crazy thing in the world to base a life long partnership on? At least for me this was not how I wanted to start a new relationship. **So I did what any 33 almost 34 year old woman would do. I deleted all my dating profiles and pictured a life of loneliness, with no kids, no husband and lots of cats** **_(no offense if you love cats, but that is actually my worse nightmare)._**
+After my expired marriage at 33; I began dating; having no clue what the heck I was doing. **I mean the last time I had dated there was no smart phones and texting didn't even exist. Men had to call to talk to you and then ask you out.** This was definitely not the case these days with dating apps like Match.com and Bumble. **Swiping right if you like the way someone looks?** Doesn’t that seem like the most crazy thing in the world to base a life long partnership on? At least for me this was not how I wanted to start a new relationship. **So I did what any 33 almost 34 year old woman would do. I deleted all my dating profiles and pictured a life of loneliness, with no kids, no husband and lots of cats** _**(no offense if you love cats, but that is actually my worse nightmare).**_
 
-
-
-The though of never having a family was sad for a while. Never finding the right partner was also pretty upsetting as well. And for a long time I let this **“lack” mind frame** keep me in a place of **self pity and “not enoughness”.** 
-
-
+The thought of never having a family was sad for a while. Never finding the right partner was also pretty upsetting as well. And for a long time I let this **“lack” mind frame** keep me in a place of **self pity and “not enoughness”.** 
 
 ## Part 2: How I Unknowingly Manifested True Love
 
@@ -38,11 +34,7 @@ I noticed that I seemed to be attracting and dating the same type of people that
 
 > _He must love my family, he must respect my dreams even if they are crazy, he must be able to see me what I can’t see myself, he must be kind to others, good with children, generous, caring, goofy… and on and on it went._
 
-
-
 After completing this list I tucked it away in my journal and went on with life as a single 30 something woman. **However, I wasn’t the same.** This list unknowingly provided me (and the universe) with a detailed blue print for the next person I would let into my life. It made me feel like I now knew exactly what I was looking for. It gave me the confidence to know **“if I never found the person on the list, I would be just as happy alone. Because I deserved the same love I gave”.** 
-
-
 
 ## Part 3: How To Grow Love
 
@@ -58,7 +50,7 @@ Both the Universe and I unknowingly made a pact that day and 6 months later Drew
 
 > Where your thoughts go energy flows. 
 
-**_Think "lack" and that will become your energy. Think "abundance, I can, I will" and notice it propel you to the greatest things life has to offer._** 
+_**Think "lack" and that will become your energy. Think "abundance, I can, I will" and notice it propel you to the greatest things life has to offer.**_ 
 
 # Have you used manifesting to attract abundance in your life?
 
