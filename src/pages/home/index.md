@@ -64,8 +64,8 @@ method:
   methodSteps:
     - description: >-
         This is the part where we get HONEST! Your journey will begin with a 90
-        Minute Discovery Session that digs in to the exact areas you want to
-        focus on. With a serious of prepared questions, honest conversation and
+        Minute Discovery Sessions that digs in to the exact areas you want to
+        focus on. With a series of prepared questions, honest conversation and
         insightful data gathering. We will unearth your truth and move toward
         setting up a plan for your journey.
       icon: coffee
