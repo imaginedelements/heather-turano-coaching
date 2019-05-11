@@ -19,7 +19,6 @@ tags:
   - Emotionally abusive relationship
   - Married to a Narcissist
 ---
-
 When a person you are dating or married to has NPD (narcissistic personality disorder), among many things, this person is mentally and emotionally toxic, unhealthy, and abusive. They use manipulation to breakdown the self worth, self confidence, and over all identity of those who are the closest to them. Leaving the victim feeling crazy, lost, and having no idea what reality is.
 
 If you are in a relationship that makes you feel crazy, you could be dealing with a Covert Narcissist.
@@ -36,9 +35,9 @@ A normal response from a person that actually forgot would look something like t
 
 ## 2. Projection
 
-when dealing with a person with NPD be aware of projection. This tactic is when the abuser will project onto you who they actually are and how they think.
+When dealing with a person with NPD be aware of projection. This tactic is when the abuser will project onto you who they actually are and how they think.
 
-For example when you are having a conversation or most likely and argument with the abusive party. And he starts to tell you how selfish you are or that you don't care about him or that he is absolutely sure you are cheating on him. That is purely a projection of the things he is capable of doing or already doing.
+For example when you are having a conversation or most likely and argument with the abusive party. And he starts to tell you how selfish you are; or that you don't care about him; or that he is absolutely sure you are cheating on him. That is purely a projection of the things he is capable of doing or already doing.
 
 Because you are a normal functioning person you wonder why he is thinking this about you. So, you try to change and convince him you are not this person by being less selfish and catering more to his needs and showing him even more that you care about him by not arguing or hiding your feelings. You may start to not go out with friends because he is saying you are cheating on him. You start to change and twist yourself to prove you are a good person when all the while the person he was talking about was never you. It was his projection of himself onto you.
 
@@ -46,7 +45,7 @@ Because you are a normal functioning person you wonder why he is thinking this a
 
 Ahhhh... the good old silent treatment. We all do this from time to time but not in the way toxic emotional abusers use it. They know connecting and conversation is what their victims crave most so by taking that away they take away the victims voice, their need to be heard and validated.
 
-And example of the silent treatment may look like this. You want to discuss something with your partner and it turns into a fight. Your partner then leaves the conversation and does not tell you why or when you both can discuss this topic again. The Abuser will use this time to hurt you rather than come back calmer and restore the relationship. They will use this to ignore you basically showing you that they do not care about your feelings. And traing you for the next time you fight. Basically saying, if you decide to go against what i want this is the treatment you will get.
+An example of the silent treatment may look like this. You want to discuss something with your partner and it turns into a fight. Your partner then leaves the conversation and does not tell you why or when you both can discuss this topic again. The Abuser will use this time to hurt you rather than come back calmer and restore the relationship. They will use this to ignore you basically showing you that they do not care about your feelings. And training you for the next time you fight. Basically saying, if you decide to go against what I want this is the treatment you will get.
 
 After a few of these silent treatments The victim starts to stay silent in arguments or disagreements. Losing their voice and their own opinions which in turn makes them start to lose their sense of "Self". Over time the silent treatment can make people feel like they are walking on egg shells around their partner and they do not matter.
 
@@ -54,11 +53,11 @@ After a few of these silent treatments The victim starts to stay silent in argum
 
 When you have to hurt someone to make a joke, it isn't a joke. Aggressive jabs at people you "supposedly love" are a way to make the abuser feel superior to the people around them. Narcissists do this a lot, because they have such fragile egos and self esteem. They need to put others down to make sure they feel more confident and feed their ego. We call this "narcissistic supply".
 
-A great example of aggressive jabs may be if you get dressed up for an evening out and you come downstairs in hopes your partner will tell you how wonderful you look. But when you come down you are met with a comment like this; "Man, you look horrible were you trying to dress up?". You get upset and start to go back upstairs to change and you then hear, "I was just joking, jezz you take everything so seriously".
+A great example of aggressive jabs may be if you get dressed up for an evening out and you come downstairs in hopes your partner will tell you how wonderful you look. But when you come down you are met with a comment like this; "Man, you look horrible were you trying to dress up?". You get upset and start to go back upstairs to change and you then hear, "I was just joking, jeeeezz you take everything so seriously".
 
-Ask yourself one question. was that really a joke? Um nope. It was just to put you in your place and put dout in the head of the victim. This is so the Narcissist can feel superior and break down the confidence of the healthy individual over time. Causing the victim to lose their sense of self worth slowly over time.
+Ask yourself one question. was that really a joke? Um nope. It was just to put you in your place and put doubt in the head of the victim. This is so the Narcissist can feel superior and break down the confidence of the healthy individual over time. Causing the victim to lose their sense of self worth slowly over time.
 
-\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\**
 
 Some other emotional abuse tactics not discussed in this post are:
 
