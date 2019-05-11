@@ -14,7 +14,6 @@ prompt: >-
 tags:
   - crap
 ---
-
 This is me. being Lazy AF and feeling sorry for myself as I wake up.
 
 I even slept in the guest room because i was tausing and turning and thought it would help to switch beds. well it didnt. And I got a few hours of sleep and had weird dreams about old managers and people crashing into my car in a Whole Foods parking lot. (these were actually my dreams.)
@@ -37,7 +36,7 @@ That last line bringing me to point number two.
 
 After telling your feel that "you see it". You have to break down the **WAY.**
 
-> Why do i think i feel like crap? Well, because i didnt sleep well.
+> Why do I think I feel like crap? Well, because I didn't sleep well.
 >
 > Why didn't I sleep well? Because you ate right before bed, I drank too much champagne, I didn't do my wind down routine, etc etc.
 
@@ -51,7 +50,7 @@ Done and DONE!
 
 ## 3. Remember that this is just one morning
 
-Dont be a drama queen like me and say "why do i feel like crap all the time". Because we all know that is simply not true. Get real. This is just one morning out of 365 mornings you will have. I am almost positive that every morning before and after this one has or will be good.
+Dont be a drama queen like me and say "why do I feel like crap all the time". Because we all know that is simply not true. Get real. This is just one morning out of 365 mornings you will have. I am almost positive that every morning before and after this one has or will be good.
 
 This one is just a blip and the faster you readjust what isn't working the faster you get back to having more GREAT mornings and less crappy ones. #truth
 
@@ -59,19 +58,19 @@ This one is just a blip and the faster you readjust what isn't working the faste
 
 Lucky for me I have a blog where I can write stuff like this. However, that wasn't always the case. So I would suggest getting a journal. Get it out on paper. Write down how you feel, give yourself permission to feel it. Then make a plan on how to get through it and help yourself.
 
-If writing isnt your thing maybe you call a close friend, a coach or a mentor and talk it out.
+If writing isn't your thing maybe you call a close friend, a coach or a mentor and talk it out.
 
 Whatever it is it needs to be worked through. And when you work through things they hold less power over your moods and feelings
 
-## 5. Do some Yoga
+## 5. Do some yoga
 
-when i say yoga I mean anything that will rais your heart rate. Maybe you do 10 sun salutations or maybe you do 10 jumping jakes. maybe you go even farther and get outside and go for a jog.
+When I say yoga I mean anything that will raise your heart rate. Maybe you do 10 sun salutations or maybe you do 10 jumping jakes. maybe you go even farther and get outside and go for a jog.
 
 When you exercise, your body releases chemicals called endorphins. Endorphins interact with the receptors in your brain that reduce your perception of pain. Hence, the "feeling better" part.
 
 # What else do you do to have better mornings?
 
-I would love to hear what helps you stay on track and have amazing mornings! please leave a comment and let me know your thoughts!
+I would love to hear what helps you stay on track and have amazing mornings! Please leave a comment and let me know your thoughts!
 
 Subscribe to my email list and get emails of new posts and inspiration.
 
