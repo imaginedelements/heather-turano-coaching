@@ -6,7 +6,7 @@ main:
     imgHeight: 1327
     imgLocation: /img/baller-heather.jpeg
   body: >-
-    **The whole “taking about yourself” is sort of a strange, awkward thing,
+    **The whole “talking about yourself” is sort of a strange, awkward thing,
     have you ever noticed that?** What are you supposed to say about yourself?
     And for that matter, how does a person even approach this?
 
