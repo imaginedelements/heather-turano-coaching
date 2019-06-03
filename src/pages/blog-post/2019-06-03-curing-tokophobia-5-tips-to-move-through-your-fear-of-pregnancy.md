@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Random life stuff
-thumbnail: /img/fullsizeoutput_1ef5.jpeg
+thumbnail: /img/fullsizeoutput_1fc0.jpeg
 thumbnailAlt: '38 weeks pregnant '
 title: Curing Tokophobia; 5 tips to move through your fear of pregnancy.
 subTitle: Curing Tokophobia
@@ -23,7 +23,7 @@ prompt: >-
   Because it is your truth. And honoring your truth is the only way to move
   through anything in this life.
 ---
-![38 weeks pregnant ](/img/fullsizeoutput_1ef5.jpeg "Curing tokophobia ")
+![38 weeks pregnant ](/img/fullsizeoutput_1fc0.jpeg "Curing tokophobia ")
 
 ## 1. Not being "in love" with being pregnant is OK
 
@@ -75,9 +75,7 @@ Who knows, I may feel different once we meet. Maybe I will feel instantly in lov
 >
 > Because it is your truth. And honoring your truth is the only way to move through anything in this life.
 
-## If you are struggling with Tokophobia and looking for support, please connect me. 
-
-
+## If you are struggling with Tokophobia and looking for support, please connect me.
 
 I know first hand the panic and fear being pregnant can bring some woman. We can move through it together. Step by step, breath by breath.
 
