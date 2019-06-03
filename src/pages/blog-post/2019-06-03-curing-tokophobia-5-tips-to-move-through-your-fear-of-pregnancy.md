@@ -34,7 +34,7 @@ Unlike the movies; after I found out I was pregnant I had about **2 months of pu
 
 I knew I needed support to get through this pregnancy, **so I made sure to reach out to good friends, schedule regular appointments with my therapist/coach and held tight to Drew and my Mom to help me navigate the day to day.** 
 
-And after a few months, **the panic stopped** and I actually started to be Ok with the idea of having a child. Now don't get me wrong, I still wouldn't call it excitement, but at least it wasn't panic. At least I could say out load that I was pregnant without crying or hyperventilating. Which was awesome progress in my eyes. 
+And after a few months, **the panic stopped** and I actually started to be Ok with the idea of having a child. Now don't get me wrong, I still wouldn't call it excitement, but at least it wasn't panic. At least I could say out loud that I was pregnant without crying or hyperventilating. Which was awesome progress in my eyes. 
 
 ## 4. Telling People is OK
 
