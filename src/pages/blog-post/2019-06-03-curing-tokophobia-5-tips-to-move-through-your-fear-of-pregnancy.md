@@ -8,20 +8,11 @@ title: Curing Tokophobia; 5 tips to move through your fear of pregnancy.
 subTitle: Curing Tokophobia
 date: 2019-06-03T19:58:15.499Z
 prompt: >-
-  Tokophobia and the fear of pregnancy is super real for many woman. Here are
-  some tips that helped me through my phobia. 
-
-
-  Remember, Whether you are panicked in the beginning. Whether you are connected
-  to the child growing inside you or not. Whether you feel scared, excited,
-  worried, or even nothing at all.
-
-
-  IT'S ALL OK. IT'S ALL VALID. IT'S ALL THE RIGHT WAY TO FEEL.
-
-
-  Because it is your truth. And honoring your truth is the only way to move
-  through anything in this life.
+  Tokophobia and the fear of pregnancy is super real for many woman. It can
+  prevent them from having children, even if they deeply desire a family. If you
+  are struggling with this fear, I am here to support you and let you know it is
+  possible to move through it. Here are a few helpful tips that helped me cure
+  my own tokophobia.
 ---
 ![38 weeks pregnant ](/img/fullsizeoutput_1fc0.jpeg "Curing tokophobia ")
 
