@@ -51,7 +51,7 @@ I hit 16 weeks in December 2018. I decided instead of calling people or posting 
 
 For me **telling people was extremely venerable, because I wasn't exactly sure how I felt about the whole thing yet.** I didn't want people smothering me with congrats and excitement if I couldn't feel the same way. **However, telling more people actually made it more real for me, their excitement help me experience a different level to my pregnancy.** I started to feel the massive amount of love and support around us, which in turn made me feel more at ease with moving forward.
 
-Here is the fun baby announcement I sent out for the holidays! Thanks iPad Pro!
+_Here is the fun baby announcement I sent out for the holidays! Thanks iPad Pro!_
 
 ![pregnancy announcement ](/img/untitled_artwork.jpg "Our holiday card!")
 
@@ -59,16 +59,26 @@ Here is the fun baby announcement I sent out for the holidays! Thanks iPad Pro!
 
 As I stated before, I reached out to my therapist who has known me sense I was 21. **If you don't already have one, I highly recommend having a coach or therapist that knows you.** Someone that you can reach out to though-out life for support and guidance. **It is invaluable to have someone that knows your entire story and can help guide you on your journey in times of uncertainty or change.**
 
-This whole pregnancy I have NOT felt extremely connected to the "embryo, fetus, child" growing inside me. I see everyone else that is pregnant talking about how much they can't wait for **_"insert childs name"_** to arrive. So excited for gender reveals, showers, and excited to feel the baby move inside them. **For me this was not the feeling.** Thank goodness for therapy and knowing it was ok to feel this way. 
+This whole pregnancy I have NOT felt extremely connected to the "embryo, fetus, child" growing inside me. I see everyone else that is pregnant talking about how much they can't wait for _"insert childs name"_ to arrive. They are all so excited for gender reveals, showers, and feeling the baby move inside them. **For me and I am sure for many woman, this was not the case.** Thank goodness for therapy and knowing it was ok to feel this way. 
 
-> I mean if we are being honest (which I always am), this child inside me I don't even know. And it's ok to not get attached to something right away. 
+> I mean if we are being honest (which I always am), this child inside me I don't even know. And it's ok to not get attached to some one you don't know!
 
-**I always talk about "growing in love".** Being pregnant has been no different. I have to grow in love with this child. It hasn't taken a breath, it doesn't have a name or a social security number, I don't know what it looks like, who it will become, or even the gender. In my eyes, how could I be super connected with this child yet.
+**I always talk about "growing in love",** and being pregnant has been no different. I realized that the reason I didn't feel connected to this child wasn't because "I never would" or "because I am a horrible person". It is  because I have to grow in love with it. Just like everyone else in my life that I have grown to love.
 
-Who knows, I may feel different once we meet. Maybe I will feel instantly in love like everyone talks about. Or maybe it will take time. But knowing that whatever you feel is ok is the only way to get through this journey. 
+This child hasn't taken a breath, it doesn't have a name or a social security number, I don't know what it looks like, who it will become, or even the gender. In my eyes, how could I be super connected with this child yet. 
 
-> Whether you are excited in the beginning or panicked. Whether you are connected to the child growing inside you or not. Whether you feel scared, excited, worried, or even nothing at all. 
+Who knows, I may feel different once we meet. Maybe I will feel instantly in love like everyone talks about. Or maybe it will take time. But knowing that whatever I feel is OK, is the only way I am able to get through this journey. 
+
+> Whether you are excited to become pregnant or panicked. Whether you are connected to the child growing inside you or not. Whether you feel scared, full of instant love, worried, or even nothing at all.
 >
-> IT'S ALL OK. IT'S ALL VALID. IT'S ALL THE RIGHT WAY TO FEEL. 
+> IT'S ALL OK. IT'S ALL VALID. IT'S ALL THE RIGHT WAY TO FEEL.
 >
 > Because it is your truth. And honoring your truth is the only way to move through anything in this life.
+
+## If you are struggling with Tokophobia and looking for support, please connect me. 
+
+
+
+I know first hand the panic and fear being pregnant can bring some woman. We can move through it together. Step by step, breath by breath.
+
+Wishing you all a peaceful journey.
