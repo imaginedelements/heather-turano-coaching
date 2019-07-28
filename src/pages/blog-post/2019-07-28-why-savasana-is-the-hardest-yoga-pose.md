@@ -28,16 +28,14 @@ As we move through class the yoga instructor inside me couldn't help but watch h
 
 **Side Note: the savanna was approximately 3 minutes long...**
 
-# Why Savasana isn't just a waste of time.
+# I promise, Savasana isn't just a waste of time.
 
 As a yoga instructor I hear this all too much. So many students can bend, balance and twist, but struggle to relax and sit with themselves.
 
 The art of relaxation is harder than it looks. And the whole point of moving, bending and then finally finding the pose of savasana isn’t for a work out. It is to get you set up for a deeper form of relaxation called “meditation”.
 
-As an instructor I always tell students “the hardest pose is usually the pose you need to practice the most”. Savasana is no different!
+I always tell students “the hardest pose is usually the pose you need to practice the most”. Savasana is no different!
 
 If you are a person that finds savasana annoying, stressful or difficult. Maybe consider practicing it more. 
 
-Learn to relax with attention, remaining conscious and alert while still being at ease. try not to fall to sleep or think about what you are going to make for dinner while you are lying there. 
-
-This pose has the amazing ability to help you become more aware and you can begin to notice and let go of long-held tension in your body and mind!
+Learning to **_relax with attention and_** remaining conscious and alert while still being at ease. is no easy task. Try not to fall a sleep or thinking about the millions of things on your todo list while you are lying there. This pose has the amazing ability to help you become more aware of yourself. You can then begin to notice and let go of long-held tension in your body and mind!
