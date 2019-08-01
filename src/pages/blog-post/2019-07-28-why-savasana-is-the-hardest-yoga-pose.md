@@ -34,16 +34,19 @@ As a yoga instructor I hear this all too much. **So many students can bend, bala
 
 **The art of relaxation is harder than it looks.** And the whole point of moving, bending and then finally finding the pose of savasana, isn’t for nothing. It is to get you set up for a deeper form of relaxation called “meditation”.
 
-> I always tell students “the hardest pose is usually the pose you need to practice the most”. Savasana is no different!
+> You have most likely heard your yoga instructor say; “the hardest pose is usually the pose you need to practice the most”. Savasana is no different!
 
 **If you are a person that finds savasana annoying, stressful or difficult. Maybe consider practicing it more.** 
 
-Learning to **_relax with attention and remaining conscious while still being at ease,_** is no easy task. **_Trying not to fall a sleep or thinking about a million things is an extremely difficult practice._** That is why this pose, for so many people is the most difficult pose in their practice.  
+Learning to _**relax with attention and remaining conscious while still being at ease,**_ is no easy task. _**Trying not to fall a sleep or thinking about a million things is an extremely difficult practice.**_ **That is why this pose, for so many people is the most difficult pose in their practice.**  
 
 **However, if you can master savasana, it has the ability to help you become much more aware of yourself.** You begin to notice all your subtleties and start to let go of long-held tension in your body and mind! 
 
-**The next time you find yourself in savasana try not to leave the class early.** If you are a person who is thinking of a million things while you lay there; notice it and let go. If you usually fall-to-sleep; try to scan your body, notice where you are holding tension, and relax into it. 
+## The next time you find yourself in savasana try not to leave the class early. 
 
-We run around keeping busy all day. Running from ourselves, our feelings and our aches.  We think it is a positive thing to never stop and that we should get a metal when we collapse at the end of the day. But we never get that metal. "Doing more" just leads to less joy in the minutes that make up our lives. 
+* **If you are a person who is thinking of a million things while you lay there;** notice it and let go. 
+* **If you usually fall-to-sleep;** try to scan your body, notice where you are holding tension, and relax into it. 
 
-## It is hard to sit with yourself. **Savasana is here to teach us to notice.**
+We run around keeping busy all day. Running from ourselves, our feelings, our aches and pains.  We think it is a positive thing to never stop; that we should get a metal when we collapse at the end of the day. But we never get that metal. "Doing more" just leads to less joy in the minutes that make up our lives. 
+
+## It is hard to sit with yourself. **Savasana is here to teach us to notice and let go.**
