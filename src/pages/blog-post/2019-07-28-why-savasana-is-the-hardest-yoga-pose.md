@@ -11,11 +11,13 @@ prompt: >-
   As a yoga instructor I hear this all too much. So many students can bend,
   balance and twist, but struggle to relax and sit with themselves. The art of
   relaxation is harder than it looks. And the whole point of moving, bending and
-  then finally finding the pose of savasana; isn’t for a workout. It is to get
-  you set up for a deeper form of relaxation called “meditation”.
+  then finally finding the pose of savasana, isn’t for nothing. It is to get us
+  set up for a deeper form of relaxation called “meditation”.
 tags:
   - savasana
 ---
+![](/img/fullsizeoutput_23e8.jpeg)
+
 **I have been happily easing back into my yoga practice and workout routine since recovering from childbirth #nottoofun.** I have to admit my body is not bouncing back as quickly as I would have hoped. I guess being 37 and never needing to be too concerned about about my weight in the past has bit me in the butt a little. Oh well, their are worse things. That being said, I have finally nailed down a "back to work" schedule and care for Nova this past week. Mainly so I can schedule coaching clients and have sold blocks of time for writing. However, I must admit, **it is REALLY REALLY nice to make it to my favorite yoga classes while she is gone!** 
 
 There is one class at my local gym called _Mind Body Balance_. I try my hardest to get there at least twice a week (you know, to balance my mind and body, hence the name). This past week, as I set up my mat, there was an extremely fit woman behind me. 
@@ -32,7 +34,7 @@ As we moved through class the yoga instructor inside me couldn't help but watch 
 
 As a yoga instructor I hear this all too much. **So many students can bend, balance and twist, but struggle to relax and sit with themselves.**
 
-**The art of relaxation is harder than it looks.** And the whole point of moving, bending and then finally finding the pose of savasana, isn’t for nothing. It is to get you set up for a deeper form of relaxation called “meditation”.
+**The art of relaxation is harder than it looks.** And the whole point of moving, bending and then finally finding the pose of savasana, isn’t for nothing. It is to get us set up for a deeper form of relaxation called “meditation”.
 
 > You have most likely heard your yoga instructor say; “the hardest pose is usually the pose you need to practice the most”. Savasana is no different!
 
