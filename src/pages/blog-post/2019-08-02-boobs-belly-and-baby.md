@@ -4,11 +4,13 @@ protected: false
 category: Mind Body Wellness
 thumbnail: /img/fullsizeoutput_23ff.jpeg
 thumbnailAlt: e
-title: 'Boobs, Belly, and Baby. '
+title: 'The Reality of postpartum; Boobs, Belly, and Baby. '
 subTitle: e
 date: 2019-08-02T15:01:31.479Z
 prompt: e
 ---
+![](/img/fullsizeoutput_23ff.jpeg)
+
 As I sit here and pump, It seems like a perfect time to multi task and write a little about the first weeks of being a new mom. 
 
 ## 1. If you decide to feed your baby with your boob, read this.
