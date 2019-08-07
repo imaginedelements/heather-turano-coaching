@@ -56,8 +56,6 @@ The second I turned on the Medela, I realized I had been using a torture device 
 
 ## In My Conclusion & Honest Opinion; 
 
->
->
 > I, along with every breastfeeding mom out there, am absolutely NUTS! (in a good way of course)
 
 **8 weeks later and I am "crazily" still at it!** My body seems to be adjusting to the "New Normal". **However, I give myself full permission at any time to pull the plug on this whole operation!** 
