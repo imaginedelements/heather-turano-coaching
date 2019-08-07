@@ -38,7 +38,7 @@ After my 3rd week of feeding and pumping, I found myself in a little predicament
 
 ## 3. Get A Lactation Consultant & Support Group ASAP!
 
-**God bless Lactation Consultants. That is all I can say.** I quickly booked a lactation appointment with [Katie Madden](https://balancedbreastfeeding.com/katie-madden/); after having, what I call, "boob issues". Katie has been the Director of [Balanced Breastfeeding](https://balancedbreastfeeding.com/) at The Birth Center in Wilmington, DE since 2009. 
+**God bless Lactation Consultants. That is all I can say.** I quickly booked a lactation appointment with [Katie Madden](https://balancedbreastfeeding.com/katie-madden/). Katie has been the Director of [Balanced Breastfeeding](https://balancedbreastfeeding.com/) at The Birth Center in Wilmington, DE since 2009. 
 
 Katies approach was refreshing. No matter if you breastfeed, only pump or formula feed; in her eyes, there is no judgement. Because, no two women are the same. Some women over produce (#me), some women can't produce enough and some women just "down right "don't want to breastfeed at all" (which I totally understand!!!)". It's all about finding your own "BALANCE". 
 
