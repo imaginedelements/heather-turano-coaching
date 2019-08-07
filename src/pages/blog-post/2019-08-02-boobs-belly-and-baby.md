@@ -41,4 +41,32 @@ I pump! Nope, I do not want to be the only one that can feed my child. If you ar
 
 I ordered the **Ameda Finesse Pump** through my insurance before I had any clue what I needed. After using the Ameda for about 6 weeks and having a lot of problems, my lactation consultant recommended using the **Medela Pump**. My Sister-in-law, the saint that she is, let me barrow her Medela to test out the difference. 
 
+**8 weeks later and I am crazily still at it! My body seems to be adjusting to the "New Normal". However, I give myself full permition at any time to pull the plug on this whole opportation! I set small goals for myself with this whole breastfeeding silliness. "Can I make it 2 weeks? 2 months?". My next goal is 3 months. And each goal that i acceave, I celebrate! Maybe i will make it to the covited 6 months or even 1 years**
+
 The second I turned on the Medela, I realized I had been using a torture device disguised as an Ameda Breast pump for the past 6 weeks! The difference was night and day! **I 100% recommend the Medela over the Ameda; No Hesitation!!!**
+
+
+
+## In My Conclusion & Honest Opinion; 
+
+>
+>
+> I along with every breastfeeding mom out there, is absolutely Nuts! (in a good way of course)
+
+**8 weeks later and I am "crazily" still at it!** My body seems to be adjusting to the "New Normal". **However, I give myself full permission at any time to pull the plug on this whole operation!** 
+
+I set small goals for myself with this whole breastfeeding silliness. **"Can I make it 2 weeks? 2 months?".** My next goal is 3 months. **With each goal that set and achieve; I celebrate!** 
+
+**Maybe I will make it to the coveted 6 months or even 1 year of breastfeeding.** Or maybe I will decide I am done at 3 months. **The bottom line for all you breastfeeding-amazing-super-moms out there is, YOU ALL ROCK!** No matter how long or short you did it for; that time can never be undone! SO BRAVO!
+
+**get-go**
+
+> Because keeping these little kiddos fed is no easy task regardless of how we decide to do it!
+
+# Goodness gracious, Who knew Boobs were this complicated? 
+
+## 
+
+## Wishing all you Moms sleep and an abundant milk supply!
+
+ (but not too "abundant", because that can cause serious issues...)
