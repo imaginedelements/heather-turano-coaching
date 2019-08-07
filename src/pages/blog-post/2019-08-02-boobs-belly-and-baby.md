@@ -16,11 +16,11 @@ prompt: >-
   If any of these things are slightly out of wack; get ready for some really
   problems Momma!
 ---
-As I sit here and pump, It seems like a perfect time to multi task and write a little about **the first weeks of breastfeeding as a new mom.** It also Happens to be National Breastfeeding Week too! (go figure!)
+As I sit here and pump, It seems like a perfect time to multi task and write a little about **the first weeks of breastfeeding as a new mom.** It also Happens to be World Breastfeeding Week too! (go figure!)
 
 ![Me Icing My boobs ](/img/fullsizeoutput_23ff.jpeg "Breastfeeding Mom")
 
-****
+- - -
 
 ## 1. Get Ready for Lots and Lots and of Sitting! (Then add more sitting on top of all that sitting)
 
@@ -32,7 +32,7 @@ So, **after approximately 1 week of sitting exclusively in my brown recliner**, 
 
 After my 3rd week of feeding and pumping, I found myself in a little predicament. **Breast engorgement, plugged milk ducts and milk blisters!** No one ever seems to tell you how freaking gnarly breastfeeding can be. So that is exactly what I am going to tell you right now; **"BREASTFEEDING IS HARD, TIME CONSUMING AND EVERYTHING CAN GO WRONG!".** 
 
-**_Do you have the right type of pump? Does your flange size fit correctly? Is your baby latching? Does she have a tongue tie? Are you draining your breasts?_** The list goes on and on! And If any of these things are slightly out of wack; **get ready for some really problems Momma!** 
+_**Do you have the right type of pump? Does your flange size fit correctly? Is your baby latching? Does she have a tongue tie? Are you draining your breasts?**_ The list goes on and on! And If any of these things are slightly out of wack; **get ready for some really problems Momma!** 
 
 > For something that is suppose to come so "natural" there is a shit ton that can go wrong. Am I right Mommas? 
 
@@ -40,7 +40,7 @@ After my 3rd week of feeding and pumping, I found myself in a little predicament
 
 **God bless Lactation Consultants. That is all I can say.** I quickly booked a lactation appointment with [Katie Madden](https://balancedbreastfeeding.com/katie-madden/). Katie has been the Director of [Balanced Breastfeeding](https://balancedbreastfeeding.com/) at The Birth Center in Wilmington, DE since 2009. 
 
-Katies approach was refreshing. No matter if you breastfeed, only pump or formula feed; in her eyes, there was no judgement. Because, no two women are the same. _**Some women over produce (#me), some women can't produce enough and some women just "down right "don't want to breastfeed at all" (which I totally understand!!!)".**_ **It's all about finding your own "BALANCE".** 
+Katies approach was refreshing. No matter if you breastfeed, only pump or formula feed; in her eyes, there was no judgement. Because, no two women are the same. **_Some women over produce (#me), some women can't produce enough and some women just "down right "don't want to breastfeed at all" (which I totally understand!!!)"._** **It's all about finding your own "BALANCE".** 
 
 I left the lactation appointment with a game plan and some small **achievable** goals.
 
@@ -52,9 +52,7 @@ I ordered the **Ameda Finesse Pump** through my insurance before I had any clue 
 
 The second I turned on the Medela, I realized I had been using a torture device disguised as an Ameda Breast pump for the past 6 weeks! The difference was night and day! **I 100% recommend the Medela over the Ameda; No Hesitation!!!**
 
-
-
-## In My Conclusion & Honest Opinion; 
+## In My Conclusion & Honest Opinion;
 
 > I, along with every breastfeeding mom out there, am absolutely NUTS! (in a good way of course)
 
@@ -70,7 +68,7 @@ For all you Mommas that are super self-aware and knew breastfeeding wasn't right
 
 > Because keeping these little kiddos fed is no easy task regardless of how we decide to do it!
 
-# Goodness gracious, Who knew boobs were this complicated?!?! 
+# Goodness gracious, Who knew boobs were this complicated?!?!
 
 ## 
 
