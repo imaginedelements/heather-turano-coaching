@@ -3,13 +3,20 @@ key: blog-post
 protected: false
 category: Mind Body Wellness
 thumbnail: /img/fullsizeoutput_23ff.jpeg
-thumbnailAlt: e
+thumbnailAlt: Breastfeeding Mom
 title: The Reality of Breastfeeding; what no one seems to tell you.
 subTitle: breastfeeding reality
 date: 2019-08-02T15:01:31.479Z
-prompt: a
+prompt: >-
+  No one ever seems to tell you how freaking gnarly breastfeeding can be. So
+  that is exactly what I am going to tell you right now; "BREASTFEEDING IS HARD,
+  TIME CONSUMING AND EVERYTHING CAN GO WRONG!". Do you have the right type of
+  pump? Does your flange size fit correctly? Is your baby latching? Does she
+  have a tongue tie? Are you draining your breasts? The list goes on and on! And
+  If any of these things are slightly out of wack; get ready for some really
+  problems Momma!
 ---
-![](/img/fullsizeoutput_23ff.jpeg)
+![Me Icing My boobs ](/img/fullsizeoutput_23ff.jpeg "Breastfeeding Mom")
 
 As I sit here and pump, It seems like a perfect time to multi task and write a little about the first weeks of being a new mom. 
 
@@ -25,7 +32,7 @@ So after approximately 1 week of sitting exclusively in my brown recliner, I was
 
 After my 3rd week of feeding and pumping, I found myself in a little predicament. Breast engorgement, plugged milk ducts and milk blisters! No one ever seems to tell you how freaking gnarly breastfeeding can be. So that is exactly what I am going to tell you right now; "BREASTFEEDING IS HARD, TIME CONSUMING AND EVERYTHING CAN GO WRONG!". 
 
-Do you have the right type of pump? Does your flange size fit correctly? Is your baby latching correctly? Does she have a tongue tie? are you draining your breasts? did you ice or heat them? The list goes on and on! And If any of these things are slightly out of wack; get ready for some really problems Momma! 
+Do you have the right type of pump? Does your flange size fit correctly? Is your baby latching? Does she have a tongue tie? Are you draining your breasts? The list goes on and on! And If any of these things are slightly out of wack; get ready for some really problems Momma! 
 
 > For something that is suppose to come so "natural" there is a shit ton that can go wrong. Am I right Mommas? 
 
