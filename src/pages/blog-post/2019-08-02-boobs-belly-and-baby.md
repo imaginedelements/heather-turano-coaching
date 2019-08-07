@@ -16,31 +16,33 @@ prompt: >-
   If any of these things are slightly out of wack; get ready for some really
   problems Momma!
 ---
+As I sit here and pump, It seems like a perfect time to multi task and write a little about **the first weeks of breastfeeding as a new mom.** It also Happens to be National Breastfeeding Week too! (go figure!)
+
 ![Me Icing My boobs ](/img/fullsizeoutput_23ff.jpeg "Breastfeeding Mom")
 
-As I sit here and pump, It seems like a perfect time to multi task and write a little about the first weeks of being a new mom. 
-
-# If you decide to feed your baby with your boobs, read this:
+****
 
 ## 1. Get Ready for Lots and Lots and of Sitting! (Then add more sitting on top of all that sitting)
 
-Lets discuss being tied to a chair by either nursing, bottle feedings, or pumping. This in its self is totally new territory for me. And I have to say a little claustrophobic and constraining. Some woman may find this amazing. They may feel like feeding their child every two hours for 45 minutes is "beautiful" and "nurturing to their soul". However, as much as I enjoy the fact that I, single handedly, can provide all my child needs to survive. I also find it exhausting and limiting to my usually active, “get up and go” lifestyle. 
+**Lets discuss being tied to a chair by either nursing, bottle feedings, or pumping.** This in its self is totally new territory for me. And I have to say a little claustrophobic and constraining. Some woman may find it amazing. They may feel like feeding their child every two hours for 45 minutes is "beautiful" and "nurturing to their soul". **However, as much as I enjoy the fact that I, single handedly, can provide all my child needs to survive. I also find it exhausting and limiting to my usually active, “get up and go” lifestyle.** 
 
-So after approximately 1 week of sitting exclusively in my brown recliner, I was ready to figure out a balance to it all. You know, before I had a meltdown.
+So, **after approximately 1 week of sitting exclusively in my brown recliner**, I was ready to figure out a balance to it all. You know, before I had a major meltdown!
 
 ## 2. What Could Go Wrong? Breastfeeding is Natural. (LIES, LIES, LIES!!!!)
 
-After my 3rd week of feeding and pumping, I found myself in a little predicament. Breast engorgement, plugged milk ducts and milk blisters! No one ever seems to tell you how freaking gnarly breastfeeding can be. So that is exactly what I am going to tell you right now; "BREASTFEEDING IS HARD, TIME CONSUMING AND EVERYTHING CAN GO WRONG!". 
+After my 3rd week of feeding and pumping, I found myself in a little predicament. **Breast engorgement, plugged milk ducts and milk blisters!** No one ever seems to tell you how freaking gnarly breastfeeding can be. So that is exactly what I am going to tell you right now; **"BREASTFEEDING IS HARD, TIME CONSUMING AND EVERYTHING CAN GO WRONG!".** 
 
-Do you have the right type of pump? Does your flange size fit correctly? Is your baby latching? Does she have a tongue tie? Are you draining your breasts? The list goes on and on! And If any of these things are slightly out of wack; get ready for some really problems Momma! 
+**_Do you have the right type of pump? Does your flange size fit correctly? Is your baby latching? Does she have a tongue tie? Are you draining your breasts?_** The list goes on and on! And If any of these things are slightly out of wack; **get ready for some really problems Momma!** 
 
 > For something that is suppose to come so "natural" there is a shit ton that can go wrong. Am I right Mommas? 
 
 ## 3. Get A Lactation Consultant & Support Group ASAP!
 
-God bless Lactation Consultants. That is all I can say. I booked an appointment with [Katie Madden](https://balancedbreastfeeding.com/katie-madden/). Katie has been the Director of [Balanced Breastfeeding](https://balancedbreastfeeding.com/) at The Birth Center in Wilmington, DE since 2009. Her approach was refreshing. No matter if you breastfeed, only pump or formula feed; there is no judgement. Because, no two people are the same. Some woman over produce (#me), some woman can't produce enough and some woman just down right "don't want to breastfeed at all" (which I totally understand!!!). It's all about finding your own "BALANCE". 
+**God bless Lactation Consultants. That is all I can say.** I quickly booked a lactation appointment with [Katie Madden](https://balancedbreastfeeding.com/katie-madden/); after having, what I call, "boob issues". Katie has been the Director of [Balanced Breastfeeding](https://balancedbreastfeeding.com/) at The Birth Center in Wilmington, DE since 2009. 
 
-I left the lactation appointment with a game plan and small goals. 7 weeks later, I still get clogs, blisters and engorgement. However I know how to nip it in the bud before it gets worse.
+Katies approach was refreshing. No matter if you breastfeed, only pump or formula feed; in her eyes, there is no judgement. Because, no two women are the same. Some women over produce (#me), some women can't produce enough and some women just "down right "don't want to breastfeed at all" (which I totally understand!!!)". It's all about finding your own "BALANCE". 
+
+I left the lactation appointment with a game plan and small achievable goals for myself.
 
 ## 4. Pumps, Pumping and What You Never Knew You Needed to Know. (does that even make sense?)
 
@@ -56,7 +58,7 @@ The second I turned on the Medela, I realized I had been using a torture device 
 
 >
 >
-> I along with every breastfeeding mom out there, is absolutely Nuts! (in a good way of course)
+> I, along with every breastfeeding mom out there, am absolutely NUTS! (in a good way of course)
 
 **8 weeks later and I am "crazily" still at it!** My body seems to be adjusting to the "New Normal". **However, I give myself full permission at any time to pull the plug on this whole operation!** 
 
