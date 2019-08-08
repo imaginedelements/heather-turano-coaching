@@ -58,7 +58,7 @@ The second I turned on the Medela, I realized I had been using a torture device 
 
 **8 weeks later and I am "crazily" still at it!** My body seems to be adjusting to the "New Normal". **However, I give myself full permission at any time to pull the plug on this whole operation!** 
 
-I set small goals for myself with this whole breastfeeding silliness. **"Can I make it 2 weeks? 2 months?".** My next goal is 3 months. **With each goal that set and achieve; I celebrate!** 
+I set small goals for myself with this whole breastfeeding silliness. **"Can I make it 2 weeks? 2 months?".** My next goal is 3 months. **With each goal that I set and achieve; I celebrate!** 
 
 **Maybe I will make it to the coveted 6 months or even 1 year of breastfeeding.** Or maybe I will decide I am done at 3 months. **The bottom line for all you breastfeeding-amazing-super-moms out there is, YOU ALL ROCK!** No matter how long or short you did it for; that time can never be undone! SO BRAVO!
 
