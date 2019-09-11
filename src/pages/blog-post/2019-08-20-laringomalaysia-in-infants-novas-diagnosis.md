@@ -13,8 +13,6 @@ tags:
 ---
 ## My baby girl breaths like a eighty year old smoker with emphysema. **But darn she is cute!**
 
-
-
 ![](/img/othnsfs7slunp94g-8t0sq.jpg)
 
 _This Is Nova with her Gang at AI DuPont Children's Hospital._
