@@ -18,6 +18,8 @@ prompt: >-
 tags:
   - fall
 ---
+![](/img/img_8128.jpg)
+
 When our masculine and feminine energies are flowing through us equally, we seem to have perfect harmony and balance in our lives. We can control what needs to be controlled, while still staying open to change and the waves of life. 
 
 We feel the most balance when these two sides are operating in a synchronized dance of back and forth. Like our breath; we need equal inhales and exhales to function. We need both masculine and feminane energy to stablize or Being.
