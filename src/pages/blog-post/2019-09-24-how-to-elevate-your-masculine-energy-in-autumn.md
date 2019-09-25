@@ -26,7 +26,7 @@ However, sometimes one energy out weighs the other in different parts and times 
 
 Different seasons, also invite leaning on one energy more than the other. 
 
-# Spring / Summer: Feminine Energy
+# Spring / Summer and Feminine Energy
 
 > What is feminine energy?
 >
@@ -46,7 +46,7 @@ Spring and Summer are associated with the need for more feminine energy.
 
 Relaxed, allowing, flowing, free from control or outcome. 
 
-# Fall / Winter: Masculine Energy
+# Fall / Winter and Masculine Energy
 
 > What is masculine energy?
 >
