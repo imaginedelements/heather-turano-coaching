@@ -66,9 +66,7 @@ Leaves shed from the trees leaving only the steady strong trunks, branches and r
 
 In winter we eat heaver foods, we protect or hearts and heads with jackets and winter hats. The snow makes it difficult to drive so we are prompted to settle in and stay still.
 
-Like I have said in the past sitting with yourself can be pretty difficult if you dont have the right tools to help you through it. This is why we see Seasonal depressive disorder in the winter months. It is dark, cold and still. 
-
-
+Like I have said in the past sitting with yourself can be pretty difficult if you don't have the right tools to help you through it. [Here is a meditation to help ground you and invite more masculine energy in.](https://heatherturanocoaching.com/blog-post/2019-09-25-try-this-grounding-meditation-great-for-fall/)
 
 ## The seasons change. And with each change, comes a new balance of energies.
 
@@ -77,11 +75,5 @@ Our Feminine Energy helps us to be carefree, open and flexible.
 While our Masculine Energy helps us settle in, ground down and form more structure in our days.
 
 ## Enjoy the change of the season! **Let go, Grow, and then REPEAT.**
-
-
-
-
-
-
 
 - - -
