@@ -64,11 +64,11 @@ Leaves shed from the trees leaving only the steady strong trunks, branches and r
 
 In winter we eat heaver foods, we protect or hearts and heads with jackets and winter hats. The snow makes it difficult to drive so we are prompted to settle in and stay still.
 
-## **Simple meditation practice** 
-
-****
+## **Simple meditation practice to elivate your masculine energy.**
 
 Sit in a comfortable seat with your sit bones rooted on the ground and a long spine.
+
+
 
 
 
