@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Mind Body Wellness
-thumbnail: /img/img_7233.jpg
+thumbnail: /img/img_0391.jpg
 thumbnailAlt: fall
 title: 'Breaking Down Masculine & Feminine Energy to Get the Most Out of Each Season. '
 subTitle: fall
@@ -18,7 +18,7 @@ prompt: >-
 tags:
   - fall
 ---
-![](/img/img_8128.jpg)
+![](/img/img_0391.jpg)
 
 When our masculine and feminine energies are flowing through us equally, we seem to have perfect harmony and balance in our lives. We can control what needs to be controlled, while still staying open to change and the waves of life. 
 
