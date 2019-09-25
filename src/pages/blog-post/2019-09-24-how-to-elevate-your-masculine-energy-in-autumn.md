@@ -2,19 +2,19 @@
 key: blog-post
 protected: false
 category: Mind Body Wellness
-thumbnail: /img/img_8128.jpg
+thumbnail: /img/img_7233.jpg
 thumbnailAlt: fall
-title: How to elevate your Masculine energy in Autumn
+title: 'Breaking Down Masculine & Feminine Energy to Get the Most Out of Each Season. '
 subTitle: fall
 date: 2019-09-25T00:39:58.641Z
 prompt: >-
   When our masculine and feminine energy is flowing through us equally we seem
   to have perfect harmony and balance in our lives. We can control what needs to
   be controlled while still staying open to change and the waves of life. We
-  feel the most balance when these two sides are operating in a synchronized
+  feel the most balance when these two energies are operating in a synchronized
   dance of back and forth. Like our breath; we need equal inhales and exhales to
-  function. However, sometimes one energy out weighs the other. And different
-  seasons invite leaning on one energy more than the other. 
+  function. However, during different seasons you can invite one energy to take
+  the lead more than the other. 
 tags:
   - fall
 ---
