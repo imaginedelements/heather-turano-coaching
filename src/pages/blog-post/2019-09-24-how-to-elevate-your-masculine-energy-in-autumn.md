@@ -2,19 +2,19 @@
 key: blog-post
 protected: false
 category: Mind Body Wellness
-thumbnail: /img/img_8128.jpg
+thumbnail: /img/img_7233.jpg
 thumbnailAlt: fall
-title: How to elevate your Masculine energy in Autumn
+title: 'Breaking Down Masculine & Feminine Energy to Get the Most Out of Each Season. '
 subTitle: fall
 date: 2019-09-25T00:39:58.641Z
 prompt: >-
   When our masculine and feminine energy is flowing through us equally we seem
   to have perfect harmony and balance in our lives. We can control what needs to
   be controlled while still staying open to change and the waves of life. We
-  feel the most balance when these two sides are operating in a synchronized
+  feel the most balance when these two energies are operating in a synchronized
   dance of back and forth. Like our breath; we need equal inhales and exhales to
-  function. However, sometimes one energy out weighs the other. And different
-  seasons invite leaning on one energy more than the other. 
+  function. However, during different seasons you can invite one energy to take
+  the lead more than the other. 
 tags:
   - fall
 ---
@@ -66,27 +66,11 @@ Leaves shed from the trees leaving only the steady strong trunks, branches and r
 
 In winter we eat heaver foods, we protect or hearts and heads with jackets and winter hats. The snow makes it difficult to drive so we are prompted to settle in and stay still.
 
-Like I have said in the past sitting with yourself can be pretty difficult if you dont have the right tools to help you through it. This is why we see Seasonal depressive disorder in the winter months. It is dark, cold and still. 
+Like I have said in the past sitting with yourself can be pretty difficult if you don't have the right tools to help you through it. [Here is a meditation to help ground you and invite more masculine energy in.](https://heatherturanocoaching.com/blog-post/2019-09-25-try-this-grounding-meditation-great-for-fall/)
 
-## Try this simple grounding meditation for fall! Elevate your masculine energy. 
+## The seasons change. And with each change, comes a new balance of energies.
 
-![BHU MUDRA](/img/bhu-mudra1.jpg "BHU MUDRA")
-
-1. Sit in a _**comfortable seat**_ with your sit bones rooted on the ground and a long spine.
-2. _**Hand and arms come to BHU MUDRA.**_ Root your ‘peace’ fingers (pointer and middle fingers) into the ground with your arms straight out to the sides as you sit on the floor (or press peace fingers into the centers of your thighs). 
-3. _**Notice your natural breath**_, perhaps sensing it dropping down into your belly and pelvis to assist in rooting and grounding you.
-4. _**Hold your breath for 5-10 natural breaths**_ to start, increasing over time if you like. 
-5. State this affirmation three times out loud, then silently as you breathe. _**“My Roots run deep, I am supported by the earth".**_
-
-This Mudra and Meditation connects you with your physical body to the Earth.
-
-Instills feeling secure, safe and grounded.
-
-Can help to reduce stress, anxiety, and frenetic energy.
-
-## The seasons change; inviting in a balance of energies can help us all ride the waves of life.
-
-Our Feminine Energy helps us to be carefree, open and flexable.
+Our Feminine Energy helps us to be carefree, open and flexible.
 
 While our Masculine Energy helps us settle in, ground down and form more structure in our days.
 
