@@ -68,28 +68,20 @@ In winter we eat heaver foods, we protect or hearts and heads with jackets and w
 
 Like I have said in the past sitting with yourself can be pretty difficult if you dont have the right tools to help you through it. This is why we see Seasonal depressive disorder in the winter months. It is dark, cold and still. 
 
-## Try this simple grounding meditation for fall! Elevate your masculine energy.
 
-![BHU MUDRA](/img/bhu-mudra1.jpg "BHU MUDRA")
 
-1. Sit in a **_comfortable seat_** with your sit bones rooted on the ground and a long spine.
-2. **_Hand and arms come to BHU MUDRA._** Root your ‘peace’ fingers (pointer and middle fingers) into the ground with your arms straight out to the sides as you sit on the floor (or press peace fingers into the centers of your thighs). 
-3. **_Notice your natural breath_**, perhaps sensing it dropping down into your belly and pelvis to assist in rooting and grounding you.
-4. **_Hold your breath for 5-10 natural breaths_** to start, increasing over time if you like. 
-5. State this affirmation three times out loud, then silently as you breathe. **_“My Roots run deep, I am supported by the earth"._**
+## The seasons change. And with each change, comes a new balance of energies.
 
-This Mudra and Meditation connects you with your physical body to the Earth.
-
-Instills feeling secure, safe and grounded.
-
-Can help to reduce stress, anxiety, and frenetic energy.
-
-## The seasons change; inviting in a balance of energies can help us all ride the waves of life.
-
-Our Feminine Energy helps us to be carefree, open and flexable.
+Our Feminine Energy helps us to be carefree, open and flexible.
 
 While our Masculine Energy helps us settle in, ground down and form more structure in our days.
 
 ## Enjoy the change of the season! **Let go, Grow, and then REPEAT.**
+
+
+
+
+
+
 
 - - -
