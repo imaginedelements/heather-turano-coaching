@@ -68,15 +68,15 @@ In winter we eat heaver foods, we protect or hearts and heads with jackets and w
 
 Like I have said in the past sitting with yourself can be pretty difficult if you dont have the right tools to help you through it. This is why we see Seasonal depressive disorder in the winter months. It is dark, cold and still. 
 
-## Try this simple grounding meditation for fall! Elevate your masculine energy. 
+## Try this simple grounding meditation for fall! Elevate your masculine energy.
 
 ![BHU MUDRA](/img/bhu-mudra1.jpg "BHU MUDRA")
 
-1. Sit in a _**comfortable seat**_ with your sit bones rooted on the ground and a long spine.
-2. _**Hand and arms come to BHU MUDRA.**_ Root your ‘peace’ fingers (pointer and middle fingers) into the ground with your arms straight out to the sides as you sit on the floor (or press peace fingers into the centers of your thighs). 
-3. _**Notice your natural breath**_, perhaps sensing it dropping down into your belly and pelvis to assist in rooting and grounding you.
-4. _**Hold your breath for 5-10 natural breaths**_ to start, increasing over time if you like. 
-5. State this affirmation three times out loud, then silently as you breathe. _**“My Roots run deep, I am supported by the earth".**_
+1. Sit in a **_comfortable seat_** with your sit bones rooted on the ground and a long spine.
+2. **_Hand and arms come to BHU MUDRA._** Root your ‘peace’ fingers (pointer and middle fingers) into the ground with your arms straight out to the sides as you sit on the floor (or press peace fingers into the centers of your thighs). 
+3. **_Notice your natural breath_**, perhaps sensing it dropping down into your belly and pelvis to assist in rooting and grounding you.
+4. **_Hold your breath for 5-10 natural breaths_** to start, increasing over time if you like. 
+5. State this affirmation three times out loud, then silently as you breathe. **_“My Roots run deep, I am supported by the earth"._**
 
 This Mudra and Meditation connects you with your physical body to the Earth.
 
