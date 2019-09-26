@@ -24,13 +24,15 @@ Depending on what we need that day or time in our lives, we can use meditation t
 
 **Do you want to feel more accepting, free, grounded, less anxious?** Well there is most likely a meditation for that. 
 
-**And with that mediation, there is also probably a mudras we can pair with it.** This partnership of mediation and mudras can help create a deeper connection with our body, the earth and the air around us.
+**And with that mediation, there is also probably a mudra we can pair with it.** 
+
+This partnership of mediation and mudras can help create a deeper connection with our body, the earth and the air around us.
 
 ## "What is a Mudra" you ask?
 
 **Long story short; Mudra in Sanskrit means Mark/Seal/Gesture.** These gestures occur throughout the practice of yoga and meditation. 
 
-There are probably many mudras you already use that you may not even be aware of; such as **_Anjali Mudra_**, also known as **_"hands at heart center"_**. 
+There are probably many mudras you already use that you may not even be aware of; such as _**Anjali Mudra**_, also known as _**"hands at heart center"**_. 
 
 The use of Mudras is to channel energy and move it through the body in specific ways, and to accomplish specific purposes.
 
@@ -50,7 +52,7 @@ _Image of Bhu Mudra_
 2. **Hand and arms come to BHU MUDRA.** Root your ‘peace’ fingers (pointer and middle fingers) into the ground with your arms straight out to the sides as you sit on the floor (or press peace fingers into the centers of your thighs).  
 3. **Notice your natural breath,** perhaps sensing it dropping down into your belly and pelvis to assist in rooting and grounding you. 
 4. **Hold your breath for 5-10 natural breaths** to start, increasing over time if you like.  
-5. **State this affirmation three times out loud,** then silently as you breathe. **_“My Roots run deep, I am supported by the earth"._** 
+5. **State this affirmation three times out loud,** then silently as you breathe. _**“My Roots run deep, I am supported by the earth".**_ 
 
 ## This Mudra and Meditation connects you with your physical body to the Earth.
 
