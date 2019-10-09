@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Mind Body Wellness
-thumbnail: /img/blur-carefree-couple-289237.jpg
+thumbnail: /img/fullsizeoutput_296e.jpeg
 thumbnailAlt: masculine Feminine Energy broken down
 title: 'Breaking Down Masculine & Feminine Energy to Get the Most Out of Each Season. '
 subTitle: 'Breaking Down Masculine & Feminine Energy to Get the Most Out of Each Season. '
@@ -16,6 +16,8 @@ prompt: >-
   function. However, during different seasons you can invite one energy to take
   the lead more than the other.
 ---
+![masculine feminine energy](/img/img_3158.png "D and H")
+
 When our masculine and feminine energies are flowing through us equally, we seem to have perfect harmony and balance in our lives. We can control what needs to be controlled, while still staying open to change and the waves of life. 
 
 We feel the most balance when these two sides are operating in a synchronized dance of back and forth. Like our breath; we need equal inhales and exhales to function. We need both masculine and feminane energy to stablize or Being.
@@ -48,7 +50,7 @@ Relaxed, allowing, flowing, free from control or outcome.
 
 # Fall / Winter and Masculine Energy
 
-![](/img/img_7233.jpg)
+![](/img/dsc_0055.jpg)
 
 > What is masculine energy?
 >
