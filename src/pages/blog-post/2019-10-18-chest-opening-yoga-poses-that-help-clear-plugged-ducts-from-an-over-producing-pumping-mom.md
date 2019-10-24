@@ -9,7 +9,14 @@ title: >-
   pumping Mom.
 subTitle: a
 date: 2019-10-18T16:07:40.369Z
-prompt: a
+prompt: >-
+  Now I understand why they call it "cow pose". I am a pumping and nursing mom
+  that deals with plugged milk ducks, engorgement, milk blebs; you name it and I
+  have probably been thought it. Many times finding myself on hands and knees
+  while pumping trying to relieve my discomfort. Here are some of my go to basic
+  yoga poses that help "unplug my plugs" and open the chest for better flow.
+  These Poses also help the neck shoulders and back open up after hunching over
+  the pump or our little ones for at least 3 hours a day.
 ---
 cow pose never looked so good! I struggle with plugged ducts along with many other breastfeeding difficulties. I have been at this game for 4 months now and decided to come to peace with the fact that I always need to be on high alert when it comes to my boobs.
 
