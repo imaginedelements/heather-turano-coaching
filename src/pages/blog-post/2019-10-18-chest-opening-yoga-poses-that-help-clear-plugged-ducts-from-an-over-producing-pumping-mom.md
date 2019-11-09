@@ -4,13 +4,13 @@ protected: false
 category: Mind Body Wellness
 thumbnail: /img/fullsizeoutput_2fee.jpeg
 thumbnailAlt: a
-title: Chest opening yoga poses that help clear plugged ducts
+title: Chest Opening Yoga Poses that Help Clear Plugged Ducts
 subTitle: a
 date: 2019-10-18T16:07:40.369Z
 prompt: >-
   Now I understand why they call it "cow pose". I am a pumping and nursing mom
   that deals with plugged milk ducks, engorgement, milk blebs; you name it and I
-  have probably been thought it. Many times finding myself on hands and knees
+  have probably been through it. Many times finding myself on hands and knees
   while pumping trying to relieve my discomfort. Here are some of my go to basic
   yoga stretches that help "unplug my plugs" and open the chest for better flow.
   These poses also help the neck, shoulders and back open up to counter all the
