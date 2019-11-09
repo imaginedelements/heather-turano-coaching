@@ -4,7 +4,7 @@ protected: false
 category: Mind Body Wellness
 thumbnail: /img/fullsizeoutput_2fee.jpeg
 thumbnailAlt: a
-title: Chest opening yoga poses that help clear plugged ducts
+title: Chest Opening Yoga Poses that Help Clear Plugged Ducts
 subTitle: a
 date: 2019-10-18T16:07:40.369Z
 prompt: >-
