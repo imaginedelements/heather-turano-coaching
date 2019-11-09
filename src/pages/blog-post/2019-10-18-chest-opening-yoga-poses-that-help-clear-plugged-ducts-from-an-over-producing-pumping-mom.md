@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Mind Body Wellness
-thumbnail: /img/img_4151.jpg
+thumbnail: /img/fullsizeoutput_2fee.jpeg
 thumbnailAlt: a
 title: Chest opening yoga poses that help clear plugged ducts
 subTitle: a
@@ -16,8 +16,22 @@ prompt: >-
   These poses also help the neck, shoulders and back open up to counter all the
   hunching we do as breastfeeding Moms.
 ---
+![yoga and breast pumping](/img/img_4151.jpg "yoga and breast pumping")
+
 Cow pose never looked so good! I struggle with plugged ducts along with many other breastfeeding difficulties. I have been at this game for 4 months now and decided to come to peace with the fact that I always need to be on high alert when it comes to my boobs.
 
 Any hint of a tingle in my breasts that feels off is my cue to pull out my bag of "breastfeeding and pumping" tricks.
 
-Here are some basic yoga stretches that help "unplug plugs" and open the chest for better flow. These poses also help the neck, shoulders and back open up to counter all the hunching we do as breastfeeding Moms.
+Here are some basic yoga stretches that help "unplug plugs" and open the chest for better flow. 
+
+These poses also help the neck, shoulders and back open up; to counter all the hunching we do as breastfeeding Moms.
+
+## Watch My Video below and Subscribe to My Super New Youtube Channel!
+
+**See me make a ton of mistakes as I try to figure out youtube. It should be entertaining!** On this channel I plan to post more quick videos weekly about Yoga and Life. 
+
+[**Subscribe to My Channel Here!**](https://www.youtube.com/channel/UCjoCDG7ZyEpovEEum27lvSQ)****
+
+
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/EHEOq8lPSW0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 26px 0"></iframe>
