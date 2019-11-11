@@ -37,7 +37,7 @@ Have you heard of **positive reenforcement** for your children? Well, it applies
 
 Focusing on what your partner or husband does wrong only does the opposite of what you want. It makes him not take the lead, self conscious of his decisions and walk on egg shells around you and your child.
 
-**Does this sound familar?**
+**Does this sound familiar?**
 
 > "you can't do anything right"
 >
@@ -45,28 +45,30 @@ Focusing on what your partner or husband does wrong only does the opposite of wh
 >
 > "I can do it better myself"
 
-Try to encourage him, educate him why you do things, tell him how much he helps you.
+**Insead Try to encourage him, educate him why you do things, tell him how much he helps you.**
+
+> "you were so helpful when you fed the baby"
+>
+> "thank you for changing her into her PJs"
+>
+> "I couldn't do this without your help"
 
 
 
-## 
+## 3. Helping and Providing Chemically Makes Your Man Happier
 
-## It Chemically Makes Your Man Happier to Help
-
-Most men really want to do right by the woman in there life and provide for their family. When a man can provide and support his family he releases **serotonin _(the happy making hormone)_** and his **cortisol** levels go down **_(cortisol is the chemical your body releases that causes anxiety and stress)_**. 
+Most men really want to do right by the woman in there life and provide for their family. When a man can provide and support his family he releases **serotonin _(the happy making hormone)_** and his **cortisol** levels go down _**(cortisol is the chemical your body releases that causes anxiety and stress)**_. 
 
 > When his cortisol is low, and serotonin is high, it makes for a GREAT Husband Chemical Cocktail! 
 
 When a man can make a woman happy (or anyone happy for that matter) he is most definitely going to be an overall happier person. And less stressed equals a better father and husband. **Its actually that simple.**
 
-## Say thank you!
+## 3. Say thank you!
 
 Acknowledge and Verbalize the GOOD he does and all the ways he helps you. 
 
-You want him to do more for you? Stop only telling him the bad and start praising him for the good.
+**You want him to do more for you?** 
 
+**Start praising him for the good.**
 
-
-I know, I know, there are definitely some men out there that really are horrible fathers and partners. Believe me I have had my fair share of those men. 
-
-Thank goodness for those super amazing Men that know how to show up for us and their children. We moms need to keep empowering them! I see too many woman saying "their husbands/partners cant do it" and "dont know how". The men in your life are completely capable of taking care of "THEIR CHILD". So woman, Please step back, relax, and let them!!!!
+Thank goodness for those super amazing Men that know how to show up for us and their children. We moms need to keep empowering them!  Step back, relax, and let them take care of us.
