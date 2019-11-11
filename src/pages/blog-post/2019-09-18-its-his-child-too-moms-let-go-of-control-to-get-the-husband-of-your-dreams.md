@@ -4,7 +4,7 @@ protected: false
 category: Relationships
 thumbnail: /img/10-ht-010.jpg
 thumbnailAlt: Our Family
-title: How to Get Your Husband to Show Up for Fatherhood
+title: 5 Ways To Help Him Show Up for Fatherhood
 subTitle: q
 date: 2019-09-18T15:31:48.021Z
 prompt: q
@@ -23,7 +23,7 @@ tags:
 
 Its Ok, I know it is extremely hard, But, all we have to do is, let go, breathe, and realize our baby wont die in the hands of their Fathers.
 
-## 2. Realize Your Husband is Not You, and That is an Asset.
+## 2. Your Husband Isn't You
 
 I know "us ladies" have the power to do EVERYTHING soooooo perfect (insert "roll eye" emoji here). But our strive for perfection when it comes to parenting is the main reason our Men aren't showing up to Fatherhood. 
 
@@ -31,7 +31,7 @@ I know "us ladies" have the power to do EVERYTHING soooooo perfect (insert "roll
 
 Allow him to make mistake and figure it out on his own. The benefit to allowing him to lead, is that inevitably he will see how hard this whole Motherhood thing really is. He will then in-turn appreciate you more and show up to support you when you need help.
 
-## 2. Stop Tearing Your Husband Down and Build Them Up Instead
+## 3. Build Him Up
 
 Have you heard of **positive reenforcement** for your children? Well, it applies here as well. 
 
@@ -55,7 +55,7 @@ Focusing on what your partner or husband does wrong only does the opposite of wh
 
 
 
-## 3. Helping and Providing Chemically Makes Your Man Happier
+## 4. Helping Makes Him Happy
 
 Most men really want to do right by the woman in there life and provide for their family. When a man can provide and support his family he releases **serotonin _(the happy making hormone)_** and his **cortisol** levels go down _**(cortisol is the chemical your body releases that causes anxiety and stress)**_. 
 
@@ -63,7 +63,7 @@ Most men really want to do right by the woman in there life and provide for thei
 
 When a man can make a woman happy (or anyone happy for that matter) he is most definitely going to be an overall happier person. And less stressed equals a better father and husband. **Its actually that simple.**
 
-## 3. Say thank you!
+## 5. Say thank you!
 
 Acknowledge and Verbalize the GOOD he does and all the ways he helps you. 
 
