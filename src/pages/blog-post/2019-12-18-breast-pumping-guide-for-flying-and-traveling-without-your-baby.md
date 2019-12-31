@@ -45,8 +45,6 @@ Having this mindset when I started my trip helped tremendously! **I was able to 
 
 This set up worked perfect. and if you want to feel free and pump. I recommend you splurge! buy the portable pump NOW. Do not wait. You will not regret it!
 
-
-
 ## Airport Lactation Rooms
 
 Ok so I spotted a few of these "lactation rooms" in the air ports. My thoughts on these rooms are as follows...
@@ -63,6 +61,33 @@ My conclusion on the airport "lactation rooms that they so kindly have put in pl
 
 Packing Breast Milk in a carry on cooler
 
+Pumping for a week straight, produces a lot of milk. I froze over 175 oz of breast milk by the time I was ready to leave CA. In my mind i was super worried about it defrosting and losing it all. so i did what everyone does and went straight to google to find my answers.
+
+Do I ship it home? I researched shipping it over dry ice. but things i read said dry ice can change the taste of your milk and who know what could happen in transit etc. 
+
+Do I check it?  Should I pay to check it in a cooler? I had a layover in AZ and what if it got lost or my flight was delayed? I couldn't chance not being able to get to my luggage.
+
+Do I carry it on? All my research was pointing to carrying it on. If i froze it, packed the cooler tight enough, It would have its best chance at staying frozen. plus i could always find ice in a desperate situation. I learned as long as the breast milk is still slushy you can refreeze it and it is still good.
+
 Caring on Breastmilk; TSA and Airport Experience
+
+So I carried it on! All 175oz of breastmilk.
+
+The day before leaving we went to Walmart and purchases a soft cooler that would fit all the milk. I made sure it was a super isolated cooler and easy to carry. I landed on this cooler, mainly because it was the best option there at the time. 
+
+The morning before we left, I packed all the frozen milk tight in a few ziplock bags. I placed ice packs on the bottom and top of the cooler. Even stuffing some towels in there to make sure the cooler had no open air space. 
+
+After we packed the car, we were off to the airport to see how TSA would respond to my carry-on milk stash!
+
+Drew and I both have TSA pre-check. Which is a really good thing to have when you are caring on that much breastmilk. With TSApre they have already vetted you as a "safe traveler" and are way more lax going through the check point.
+
+I informed the TSA agents at every point that i was caring on breastmilk and medical device equipment for pumping. 
+
+They pulled my two coolers aside after they went through the x-ray scanner. 
+
+* One cooler packed with all the frozen milk that i would not open for 9 hours till we arrived home. 
+* The 2nd cooler was for all my freshly pumped milk and pump parts during my flights. This cooler would be opened and closed.
+
+
 
 Conclution
