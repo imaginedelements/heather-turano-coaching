@@ -79,7 +79,7 @@ The morning before we left, I packed all the frozen milk tight in a few ziplock 
 
 After we packed the car, we were off to the airport to see how TSA would respond to my carry-on milk stash!
 
-Drew and I both have TSA pre-check. Which is a really good thing to have when you are caring on that much breastmilk. With TSApre they have already vetted you as a "safe traveler" and are way more lax going through the check point.
+Drew and I both have TSA pre-check. Which is a really good thing to have when you are caring on that much breastmilk. With TSA pre they have already vetted you as a "safe traveler" and are way more lax going through the check point.
 
 I informed the TSA agents at every point that i was caring on breastmilk and medical device equipment for pumping. 
 
@@ -90,4 +90,14 @@ They pulled my two coolers aside after they went through the x-ray scanner.
 
 
 
-Conclution
+Conclusion and recap:
+
+See a lactation consultant to understand your pump schedule and routine. My suggestion is joining the community at [Balancedbreastfeeding.com](https://balancedbreastfeeding.com/) with Katie Madden.
+
+Get a portable pump. My recommendation is the [closed system Freemie Cups](https://freemie.com/collections/freemie-cups-for-your-pump/products/freemie-closed-system-collection-cup-set) and a [Bellababy pocket portable breast pump](https://www.amazon.com/Bellababy-Electric-Hanging-Adpaters-Changers/dp/B07TD4P8DS/ref=sr_1_1_sspa?crid=3MSLBYBYJDV9M&keywords=bellababy+pump&qid=1577721990&sprefix=bellababy%2Caps%2C131&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMlZINUQ5MDVLNFIwJmVuY3J5cHRlZElkPUEwMTE2OTQzRDdLVjJNRzFIOE5CJmVuY3J5cHRlZEFkSWQ9QTAxNTI4NDZQUU4wVzVGQjc3NjImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl). Costs around $145 total.  
+
+Fuck lactation rooms, pump wherever you want. Do not spend your valuable vacation time alone in a room pumping. Walking around, on the airplane, at the pool, out at restaurants, on the golf course, WHEREVER! #normalizepumping 
+
+Get TSA Pre-Check, Freeze your milk, and carry it on. The TSA manager informed me that frozen breastmilk is a much faster process for them then unfrozen milk. so my recommendation is to freeze everything and pack it in a separate cooler that stays closed for the entire trip! let them know eactly what you have in your coolers and tell them to use clean gloves and work quickly while checking your coolers. If you are kind to them they are super happy to obige!
+
+and most imporatantly have a blast on your vacation away from baby! Enjoy, relax and have fun! Make your pumping experiance a game; and ask yourself, "where else can I pump?"!
