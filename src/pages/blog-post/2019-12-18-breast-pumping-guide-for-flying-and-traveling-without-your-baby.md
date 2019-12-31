@@ -47,7 +47,19 @@ This set up worked perfect. and if you want to feel free and pump. I recommend y
 
 
 
-Airport Lactation Rooms
+## Airport Lactation Rooms
+
+Ok so I spotted a few of these "lactation rooms" in the air ports. My thoughts on these rooms are as follows...
+
+WTF. One lactation room was in Philadelphia International Airport and it looked like a porta-potty. I looked inside to find an uncomfortable metal bench to sit on with no light coming in. Is nursing or pumping really the same as shitting on a toilet? No thanks. I think I will just sit in an open area or walk around while pumping. Maybe I will even grab something to eat at one of the restaurants and pump there. 
+
+> Thanks for the option to close myself in a metal box for 30 minutes Philly (insert roll-eye emoji here). super generous of you.
+
+Another lactation room was in Palm Springs, CA Airport. If you have never been to this airport, you should go. It is a beautiful outdoor, open-air airport with gardens and benches. There is even a playground and grass to walk your dog on! I am sure you are thinking "well, they definitely have a beautiful lactation area for nursing or pumping mothers.". Um nope! Right next to the woman's bathroom was a lactation room. I walked from the beautiful sunny 70 degree wether into the tile lactation room that resembled the bathrooms next door. It was cold dark and uncomfortable. It had one tile bench built in to the side of one of the walls and that was it! Why would I decided to pump in a cold dark room, when I could sit on a bench in the sun looking at the beautiful flowers and breathing the fresh air? Are the people that create these rooms mad? 
+
+> I will scream it from the rooftop again! "Breastfeeding, nursing, and pumping is not like using the bathroom people!!!!"
+
+My conclusion on the airport "lactation rooms that they so kindly have put in place for woman to use. "Um thanks, but actually no thanks! I will pump and or nurse where ever I want. If some one is uncomfortable wit that. Than I suggest they go sit in the damn lactation rooms.".
 
 Packing Breast Milk in a carry on cooler
 
