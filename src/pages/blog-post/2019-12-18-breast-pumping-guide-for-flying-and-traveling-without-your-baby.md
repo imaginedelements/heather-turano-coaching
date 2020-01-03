@@ -4,17 +4,19 @@ protected: false
 category: Random life stuff
 thumbnail: /img/6v5norbms4knft-qmdfsmg.jpg
 thumbnailAlt: f
-title: Breast Pumping Guide for Flying and Traveling Without Your Baby
+title: Pumping Guide for Flying & Traveling WITHOUT Your Baby
 subTitle: f
 date: 2019-12-18T19:34:01.994Z
 prompt: >-
   Are you a breastfeeding mom who has anxiety about leaving your little one to
-  travel? Well, at 6 months, I did it. A whole week in Palm Springs, CA with out
-  my baby girl. In this post you will find my full experience with Pumping,
-  Freezing, Packing, and Flying with breast milk. I will explain my pumping set
+  travel? Well, at 6 months, I did it. A whole week in Palm Springs, CA without
+  my baby girl. In this post, you will find my full experience with Pumping,
+  Freezing, Packing, and Flying with Breast Milk. I will explain my pumping set
   up and schedule along with tips on packing and flying with over 100 oz of
   breast milk. Along with my encounter with TSA and airport experience.
 ---
+![a](/img/unwbwc5ntzg1f5nlp3hkea.jpg "a")
+
 **Recently I traveled to Palm Springs, CA for 6 days! I am sure you are saying "what's the big deal about that?".** This use to be a "no big deal" type of trip, back before I was a Mom. But now I have a 6-month-old and I am still nursing and breastfeeding! Making deciding to travel WITHOUT my baby a little more difficult. 
 
 **You see, If I wanted to continue to breastfeed/nurse my child and also travel; I had to figure out a way to do both.** So this meant using all the new pumping technology and resources I had around me to MAKE IT HAPPEN!
@@ -41,6 +43,8 @@ We discussed several things before making my decision to travel. **Some question
 
 I reached a 4-month goal and decided to treat myself to the [closed system Freemie Cups ](https://freemie.com/collections/freemie-cups-for-your-pump/products/freemie-closed-system-collection-cup-set)and a [Bellababy pocket portable breast pump](https://www.amazon.com/Bellababy-Electric-Hanging-Adpaters-Changers/dp/B07TD4P8DS). This set up cost me around $145. which is way less than the $500 Willow Portable pump and it got me up and moving while pumping! Which was my ultimate goal.
 
+![](/img/img_4670.jpg)
+
 > My philosophy with pumping has always been the same as Nursing. I WILL DO IT ANYWHERE. #normalizepumping
 
 Having this mindset when I started my trip helped tremendously! **I was able to pump while walking around the airport, on the planes, checking into our villa, In the car, in restaurants, by the pool, playing golf, drinking coffee on the porch, on hikes in Joshua Tree National Park. You name it, and I probably pumped there!** And why the hell not! I had limited time away and hell if I was going to sit in a room, by myself, pumping for 30 minutes 6 to 7 times a day! That's over 3.5 hours per day wasted pumping. UMMMM NOPE!
@@ -49,23 +53,29 @@ This set up worked perfect and if you want to feel free while you pump. I recomm
 
 ## Airport Lactation Rooms
 
+![](/img/3f2cbfynzzh35frbqnc5oqldai.jpg)
+
 Ok, so I spotted a few of these **"lactation rooms"** in the airports. **My thoughts on these rooms are as follows:**
 
-**WTF. One lactation room was at Philadelphia International Airport and it looked like a porta-potty.** I looked inside this tin box to find a dimly lit, cold room with an uncomfortable metal bench to sit on. **_Is nursing or pumping the same as shitting in a porta-potty?_** No thanks. I think I will just sit in an open area or walk around while I pump in the airport. I may even grab something to eat or a drink at one of the airport restaurants and pump there. 
+**One lactation room was at Philadelphia International Airport and it looked like a nicer version of a porta-potty.** I looked inside this tin box to find a decent room if privacy is what you are looking for. _**But why are they asking mothers to nurse and pump in private?**_ No thanks. I think I will just sit in an open area or walk around while I pump in the airport. I may even grab something to eat or a drink at one of the airport restaurants and pump there. Because my time is precious.
 
 > Thanks for the option to close me in a metal box for 30 minutes Philly (insert roll-eye emoji here). Super generous of you.
 
-**Another lactation room was in Palm Springs, CA Airport.** If you have never been to this airport, you should go. **It is a beautiful outdoor, open-air airport with gardens and benches. There is even a playground for kids and grass to walk your dog on!** I am sure you are thinking **_"well, they have a beautiful lactation area for nursing and pumping mothers."..._**
+**Another lactation room was in Palm Springs, CA Airport.** If you have never been to this airport, you should go. **It is a beautiful outdoor, open-air airport with gardens and benches. There is even a playground for kids and grass to walk your dog on!** I am sure you are thinking _**"well, they have a beautiful lactation area for nursing and pumping mothers."...**_
 
 **...Um nope!** Right next to the woman's bathroom was a lactation room. I walked from the beautiful, sunny, 70-degree weather; into a tiled lactation room that resembled the bathrooms next door. It was cold dark and uncomfortable. It had one tile bench built into the wall with a plug. That was it! 
 
 > Why would I decide to pump in a cold dark room, when I could sit on a bench in the sun looking at the beautiful flowers and breathing the fresh air? Are the people that create these rooms mad? 
 
-**I will scream it from the rooftop again! "Breastfeeding, nursing, and pumping are not like using the bathroom people!!!!"**
+![](/img/img_4695.jpg)
+
+_Image: Palm Springs, CA Airport_
+
+**I will scream it from the rooftop again! "Breastfeeding, nursing, and pumping are not like using the bathroom!!!!"**
 
 **My conclusion on airport lactation rooms;** "Um thanks, but actually no thanks!" I will pump and/or nurse wherever I want. If someone is uncomfortable with that. Then I suggest they go sit in the damn lactation rooms.
 
-## Packing and Traveling with Breast Milk 
+## Packing and Traveling with Breast Milk
 
 **Pumping for a week straight produces A LOT of milk!** I froze over 175 oz of breast milk by the time I was ready to leave CA. In my mind, I was super worried about it defrosting and losing it all on the flight home. So I did what everyone does when looking for an answer to a question, I went straight to google.
 
@@ -76,6 +86,8 @@ Ok, so I spotted a few of these **"lactation rooms"** in the airports. **My thou
 **Do I carry it on?** All my research was pointing to carrying it on. If I froze it, packed the cooler tight enough, It would have the best chance at staying frozen (Plus I could always find ice in a desperate situation). I learned as long as the breast milk is still slushy you can refreeze it and it is still good. 
 
 **So I carried it on! All 175oz of breastmilk.**
+
+![](/img/screenshot-2019-12-31-13.40.21.jpg)
 
 ## Caring on Breast Milk; TSA and Airport Experience
 
@@ -97,6 +109,8 @@ TSA pulled my two coolers aside after they went through the x-ray scanner.
 TSA was extremely nice and happy to help me get through the checkpoint quickly. They informed me that frozen milk is ideal when caring-on. It is the unfrozen milk that causes more issues and takes more time to check. 
 
 **Thank goodness I froze most of the milk before leaving!** 
+
+![](/img/img_4693.jpg)
 
 ## Conclusion & Recap:
 
