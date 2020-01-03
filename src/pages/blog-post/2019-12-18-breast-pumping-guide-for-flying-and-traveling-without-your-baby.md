@@ -14,7 +14,15 @@ prompt: >-
   Freezing, Packing, and Flying with Breast Milk. I will explain my pumping set
   up and schedule along with tips on packing and flying with over 100 oz of
   breast milk. Along with my encounter with TSA and airport experience.
+tags:
+  - pumping
+  - nursing
+  - traveling
+  - tsa and breast milk
+  - ''
 ---
+
+
 ![a](/img/unwbwc5ntzg1f5nlp3hkea.jpg "a")
 
 **Recently I traveled to Palm Springs, CA for 6 days! I am sure you are saying "what's the big deal about that?".** This use to be a "no big deal" type of trip, back before I was a Mom. But now I have a 6-month-old and I am still nursing and breastfeeding! Making deciding to travel WITHOUT my baby a little more difficult. 
@@ -42,6 +50,8 @@ We discussed several things before making my decision to travel. **Some question
 ## Pumping in Public
 
 I reached a 4-month goal and decided to treat myself to the [closed system Freemie Cups ](https://freemie.com/collections/freemie-cups-for-your-pump/products/freemie-closed-system-collection-cup-set)and a [Bellababy pocket portable breast pump](https://www.amazon.com/Bellababy-Electric-Hanging-Adpaters-Changers/dp/B07TD4P8DS). This set up cost me around $145. which is way less than the $500 Willow Portable pump and it got me up and moving while pumping! Which was my ultimate goal.
+
+![](/img/img_4543.jpg)
 
 ![](/img/img_4670.jpg)
 
@@ -119,3 +129,7 @@ TSA was extremely nice and happy to help me get through the checkpoint quickly. 
 3. **Fuck lactation rooms, pump wherever you want.** Do not spend your valuable vacation time alone in a room pumping. Walking around, on the airplane, at the pool, out at restaurants, on the golf course, WHEREVER! #normalizepumping 
 4. **Get TSA Pre-Check, Freeze your milk, and carry it on.** The TSA manager informed me that frozen breastmilk is a much faster process for them then unfrozen milk. so my recommendation is to freeze everything and pack it in a separate cooler that stays closed for the entire trip! let them know exactly what you have in your coolers and tell them to use clean gloves and work quickly while checking your coolers. If you are kind to them they are super happy to oblige!
 5. **Last but not least and probably the most important; enjoy, relax and have fun!** Make your pumping experience a game; and ask yourself, "where else can I pump?"!
+
+![](/img/ad2e9431-3163-4e49-a4a5-2a8adde97b0b.jpg)
+
+_Image: Joshua Tree National Park. Pumping and Hiking._
