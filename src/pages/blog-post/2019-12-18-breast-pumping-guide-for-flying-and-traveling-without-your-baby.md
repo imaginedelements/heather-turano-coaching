@@ -2,7 +2,7 @@
 key: blog-post
 protected: false
 category: Random life stuff
-thumbnail: /img/6v5norbms4knft-qmdfsmg.jpg
+thumbnail: /img/unwbwc5ntzg1f5nlp3hkea.jpg
 thumbnailAlt: f
 title: Pumping Guide for Flying & Traveling WITHOUT Your Baby
 subTitle: f
