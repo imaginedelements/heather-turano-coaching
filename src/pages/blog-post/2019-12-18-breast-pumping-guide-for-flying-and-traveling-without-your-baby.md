@@ -15,7 +15,7 @@ prompt: >-
   up and schedule along with tips on packing and flying with over 100 oz of
   breast milk. Along with my encounter with TSA and airport experience.
 ---
-**Recently I traveled to Palm Springs, CA for 6 days!** I am sure you are saying **"whats the big deal about that?".** This use to be a "no big deal" type of trip, back before I was a Mom. But now I have a 6 month old and I am still nursing and breastfeeding! Making traveling and deciding to travel **WITHOUT my baby** a little more difficult. 
+**Recently I traveled to Palm Springs, CA for 6 days!** I am sure you are saying **"whats the big deal about that?".** This use to be a "no big deal" type of trip, back before I was a Mom. But now I have a 6 month old and I am still nursing and breastfeeding! Making deciding to travel **WITHOUT my baby** a little more difficult. 
 
 You see, If I wanted to continue to breastfeed/nurse my child and also travel; I had to figure out a way to do both. So this meant using all the new pumping technology and resources I had around me to MAKE IT HAPPEN!
 
@@ -37,13 +37,13 @@ We discussed a number of things before making my decision to travel. Some questi
 
 ## Pumping in Public
 
-I reached a 4 month goal and decided to treat myself to the [closed system Freemie Cups](https://freemie.com/collections/freemie-cups-for-your-pump/products/freemie-closed-system-collection-cup-set) and a [Bellababy pocket portable breast pump](https://www.amazon.com/Bellababy-Electric-Hanging-Adpaters-Changers/dp/B07TD4P8DS/ref=sr_1_1_sspa?crid=3MSLBYBYJDV9M&keywords=bellababy+pump&qid=1577721990&sprefix=bellababy%2Caps%2C131&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMlZINUQ5MDVLNFIwJmVuY3J5cHRlZElkPUEwMTE2OTQzRDdLVjJNRzFIOE5CJmVuY3J5cHRlZEFkSWQ9QTAxNTI4NDZQUU4wVzVGQjc3NjImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl). this set up cost me around $145. which is way less than the $500 Willow Portable pump and it got me up and moving while pumping! Which was my ultimate goal.
+I reached a 4 month goal and decided to treat myself to the [closed system Freemie Cups](https://freemie.com/collections/freemie-cups-for-your-pump/products/freemie-closed-system-collection-cup-set) and a [Bellababy pocket portable breast pump](https://www.amazon.com/Bellababy-Electric-Hanging-Adpaters-Changers/dp/B07TD4P8DS/ref=sr_1_1_sspa?crid=3MSLBYBYJDV9M&keywords=bellababy+pump&qid=1577721990&sprefix=bellababy%2Caps%2C131&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMlZINUQ5MDVLNFIwJmVuY3J5cHRlZElkPUEwMTE2OTQzRDdLVjJNRzFIOE5CJmVuY3J5cHRlZEFkSWQ9QTAxNTI4NDZQUU4wVzVGQjc3NjImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl). This set up cost me around $145. which is way less than the $500 Willow Portable pump and it got me up and moving while pumping! Which was my ultimate goal.
 
 **My philosophy with pumping has always been the same as Nursing. I WILL DO IT ANYWHERE.** #normalizepumping
 
-Having this mindset when I started my trip helped tremendously! **I was able to pump while walking around the airport, on the planes, checking into our villa, In the car, in restaurants, by the pool, playing golf, drinking coffee on the porch, on hikes in Joshua Tree national park. You name it, and I probably pumped there!** And why the hell not! I had limited time away and hell if I was going to sit in a room, by myself, pumping for 30 minutes 6 to 7 times per day! That's over 3.5 hours per day wasted pumping. **UMMMM NOPE!**
+Having this mindset when I started my trip helped tremendously! **I was able to pump while walking around the airport, on the planes, checking into our villa, In the car, in restaurants, by the pool, playing golf, drinking coffee on the porch, on hikes in Joshua Tree National Park. You name it, and I probably pumped there!** And why the hell not! I had limited time away and hell if I was going to sit in a room, by myself, pumping for 30 minutes 6 to 7 times a day! That's over 3.5 hours per day wasted pumping. **UMMMM NOPE!**
 
-This set up worked perfect. and if you want to feel free and pump. I recommend you splurge! buy the portable pump NOW. Do not wait. You will not regret it!
+This set up worked perfect and if you want to feel free while you pump. I recommend you splurge! **Buy the portable pump NOW. Do not wait.** You will not regret it!
 
 ## Airport Lactation Rooms
 
@@ -53,15 +53,15 @@ Ok so I spotted a few of these **"lactation rooms"** in the air ports. My though
 
 > Thanks for the option to close myself in a metal box for 30 minutes Philly (insert roll-eye emoji here). Super generous of you.
 
-**Another lactation room was in Palm Springs, CA Airport. If you have never been to this airport, you should go. It is a beautiful outdoor, open-air airport with gardens and benches. There is even a playground and grass to walk your dog on!** I am sure you are thinking "well, they definitely have a beautiful lactation area for nursing and pumping mothers.". 
+**Another lactation room was in Palm Springs, CA Airport. If you have never been to this airport, you should go. It is a beautiful outdoor, open-air airport with gardens and benches. There is even a playground for kids and grass to walk your dog on!** I am sure you are thinking "well, they definitely have a beautiful lactation area for nursing and pumping mothers.". 
 
-**Um nope! Right next to the woman's bathroom was a lactation room.** I walked from the beautiful, sunny, 70 degree wether, into a tiled lactation room that resembled the bathrooms next door. It was cold dark and uncomfortable. It had one tile bench built into the wall with a plug. That was it! 
+**Um nope! Right next to the woman's bathroom was a lactation room.** I walked from the beautiful, sunny, 70 degree weather; into a tiled lactation room that resembled the bathrooms next door. It was cold dark and uncomfortable. It had one tile bench built into the wall with a plug. That was it! 
 
 **Why would I decided to pump in a cold dark room, when I could sit on a bench in the sun looking at the beautiful flowers and breathing the fresh air?** Are the people that create these rooms mad? 
 
 > I will scream it from the rooftop again! "Breastfeeding, nursing, and pumping is not like using the bathroom people!!!!"
 
-My conclusion on airport "lactation" rooms; "Um thanks, but actually no thanks!" I will pump and/or nurse wherever I want. If some one is uncomfortable with that. Than I suggest they go sit in the damn lactation rooms.
+**My conclusion on airport "lactation" rooms; "Um thanks, but actually no thanks!" I will pump and/or nurse wherever I want. If some one is uncomfortable with that. Than I suggest they go sit in the damn lactation rooms.**
 
 ## Packing and Traveling with Breast Milk 
 
@@ -99,5 +99,5 @@ They pulled my two coolers aside after they went through the x-ray scanner.
 1. **See a lactation consultant to understand your pump schedule and routine.** My suggestion is joining the community at [Balancedbreastfeeding.com](https://balancedbreastfeeding.com/) with Katie Madden.
 2. **Get a portable pump.** My recommendation is the [closed system Freemie Cups](https://freemie.com/collections/freemie-cups-for-your-pump/products/freemie-closed-system-collection-cup-set) and a [Bellababy pocket portable breast pump](https://www.amazon.com/Bellababy-Electric-Hanging-Adpaters-Changers/dp/B07TD4P8DS/ref=sr_1_1_sspa?crid=3MSLBYBYJDV9M&keywords=bellababy+pump&qid=1577721990&sprefix=bellababy%2Caps%2C131&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMlZINUQ5MDVLNFIwJmVuY3J5cHRlZElkPUEwMTE2OTQzRDdLVjJNRzFIOE5CJmVuY3J5cHRlZEFkSWQ9QTAxNTI4NDZQUU4wVzVGQjc3NjImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl). Costs around $145 total.  
 3. **Fuck lactation rooms, pump wherever you want.** Do not spend your valuable vacation time alone in a room pumping. Walking around, on the airplane, at the pool, out at restaurants, on the golf course, WHEREVER! #normalizepumping 
-4. **Get TSA Pre-Check, Freeze your milk, and carry it on.** The TSA manager informed me that frozen breastmilk is a much faster process for them then unfrozen milk. so my recommendation is to freeze everything and pack it in a separate cooler that stays closed for the entire trip! let them know eactly what you have in your coolers and tell them to use clean gloves and work quickly while checking your coolers. If you are kind to them they are super happy to obige!
-5. **Last but not least and probably the most imporatant; have a blast on your vacation away from baby!** Enjoy, relax and have fun! Make your pumping experiance a game; and ask yourself, "where else can I pump?"!
+4. **Get TSA Pre-Check, Freeze your milk, and carry it on.** The TSA manager informed me that frozen breastmilk is a much faster process for them then unfrozen milk. so my recommendation is to freeze everything and pack it in a separate cooler that stays closed for the entire trip! let them know exactly what you have in your coolers and tell them to use clean gloves and work quickly while checking your coolers. If you are kind to them they are super happy to oblige!
+5. **Last but not least and probably the most important**Enjoy, relax and have fun! Make your pumping experience a game; and ask yourself, "where else can I pump?"!
