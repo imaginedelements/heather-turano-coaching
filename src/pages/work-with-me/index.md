@@ -6,8 +6,8 @@ main:
     coaching. 
 
 
-    **\*\**_NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY
-    2019.\*\**_**
+    **\*\**_NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING MARCH
+    2020.\*\**_**
   coachingSignup:
     emailAddressPlaceholder: youremail@awesome.com
     firstNamePlaceholder: Name
@@ -75,9 +75,9 @@ Attempting to describe the exact science and magic behind great coaching present
 
 **My clients are smart, thoughtful, multi-dimensional humans who are committed to themselves and their journey.** They are resourceful, creative, hard-working thinkers and feelers. They crave passion and purpose. They desire fulfilling relationships and careers. They know they want something, and they’re super sick of living without it.
 
-_**If you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance.**_ Life is hard enough, and you really don’t need to go it alone.
+**_If you could use a little help navigating the path from where you are to where you want to be, now might be the perfect time to seek out some assistance._** Life is hard enough, and you really don’t need to go it alone.
 
-_**\*\*\*NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING JULY 2019.\*\*\***_
+**_\*\*\*NOW ACCEPTING APPLICATIONS FOR NEW CLIENTS TO BEGIN COACHING MARCH 2020.\*\*\*_**
 
 I only work with a certain number of awesome humans at a time (because I pour 1,000% of my energy and focus into your growth), so spots fill up fast. 
 
